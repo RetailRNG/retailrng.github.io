@@ -123,4 +123,40 @@
     <url>
         <loc>https://retailrng.com/privacy-policy/</loc>
     </url>
+    <url>
+        <loc>https://retailrng.com/rs/</loc>
+    </url>
+    <url>
+        <loc>https://retailrng.com/rs/advanced/</loc>
+    </url>
+    <url>
+        <loc>https://retailrng.com/rs/advanced/section1/</loc>
+        <lastmod>2021-05-01T19:30:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://retailrng.com/rs/advanced/section2/</loc>
+        <lastmod>2021-05-01T19:30:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://retailrng.com/rs/beginner/</loc>
+    </url>
+    <url>
+        <loc>https://retailrng.com/rs/beginner/section1/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://retailrng.com/rs/beginner/section2/</loc>
+        <lastmod>2021-05-01T08:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://retailrng.com/rs/intermediate/</loc>
+    </url>
+    <url>
+        <loc>https://retailrng.com/rs/intermediate/section-1/</loc>
+        <lastmod>2021-05-01T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://retailrng.com/rs/intermediate/section-2/</loc>
+        <lastmod>2021-05-01T18:20:00+00:00</lastmod>
+    </url>
 </urlset>
