@@ -1221,6 +1221,1939 @@ content directories as needed.&lt;&#x2F;p&gt;
         
     </entry>
     <entry xml:lang="en">
+        <title>Flowtimer Converter</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/tools/flowtimertools/flowtimerconverter/"/>
+        <id>https://retailrng.com/tools/flowtimertools/flowtimerconverter/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/tools/flowtimertools/flowtimerconverter/">&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+body {
+  font-size: 90%;
+}
+&lt;&#x2F;style&gt;
+&lt;&#x2F;head&gt;
+&lt;body&gt;
+
+&lt;div class=&quot;javascriptformat&quot;&gt;
+
+
+
+       Select your Game: &lt;br&gt;&lt;select name=&quot;game&quot; id=&quot;game&quot; onchange=&quot;introchange()&quot;&gt;
+
+    &lt;option value=&quot;121&quot;&gt;Fire Red 1.0&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;120&quot;&gt;Fire Red 1.1&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;114&quot;&gt;Leaf Green&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;0&quot;&gt;Ruby &#x2F; Sapphire&lt;&#x2F;option&gt;
+
+            &lt;option value=&quot;0&quot;&gt;Emerald&lt;&#x2F;option&gt;
+
+            &lt;option value=&quot;0&quot;&gt;SM&#x2F;USUM&lt;&#x2F;option&gt;
+
+
+
+  &lt;&#x2F;select&gt;
+
+  &lt;br&gt;&lt;br&gt;
+
+       Select your Console: &lt;br&gt; &lt;select name=&quot;console&quot; id=&quot;console&quot; onchange=&quot;consolechange()&quot;&gt;
+
+    &lt;option value=&quot;59.7275&quot;&gt;GBA&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;59.6555&quot;&gt;NDS&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;59.8261&quot;&gt;New 3DS&#x2F;2DS&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;59.8261&quot;&gt;Old 3DS&#x2F;2DS&lt;&#x2F;option&gt;    
+	
+	&lt;option value=&quot;60&quot;&gt;60FPS&lt;&#x2F;option&gt;
+
+
+  &lt;&#x2F;select&gt;
+
+  &lt;br&gt;&lt;br&gt;
+
+           Method:  &lt;br&gt;&lt;select name=&quot;method&quot; id=&quot;method&quot; onchange=&quot;delaychange()&quot;&gt;
+
+    &lt;option value=&quot;20&quot;&gt;Method 1&#x2F;2&#x2F;4&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;261&quot;&gt;Sweet Scent(Outdoors)&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;268&quot;&gt;Sweet Scent(Indoors)&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;0&quot;&gt;ID RNG&lt;&#x2F;option&gt;
+
+            
+
+
+
+  &lt;&#x2F;select&gt;
+
+  &lt;br&gt;&lt;br&gt;
+
+Intro Timer in MS
+
+        &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;introtimer&quot; value=&quot;35000&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;        
+
+        First Advances&lt;br&gt;
+
+        &lt;input type=&quot;number&quot; id=&quot;abraframe&quot; value=&quot;0&quot;&gt;
+		&lt;input type=&quot;checkbox&quot; id=&quot;abracheck&quot; value=&quot;Abra&quot;&gt; Abra
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+        Delay Box&lt;br&gt;
+
+        &lt;input type=&quot;number&quot; id=&quot;delaybox&quot; value=&quot;-20&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+Encounter Advances: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;targetframe&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+
+
+&lt;button type=&quot;button&quot; onclick=&quot;blisytv()&quot;&gt;
+
+    Calculate
+
+        &lt;&#x2F;button&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+Flat MS: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;totalms&quot;&gt;
+
+&lt;br&gt;
+
+Flowtimer MS Total:&lt;br&gt; &lt;input id=&quot;flowtimerout&quot;&gt;
+
+&lt;br&gt;&lt;br&gt;
+            &lt;b&gt;Intro Timer Hit&lt;&#x2F;b&gt;
+&lt;br&gt;
+
+&lt;input type=&quot;number&quot; id=&quot;seedhit&quot;&gt;&lt;br&gt;&lt;br&gt;
+
+  
+            &lt;b&gt;Encounter Advance Hit&lt;&#x2F;b&gt;
+&lt;br&gt;
+
+&lt;input type=&quot;number&quot; id=&quot;framehit&quot; &gt;&lt;br&gt;&lt;br&gt;
+
+        &lt;button type=&quot;button&quot; id=&quot;update&quot; disabled=&quot;disabled&quot; onclick=&quot;blisytvupdate()&quot;&gt;
+
+            Calculate
+
+        &lt;&#x2F;button&gt;
+  &lt;br&gt;
+
+        &lt;br&gt;
+
+        Intro MS Adjusted By: &lt;br&gt;
+
+        &lt;input type=&quot;number&quot; id=&quot;introadjust&quot;&gt;
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+        Advances Adjusted By: &lt;br&gt;
+
+        &lt;input type=&quot;number&quot; id=&quot;adjusttvby&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+      &lt;!--  MS Adjusted By: &lt;br&gt;  
+
+        &lt;input type=&quot;number&quot; id=&quot;adjustotalby&quot;&gt;
+
+&lt;br&gt;
+
+&lt;br&gt; --&gt;
+
+New Flowtimer Total: &lt;br&gt;&lt;input id=&quot;updatedflowtimertotal&quot;&gt;        
+
+&lt;script&gt;
+
+
+
+    
+
+    var targetframe;
+
+    var outoftvframe;
+
+    var console;
+
+    var fps;
+
+    var game;
+
+    var seedlag;
+
+    var introtimer;
+
+    var abraframe;
+
+    var delaybox;
+
+    var seedlagms;
+
+    var introtimerms;
+
+    var abraframems;
+
+    var consoletext;
+
+    var gametext;
+
+    var methodboxvalue;
+
+	var abracheckbox;
+    
+    function settings()
+
+    
+
+    {  
+
+    &#x2F;&#x2F;this pulls all the settings for ttv calculator
+
+     methodboxvalue = document.getElementById(&#x27;method&#x27;).value;
+
+     targetframe = document.getElementById(&#x27;targetframe&#x27;).value; &#x2F;&#x2F;this is the target frame
+
+     console = document.getElementById(&#x27;console&#x27;); &#x2F;&#x2F;This sets the value of fps
+
+     fps = console.options[console.selectedIndex].value; 
+
+     game = document.getElementById(&#x27;game&#x27;); &#x2F;&#x2F;this sets the seed lag value for frlg
+
+     seedlag = game.options[game.selectedIndex].value;
+
+     gametext = game.options[game.selectedIndex].text;
+
+     introtimer = document.getElementById(&#x27;introtimer&#x27;).value; &#x2F;&#x2F;this sets the introtimer value
+
+     abraframe = document.getElementById(&#x27;abraframe&#x27;).value; &#x2F;&#x2F;this sets the abra frame value
+
+     delaybox = document.getElementById(&#x27;delaybox&#x27;).value; &#x2F;&#x2F;this sets the delaybox value(lag before generation)
+
+     seedlagms = 1 &#x2F; Number(fps) * 1000 * seedlag; &#x2F;&#x2F; this convers seedlag into ms
+
+
+	 abracheckbox = document.getElementById(&#x27;abracheck&#x27;);
+	 
+	 if(abracheckbox.checked){
+
+     abraframems = ((1 &#x2F; Number(fps) * 1000) * (Number(abraframe)- 20) )+ Number(introtimerms); &#x2F;&#x2F;makes abraframe an ms value and then adds introtimer to it for eventual flowtimer output
+	 }else {
+	  abraframems = ((1 &#x2F; Number(fps) * 1000) * Number(abraframe) )+ Number(introtimerms);
+	 }
+
+     consoletext = console.options[console.selectedIndex].text;
+
+    }
+
+    function introchange(){
+
+        
+
+        settings();
+
+        
+
+        if(seedlag == 0){
+
+            document.getElementById(&#x27;introtimer&#x27;).value = &quot;5000&quot;;
+
+            
+
+        }else {
+
+            document.getElementById(&#x27;introtimer&#x27;).value = &quot;35000&quot;;
+
+           
+
+        }
+
+        
+
+    }
+
+    function consolechange(){
+
+        settings(); &#x2F;&#x2F;calls settings function
+
+        if(consoletext == &quot;New 3DS&#x2F;2DS&quot;){
+
+document.getElementById(&#x27;introtimer&#x27;).value = &quot;2500&quot;;            
+
+            
+
+        }else if(consoletext == &quot;Old 3DS&#x2F;2DS&quot;){
+
+            document.getElementById(&#x27;introtimer&#x27;).value = &quot;3500&quot;;
+
+            
+
+        }
+
+        
+
+        
+
+    }
+
+    function delaychange(){
+
+        settings();
+
+        if(methodboxvalue == 20){
+
+            document.getElementById(&#x27;delaybox&#x27;).value = &quot;-20&quot;;
+
+            
+
+        }else if(methodboxvalue == 261){
+
+            document.getElementById(&#x27;delaybox&#x27;).value = &quot;-261&quot;;
+
+            
+
+            
+
+        }else if(methodboxvalue == 268){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-268&quot;;
+
+
+
+            
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Ruby &#x2F; Sapphire&quot;){
+
+                        document.getElementById(&#x27;delaybox&#x27;).value = &quot;-75&quot;;
+
+
+
+            
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Emerald&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-50&quot;;
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Fire Red 1.0&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-249&quot;;
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Fire Red 1.1&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-249&quot;;
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Leaf Green&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-249&quot;;
+
+        }
+
+        
+
+        
+
+        
+
+    }
+
+    
+
+        function blisytv(){
+
+            settings();
+
+    &#x2F;&#x2F;this excecutes when you hit the calculate button 
+
+     introtimerms = Number(introtimer) + Number(seedlagms); &#x2F;&#x2F;this adds seedlag to introtimer to compensate 
+ document.getElementById(&quot;update&quot;).disabled = false;
+    var targetframewithoutintro;
+    var targetframems;
+    targetframewithoutintro = (1 &#x2F; Number(fps) * 1000) * (Number(targetframe) + Number(delaybox));
+    targetframems = Number(targetframewithoutintro) + Number(introtimerms);
+
+
+    
+
+
+
+    document.getElementById(&quot;totalms&quot;).value = targetframewithoutintro.toFixed(0);
+
+    if(abraframe == &quot;0&quot; &amp;&amp; methodboxvalue != 0 &amp;&amp; introtimer !=0){
+
+    document.getElementById(&quot;flowtimerout&quot;).value = targetframems.toFixed(0) + &quot;&#x2F;&quot; + introtimer;
+
+        
+
+        
+
+    }else if(methodboxvalue == 0){
+
+        document.getElementById(&quot;flowtimerout&quot;).value = targetframems.toFixed(0);
+
+        
+
+    }  else{
+
+    document.getElementById(&quot;flowtimerout&quot;).value = targetframems.toFixed(0) + &quot;&#x2F;&quot; + abraframems.toFixed(0) + &quot;&#x2F;&quot; +introtimer;
+
+
+
+        
+
+    }
+	
+     document.getElementById(&#x27;introadjust&#x27;).value = 0;
+	 
+     document.getElementById(&#x27;adjusttvby&#x27;).value = 0;
+
+     document.getElementById(&#x27;adjustotalby&#x27;).value = 0
+
+     document.getElementById(&#x27;adjusttvmsby&#x27;).value = 0;
+
+     document.getElementById(&#x27;adjusttotalmsby&#x27;).value = 0;
+
+     document.getElementById(&#x27;updatedtvflowtimer&#x27;).value = 0;
+
+     document.getElementById(&#x27;updatedflowtimertotal&#x27;).value = 0;
+	 
+
+     
+   
+
+}
+
+ function blisytvupdate(){
+
+     settings();
+	 
+	 
+	 
+ var targetframeadjust;
+ targetframeadjust = document.getElementById(&#x27;totalms&#x27;).value;
+
+ var framehit;
+ framehit = document.getElementById(&#x27;framehit&#x27;).value;
+ var adjustby;
+ adjustby = Number(targetframe) - Number(framehit);
+ var adjustbyms;
+ adjustbyms = 1 &#x2F; Number(fps) * 1000 * Number(adjustby);
+ document.getElementById(&#x27;adjusttvby&#x27;).value = adjustby;  
+ &#x2F;&#x2F;document.getElementById(&#x27;adjustotalby&#x27;).value = adjustbyms.toFixed(0); 
+ var seedhit;
+ seedhit = document.getElementById(&#x27;seedhit&#x27;).value;
+ var seedhitlag;
+ seedhitlag = Number(seedhit) + Number(seedlagms);
+ var introtimer2;
+ introtimer2 = document.getElementById(&#x27;introtimer&#x27;).value;
+ 
+ var introtimer3;
+ introtimer3 = Number(introtimer2) + Number(seedlagms);
+ 
+ var adjustseedby;
+ adjustseedby = Number(introtimer3) - Number(seedhitlag);
+ 
+ document.getElementById(&#x27;introadjust&#x27;).value = adjustseedby;
+ 
+ 
+ 
+ var purems;  
+ introtimerms = Number(introtimerms) + Number(adjustseedby.toFixed(0));
+ 
+var intortimernolag;
+introtimernolag = Number(introtimerms);
+
+var introtimerfinal;
+introtimerfinal = Number(introtimernolag) - Number(seedlagms);
+
+
+purems = document.getElementById(&quot;totalms&quot;).value;  
+ var adjustedpurems;
+ adjustedpurems = Number(purems) + Number(adjustbyms.toFixed(0));
+ document.getElementById(&#x27;totalms&#x27;).value = adjustedpurems;    
+ var intropurems;
+ intropurems = Number(adjustedpurems) + Number(introtimerms);
+
+
+
+
+ if(abraframe == &quot;0&quot; &amp;&amp; methodboxvalue != 0){
+
+    document.getElementById(&quot;updatedflowtimertotal&quot;).value = intropurems.toFixed(0) + &quot;&#x2F;&quot; + introtimerfinal;
+
+        
+
+        
+
+    }else if(methodboxvalue == 0){
+
+        document.getElementById(&quot;updatedflowtimertotal&quot;).value = intropurems.toFixed(0);
+
+        
+
+    }  else{
+
+    document.getElementById(&quot;updatedflowtimertotal&quot;).value = intropurems.toFixed(0) + &quot;&#x2F;&quot; + abraframems.toFixed(0) + &quot;&#x2F;&quot; +introtimerfinal;
+ }   
+
+ }   
+
+    
+
+    
+
+    
+
+
+
+&lt;&#x2F;script&gt;
+
+&lt;&#x2F;body&gt;
+&lt;&#x2F;html&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Jirachi Flowtimer Converter</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/tools/flowtimertools/jirachiflowtimerconverter/"/>
+        <id>https://retailrng.com/tools/flowtimertools/jirachiflowtimerconverter/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/tools/flowtimertools/jirachiflowtimerconverter/">&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+body {
+  font-size: 90%;
+}
+&lt;&#x2F;style&gt;
+&lt;&#x2F;head&gt;
+&lt;body&gt;
+
+&lt;div class=&quot;javascriptformat&quot;&gt;
+&lt;br&gt;
+      Target ID
+        &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;ID&quot; value=&quot;0&quot;&gt;
+        &lt;br&gt;
+&lt;br&gt;
+      ID Frame
+        &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;idframe&quot; value=&quot;0&quot;&gt;
+        &lt;br&gt;
+        &lt;br&gt;              
+        Select your Console: 
+&lt;br&gt; &lt;select name=&quot;console&quot; id=&quot;console&quot; onchange=&quot;consolechange()&quot;&gt;
+    &lt;option value=&quot;59.7275&quot;&gt;GBA&lt;&#x2F;option&gt;
+    &lt;option value=&quot;59.6555&quot;&gt;NDS&lt;&#x2F;option&gt;
+
+  &lt;&#x2F;select&gt;
+  &lt;br&gt;&lt;br&gt;
+
+Intro in MS
+        &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;introtimer&quot; value=&quot;5000&quot;&gt;
+        &lt;br&gt;
+        &lt;br&gt;        
+        Minutes&lt;br&gt;
+        &lt;input type=&quot;number&quot; id=&quot;minutes&quot; value=&quot;8&quot;&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+Seconds&lt;br&gt;
+        &lt;input type=&quot;number&quot; id=&quot;seconds&quot; value=&quot;0&quot;&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+Frames &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;frames&quot; value=&quot;30&quot;&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+
+Starter Frame&lt;br&gt;
+        &lt;input type=&quot;number&quot; id=&quot;starterbox&quot; value=&quot;0&quot;&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        Jirachi Offset&lt;br&gt;
+        &lt;input type=&quot;number&quot; id=&quot;delaybox&quot; value=&quot;-20&quot;&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+&lt;button type=&quot;button&quot; onclick=&quot;farts()&quot;&gt;
+    Calculate
+        &lt;&#x2F;button&gt;
+&lt;br&gt;
+Frames in Total: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;totalframes&quot;&gt;
+&lt;br&gt;
+Total MS: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;totalms&quot;&gt;
+&lt;br&gt;
+ID MS: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;idms&quot;&gt;
+&lt;br&gt;
+Starter MS: &lt;br&gt;&lt;input id=&quot;starterms&quot;&gt;
+&lt;br&gt;
+Flowtimer Output: &lt;br&gt;&lt;input id=&quot;flowtimerout&quot;&gt;
+
+        &lt;br&gt;
+&lt;br&gt;
+  &lt;b&gt;&lt;i&gt;ID Frame hit&lt;&#x2F;b&gt;&lt;&#x2F;i&gt;
+        &lt;br&gt;
+&lt;input type=&quot;number&quot; id=&quot;idframehit&quot;&gt;&lt;br&gt;&lt;br&gt;
+  &lt;b&gt;&lt;i&gt;Starter Frame hit&lt;&#x2F;b&gt;&lt;&#x2F;i&gt;
+        &lt;br&gt;
+&lt;input type=&quot;number&quot; id=&quot;starterframehit&quot;&gt;&lt;br&gt;&lt;br&gt;
+  &lt;b&gt;&lt;i&gt;Jirachi Frame difference&lt;&#x2F;b&gt;&lt;&#x2F;i&gt;
+        &lt;br&gt;
+&lt;input type=&quot;number&quot; id=&quot;jirachiframehit&quot;&gt;&lt;br&gt;&lt;br&gt;
+        &lt;button type=&quot;button&quot; onclick=&quot;update()&quot;&gt;
+            Calculate
+        &lt;&#x2F;button&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        Adjust ID by:&lt;br&gt;  
+        &lt;input type=&quot;number&quot; id=&quot;adjustidby&quot;&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+Adjust Starter by: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;adjuststarterby&quot;&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+New Flowtimer Total: &lt;br&gt;&lt;input id=&quot;updatedflowtimertotal&quot;&gt;        
+&lt;script&gt;
+
+    
+  
+    var console;
+    var fps;
+    var introtimer;
+    var delaybox;
+    var methodboxvalue;
+    var minutes;
+    var minutesecondstoframe;
+    var seconds;
+    var frames;
+    var idframe;
+    var battlelag;
+    var idms;
+    var idoffset;
+    var battlelag;
+    var msnoid;
+    var totalms;
+    var jirachilag;
+    var starterframe;
+    var starterms;
+    var idintrotimer;
+    var startermsintrotimer;
+    
+    function settings()
+    
+    {  
+    &#x2F;&#x2F;this pulls all the settings for jirachi timer
+     idframe = document.getElementById(&#x27;idframe&#x27;).value; &#x2F;&#x2F;this pulls the frame of the ID
+     console = document.getElementById(&#x27;console&#x27;); &#x2F;&#x2F;This sets the value of fps
+     starterframe = document.getElementById(&#x27;starterbox&#x27;).value; &#x2F;&#x2F;this gets the starter frame
+     fps = console.options[console.selectedIndex].value; 
+     introtimer = document.getElementById(&#x27;introtimer&#x27;).value; &#x2F;&#x2F;this sets the introtimer value
+     delaybox = document.getElementById(&#x27;delaybox&#x27;).value; &#x2F;&#x2F;this sets the delaybox value(lag before generation)
+     consoletext = console.options[console.selectedIndex].text;
+     minutes = document.getElementById(&#x27;minutes&#x27;).value; &#x2F;&#x2F;this pulls the minutes
+     seconds = document.getElementById(&#x27;seconds&#x27;).value; &#x2F;&#x2F;this pulls the seconds
+     frames = document.getElementById(&#x27;frames&#x27;).value; &#x2F;&#x2F;this pulls the frames
+     
+    }
+
+    
+        function farts(){
+            settings(); &#x2F;&#x2F;calls settings 
+    &#x2F;&#x2F;this excecutes when you hit the calculate button 
+   starterms = 1 &#x2F; Number(fps) * 1000 * Number(starterframe);
+   battlelag = Number(9726);
+   jirachilag = 1 &#x2F; Number(fps) * 1000 * Number(delaybox);
+   minutesecondstoframe = (((Number(minutes) * 60) + Number(seconds)) * Number(60)) + Number(frames);
+   idoffset = 1 &#x2F; Number(fps) * 1000 * 75;
+   startermsintrotimer = Number(starterms) + Number(introtimer);
+   idms = (1 &#x2F; Number(fps) * 1000 * Number(idframe)) - Number(idoffset);
+   idintrotimer = Number(idms) + Number(introtimer);
+   msnoid = 1 &#x2F; Number(fps) * 1000 * Number(minutesecondstoframe);
+   totalms = Number(msnoid) + Number(idms) + Number(battlelag) + Number(jirachilag) + Number(introtimer);
+
+
+    document.getElementById(&quot;totalframes&quot;).value = Math.floor(minutesecondstoframe);
+    document.getElementById(&quot;totalms&quot;).value = Math.floor(totalms);
+    document.getElementById(&quot;idms&quot;).value = Math.floor(idintrotimer);
+    document.getElementById(&quot;starterms&quot;).value = Math.floor(starterms);
+    document.getElementById(&quot;idframehit&quot;).value = 0;
+document.getElementById(&quot;starterframehit&quot;).value = 0;
+document.getElementById(&quot;jirachiframehit&quot;).value = 0;
+document.getElementById(&quot;adjustidby&quot;).value = 0;
+document.getElementById(&quot;adjuststarterby&quot;).value = 0;
+document.getElementById(&quot;updatedflowtimertotal&quot;).value = 0;
+    if(starterframe == &quot;0&quot; &amp;&amp; introtimer != 0){
+    document.getElementById(&quot;flowtimerout&quot;).value = totalms.toFixed(0) + &quot;&#x2F;&quot; + introtimer + &quot;&#x2F;&quot; + idintrotimer.toFixed(0);
+
+}else if(starterframe != 0 &amp;&amp; introtimer == &quot;0&quot;){
+    document.getElementById(&quot;flowtimerout&quot;).value = totalms.toFixed(0) + &quot;&#x2F;&quot; + idintrotimer.toFixed(0) + &quot;&#x2F;&quot; + starterms.toFixed(0) ;
+
+}else{
+document.getElementById(&quot;flowtimerout&quot;).value = totalms.toFixed(0) + &quot;&#x2F;&quot; + introtimer + &quot;&#x2F;&quot; + idintrotimer.toFixed(0) + &quot;&#x2F;&quot; + startermsintrotimer.toFixed(0)
+
+}
+    
+
+}
+
+function update(){
+settings(); &#x2F;&#x2F;calls settings function
+var targetframeadjust;
+targetframeadjust = document.getElementById(&#x27;totalms&#x27;).value;
+var idframehit;
+idframehit = document.getElementById(&#x27;idframehit&#x27;).value;
+var starterframehit;
+starterframehit = document.getElementById(&#x27;starterframehit&#x27;).value;
+var jirachiframehit;
+jirachiframehit = document.getElementById(&#x27;jirachiframehit&#x27;).value;
+var idadjust;
+idadjust = Number(idframe) - Number(idframehit);
+var starteradjust;
+starteradjust = Number(starterframe) - Number(starterframehit);
+var idadjustms;
+idadjustms = (1 &#x2F; Number(fps) * 1000) * Number(idadjust);
+var starteradjustms;
+starteradjustms = (1 &#x2F; Number(fps) * 1000) * Number(starteradjust);
+var jirachiadjust;
+jirachiadjust = Number(delaybox) - Number(jirachiframehit);
+var idoldms;
+idoldms = document.getElementById(&quot;idms&quot;).value;
+var starteroldms;
+starteroldms = document.getElementById(&quot;starterms&quot;).value;
+var oldtotalms;
+oldtotalms = document.getElementById(&quot;totalms&quot;).value;
+var newid;
+newid = Number(idoldms) + Number(idadjustms);
+var newstarter;
+newstarter = Number(starteroldms) + Number(starteradjustms);
+var differencems;
+differencems = (1 &#x2F; Number(fps) * 1000) * Number(jirachiadjust);
+var framesintototal;
+framesintotal = document.getElementById(&#x27;totalframes&#x27;).value;
+var framestotaltoms;
+framestotaltoms = (1 &#x2F; Number(fps) * 1000) * Number(framesintotal);
+var newtotalms;
+newtotalms = Number(framestotaltoms) + Number(differencems) + Number(newid) + Number(battlelag);
+
+ document.getElementById(&quot;adjustidby&quot;).value = Math.floor(idadjustms);
+ document.getElementById(&quot;adjuststarterby&quot;).value = Math.floor(starteradjustms);
+ document.getElementById(&quot;delaybox&quot;).value = Math.floor(jirachiadjust);
+ document.getElementById(&quot;idms&quot;).value = Math.floor(newid);
+ document.getElementById(&quot;starterms&quot;).value = Math.floor(newstarter);
+ document.getElementById(&quot;totalms&quot;).value = Math.floor(newtotalms);
+ 
+ if(starterframe == &quot;0&quot; &amp;&amp; introtimer != 0){
+    document.getElementById(&quot;updatedflowtimertotal&quot;).value = newtotalms.toFixed(0) + &quot;&#x2F;&quot; + introtimer + &quot;&#x2F;&quot; + newid.toFixed(0);
+
+}else if(starterframe != 0 &amp;&amp; introtimer == &quot;0&quot;){
+    document.getElementById(&quot;updatedflowtimertotal&quot;).value = newtotalms.toFixed(0) + &quot;&#x2F;&quot; + newid.toFixed(0) + &quot;&#x2F;&quot; + newstarter.toFixed(0) ;
+
+}else{
+document.getElementById(&quot;updatedflowtimertotal&quot;).value = newtotalms.toFixed(0) + &quot;&#x2F;&quot; + introtimer + &quot;&#x2F;&quot; + newid.toFixed(0) + &quot;&#x2F;&quot; + newstarter.toFixed(0)
+
+}
+
+
+}
+
+
+
+    
+    
+
+&lt;&#x2F;script&gt;
+
+
+
+
+&lt;&#x2F;body&gt;
+&lt;&#x2F;html&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>RSE Paint Flowtimer Converter</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/tools/flowtimertools/paintflowtimerconverter/"/>
+        <id>https://retailrng.com/tools/flowtimertools/paintflowtimerconverter/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/tools/flowtimertools/paintflowtimerconverter/">&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+body {
+  font-size: 90%;
+}
+&lt;&#x2F;style&gt;
+&lt;&#x2F;head&gt;
+&lt;body&gt;
+
+&lt;div class=&quot;javascriptformat&quot;&gt;
+
+
+
+       Select your Game: &lt;br&gt;&lt;select name=&quot;game&quot; id=&quot;game&quot; onchange=&quot;introchange()&quot;&gt;
+
+
+            &lt;option value=&quot;0&quot;&gt;Ruby &#x2F; Sapphire&lt;&#x2F;option&gt;
+
+            &lt;option value=&quot;0&quot;&gt;Emerald&lt;&#x2F;option&gt;
+
+
+
+  &lt;&#x2F;select&gt;
+
+  &lt;br&gt;&lt;br&gt;
+
+       Select your Console: &lt;br&gt; &lt;select name=&quot;console&quot; id=&quot;console&quot; onchange=&quot;consolechange()&quot;&gt;
+
+    &lt;option value=&quot;59.7275&quot;&gt;GBA&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;59.6555&quot;&gt;NDS&lt;&#x2F;option&gt;
+	
+	&lt;option value=&quot;60&quot;&gt;60FPS&lt;&#x2F;option&gt;
+
+
+  &lt;&#x2F;select&gt;
+
+  &lt;br&gt;&lt;br&gt;
+
+           Method:  &lt;br&gt;&lt;select name=&quot;method&quot; id=&quot;method&quot; onchange=&quot;delaychange()&quot;&gt;
+
+    &lt;option value=&quot;20&quot;&gt;Method 1&#x2F;2&#x2F;4&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;261&quot;&gt;Sweet Scent(Outdoors)&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;268&quot;&gt;Sweet Scent(Indoors)&lt;&#x2F;option&gt;
+
+
+            
+
+
+
+  &lt;&#x2F;select&gt;
+
+  &lt;br&gt;&lt;br&gt;
+
+Intro in MS
+
+        &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;introtimer&quot; value=&quot;5000&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;        
+
+        Seed Advances&lt;br&gt;
+
+        &lt;input type=&quot;number&quot; id=&quot;abraframe&quot; value=&quot;0&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+        Delay Box&lt;br&gt;
+
+        &lt;input type=&quot;number&quot; id=&quot;delaybox&quot; value=&quot;-20&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+Pokemon Advances: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;targetframe&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+
+
+&lt;button type=&quot;button&quot; onclick=&quot;blisytv()&quot;&gt;
+
+    Calculate
+
+        &lt;&#x2F;button&gt;
+
+&lt;br&gt;
+
+
+
+Flat MS: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;totalms&quot;&gt;
+
+&lt;br&gt;
+
+Flowtimer MS Total:&lt;br&gt; &lt;input id=&quot;flowtimerout&quot;&gt;
+
+
+
+        &lt;br&gt;&lt;br&gt;
+            &lt;b&gt;Seed Hit&lt;&#x2F;b&gt;
+&lt;br&gt;
+
+&lt;input type=&quot;number&quot; id=&quot;seedhit&quot;&gt;&lt;br&gt;&lt;br&gt;
+
+       
+		 &lt;b&gt;Frame hit&lt;&#x2F;b&gt;
+&lt;br&gt;
+
+&lt;input type=&quot;number&quot; id=&quot;framehit&quot;&gt;&lt;br&gt;&lt;br&gt;
+
+        &lt;button type=&quot;button&quot; onclick=&quot;blisytvupdate()&quot;&gt;
+
+            Calculate
+
+        &lt;&#x2F;button&gt;
+		
+&lt;br&gt;
+
+&lt;br&gt;
+   
+       Seed Adjusted By: &lt;br&gt;
+
+        &lt;input type=&quot;number&quot; id=&quot;adjustseedby&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+        Seed MS Adjusted By: &lt;br&gt;  
+
+        &lt;input type=&quot;number&quot; id=&quot;adjustseedms&quot;&gt;
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+        Pokemon Adjusted By: &lt;br&gt;
+
+        &lt;input type=&quot;number&quot; id=&quot;adjusttvby&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+        Pokemon MS Adjusted By: &lt;br&gt;  
+
+        &lt;input type=&quot;number&quot; id=&quot;adjustotalby&quot;&gt;
+
+
+&lt;br&gt;
+
+&lt;br&gt;
+   
+ 
+
+New Flowtimer Total: &lt;br&gt;&lt;input id=&quot;updatedflowtimertotal&quot;&gt;        
+
+&lt;script&gt;
+
+
+
+    
+
+    var targetframe;
+
+    var outoftvframe;
+
+    var console;
+
+    var fps;
+
+    var game;
+
+    var seedlag;
+
+    var introtimer;
+
+    var abraframe;
+
+    var delaybox;
+
+    var seedlagms;
+
+    var introtimerms;
+
+    var abraframems;
+
+    var consoletext;
+
+    var gametext;
+
+    var methodboxvalue;
+
+	var abracheckbox;
+    
+	var abraframenointrotimer
+
+    function settings()
+
+    
+
+    {  
+
+    &#x2F;&#x2F;this pulls all the settings for ttv calculator
+
+     methodboxvalue = document.getElementById(&#x27;method&#x27;).value;
+
+     targetframe = document.getElementById(&#x27;targetframe&#x27;).value; &#x2F;&#x2F;this is the target frame
+
+     console = document.getElementById(&#x27;console&#x27;); &#x2F;&#x2F;This sets the value of fps
+
+     fps = console.options[console.selectedIndex].value; 
+
+     game = document.getElementById(&#x27;game&#x27;); &#x2F;&#x2F;this sets the seed lag value for frlg
+
+     seedlag = game.options[game.selectedIndex].value;
+
+     gametext = game.options[game.selectedIndex].text;
+
+     introtimer = document.getElementById(&#x27;introtimer&#x27;).value; &#x2F;&#x2F;this sets the introtimer value
+
+  
+
+     delaybox = document.getElementById(&#x27;delaybox&#x27;).value; &#x2F;&#x2F;this sets the delaybox value(lag before generation)
+
+     seedlagms = 1 &#x2F; Number(fps) * 1000 * seedlag; &#x2F;&#x2F; this convers seedlag into ms
+
+     introtimerms = Number(introtimer) + Number(seedlagms); &#x2F;&#x2F;this adds seedlag to introtimer to compensate 
+	 
+	
+	 
+
+
+     consoletext = console.options[console.selectedIndex].text;
+
+    }
+
+    function introchange(){
+
+        
+
+        settings();
+
+        
+
+        if(seedlag == 0){
+
+            document.getElementById(&#x27;introtimer&#x27;).value = &quot;5000&quot;;
+
+            
+
+        }else {
+
+            document.getElementById(&#x27;introtimer&#x27;).value = &quot;35000&quot;;
+
+           
+
+        }
+
+        
+
+    }
+
+    function consolechange(){
+
+        settings(); &#x2F;&#x2F;calls settings function
+
+        if(consoletext == &quot;New 3DS&#x2F;2DS&quot;){
+
+document.getElementById(&#x27;introtimer&#x27;).value = &quot;2500&quot;;            
+
+            
+
+        }else if(consoletext == &quot;Old 3DS&#x2F;2DS&quot;){
+
+            document.getElementById(&#x27;introtimer&#x27;).value = &quot;3500&quot;;
+
+            
+
+        }
+
+        
+
+        
+
+    }
+
+    function delaychange(){
+
+        settings();
+
+        if(methodboxvalue == 20){
+
+            document.getElementById(&#x27;delaybox&#x27;).value = &quot;-20&quot;;
+
+            
+
+        }else if(methodboxvalue == 261){
+
+            document.getElementById(&#x27;delaybox&#x27;).value = &quot;-261&quot;;
+
+            
+
+            
+
+        }else if(methodboxvalue == 268){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-268&quot;;
+
+
+
+            
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Ruby &#x2F; Sapphire&quot;){
+
+                        document.getElementById(&#x27;delaybox&#x27;).value = &quot;-75&quot;;
+
+
+
+            
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Emerald&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-50&quot;;
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Fire Red 1.0&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-249&quot;;
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Fire Red 1.1&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-249&quot;;
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Leaf Green&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-249&quot;;
+
+        }
+
+        
+
+        
+
+        
+
+    }
+
+    
+
+        function blisytv(){
+
+            settings();
+
+    &#x2F;&#x2F;this excecutes when you hit the calculate button 
+	   abraframe = document.getElementById(&#x27;abraframe&#x27;).value; &#x2F;&#x2F;this sets the abra frame value
+    abraframems = ((1 &#x2F; Number(fps) * 1000) * Number(abraframe)) + Number(introtimerms);
+	abraframenointrotimer = (1 &#x2F; Number(fps) * 1000) * Number(abraframe);
+    var targetframewithoutintro;
+    var targetframems;
+	var totalframems;
+    targetframewithoutintro = (1 &#x2F; Number(fps) * 1000) * (Number(targetframe) + Number(delaybox));
+    targetframems = Number(targetframewithoutintro) + Number(introtimerms) + Number(abraframenointrotimer);
+    totalframems =  Number(targetframewithoutintro) + Number(abraframems);
+
+    
+
+
+
+    document.getElementById(&quot;totalms&quot;).value = totalframems.toFixed(0);
+
+    if(abraframe == &quot;0&quot; &amp;&amp; methodboxvalue != 0 &amp;&amp; introtimer !=0){
+
+    document.getElementById(&quot;flowtimerout&quot;).value = targetframems.toFixed(0) + &quot;&#x2F;&quot; + introtimer;
+
+        
+
+        
+
+    }else if(methodboxvalue == 0){
+
+        document.getElementById(&quot;flowtimerout&quot;).value = targetframems.toFixed(0);
+
+        
+
+    }  else{
+
+    document.getElementById(&quot;flowtimerout&quot;).value = targetframems.toFixed(0) + &quot;&#x2F;&quot; + abraframems.toFixed(0) + &quot;&#x2F;&quot; +introtimer;
+
+
+
+        
+
+    }
+
+      document.getElementById(&#x27;adjusttvby&#x27;).value = 0;
+
+      document.getElementById(&#x27;adjustotalby&#x27;).value = 0
+	  
+      document.getElementById(&#x27;adjustseedby&#x27;).value = 0;
+
+      document.getElementById(&#x27;adjustseedms&#x27;).value = 0;
+	  
+	  document.getElementById(&quot;updatedflowtimertotal&quot;).value = 0;
+   
+
+}
+
+ function blisytvupdate(){
+
+     settings();
+	
+	
+	
+ var targetframeadjust;
+ targetframeadjust = document.getElementById(&#x27;totalms&#x27;).value;
+
+ var framehit;
+ framehit = document.getElementById(&#x27;framehit&#x27;).value;
+ var adjustby;
+ adjustby = Number(targetframe) - Number(framehit);
+ var adjustbyms;
+ adjustbyms = 1 &#x2F; Number(fps) * 1000 * Number(adjustby);
+ document.getElementById(&#x27;adjusttvby&#x27;).value = adjustby;  
+ document.getElementById(&#x27;adjustotalby&#x27;).value = adjustbyms.toFixed(0); 
+ var seedhit;
+ seedhit = document.getElementById(&#x27;seedhit&#x27;).value;
+ var adjustseedby;
+ adjustseedby = Number(abraframe) - Number(seedhit);
+ var adjustseedms;
+ adjustseedms = 1 &#x2F; Number(fps) * 1000 * Number(adjustseedby);
+  document.getElementById(&#x27;adjustseedby&#x27;).value = adjustseedby;  
+ document.getElementById(&#x27;adjustseedms&#x27;).value = adjustseedms.toFixed(0); 
+ 
+ 
+ var purems;  
+
+purems = document.getElementById(&quot;totalms&quot;).value;  
+ var adjustedpurems;
+ adjustedpurems = Number(purems) + Number(adjustbyms.toFixed(0)) + Number(adjustseedms.toFixed(0));
+ document.getElementById(&#x27;totalms&#x27;).value = adjustedpurems;    
+ var intropurems;
+ intropurems = Number(adjustedpurems);
+abraframems = Number(abraframems) + Number(adjustseedms);
+
+
+
+ if(abraframe == &quot;0&quot; &amp;&amp; methodboxvalue != 0){
+
+    document.getElementById(&quot;updatedflowtimertotal&quot;).value = intropurems.toFixed(0) + &quot;&#x2F;&quot; + introtimer;
+
+        
+
+        
+
+    }else if(methodboxvalue == 0){
+
+        document.getElementById(&quot;updatedflowtimertotal&quot;).value = intropurems.toFixed(0);
+
+        
+
+    }  else{
+
+    document.getElementById(&quot;updatedflowtimertotal&quot;).value = intropurems.toFixed(0) + &quot;&#x2F;&quot; + abraframems.toFixed(0) + &quot;&#x2F;&quot; +introtimer;
+ }   
+
+ }   
+
+    
+
+    
+
+    
+
+
+
+&lt;&#x2F;script&gt;
+
+
+
+&lt;&#x2F;body&gt;
+&lt;&#x2F;html&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>TeachyTV Flowtimer Converter</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/tools/flowtimertools/teachytvflowtimerconverter/"/>
+        <id>https://retailrng.com/tools/flowtimertools/teachytvflowtimerconverter/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/tools/flowtimertools/teachytvflowtimerconverter/">&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+body {
+  font-size: 90%;
+}
+&lt;&#x2F;style&gt;
+&lt;&#x2F;head&gt;
+&lt;body&gt;
+
+&lt;div class=&quot;javascriptformat&quot;&gt;
+
+Select your Game:
+
+&lt;br&gt;
+
+      &lt;select name=&quot;game&quot; id=&quot;game&quot; onchange=&quot;introchange()&quot;&gt;
+
+    &lt;option value=&quot;121&quot;&gt;Fire Red 1.0&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;120&quot;&gt;Fire Red 1.1&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;114&quot;&gt;Leaf Green&lt;&#x2F;option&gt;
+
+
+
+  &lt;&#x2F;select&gt;
+
+  &lt;br&gt;&lt;br&gt;
+
+        Select your Console: 
+
+&lt;br&gt; &lt;select name=&quot;console&quot; id=&quot;console&quot; onchange=&quot;consolechange()&quot;&gt;
+
+    &lt;option value=&quot;59.7275&quot;&gt;GBA&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;59.6555&quot;&gt;NDS&lt;&#x2F;option&gt;
+
+
+
+  &lt;&#x2F;select&gt;
+
+  &lt;br&gt;&lt;br&gt;
+
+           Method: 
+
+&lt;br&gt;&lt;select name=&quot;method&quot; id=&quot;method&quot; onchange=&quot;delaychange()&quot;&gt;
+
+    &lt;option value=&quot;20&quot;&gt;Method 1&#x2F;2&#x2F;4&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;261&quot;&gt;Sweet Scent(Outdoors)&lt;&#x2F;option&gt;
+
+    &lt;option value=&quot;268&quot;&gt;Sweet Scent(Indoors)&lt;&#x2F;option&gt;
+
+
+
+            
+
+
+
+  &lt;&#x2F;select&gt;
+
+  &lt;br&gt;&lt;br&gt;
+
+Intro in MS
+
+        &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;introtimer&quot; value=&quot;35000&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;        
+
+        Abra Frame&lt;br&gt;
+
+        &lt;input type=&quot;number&quot; id=&quot;abraframe&quot; value=&quot;0&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+        Delay Box&lt;br&gt;
+
+        &lt;input type=&quot;number&quot; id=&quot;delaybox&quot; value=&quot;-20&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+Target frame &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;targetframe&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+Frames to spend out of TV &lt;br&gt; &lt;input type=&quot;number&quot; id=&quot;outsideoftv&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+&lt;button type=&quot;button&quot; onclick=&quot;blisytv()&quot;&gt;
+
+    Calculate
+
+        &lt;&#x2F;button&gt;
+
+&lt;br&gt;
+
+  Frames in TV: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;tvframes&quot;&gt;
+
+&lt;br&gt;
+
+Frames in Total: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;totalframes&quot;&gt;
+
+&lt;br&gt;
+
+MS in TV: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;tvms&quot;&gt;
+
+&lt;br&gt;
+
+MS in Total: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;totalms&quot;&gt;
+
+&lt;br&gt;
+
+Flowtimer MS Total: &lt;br&gt;&lt;input id=&quot;flowtimerout&quot;&gt;
+
+
+
+        &lt;br&gt;
+
+&lt;br&gt;
+
+  &lt;b&gt;&lt;i&gt;Frame hit&lt;&#x2F;b&gt;&lt;&#x2F;i&gt;
+
+        &lt;br&gt;
+
+&lt;input type=&quot;number&quot; id=&quot;framehit&quot;&gt;&lt;br&gt;&lt;br&gt;
+
+        &lt;button type=&quot;button&quot; onclick=&quot;blisytvupdate()&quot;&gt;
+
+            Calculate
+
+        &lt;&#x2F;button&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+        Adjust TeachyTV Frames by:&lt;br&gt;  
+
+        &lt;input type=&quot;number&quot; id=&quot;adjusttvby&quot;&gt;
+
+        &lt;br&gt;
+
+        &lt;br&gt;
+
+        Adjust Total Frames by: &lt;br&gt; 
+
+        &lt;input type=&quot;number&quot; id=&quot;adjustotalby&quot;&gt;
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+Adjust TeachyTV ms by: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;adjusttvmsby&quot;&gt;
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+Adjust Total ms by: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;adjusttotalmsby&quot;&gt;
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+New Flowtimer TeachyTV: &lt;br&gt;&lt;input type=&quot;number&quot; id=&quot;updatedtvflowtimer&quot;&gt;
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+New Flowtimer Total: &lt;br&gt;&lt;input id=&quot;updatedflowtimertotal&quot;&gt;        
+
+&lt;script&gt;
+
+
+
+    
+
+    var targetframe;
+
+    var outoftvframe;
+
+    var console;
+
+    var fps;
+
+    var game;
+
+    var seedlag;
+
+    var introtimer;
+
+    var abraframe;
+
+    var delaybox;
+
+    var seedlagms;
+
+    var introtimerms;
+
+    var abraframems;
+
+    var consoletext;
+
+    var gametext;
+
+    var methodboxvalue;
+
+    
+
+    function settings()
+
+    
+
+    {  
+
+    &#x2F;&#x2F;this pulls all the settings for ttv calculator
+
+     methodboxvalue = document.getElementById(&#x27;method&#x27;).value;
+
+     targetframe = document.getElementById(&#x27;targetframe&#x27;).value; &#x2F;&#x2F;this is the target frame
+
+     outoftvframe = document.getElementById(&#x27;outsideoftv&#x27;).value; &#x2F;&#x2F; this is how long you spend outside ttv
+
+     console = document.getElementById(&#x27;console&#x27;); &#x2F;&#x2F;This sets the value of fps
+
+     fps = console.options[console.selectedIndex].value; 
+
+     game = document.getElementById(&#x27;game&#x27;); &#x2F;&#x2F;this sets the seed lag value for frlg
+
+     seedlag = game.options[game.selectedIndex].value;
+
+     gametext = game.options[game.selectedIndex].text;
+
+     introtimer = document.getElementById(&#x27;introtimer&#x27;).value; &#x2F;&#x2F;this sets the introtimer value
+
+     abraframe = document.getElementById(&#x27;abraframe&#x27;).value; &#x2F;&#x2F;this sets the abra frame value
+
+     delaybox = document.getElementById(&#x27;delaybox&#x27;).value; &#x2F;&#x2F;this sets the delaybox value(lag before generation)
+
+     seedlagms = 1 &#x2F; Number(fps) * 1000 * seedlag; &#x2F;&#x2F; this convers seedlag into ms
+
+     introtimerms = Number(introtimer) + Number(seedlagms); &#x2F;&#x2F;this adds seedlag to introtimer to compensate 
+
+     consoletext = console.options[console.selectedIndex].text;
+
+    }
+
+    function introchange(){
+
+        
+
+        settings();
+
+        
+
+        if(seedlag == 0){
+
+            document.getElementById(&#x27;introtimer&#x27;).value = &quot;5000&quot;;
+
+            
+
+        }else {
+
+            document.getElementById(&#x27;introtimer&#x27;).value = &quot;35000&quot;;
+
+           
+
+        }
+
+        
+
+    }
+
+    function consolechange(){
+
+        settings(); &#x2F;&#x2F;calls settings function
+
+        if(consoletext == &quot;New 3DS&#x2F;2DS&quot;){
+
+document.getElementById(&#x27;introtimer&#x27;).value = &quot;2500&quot;;            
+
+            
+
+        }else if(consoletext == &quot;Old 3DS&#x2F;2DS&quot;){
+
+            document.getElementById(&#x27;introtimer&#x27;).value = &quot;3500&quot;;
+
+            
+
+        }
+
+        
+
+        
+
+    }
+
+    function delaychange(){
+
+        settings();
+
+        if(methodboxvalue == 20){
+
+            document.getElementById(&#x27;delaybox&#x27;).value = &quot;-20&quot;;
+
+            
+
+        }else if(methodboxvalue == 261){
+
+            document.getElementById(&#x27;delaybox&#x27;).value = &quot;-261&quot;;
+
+            
+
+            
+
+        }else if(methodboxvalue == 268){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-268&quot;;
+
+
+
+            
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Ruby &#x2F; Sapphire&quot;){
+
+                        document.getElementById(&#x27;delaybox&#x27;).value = &quot;-75&quot;;
+
+
+
+            
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Emerald&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-50&quot;;
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Fire Red 1.0&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-249&quot;;
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Fire Red 1.1&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-249&quot;;
+
+        }else if(methodboxvalue == 0 &amp;&amp; gametext == &quot;Leaf Green&quot;){
+
+         document.getElementById(&#x27;delaybox&#x27;).value = &quot;-249&quot;;
+
+        }
+
+        
+
+        
+
+        
+
+    }
+
+    
+
+        function blisytv(){
+
+            settings(); &#x2F;&#x2F;calls settings 
+
+    &#x2F;&#x2F;this excecutes when you hit the calculate button 
+
+    var introtimerframes = Number(introtimerms) &#x2F; 1000 * Number(fps); &#x2F;&#x2F;converts intro timer into frames
+
+    var insidetv = (Number(targetframe) - Number(outoftvframe)) &#x2F; 313 + 33; &#x2F;&#x2F;this figures out how long you spend in teachytv. it&#x27;s 313 frames per second, adding 33 to compensate for the 34 frame startup and 1 frame end lag.
+
+    var tvprint = Math.floor(insidetv); &#x2F;&#x2F;this sets the value of inside ttv
+
+    var remainder = (Number(targetframe) - Number(outoftvframe)) % 313; &#x2F;&#x2F;this is the remainder of frames you can spend out of ttv
+
+    var outsidetv = (Number(remainder) + Number(outoftvframe)) - 33; &#x2F;&#x2F;this adds the remainder to the outside of tv frames value to figure out how long the player will spend out of the tv
+
+    var totalframes = Number(tvprint) + Number(outsidetv) + Number(delaybox);
+
+    var tvprintms = 1 &#x2F; Number(fps) * 1000 * Number(tvprint);
+
+    var totalframesms = (1 &#x2F; Number(fps) * 1000) * Math.floor(totalframes);
+
+    var totalms = Math.floor(totalframesms) + Number(introtimerms);
+
+    var abraframems = (1 &#x2F; Number(fps) * 1000) * (Number(abraframe) - 20) + Number(introtimerms);
+
+    
+
+    document.getElementById(&quot;tvframes&quot;).value = tvprint;
+
+    document.getElementById(&quot;totalframes&quot;).value = Math.floor(totalframes);
+
+    document.getElementById(&quot;tvms&quot;).value = Math.floor(tvprintms);
+
+    document.getElementById(&quot;totalms&quot;).value = totalms.toFixed(0);
+
+    if(abraframe == &quot;0&quot; &amp;&amp; methodboxvalue != 0){
+
+    document.getElementById(&quot;flowtimerout&quot;).value = totalms.toFixed(0) + &quot;&#x2F;&quot; + introtimer;
+
+        
+
+        
+
+    }else if(methodboxvalue == 0){
+
+        document.getElementById(&quot;flowtimerout&quot;).value = totalms.toFixed(0);
+
+        
+
+    }  else{
+
+    document.getElementById(&quot;flowtimerout&quot;).value = totalms.toFixed(0) + &quot;&#x2F;&quot; + abraframems.toFixed(0) + &quot;&#x2F;&quot; +introtimer;
+
+
+
+        
+
+    }
+
+     document.getElementById(&#x27;adjusttvby&#x27;).value = 0;
+
+      document.getElementById(&#x27;adjustotalby&#x27;).value = 0
+
+  document.getElementById(&#x27;adjusttvmsby&#x27;).value = 0;
+
+     document.getElementById(&#x27;adjusttotalmsby&#x27;).value = 0;
+
+     document.getElementById(&#x27;updatedtvflowtimer&#x27;).value = 0;
+
+     document.getElementById(&#x27;updatedflowtimertotal&#x27;).value = 0;
+
+   
+
+}
+
+ function blisytvupdate(){
+
+     settings();
+
+     var framehit;
+
+     var adjusttv;
+
+     var adjusttv2;
+
+     var adjustout;
+     
+     var abraframems = (1 &#x2F; Number(fps) * 1000) * (Number(abraframe) - 20) + Number(introtimerms);
+
+     framehit = document.getElementById(&#x27;framehit&#x27;).value;
+
+     adjusttv = Number(targetframe) - Number(framehit);
+
+     adjusttv2 = Number(adjusttv) &#x2F; 313;
+
+     adjustout = Number(adjusttv) % 313;
+
+     if(adjustout &gt;= 156){
+
+         adjustout = -313 + Number(adjustout);
+
+         adjusttv2++;
+
+         
+
+     }else if(adjustout &lt; -156){
+
+         adjustout = 313 + Number(adjustout);
+
+         adjusttv2--;
+
+         
+
+         
+
+     }var adjusttotal = Number(adjustout) + Number(adjusttv2);
+
+    if(adjusttv2 &gt;= 0){
+
+    document.getElementById(&#x27;adjusttvby&#x27;).value = Math.floor(adjusttv2);
+
+
+
+}else{
+
+    document.getElementById(&#x27;adjusttvby&#x27;).value = Math.ceil(adjusttv2);
+
+}
+
+
+
+     var adjusttvms;
+
+     adjusttvms = document.getElementById(&#x27;adjusttvby&#x27;).value;
+
+     
+
+     var adjustoutcombined;
+
+     adjustoutcombined = Number(adjustout) + Number(adjusttvms);
+
+
+
+
+
+     
+
+     document.getElementById(&#x27;adjustotalby&#x27;).value = adjustoutcombined;
+
+    var adjusttotalms;
+
+    adjusttotalms = document.getElementById(&#x27;adjustotalby&#x27;).value;
+
+  
+
+     var msout;
+
+     var tvmsout;
+
+     msout = 1 &#x2F; Number(fps) * 1000 * Number(adjusttotalms);
+
+     tvmsout = 1 &#x2F; Number(fps) * 1000 * Number(adjusttvms);
+
+     document.getElementById(&#x27;adjusttvmsby&#x27;).value = tvmsout.toFixed(0);
+
+     document.getElementById(&#x27;adjusttotalmsby&#x27;).value = msout.toFixed(0) ;
+
+     
+
+     var tvmsget;
+
+     tvmsget = document.getElementById(&#x27;tvms&#x27;).value;
+
+     var totalmsget;
+
+     totalmsget = document.getElementById(&#x27;totalms&#x27;).value;
+
+     var adjustedtvms;
+
+     var adjustedtotalms;
+
+     adjustedtvms = Number(tvmsout) + Number(tvmsget);
+
+     adjustedtotalms = Number(msout) + Number(totalmsget);
+
+     document.getElementById(&#x27;tvms&#x27;).value = adjustedtvms.toFixed(0);
+
+     document.getElementById(&#x27;totalms&#x27;).value = adjustedtotalms.toFixed(0);
+
+     document.getElementById(&#x27;updatedtvflowtimer&#x27;).value = adjustedtvms.toFixed(0);
+
+       if(abraframe == &quot;0&quot; &amp;&amp; methodboxvalue != 0){
+
+    document.getElementById(&quot;updatedflowtimertotal&quot;).value = adjustedtotalms.toFixed(0) + &quot;&#x2F;&quot; + introtimer;
+
+        
+
+        
+
+    }else if(methodboxvalue == 0){
+
+        document.getElementById(&quot;updatedflowtimertotal&quot;).value = adjustedtotalms.toFixed(0);
+
+        
+
+    }  else{
+
+    document.getElementById(&quot;updatedflowtimertotal&quot;).value = adjustedtotalms.toFixed(0) + &quot;&#x2F;&quot; + abraframems.toFixed(0) + &quot;&#x2F;&quot; +introtimer;
+
+
+
+        }
+
+     
+
+ }   
+
+    
+
+    
+
+    
+
+
+
+&lt;&#x2F;script&gt;
+
+
+
+&lt;&#x2F;body&gt;
+&lt;&#x2F;html&gt;</content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Markdown Syntax Guide</title>
         <published>2021-04-20T09:19:42+00:00</published>
         <updated>2021-04-20T09:19:42+00:00</updated>
