@@ -1095,7 +1095,7 @@ content directories as needed.&lt;&#x2F;p&gt;
         
     </entry>
     <entry xml:lang="en">
-        <title>FRLG Section 2</title>
+        <title>Trainer ID &amp; Starter Manip</title>
         <published>2021-05-01T08:20:00+00:00</published>
         <updated>2021-05-01T08:20:00+00:00</updated>
         
@@ -1107,53 +1107,140 @@ content directories as needed.&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://retailrng.com/rs/beginner/section2/"/>
-        <id>https://retailrng.com/rs/beginner/section2/</id>
+        <link rel="alternate" type="text/html" href="https://retailrng.com/rs/beginner/trainer-id-starter-manip/"/>
+        <id>https://retailrng.com/rs/beginner/trainer-id-starter-manip/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/beginner/section2/">&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;&#x2F;h2&gt;
-&lt;p&gt;Before using the theme, you need to install the &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;installation&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt; ≥ 0.15.0.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;run-the-theme-directly&quot;&gt;Run the Theme Directly&lt;&#x2F;h2&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; clone https:&#x2F;&#x2F;github.com&#x2F;aaranxu&#x2F;adidoks.git
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; adidoks
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;zola&lt;&#x2F;span&gt;&lt;span&gt; serve
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Visit &lt;code&gt;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;&lt;&#x2F;code&gt; in the browser.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;&#x2F;h2&gt;
-&lt;p&gt;Just earlier we showed you how to run the theme directly. Now we start to
-install the theme in an existing site step by step.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-1-create-a-new-zola-site&quot;&gt;Step 1: Create a new zola site&lt;&#x2F;h3&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;zola&lt;&#x2F;span&gt;&lt;span&gt; init mysite
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h3 id=&quot;step-2-install-adidoks&quot;&gt;Step 2: Install AdiDoks&lt;&#x2F;h3&gt;
-&lt;p&gt;Download this theme to your themes directory:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; mysite&#x2F;themes
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; clone https:&#x2F;&#x2F;github.com&#x2F;aaranxu&#x2F;adidoks.git
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Or install as a submodule:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; mysite
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; init  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# if your project is a git repository already, ignore this command
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; submodule add https:&#x2F;&#x2F;github.com&#x2F;aaranxu&#x2F;adidoks.git themes&#x2F;adidoks
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h3 id=&quot;step-3-configuration&quot;&gt;Step 3: Configuration&lt;&#x2F;h3&gt;
-&lt;p&gt;Enable the theme in your &lt;code&gt;config.toml&lt;&#x2F;code&gt; in the site derectory:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;theme &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;adidoks&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Or copy the &lt;code&gt;config.toml.example&lt;&#x2F;code&gt; from the theme directory to your project&#x27;s
-root directory:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;cp&lt;&#x2F;span&gt;&lt;span&gt; themes&#x2F;adidoks&#x2F;config.toml.example config.toml
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h3 id=&quot;step-4-add-new-content&quot;&gt;Step 4: Add new content&lt;&#x2F;h3&gt;
-&lt;p&gt;You can copy the content from the theme directory to your project:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;cp -r&lt;&#x2F;span&gt;&lt;span&gt; themes&#x2F;adidoks&#x2F;content .
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;You can modify or add new posts in the &lt;code&gt;content&#x2F;blog&lt;&#x2F;code&gt;, &lt;code&gt;content&#x2F;docs&lt;&#x2F;code&gt; or other
-content directories as needed.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-5-run-the-project&quot;&gt;Step 5: Run the project&lt;&#x2F;h3&gt;
-&lt;p&gt;Just run &lt;code&gt;zola serve&lt;&#x2F;code&gt; in the root path of the project:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;zola&lt;&#x2F;span&gt;&lt;span&gt; serve
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;AdiDoks will start the Zola development web server accessible by default at 
-&lt;code&gt;http:&#x2F;&#x2F;127.0.0.1:1111&lt;&#x2F;code&gt;. Saved changes will live reload in the browser.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/beginner/trainer-id-starter-manip/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;Ruby &amp;amp; Sapphire are the best place to begin your RNG Journey within Generation 3, thanks to this combined manip. In this guide I**ll be covering how to manip your Trainer ID and Secret ID, which determine when your shiny targets are available, and we will follow that up with a Shiny Starter manip, so you can be sure you did the Trainer ID manip correctly. &lt;&#x2F;p&gt;
+&lt;p&gt;Even if your main goal is not to use RNG Manips to shiny hunt, this will still serve as a way to teach you the fundamentals you**ll need to understand any Manip you want to do in the future. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Pokemon Ruby or Sapphire with a Dead Internal Battery (any language)&lt;&#x2F;li&gt;
+&lt;li&gt;GameBoy Advance, Gameboy Player, Nintendo DS &#x2F; DS Lite, GBA Emulator, or Pokemon Box Ruby &amp; Sapphire. &lt;&#x2F;li&gt;
+&lt;li&gt;Windows 10&#x2F;11 PC&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokeFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;RetailRNG&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;v3.0.0&quot;&gt;EonTimer 3.0.0&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;step-1-trainer-id-setup&quot;&gt;Step 1: Trainer ID Setup&lt;&#x2F;h3&gt;
+&lt;p&gt;Before we can start any manips, we have to know what Trainer ID and Secret ID we want. What we&#x27;re going to do is pick a specific target advance to &lt;strong&gt;make&lt;&#x2F;strong&gt; shiny. &lt;&#x2F;p&gt;
+&lt;p&gt;Which one you pick is up to personal preference– It&#x27;s all about IVs, Nature, &amp;amp; Gender. Also, the higher advance you pick, the longer the wait you will have. Be careful not to go for too short of a wait, though, as you need enough time to be able to reset the game and press A at the correct time. I would not pick a target below 1000. &lt;&#x2F;p&gt;
+&lt;p&gt;To pick your target, open PokeFinder, and in the Gen 3 Tab, click &lt;strong&gt;Static&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;MainWindowStatic.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will pop up. By default we are in the &lt;strong&gt;Generator&lt;&#x2F;strong&gt; tab, which is where we want to be. We&#x27;ve got some settings to fill out. &lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section, we&#x27;ll leave the Method as &lt;strong&gt;Method 1&lt;&#x2F;strong&gt;. This is background info about how a Pokemon is generated. &lt;&#x2F;p&gt;
+&lt;p&gt;For Seed we&#x27;ll put &lt;strong&gt;5A0&lt;&#x2F;strong&gt;, this is the default seed for Ruby &amp;amp; Sapphire with a Dead Battery. &lt;&#x2F;p&gt;
+&lt;p&gt;Initial Advances, Max Advances, and Delay cover your starting point, how many advances you want generated, and how much time a Pokemon takes to generate, respectively. We will not need to edit these for now. &lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;Settings&lt;&#x2F;strong&gt; section, have the &lt;strong&gt;Category&lt;&#x2F;strong&gt; as &lt;strong&gt;Starters&lt;&#x2F;strong&gt;, and pick one of the three Hoenn Starter Pokemon. I&#x27;ll choose Mudkip. &lt;&#x2F;p&gt;
+&lt;p&gt;Lastly we have &lt;strong&gt;Filters&lt;&#x2F;strong&gt;. This is any info about a Pokemon you&#x27;re able to control through this manip. Pick out what IVs, Nature, and Gender you want. Make sure to leave the &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; dropdown as &lt;strong&gt;Any&lt;&#x2F;strong&gt;. Also, the more picky you are with this info, the less options you will have. I recommend aiming for no more than 3 Perfect IVs with the desired nature. &lt;&#x2F;p&gt;
+&lt;p&gt;Once you&#x27;ve filled everything out, click &lt;strong&gt;Generate&lt;&#x2F;strong&gt;. If you get no results, lower some of your IV Ranges, or remove them entirely. &lt;&#x2F;p&gt;
+&lt;p&gt;I aimed for a Mudkip with Perfect Attack, Defense, and Speed, with an Adamant Nature. Here is how my window looks:&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDGeneratorHighlighted.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You may have more results than I do. If that&#x27;s the case, pick whichever one you want. Once you&#x27;ve made your selection, highlight the &lt;strong&gt;PID&lt;&#x2F;strong&gt; box and use your computer&#x27;s copy command.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDGeneratorCopy.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then, we&#x27;ll go back to the main window and click IDs. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDMainWindowIDs.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will pop up, and we&#x27;re going to select the RS Tab. In that tab, in the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section, check the &lt;strong&gt;Dead Battery&lt;&#x2F;strong&gt; box. We also want to set &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; to &lt;strong&gt;5000&lt;&#x2F;strong&gt; here. This is because during the TID Manip, we have to do the entire intro of the game, and &lt;strong&gt;5000&lt;&#x2F;strong&gt; Advances is about the fastest you can do that section in.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; Section, select the &lt;strong&gt;PID&lt;&#x2F;strong&gt; bubble. Then, box to the right of the PID bubble, paste the PID we copied from Gen 3 Static. &lt;&#x2F;p&gt;
+&lt;p&gt;When we click Generate here, it will use that PID we pasted to generate multiple different Trainer ID and Secret IDs that will make any Static Encounter, Gift Pokemon, Legendary, or Roamer Shiny if we receive&#x2F;encounter it on the advance we picked. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDSIDWindow.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;I will be aiming for Advance 7660, Trainer ID &lt;strong&gt;14002&lt;&#x2F;strong&gt; and Secret ID &lt;strong&gt;29131&lt;&#x2F;strong&gt;. At this point, our prep is complete. You should have a Trainer ID and a Starter Pokemon you are aiming for ready. So it&#x27;s time to move on to the TID Manip. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-2-trainer-id-manip&quot;&gt;Step 2: Trainer ID Manip&lt;&#x2F;h3&gt;
+&lt;p&gt;To get started with the manip, we’re going to boot up our copy of Ruby or Sapphire, and open the Eon Timer 3.0 App on our computer. &lt;&#x2F;p&gt;
+&lt;p&gt;In Eon Timer, click the &lt;strong&gt;3&lt;&#x2F;strong&gt; tab, and make sure the &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; Box is set to 0. &lt;&#x2F;p&gt;
+&lt;p&gt;Also, make sure to put your &lt;strong&gt;Target Advance&lt;&#x2F;strong&gt; from the IDs section into the &lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; box in Eon Timer. Mine was 7660. &lt;&#x2F;p&gt;
+&lt;p&gt;Pretimer is optional. &lt;&#x2F;p&gt;
+&lt;p&gt;When set to 0, clicking Start on EonTimer will immediately start the countdown to your target TID. This requires you to soft reset your game at the same time as clicking &lt;strong&gt;Start&lt;&#x2F;strong&gt; on Eon Timer. &lt;&#x2F;p&gt;
+&lt;p&gt;Setting this to 5000 will create a 5 second countdown, which you will soft reset the game to, then the countdown for the TID Begins. I’ll be using this method for the remainder of the guide. &lt;&#x2F;p&gt;
+&lt;p&gt;Your timer should look something like this:&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDEonTimer.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You should also click the gear icon, and make sure your console setting is correct. 
+GBA and NDS-GBA have slightly different frame rates. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA: 59.7275 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NDS-GBA: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative to the actual game. 
+If you’re playing on unofficial hardware or emulator, stick with GBA as this is usually the default.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDEonTimerSettings.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You don’t need to touch &lt;strong&gt;Refresh Interval&lt;&#x2F;strong&gt; or &lt;strong&gt;Precision Calibration&lt;&#x2F;strong&gt;. Now it’s time to attempt the manip. &lt;&#x2F;p&gt;
+&lt;p&gt;Start Eon Timer, and when the pretimer countdown hits 0, soft reset the game. You’ll notice Eon Timer starts beeping as it approaches 0. By default, it beeps 6 times. The goal is to Soft Reset on the 6th beep itself. &lt;&#x2F;p&gt;
+&lt;p&gt;At this point, play through the intro where you pick your gender and name yourself until you’re at the final text box, pictured below. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDWaitSpot.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;While here, we just wait for Eon Timer to finish counting down. Once it gets near the end, it’ll beep 6 times again. The goal is to Press A here on the 6th Beep. &lt;&#x2F;p&gt;
+&lt;p&gt;Once the overworld loads, open up the start menu and click your Trainer Name to check your ID on the Trainer Card. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDWrong.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;And as you can see here, it’s not the one I wanted. You also probably didn’t get it. What’s going on here? Well, as mentioned in the &lt;strong&gt;Introduction&lt;&#x2F;strong&gt; page, the gen 3 games move at around 60 frames per second, and different manips have different offsets and delays. This is no different, so I’ll show you how to account for your own personal timing, and any delay incurred by the game itself in the next section. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-3-trainer-id-adjust&quot;&gt;Step 3: Trainer ID Adjust&lt;&#x2F;h3&gt;
+&lt;p&gt;The first thing we’re going to do post attempt is open back up the IDs section of PokeFinder. We can leave the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section the same as our setup. But in the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section, we’re going to click the &lt;strong&gt;TID&lt;&#x2F;strong&gt; bubble. &lt;&#x2F;p&gt;
+&lt;p&gt;There, we’ll type out what TID we just got in-game, and hit generate. You should only get 1 result using these parameters.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDMissed.png&quot; width=&quot;90%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You can see the TID I got was after &lt;strong&gt;7654&lt;&#x2F;strong&gt; advances, which is slightly before &lt;strong&gt;7660&lt;&#x2F;strong&gt;. The way we adjust for this is simple– In Eon Timer, paste &lt;strong&gt;7654&lt;&#x2F;strong&gt; from the advances column into the &lt;strong&gt;Frame Hit&lt;&#x2F;strong&gt; box, and click update.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDEonTimerAdjust.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;After you click update, the &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; box will be changed. This value is updated automatically, no need to worry about it. &lt;&#x2F;p&gt;
+&lt;p&gt;With the update done, you hit &lt;strong&gt;Start&lt;&#x2F;strong&gt; on Eon Timer and try again, with the exact same procedure as described in the Trainer ID Manip section. &lt;&#x2F;p&gt;
+&lt;p&gt;This is a precise endeavor, the timing is 1&#x2F;60th of a second, remember. So have patience, and with enough attempts you will get the ID you want. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDRight.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once you do, it’s time to use that Trainer ID to get a shiny starter! &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-4-starter-setup&quot;&gt;Step 4: Starter Setup&lt;&#x2F;h3&gt;
+&lt;p&gt;The process for the Starter Manip is very similar to the Trainer ID Manip, but before we get started I want to walk you through setting up a Profile in PokeFinder for Gen 3, and making your target starter show up in PokeFinder. &lt;&#x2F;p&gt;
+&lt;p&gt;First, we’ll head back into the &lt;strong&gt;Static&lt;&#x2F;strong&gt; section in Gen 3 on PokeFinder. Up top, there’s a &lt;strong&gt;Profile&lt;&#x2F;strong&gt; section, click the Manager Button. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterProfile1.png&quot; width=&quot;90%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will pop up called the Profile Manager. If this is your first time using PokeFinder, there will be no profiles here. Since I have a lot of games, I already have a lot of profiles, though. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterProfile2.png&quot; width=&quot;60%&quot;  &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Anyway, in this window, click the &lt;strong&gt;New&lt;&#x2F;strong&gt; Button. You’ll be greeted with yet another new window. Here we’ll enter our Profile Name, Select our Game, and enter our Trainer ID and Secret ID, that we just RNG Manipped. &lt;&#x2F;p&gt;
+&lt;p&gt;It’s also important to check the &lt;strong&gt;Dead Battery&lt;&#x2F;strong&gt; box. This will automatically fill the &lt;strong&gt;Seed Box&lt;&#x2F;strong&gt; with 5A0 every time in Gen 3’s Generator in PokeFinder. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterProfile3.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once all our info is in, we can hit Okay in this window, and then &lt;strong&gt;Done&lt;&#x2F;strong&gt; in the Profile Manager Window. &lt;&#x2F;p&gt;
+&lt;p&gt;With a profile set up, we can search for our Shiny Target that we picked out earlier. First select your profile from the drop down, if you haven’t done it already. &lt;&#x2F;p&gt;
+&lt;p&gt;Then, make sure the Method in &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; is set to Method 1, and seed is 5A0 (which should happen automatically now). Also make sure to pick your starter correctly in &lt;strong&gt;Settings&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;For the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section, though, all we want to do is set the &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; drop down to Star&#x2F;Square. We can leave ability, IVs, Gender, and Hidden Power Blank. Then, let’s hit Generate.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterFindShiny.png&quot; width=&quot;100%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You’ll notice that, yes, the target I selected showed up (Adamant Mudkip with 3 Perfect IVs), but there’s many other targets available to me as well! This is because a Trainer ID and Secret ID do not only make the &lt;strong&gt;one&lt;&#x2F;strong&gt; target you picked out shiny. They will make THOUSANDS of shinies available to you. &lt;&#x2F;p&gt;
+&lt;p&gt;And you can see, on the typical 5A0 seed for Ruby &amp;amp; Sapphire, I have 4 that are available to me in under two minutes. &lt;&#x2F;p&gt;
+&lt;p&gt;So, pick any of these targets to be your first. I’ll be aiming for advance 7660.&lt;&#x2F;p&gt;
+&lt;p&gt;You may be wondering what the Star&#x2F;Square Distinction is in PokeFinder in the Shiny Column. This is for Pokemon Sword and Shield. That game has two distinct shiny animations, and this column tells you if it will be the animation with stars, or with squares. It makes no visual difference in any other game.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterStarSquare.png&quot;  &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Okay, at this point, we have the ability to search for a target, we know our Trainer ID should theoretically produce a shiny, so let’s confirm we’re correct.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-5-starter-manip&quot;&gt;Step 5: Starter Manip&lt;&#x2F;h3&gt;
+&lt;p&gt;To get started with the starter manip, you want to play through the intro until you are in front of Professor Birch&#x27;s bag, and save the game. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterSaveLoc.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then, in Eon Timer, put the number from the  &lt;strong&gt;Advances&lt;&#x2F;strong&gt; Column into the &lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; box. In my case, it is the same number I used for my Trainer ID Manip. Also, change the value in the  &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; box to be 0 again. &lt;&#x2F;p&gt;
+&lt;p&gt;For every type of Manip, the amount of calibration will be different, because the game delays generating whatever you’re manipping differently, based on what it’s generating.Your Eon Timer should look something like this, but with your target advance instead. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDEonTimer.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;We are once again all set to begin. Start Eon Timer, and when the pretimer finishes on the 6th beep, soft reset the game. &lt;&#x2F;p&gt;
+&lt;p&gt;Then, get all the way up until the Yes&#x2F;No box on the starter you intend to choose, and hover over Yes while you wait for the timer to count down. Pictured below&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDYesNo.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;When the timer finishes counting down, hit A to start the battle with Poochyena. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterWrong.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;We can check the summary screen and see that we missed our target once again. Just like with the Trainer ID Manip, we are going to have to learn how to calibrate missing our target. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-6-starter-adjust&quot;&gt;Step 6: Starter Adjust&lt;&#x2F;h3&gt;
+&lt;p&gt;To figure out which Mudkip we hit, we’re going to have to figure out its IVs and use that to search. &lt;&#x2F;p&gt;
+&lt;p&gt;First, though, let’s set up Generator for a search. &lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; we’ll leave Seed and Method alone, but we are going to change &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt;. To be about 1000 advances before our target.&lt;&#x2F;p&gt;
+&lt;p&gt;In my case, I am aiming for &lt;strong&gt;7660&lt;&#x2F;strong&gt;. So I set it to &lt;strong&gt;6660&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;Then, for the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section, clear everything out to their default values. All IVs should be 0 to 31, and all of the drop downs should say &lt;strong&gt;Any&lt;&#x2F;strong&gt;, except Nature and Gender. Set those to what the starter you received had. In my case it’s Relaxed and Male. &lt;&#x2F;p&gt;
+&lt;p&gt;After that, click the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt; Button. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterAdjust1.png&quot; width=&quot;100%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will pop up. If you’ve never used an IV Calculator before, I’ll explain how it works. &lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; drop down, select the starter you chose. And for the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; Box, select its nature. &lt;&#x2F;p&gt;
+&lt;p&gt;Then, at the bottom, put level 5 and input all the stats of the Mudkip as they are on the summary screen. Then, click &lt;strong&gt;Find IV’s&lt;&#x2F;strong&gt;. In the &lt;strong&gt;Result&lt;&#x2F;strong&gt; section, it will populate ranges for what the IVs could be. You can see my Mudkips stats then see how I have entered them in the IV calculator. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterIVCalc.png&quot; width=&quot;60%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterStats.png&quot; width=&quot;60%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once you have clicked &lt;strong&gt;find IV’s&lt;&#x2F;strong&gt;, it also fills that info out within the &lt;strong&gt;Static Generator&lt;&#x2F;strong&gt; in PokeFinder. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterGeneratorIVs.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;At this point, hit Generate. You will likely get many different results, however, one should be much closer than the rest. In my example, &lt;strong&gt;7662&lt;&#x2F;strong&gt; is only 2 Advances away from my target. The next closest would be a whopping &lt;strong&gt;5000&lt;&#x2F;strong&gt; Advances away. &lt;&#x2F;p&gt;
+&lt;p&gt;Despite each advance only being 1&#x2F;60th of a second, that adds up to about 83 seconds. There is no way I could be over 1 minute late. So, by process of elimination, &lt;strong&gt;7662&lt;&#x2F;strong&gt; is where I landed. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterFindFrame.png&quot; width=&quot;100%&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Now we need to update Eon Timer. In the &lt;strong&gt;Frame Hit&lt;&#x2F;strong&gt; box, put the Advance that you determined you landed on, and click update. The calibration will change, and you can try again. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterEonTimerAdjust.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Now repeat the process from Starter Manip until you get your desired Pokemon. &lt;&#x2F;p&gt;
+&lt;p&gt;If you find yourself dancing around your target, being 1 or 2 advances late or early repeatedly– that’s okay. The timing is strict, do not worry about it. Just keep practicing and you will eventually succeed. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterRight.png&quot; width=&quot;60%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;&#x2F;h2&gt;
+&lt;p&gt;If you enjoyed this process and want to do more RNG Manips, I would suggest moving on to Static RNG. It is the same type of RNG Manip as the Starter Pokemon, but with a couple of different targets available to choose from. &lt;&#x2F;p&gt;
+&lt;p&gt;Alternatively, if you want to jump straight into doing some Wild Pokemon RNG, that’s a feasible path as well. It is slightly more difficult to determine where you land during this manip, but the timing is not any more difficult. &lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1174,7 +1261,38 @@ content directories as needed.&lt;&#x2F;p&gt;
         <id>https://retailrng.com/emerald/beginner/section1/</id>
         
         <content type="html" xml:base="https://retailrng.com/emerald/beginner/section1/">&lt;h2 id=&quot;starter-knowledge&quot;&gt;Starter Knowledge&lt;&#x2F;h2&gt;
-&lt;p&gt;One page summary of how to start a new AdiDoks project. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Intro Timer in MS&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;center&gt;&lt;input type=&quot;text&quot; id=&quot;decvalue&quot; value=&quot;42069&quot;&gt;
+&lt;br&gt;
+&lt;button type=&quot;button&quot; onclick=&quot;hexconvert()&quot;&gt;
+
+    Calculate
+
+        &lt;&#x2F;button&gt;
+        
+    &lt;&#x2F;center&gt;
+		&lt;script&gt;
+		
+
+
+		
+        function hexconvert(){
+		
+    var decnumber;
+		
+		var hexnumber;
+		
+    
+		decnumber = parseInt(document.getElementById(&#x27;decvalue&#x27;).value);
+		
+		hexnumber = decnumber.toString(16).toUpperCase();
+		
+		document.getElementById(&#x27;decvalue&#x27;).value = hexnumber;
+		
+		}
+		
+		&lt;&#x2F;script&gt;
+One page summary of how to start a new AdiDoks project. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -1212,10 +1330,10 @@ content directories as needed.&lt;&#x2F;p&gt;
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://retailrng.com/rs/beginner/section1/"/>
-        <id>https://retailrng.com/rs/beginner/section1/</id>
+        <link rel="alternate" type="text/html" href="https://retailrng.com/rs/beginner/introduction/"/>
+        <id>https://retailrng.com/rs/beginner/introduction/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/beginner/section1/">&lt;h2 id=&quot;starter-knowledge&quot;&gt;Starter Knowledge&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/beginner/introduction/">&lt;h2 id=&quot;starter-knowledge&quot;&gt;Starter Knowledge&lt;&#x2F;h2&gt;
 &lt;p&gt;One page summary of how to start a new AdiDoks project. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
         
