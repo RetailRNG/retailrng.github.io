@@ -1326,7 +1326,7 @@ ID is locked in 50 RNG advances later.&lt;br &#x2F;&gt;
 &lt;summary&gt;Frames Vs Advances&lt;&#x2F;summary&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Frames&lt;&#x2F;strong&gt; and &lt;strong&gt;Advances&lt;&#x2F;strong&gt; are often used interchangeably across RNG documentation, guides,&lt;&#x2F;em&gt;
 &lt;em&gt;and tools.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Frames&lt;&#x2F;strong&gt; is a commonly used term to describe game-state intervals in Speedrunning and Fighting Games. Updating video game logic every visual frame is a common practice, and this is generally how it works Generation 3.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Frames&lt;&#x2F;strong&gt; is a commonly used term to describe game-state intervals in Speedrunning and Fighting Games. Updating video game logic every visual frame is a common practice, and this is generally how it works Generation 3, but not always&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;However, in later games this isn’t always the case. The frames you visually see might be completely separate from the game’s logic. RNG &lt;strong&gt;Advances&lt;&#x2F;strong&gt; accurately describes what’s happening, no matter the situation.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;br&gt;
