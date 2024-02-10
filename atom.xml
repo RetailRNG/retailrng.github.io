@@ -1306,14 +1306,12 @@ Setting this to 5000 will create a 5 second countdown allowing you to
 time the A-press to leave the naming screen.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage15.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-\
-Once everything is set up correctly, advance to the next screen and
-start EonTimer at the same time.
-&lt;p&gt;The goal is to press A with the 6th beep on this text box:&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
-&amp;quot;Well, I&#x27;ll be expecting you later. Come see me in my POKéMON LAB.&amp;quot;&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
-This will cause the game to advance to the Inside of the Truck, at which
+&lt;p&gt;Once everything is set up correctly, advance to the next screen and
+start EonTimer at the same time.&lt;&#x2F;p&gt;
+&lt;p&gt;The goal is to press A with the 6th beep on this text box:&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage27.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;br&gt;
+&lt;p&gt;This will cause the game to advance to the Inside of the Truck, at which
 point, you can open your Trainer Card and check your Trainer ID.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;step-2-finding-potential-sids&quot;&gt;&lt;strong&gt;Step 2: Finding Potential SIDs&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The Trainer ID was set immediately upon leaving the Naming Screen.&lt;br &#x2F;&gt;
@@ -1347,8 +1345,38 @@ convert TID from Decimal to Hexadecimal.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 For example, a Trainer ID of &lt;strong&gt;16804&lt;&#x2F;strong&gt; becomes &lt;strong&gt;41A4&lt;&#x2F;strong&gt; in Hexadecimal.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
-This can be done with a simple Google search or Windows Calculator.&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
+To do this, type your Trainer ID into the box below and hit convert. It will switch it to a Hexadecimal Number. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;center&gt;&lt;input type=&quot;text&quot; id=&quot;decvalue&quot; value=&quot;42069&quot;&gt;
+&lt;br&gt;
+&lt;button type=&quot;button&quot; onclick=&quot;hexconvert()&quot;&gt;
+
+    Convert
+
+        &lt;&#x2F;button&gt;
+        
+    &lt;&#x2F;center&gt;
+		&lt;script&gt;
+		
+
+
+		
+        function hexconvert(){
+		
+    var decnumber;
+		
+		var hexnumber;
+		
+    
+		decnumber = parseInt(document.getElementById(&#x27;decvalue&#x27;).value);
+		
+		hexnumber = decnumber.toString(16).toUpperCase();
+		
+		document.getElementById(&#x27;decvalue&#x27;).value = hexnumber;
+		
+		}
+		
+		&lt;&#x2F;script&gt;
+&lt;br&gt;
 Once the Hexadecimal Seed is entered into Researcher, click Generate.
 The given settings will generate all of the potential Secret IDs in the
 &amp;quot;Custom 1&amp;quot; column from Advance 990 onward.&lt;&#x2F;p&gt;
@@ -1487,8 +1515,7 @@ above-or-below the target you can stop adjusting EonTimer. 16.666
 milliseconds is a very small amount of time, and well within the margins
 of human error.&lt;&#x2F;p&gt;
 &lt;p&gt;Eventually, you&#x27;ll hit the &lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; and the &lt;strong&gt;IVs&lt;&#x2F;strong&gt; and
-&lt;strong&gt;Nature&lt;&#x2F;strong&gt; will match, but it will not be Shiny.**&lt;br &#x2F;&gt;
-**&lt;&#x2F;p&gt;
+&lt;strong&gt;Nature&lt;&#x2F;strong&gt; will match, but it will not be &lt;strong&gt;Shiny.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage24.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;&lt;br &#x2F;&gt;
 This means that you were not frame perfect on your Secret ID A-Press
