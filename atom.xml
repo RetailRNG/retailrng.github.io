@@ -1255,15 +1255,15 @@ One page summary of how to start a new AdiDoks project. &lt;a href=&quot;..&#x2F
         <id>https://retailrng.com/emerald/beginner/starter-rng/</id>
         
         <content type="html" xml:base="https://retailrng.com/emerald/beginner/starter-rng/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
-&lt;p&gt;The first step of learning to manipulate the RNG of Pokemon Emerald
+&lt;p&gt;The first step of learning to manipulate the RNG of Pokémon Emerald
 begins with the Starter.&lt;&#x2F;p&gt;
-&lt;p&gt;Once successful, you&#x27;ll have both a Shiny Starter Pokemon and know your
-Secret ID for manipulating future Shiny Pokemon. It should be noted that
+&lt;p&gt;Once successful, you&#x27;ll have both a Shiny Starter Pokémon and know your
+Secret ID for manipulating future Shiny Pokémon. It should be noted that
 you cannot control your TID or SID with this method, but instead are
 using your TID and a Shiny Starter to deduce your Secret ID.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Pokemon Emerald (any language)&lt;&#x2F;li&gt;
+&lt;li&gt;Pokémon Emerald (any language)&lt;&#x2F;li&gt;
 &lt;li&gt;GameBoy Advance, Nintendo DS or DS Lite&lt;&#x2F;li&gt;
 &lt;li&gt;Windows 10&#x2F;11 PC&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
@@ -1274,7 +1274,7 @@ using your TID and a Shiny Starter to deduce your Secret ID.&lt;&#x2F;p&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=ARy_xSgXh2I&quot;&gt;Pokemon Trainer Choppy&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=ARy_xSgXh2I&quot;&gt;Pokémon Trainer Choppy&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=-1XfmKlSojY&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
@@ -1336,7 +1336,7 @@ ID is locked in 50 RNG advances later.&lt;br &#x2F;&gt;
 Secret ID exactly 1000 Frames after the TID was set.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 We can view all of these potential SIDs using the &lt;strong&gt;Researcher&lt;&#x2F;strong&gt; tool in
-PokeFinder.&lt;br &#x2F;&gt;
+PokéFinder.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage23.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;There are many options in this tool, but in order to view Secret ID
@@ -1360,12 +1360,12 @@ sequence was frame perfect, this would be your Secret ID.&lt;&#x2F;p&gt;
 Secret IDs from 995 to 1005 as shown above. In the event you didn&#x27;t hit
 the Secret ID on Advance 1000, then you can check the others.&lt;&#x2F;p&gt;
 &lt;p&gt;In our example, Advance 1000 would be SID &lt;strong&gt;05610.&lt;&#x2F;strong&gt; The next step is
-attempting to RNG a Shiny Starter Pokemon, assuming this Secret ID is
+attempting to RNG a Shiny Starter Pokémon, assuming this Secret ID is
 correct.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;step-3-starter-timer&quot;&gt;&lt;strong&gt;Step 3: Starter Timer&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Now that we know our first potential Trainer ID and Secret ID, we&#x27;ll be
-using PokeFinder and EonTimer together.&lt;&#x2F;p&gt;
-&lt;p&gt;Go back to PokeFinder&#x27;s main menu, and select Gen 3 tab, and click
+using PokéFinder and EonTimer together.&lt;&#x2F;p&gt;
+&lt;p&gt;Go back to PokéFinder&#x27;s main menu, and select Gen 3 tab, and click
 Static.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage1.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
@@ -1402,7 +1402,7 @@ under 3 minutes of waiting. You can increase this number if you get no
 results.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Shiny&lt;&#x2F;strong&gt; is set to Star&#x2F;Square, which will show every potential Shiny.
 Star vs. Square doesn&#x27;t matter in any game other than Sword &amp;amp; Shield,
-but Pokemon transferred from Gen 3 up to those games will retain their
+but Pokémon transferred from Gen 3 up to those games will retain their
 Star&#x2F;Square Shiny status.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage6.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Once you&#x27;ve matched these settings in the Gen 3 Static window, click
@@ -1422,18 +1422,18 @@ your character is standing in front of the Starter bag.&lt;br &#x2F;&gt;
 to &lt;strong&gt;Soft Reset&lt;&#x2F;strong&gt; and &lt;strong&gt;Start&lt;&#x2F;strong&gt; EonTimer. &lt;em&gt;(If using PreTimer, then
 you&#x27;ll do the &lt;strong&gt;Soft Reset&lt;&#x2F;strong&gt; after the 5 second countdown.)&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Skip past all of the intro cutscenes as fast as possible, and then wait
-on this screen for your desired starter Pokemon.&lt;br &#x2F;&gt;
+on this screen for your desired starter Pokémon.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage3.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;The final A-press is on &lt;strong&gt;YES.&lt;&#x2F;strong&gt; Wait until the 6th Beep in EonTimer,
 press A, and then go to POKéMON in battle to open the Summary of your
-Pokemon and check the &lt;strong&gt;Stats&lt;&#x2F;strong&gt; and &lt;strong&gt;Nature&lt;&#x2F;strong&gt;.
+Pokémon and check the &lt;strong&gt;Stats&lt;&#x2F;strong&gt; and &lt;strong&gt;Nature&lt;&#x2F;strong&gt;.
 &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage16.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;The next step is to plug these stats into PokeFinder and determine how
+&lt;p&gt;The next step is to plug these stats into PokéFinder and determine how
 close the attempt was to the target RNG Advance of 8131.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;step-5-adjustment&quot;&gt;Step 5: Adjustment&lt;&#x2F;h3&gt;
-&lt;p&gt;Input the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; and &lt;strong&gt;Gender&lt;&#x2F;strong&gt; of the Pokemon, and then set the
+&lt;p&gt;Input the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; and &lt;strong&gt;Gender&lt;&#x2F;strong&gt; of the Pokémon, and then set the
 &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; dropdown to &lt;strong&gt;Any&lt;&#x2F;strong&gt;,&lt;br &#x2F;&gt;
 then click the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt; button.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
@@ -1457,9 +1457,9 @@ Finally, set &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; to 100. Which means 
 RNG Advance 8100 to 8200.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage11.png&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;This ensures that you don&#x27;t get too many matches, and are only searching
-for Pokemon near your target. Since the Starter is only Level 5,
+for Pokémon near your target. Since the Starter is only Level 5,
 searching too large of a range will result in false positives that
-aren&#x27;t actually the Pokemon you hit.&lt;br &#x2F;&gt;
+aren&#x27;t actually the Pokémon you hit.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 Once the settings are correct, click &lt;strong&gt;Generate&lt;&#x2F;strong&gt; to check for matches.
 If you don&#x27;t get any matches, then gradually expand the range by
