@@ -969,7 +969,7 @@ at &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translat
         
     </entry>
     <entry xml:lang="en">
-        <title>Section 2</title>
+        <title>Emerald Starter RNG</title>
         <published>2021-05-01T08:20:00+00:00</published>
         <updated>2021-05-01T08:20:00+00:00</updated>
         
@@ -981,53 +981,138 @@ at &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translat
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://retailrng.com/emerald/beginner/section2/"/>
-        <id>https://retailrng.com/emerald/beginner/section2/</id>
+        <link rel="alternate" type="text/html" href="https://retailrng.com/emerald/beginner/starter-rng/"/>
+        <id>https://retailrng.com/emerald/beginner/starter-rng/</id>
         
-        <content type="html" xml:base="https://retailrng.com/emerald/beginner/section2/">&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;&#x2F;h2&gt;
-&lt;p&gt;Before using the theme, you need to install the &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;installation&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt; ≥ 0.15.0.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;run-the-theme-directly&quot;&gt;Run the Theme Directly&lt;&#x2F;h2&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; clone https:&#x2F;&#x2F;github.com&#x2F;aaranxu&#x2F;adidoks.git
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; adidoks
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;zola&lt;&#x2F;span&gt;&lt;span&gt; serve
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Visit &lt;code&gt;http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;&lt;&#x2F;code&gt; in the browser.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;&#x2F;h2&gt;
-&lt;p&gt;Just earlier we showed you how to run the theme directly. Now we start to
-install the theme in an existing site step by step.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-1-create-a-new-zola-site&quot;&gt;Step 1: Create a new zola site&lt;&#x2F;h3&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;zola&lt;&#x2F;span&gt;&lt;span&gt; init mysite
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h3 id=&quot;step-2-install-adidoks&quot;&gt;Step 2: Install AdiDoks&lt;&#x2F;h3&gt;
-&lt;p&gt;Download this theme to your themes directory:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; mysite&#x2F;themes
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; clone https:&#x2F;&#x2F;github.com&#x2F;aaranxu&#x2F;adidoks.git
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Or install as a submodule:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; mysite
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; init  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# if your project is a git repository already, ignore this command
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; submodule add https:&#x2F;&#x2F;github.com&#x2F;aaranxu&#x2F;adidoks.git themes&#x2F;adidoks
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h3 id=&quot;step-3-configuration&quot;&gt;Step 3: Configuration&lt;&#x2F;h3&gt;
-&lt;p&gt;Enable the theme in your &lt;code&gt;config.toml&lt;&#x2F;code&gt; in the site derectory:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;theme &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;adidoks&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Or copy the &lt;code&gt;config.toml.example&lt;&#x2F;code&gt; from the theme directory to your project&#x27;s
-root directory:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;cp&lt;&#x2F;span&gt;&lt;span&gt; themes&#x2F;adidoks&#x2F;config.toml.example config.toml
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;h3 id=&quot;step-4-add-new-content&quot;&gt;Step 4: Add new content&lt;&#x2F;h3&gt;
-&lt;p&gt;You can copy the content from the theme directory to your project:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;cp -r&lt;&#x2F;span&gt;&lt;span&gt; themes&#x2F;adidoks&#x2F;content .
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;You can modify or add new posts in the &lt;code&gt;content&#x2F;blog&lt;&#x2F;code&gt;, &lt;code&gt;content&#x2F;docs&lt;&#x2F;code&gt; or other
-content directories as needed.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-5-run-the-project&quot;&gt;Step 5: Run the project&lt;&#x2F;h3&gt;
-&lt;p&gt;Just run &lt;code&gt;zola serve&lt;&#x2F;code&gt; in the root path of the project:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;zola&lt;&#x2F;span&gt;&lt;span&gt; serve
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;AdiDoks will start the Zola development web server accessible by default at 
-&lt;code&gt;http:&#x2F;&#x2F;127.0.0.1:1111&lt;&#x2F;code&gt;. Saved changes will live reload in the browser.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://retailrng.com/emerald/beginner/starter-rng/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;The first step of learning to manipulate the RNG of Pokemon Emerald begins with the Starter. Once successful, you’ll have both a Shiny Starter Pokemon and know your Secret ID for manipulating future Shiny Pokemon. It should be noted that you cannot control your TID or SID with this method, but instead are using your TID and a Shiny Starter to deduce your Secret ID.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
+&lt;p&gt;Pokemon Emerald (any language) GameBoy Advance, Nintendo DS or DS Lite Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;p&gt;PokeFinder 4.1.2 &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;EonTimer 3.0.0 &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;RetailRNG&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;v3.0.0&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;RetailRNG&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;v3.0.0&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Pokemon Trainer Choppy&lt;&#x2F;strong&gt; https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=ARy_xSgXh2I&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;im a blisy ._.&lt;&#x2F;strong&gt; https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=-1XfmKlSojY&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;new-game-timer&quot;&gt;&lt;strong&gt;New Game Timer&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;The first step to getting a shiny starter is to start a New Game, and get to the Name Entry screen.&lt;&#x2F;p&gt;
+&lt;p&gt;After entering your desired name, open EonTimer, click the Gen 3 tab, make sure “Calibration” is 0 and Timer is set to 950 frames.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.001.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You should also click the gear icon, and make sure your console setting is correct. GBA and NDS-GBA have slightly different frame rates.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA: 59.7275 fps NDS-GBA: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative to the actual game.&lt;&#x2F;p&gt;
+&lt;p&gt;If you’re playing on unofficial hardware or emulator, stick with GBA as this is usually the default.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.002.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;&lt;strong&gt;Pretimer&lt;&#x2F;strong&gt; is optional.&lt;&#x2F;p&gt;
+&lt;p&gt;When set to 0, clicking Start on EonTimer will immediately start the 950 frame timer.&lt;&#x2F;p&gt;
+&lt;p&gt;Setting this to 5000 will create a 5 second countdown allowing you to time the A-press to leave the naming screen.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.003.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once everything is set up correctly, advance to the next screen and start EonTimer at the same time.&lt;&#x2F;p&gt;
+&lt;p&gt;The goal is to press A with the 6th beep on this text box:&lt;&#x2F;p&gt;
+&lt;p&gt;“Well, I’ll be expecting you later. Come see me in my POKéMON LAB.”&lt;&#x2F;p&gt;
+&lt;p&gt;This will cause the game to advance to the Inside of the Truck, at which point, you can open your Trainer Card and check your Trainer ID.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;finding-potential-sids&quot;&gt;&lt;strong&gt;Finding Potential SIDs&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;The Trainer ID was set immediately upon leaving the Naming Screen.&lt;&#x2F;p&gt;
+&lt;p&gt;Emerald used this Trainer ID to seed the RNG, which then determines your Secret ID.&lt;&#x2F;p&gt;
+&lt;p&gt;Upon pressing A at the final text box of the intro cutscene, the Secret ID is locked in 50 RNG advances later.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Frames Vs Advances&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Frames&lt;&#x2F;strong&gt; and &lt;strong&gt;Advances&lt;&#x2F;strong&gt; are often used interchangeably across RNG documentation, guides,&lt;&#x2F;em&gt;
+&lt;em&gt;and tools.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Frames&lt;&#x2F;strong&gt; is a commonly used term to describe game-state intervals in Speedrunning and Fighting Games. Updating video game logic every visual frame is a common practice, and this is generally how it works Generation 3.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;However, in later games this isn’t always the case. The frames you visually see might be completely separate from the game’s logic. RNG &lt;strong&gt;Advances&lt;&#x2F;strong&gt; accurately describes what’s happening, no matter the situation.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+By setting EonTimer’s Target Frame to 950, the goal is landing on the Secret ID exactly 1000 Frames after the TID was set.
+&lt;p&gt;We can view all of these potential SIDs using the &lt;strong&gt;Researcher&lt;&#x2F;strong&gt; tool in PokeFinder.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.004.jpeg&quot;&gt;&lt;&#x2F;center&gt;There are many options in this tool, but in order to view Secret ID results you must match the following settings.
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.005.jpeg&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;The Researcher needs a Hexadecimal input for &lt;strong&gt;Seed&lt;&#x2F;strong&gt;, so we must convert TID from Decimal to Hexadecimal.&lt;&#x2F;p&gt;
+&lt;p&gt;For example, a Trainer ID of &lt;strong&gt;16804&lt;&#x2F;strong&gt; becomes &lt;strong&gt;41A4&lt;&#x2F;strong&gt; in Hexadecimal. This can be done with a simple Google search or Windows Calculator.&lt;&#x2F;p&gt;
+&lt;p&gt;Once the Hexadecimal Seed is entered into Researcher, click Generate. The given settings will generate all of the potential Secret IDs in the “Custom 1” column from Advance 990 onward.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.006.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Advance 1000 was our target so, assuming your last A-press on the intro sequence was frame perfect, this would be your Secret ID.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.007.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Before exiting this window, it’s a good idea to screenshot the list of Secret IDs from 995 to 1005 as shown above. In the event you didn’t hit the Secret ID on Advance 1000, then you can check the others.&lt;&#x2F;p&gt;
+&lt;p&gt;In our example, Advance 1000 would be SID &lt;strong&gt;05610.&lt;&#x2F;strong&gt; The next step is attempting to RNG a Shiny Starter Pokemon, assuming this Secret ID is correct.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;starter-timer&quot;&gt;&lt;strong&gt;Starter Timer&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Now that we know our first potential Trainer ID and Secret ID, we’ll be using PokeFinder and EonTimer together.&lt;&#x2F;p&gt;
+&lt;p&gt;Go back to PokeFinder’s main menu, and select Gen 3 tab, and click Static.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.008.jpeg&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This will open the Gen 3 Static window, and you’ll first want to go to the top where it says Profile and click Manager.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.009.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;We need to create a profile for our new Emerald save data, and input the Trainer ID and Secret ID.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.010.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Remember to select your profile from the dropdown on the Gen 3 Static window, after creating the profile.&lt;&#x2F;p&gt;
+&lt;p&gt;We now need to find the closest Shiny Starter available using this TID and SID, and this is done within the Gen 3 Static window by using these settings.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Seed&lt;&#x2F;strong&gt; is blank, which is the same as entering 0000. This is because Emerald’s RNG is coded incorrectly.&lt;&#x2F;p&gt;
+&lt;p&gt;During the New Game process, our Trainer ID was also the RNG seed. However, after resetting, it always defaults back to seed 0000.&lt;&#x2F;p&gt;
+&lt;p&gt;Unlike Ruby &amp;amp; Sapphire, this has nothing to do with the cartridge’s battery, it is a coding error.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; is set to 0, but getting past the title screen and loading into the game will always take at least 10 seconds. This means any Shiny below 600 is likely impossible to hit.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; is set to 10,000, which takes 166.67 seconds or just under 3 minutes of waiting. You can increase this number if you get no results.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Shiny&lt;&#x2F;strong&gt; is set to Star&#x2F;Square, which will show every potential Shiny. Star vs. Square doesn’t matter in any game other than Sword &amp;amp; Shield, but Pokemon transferred from Gen 3 up to those games will retain their Star&#x2F;Square Shiny status.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.011.jpeg&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once you’ve matched these settings in the Gen 3 Static window, click &lt;strong&gt;Generate.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;For our example TID\SID, the nearest Shiny starter is 8131 RNG advances after the game starts, and so we can set &lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; in EonTimer to 8131.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.012.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;h3 id=&quot;first-attempt&quot;&gt;First Attempt&lt;&#x2F;h3&gt;
+&lt;p&gt;We’re now ready to progress the story in-game, up until the point where your character is standing in front of the Starter bag.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.013.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;&lt;strong&gt;Save&lt;&#x2F;strong&gt; the game right here in this spot, and then use A+B+START+SELECT to &lt;strong&gt;Soft Reset&lt;&#x2F;strong&gt; and &lt;strong&gt;Start&lt;&#x2F;strong&gt; EonTimer. &lt;em&gt;(If using PreTimer, then you’ll do the &lt;strong&gt;Soft Reset&lt;&#x2F;strong&gt; after the 5 second countdown.)&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Skip past all of the intro cutscenes as fast as possible, and then wait on this screen for your desired starter Pokemon.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.014.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;The final A-press is on &lt;strong&gt;YES.&lt;&#x2F;strong&gt; Wait until the 6th Beep in EonTimer, press A, and then go to POKéMON in battle to open the Summary of your Pokemon and check the &lt;strong&gt;Stats&lt;&#x2F;strong&gt; and &lt;strong&gt;Nature.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.015.jpeg&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;The next step is to plug these stats into PokeFinder and determine how close the attempt was to the target RNG Advance of 8131.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;adjustment&quot;&gt;Adjustment&lt;&#x2F;h3&gt;
+&lt;p&gt;Input the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; and &lt;strong&gt;Gender&lt;&#x2F;strong&gt; of the Pokemon, and then set the &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; dropdown to &lt;strong&gt;Any&lt;&#x2F;strong&gt;, then click the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt; button.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.016.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This will open the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt; window, and this lets you plug in the in-game Stats and Nature, and calculate ranges for the &lt;strong&gt;Individual Values&lt;&#x2F;strong&gt; or &lt;strong&gt;IVs&lt;&#x2F;strong&gt;, which range from 0 to 31**.**&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.017.jpeg&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;After entering all the necessary information, click &lt;strong&gt;Find IVs&lt;&#x2F;strong&gt;, and the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section of the main Gen 3 Static window will update accordingly.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.018.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;From here, head over to the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section of the Gen 3 Static window, and change the &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; to approximately 50 before your target.&lt;&#x2F;p&gt;
+&lt;p&gt;In the example, I was aiming for 8131 and set &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; to 8100.&lt;&#x2F;p&gt;
+&lt;p&gt;Finally, set &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; to 100. Which means we are searching from RNG Advance 8100 to 8200.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.019.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This ensures that you don’t get too many matches, and are only searching for Pokemon near your target. Since the Starter is only Level 5, searching too large of a range will result in false positives that aren’t actually the Pokemon you hit.&lt;&#x2F;p&gt;
+&lt;p&gt;Once the settings are correct, click &lt;strong&gt;Generate&lt;&#x2F;strong&gt; to check for matches. If you don’t get any matches, then gradually expand the range by lowering &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt;, and increasing &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.020.jpeg&quot;&gt;&lt;&#x2F;center&gt;The **Bashful** Mudkip received on the first attempt was 8129, which is 2 advances early compared to the target of 8131. EonTimer’s **Calibration** function allows us to automatically adjust the timer for this difference.
+&lt;p&gt;Enter 8129 into the &lt;strong&gt;Frame Hit&lt;&#x2F;strong&gt; box, and click &lt;strong&gt;Update&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.021.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;&lt;strong&gt;Calibration&lt;&#x2F;strong&gt; will update with a number of milliseconds equal to the difference between your &lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; and the &lt;strong&gt;Frame Hit.&lt;&#x2F;strong&gt; In the example, &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; becomes 33 after clicking update, because we were 2 frames early. At 60 frames per second, each frame lasts 16.66667 milliseconds.&lt;&#x2F;p&gt;
+&lt;p&gt;From here, the goal is to try again using this timer, until you’ve hit the Starter on your &lt;strong&gt;Target Frame.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;As a rule of thumb, once you start being off by 1 advance either above-or-below the target you can stop adjusting EonTimer. 16.666 milliseconds is a very small amount of time, and well within the margins of human error.&lt;&#x2F;p&gt;
+&lt;p&gt;Eventually, you’ll hit the &lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; and the &lt;strong&gt;IVs&lt;&#x2F;strong&gt; and &lt;strong&gt;Nature&lt;&#x2F;strong&gt; will match, but it will not be Shiny.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.022.jpeg&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This means that you were not frame perfect on your Secret ID A-Press when exiting the Intro Cutscene earlier, and that’s okay! In our example, this means our Secret ID was not &lt;strong&gt;05610.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.023.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This is why it’s recommended to save the list of potential Secret IDs that are near 1000.&lt;&#x2F;p&gt;
+&lt;p&gt;Rather than starting a New Game and trying to hit Advance 1000 again, you can instead change your profile to one of the nearby Secret IDs. In the example, I moved to Advance 1001, which is Secret ID &lt;strong&gt;23976.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.024.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;The process for checking this Secret ID is the same as the first. You’ll want to reset the Gen 3 Static window back to how it was when searching for the nearest Shiny Advance.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.025.jpeg&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;With the new Secret ID of &lt;strong&gt;23976&lt;&#x2F;strong&gt; in place, the next potential Shiny Starter is on Advance 3138. Repeat the cycle of:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Change Profile to New SID&lt;&#x2F;li&gt;
+&lt;li&gt;Search for Nearest Shiny Starter&lt;&#x2F;li&gt;
+&lt;li&gt;Make Attempt and Calculate Stats&lt;&#x2F;li&gt;
+&lt;li&gt;Adjust EonTimer&lt;&#x2F;li&gt;
+&lt;li&gt;Repeat Attempts Until Stats \ Nature Match&lt;&#x2F;li&gt;
+&lt;li&gt;If not Shiny, return to Step 1...&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Until...&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;Aspose.Words.002015de-ae30-4697-8b9d-ef86510a8d8c.026.jpeg&quot;&gt;&lt;&#x2F;center&gt;
+&lt;h3 id=&quot;failure-conditions&quot;&gt;Failure Conditions&lt;&#x2F;h3&gt;
+&lt;p&gt;It’s absolutely possible to get your Shiny Starter after checking only 1 or 2 SIDs. However, it entirely depends on how accurately the timer was hit during the intro cutscene, and whether or not errors were made.&lt;&#x2F;p&gt;
+&lt;p&gt;It’s fairly common for first timers to check 5 or more SIDs without seeing a Shiny. It can be frustrating, but &lt;strong&gt;DON’T GIVE UP.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;However,&lt;&#x2F;strong&gt; as a general rule, I don’t recommend checking beyond the range of 995 to 1005. If the Intro portion is done correctly, it’s very unlikely to be more than 5 advances off.&lt;&#x2F;p&gt;
+&lt;p&gt;In the event you’ve verified your Secret ID is definitely not between 995 to 1005, it’s a good idea to start a New Game and try hitting Advance 1000 on a new Trainer ID.&lt;&#x2F;p&gt;
+&lt;p&gt;It’s a bit of a gamble either way. You could be one extra SID check away from your Shiny, or you might have made a mistake in the Intro Sequence and wind up checking 20 SIDs with no Shiny.&lt;&#x2F;p&gt;
+&lt;p&gt;Whatever you choose to do, once you see a Shiny Starter and your Secret ID is confirmed, RNG manipulating the rest of the game is now available to you.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;p&gt;Beginner: Sweet Scent RNG Manipulation Beginner: Stationary RNG Manipulation&lt;&#x2F;p&gt;
 </content>
         
     </entry>
