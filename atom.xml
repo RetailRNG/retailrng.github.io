@@ -1032,7 +1032,7 @@ content directories as needed.&lt;&#x2F;p&gt;
         
     </entry>
     <entry xml:lang="en">
-        <title>Trainer ID &amp; Starter Manip</title>
+        <title>R&#x2F;S Trainer ID &amp; Starter Manip</title>
         <published>2021-05-01T08:20:00+00:00</published>
         <updated>2021-05-01T08:20:00+00:00</updated>
         
@@ -1323,7 +1323,7 @@ Upon pressing A at the final text box of the intro cutscene, the Secret
 ID is locked in 50 RNG advances later.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
-&lt;summary&gt;Frames Vs Advances&lt;&#x2F;summary&gt;
+&lt;summary&gt;Note: Frames Vs Advances&lt;&#x2F;summary&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Frames&lt;&#x2F;strong&gt; and &lt;strong&gt;Advances&lt;&#x2F;strong&gt; are often used interchangeably across RNG documentation, guides,&lt;&#x2F;em&gt;
 &lt;em&gt;and tools.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Frames&lt;&#x2F;strong&gt; is a commonly used term to describe game-state intervals in Speedrunning and Fighting Games. Updating video game logic every visual frame is a common practice, and this is generally how it works Generation 3, but not always&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
@@ -1600,7 +1600,7 @@ Beginner: Stationary RNG Manipulation&lt;&#x2F;p&gt;
         
     </entry>
     <entry xml:lang="en">
-        <title>FRLG Section 1</title>
+        <title>Introduction</title>
         <published>2021-05-01T08:00:00+00:00</published>
         <updated>2021-05-01T08:00:00+00:00</updated>
         
@@ -1617,6 +1617,422 @@ Beginner: Stationary RNG Manipulation&lt;&#x2F;p&gt;
         
         <content type="html" xml:base="https://retailrng.com/rs/beginner/introduction/">&lt;h2 id=&quot;starter-knowledge&quot;&gt;Starter Knowledge&lt;&#x2F;h2&gt;
 &lt;p&gt;One page summary of how to start a new AdiDoks project. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>R&#x2F;S Static Encounter Manip</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/rs/beginner/static-manip/"/>
+        <id>https://retailrng.com/rs/beginner/static-manip/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/rs/beginner/static-manip/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;After setting up your Trainer ID and Secret ID and successfully RNG
+Manipping your Starter Pokémon, Manipping a &lt;strong&gt;Static&lt;&#x2F;strong&gt; encounter is the
+next logical step. These are, largely, the same process as the Starter
+Pokémon, but with more variety in situations and circumstances.&lt;&#x2F;p&gt;
+&lt;p&gt;This pool of Pokémon includes all of the &lt;strong&gt;Legendary Pokémon&lt;&#x2F;strong&gt; and
+various overworld encounters, like Kecleon or Electrode.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+&lt;strong&gt;NOTE:&lt;&#x2F;strong&gt; This guide will &lt;strong&gt;NOT INCLUDE ROAMING Pokémon&lt;&#x2F;strong&gt;. There will be
+a separate guide in the &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; section for them.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pokémon Ruby or Sapphire with a Dead Internal Battery (any
+language)&lt;br &#x2F;&gt;
+GameBoy Advance, Gameboy Player, Nintendo DS &#x2F; DS Lite, GBA
+Emulator, or Pokémon Box Ruby &amp;amp; Sapphire.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Save at the location directly in-front of whichever Pokémon you wish
+to capture or receive.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;At least one free space in your party.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokeballs to capture it, if it&#x27;s a capture.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokémon to aid in capture, such as a &lt;strong&gt;false swipe&lt;&#x2F;strong&gt; user or a
+&lt;strong&gt;spore user&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;5-10 Rare Candies. (Not 100% Needed, but helpful).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokéFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokéFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;RetailRNG&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;v3.0.0&quot;&gt;EonTimer 3.0.0&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=\_8qxkkGeXok&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;step-1-pick-your-target&quot;&gt;Step 1: Pick your target&lt;&#x2F;h3&gt;
+&lt;p&gt;The first thing we have to do is pick our target Pokémon. Open
+PokéFinder, and select &lt;strong&gt;Static&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage4.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will open up and by default be on the &lt;strong&gt;Generator&lt;&#x2F;strong&gt; tab,
+which is where we want to be. Before inputting any settings, make sure
+you select your profile. &lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;rs&#x2F;beginner&#x2F;trainer-id-starter-manip&#x2F;#step-4-starter-setup&quot;&gt;If you have not made one, I covered how to
+here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section set &lt;strong&gt;Method&lt;&#x2F;strong&gt; to &lt;strong&gt;Method 1.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Your profile should automatically set the &lt;strong&gt;Seed&lt;&#x2F;strong&gt; to 5A0, Ruby &amp;amp;
+Sapphires dead battery seed.&lt;&#x2F;p&gt;
+&lt;p&gt;Leave &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt;, &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt;, and &lt;strong&gt;Delay&lt;&#x2F;strong&gt; at their
+default values.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Note: What is Delay?&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Delay&lt;&#x2F;strong&gt; in Ruby, Sapphire, Emerald, Fire Red, and Leaf Green is how
+many RNG Advances occur after you press A to encounter or receive your
+Pokémon, but before the Pokémon is generated.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;In the past, we would consult a list that told you what this value was
+for various encounters. We no longer do this, and no guide here will
+reference such lists. This is for two main reasons.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;1. Attempting to hit your target Pokémon, missing it, and calibrating
+your miss is an integral part of the RNG Process. Figuring out a
+specific legendaries &lt;strong&gt;Delay&lt;&#x2F;strong&gt; will only take one of these. Because we
+teach RNGing this way, &lt;strong&gt;Delay&lt;&#x2F;strong&gt; no longer serves a purpose.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;2. Many people would refrain from performing certain manips if they did
+not know a Pokémon&#x27;s &lt;strong&gt;Delay&lt;&#x2F;strong&gt;. Such hesitance is bad, we do not want
+people thinking they &lt;strong&gt;CANNOT&lt;&#x2F;strong&gt; do a manip without an arbitrary list
+somewhere, when they absolutely can.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;In short, &lt;strong&gt;Delay&lt;&#x2F;strong&gt; is a social construct we as a community have moved
+past the need for.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;In &lt;strong&gt;Settings&lt;&#x2F;strong&gt; you will choose your &lt;strong&gt;Pokémon&lt;&#x2F;strong&gt;. They are in their
+respective &lt;strong&gt;Category&lt;&#x2F;strong&gt;. They should be self explanatory, and there are
+not that many Static Encounters, anyway.&lt;&#x2F;p&gt;
+&lt;p&gt;In this example, I will be using &lt;strong&gt;Regirock&lt;&#x2F;strong&gt;. However, I will provide
+info for every &lt;strong&gt;Static&lt;&#x2F;strong&gt; encounter in Ruby &amp;amp; Sapphire so you can apply
+that info to your specific situation.&lt;&#x2F;p&gt;
+&lt;p&gt;Lastly is the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section. This again, is personal choice.
+Select the &lt;strong&gt;IVs&lt;&#x2F;strong&gt;, &lt;strong&gt;Nature&lt;&#x2F;strong&gt;, &lt;strong&gt;Gender&lt;&#x2F;strong&gt;, &lt;strong&gt;Hidden Power&lt;&#x2F;strong&gt;, Ability
+you want. And also select if you want a &lt;strong&gt;Shiny.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+I will just be going for a simple &lt;strong&gt;Shiny&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+&lt;strong&gt;Shiny&lt;&#x2F;strong&gt; is set to Star&#x2F;Square, which will show every potential Shiny.
+Star vs. Square doesn&#x27;t matter in any game other than Sword &amp;amp; Shield,
+but Pokémon transferred from Gen 3 up to those games will retain their
+Star&#x2F;Square Shiny status.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+For these Pokémon &lt;strong&gt;Shininess&lt;&#x2F;strong&gt; occurs on the same &lt;strong&gt;Advances&lt;&#x2F;strong&gt; as the
+&lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;rs&#x2F;beginner&#x2F;trainer-id-starter-manip&#x2F;&quot;&gt;Starter Pokémon we RNG&#x27;d in the previous
+guide&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Once your &lt;strong&gt;Filters&lt;&#x2F;strong&gt; are set, click &lt;strong&gt;Generate&lt;&#x2F;strong&gt;. You should get
+several results, and have a window that looks like this:&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage12.png&quot; width=&quot;80%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;If you get no results, that means no Pokémon within &lt;strong&gt;100,000 Advances&lt;&#x2F;strong&gt;
+exists, which is about a 26 minute period of time. There are ways to
+circumvent this issue, but they are difficult techniques covered in our
+&lt;strong&gt;Advanced&lt;&#x2F;strong&gt; section.&lt;&#x2F;p&gt;
+&lt;p&gt;In the meantime, if you have none, loosen your restrictions on what you
+want. Accept some worse IVs, or a Worse Nature, etc.&lt;&#x2F;p&gt;
+&lt;p&gt;I will be aiming for 7660, the same as I did for the &lt;strong&gt;Starter&lt;&#x2F;strong&gt;
+Pokémon. This is one of Ruby &amp;amp; Sapphires main benefits.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+With a Dead Internal Battery, and the ability to &lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;rs&#x2F;beginner&#x2F;trainer-id-starter-manip&#x2F;&quot;&gt;RNG Manip your
+Trainer ID and Secret
+ID&lt;&#x2F;a&gt;,
+you can pick a very early &lt;strong&gt;Advance&lt;&#x2F;strong&gt; for your &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; and hit it over
+&amp;amp; over again on different Pokémon. This allows you to learn the basics
+of RNG Manips through repetition, while getting a bunch of shinies!&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Note: But, aren&#x27;t these Pokémon all clones?&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;Many people discount &#x2F; belittle this type of RNG Manip because it
+produces a lot of &lt;strong&gt;PID Clones&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; &lt;em&gt;and can produce &lt;strong&gt;True Clones&lt;&#x2F;strong&gt; as
+well. But, what are these things, what&#x27;s the difference between them,
+and does it even matter?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;A &lt;strong&gt;PID Clone&lt;&#x2F;strong&gt; is often described as RNG Manipping two &lt;strong&gt;different
+species&lt;&#x2F;strong&gt; of Pokémon on the same &lt;strong&gt;RNG Advance&lt;&#x2F;strong&gt;. This means the two
+Pokémon will have the same &lt;strong&gt;Nature&lt;&#x2F;strong&gt;, &lt;strong&gt;IVs&lt;&#x2F;strong&gt;, and &lt;strong&gt;Shiny Status&lt;&#x2F;strong&gt;,
+for the most part.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;A &lt;strong&gt;True Clone&lt;&#x2F;strong&gt; is RNG Manipping the same species of Pokémon on the
+same &lt;strong&gt;RNG Advance&lt;&#x2F;strong&gt;. This means the two Pokémon &lt;strong&gt;Nature&lt;&#x2F;strong&gt;, &lt;strong&gt;IVs&lt;&#x2F;strong&gt;,
+&lt;strong&gt;Ability&lt;&#x2F;strong&gt;, &lt;strong&gt;Gender&lt;&#x2F;strong&gt;, and &lt;strong&gt;Shiny Status&lt;&#x2F;strong&gt;, for the most part.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;While rare, sometimes a Pokémon the same &lt;strong&gt;RNG Advance&lt;&#x2F;strong&gt; will spawn
+with a different &lt;strong&gt;Method&lt;&#x2F;strong&gt;. This keeps the Pokémons &lt;strong&gt;PIDs&lt;&#x2F;strong&gt; the same,
+but their &lt;strong&gt;IVs&lt;&#x2F;strong&gt; will be different. Is this a clone? Are the other ones
+clones? Does it even matter?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Well, that&#x27;s entirely personal. Not only is it possible for this to
+happen entirely naturally, it&#x27;s actually very likely to. If you&#x27;re
+playing without Manips on &lt;strong&gt;Emerald&lt;&#x2F;strong&gt; or &lt;strong&gt;Dead Battery Ruby&lt;&#x2F;strong&gt; &amp;amp;
+&lt;strong&gt;Sapphire&lt;&#x2F;strong&gt;, the game&#x27;s RNG is not functioning properly anyway. You
+can and will hit the same &lt;strong&gt;RNG Advance&lt;&#x2F;strong&gt;, randomly, without knowing
+it.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;No &lt;strong&gt;Official&lt;&#x2F;strong&gt; legality checks have ever cared about these types of
+&amp;quot;clones&amp;quot;, and neither has anything in-game. So they are all 100% safe to
+transfer.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+I have had a lot of fun playing the game this way, doing many shiny only
+nuzlockes or playthroughs. But, if you find this gets stale, do not
+worry, late into the &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; and &lt;strong&gt;Advanced&lt;&#x2F;strong&gt; guide sections,
+we will be covering ways around this.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;With our target picked out, we can move onto the Static Manip!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-2-static-manip&quot;&gt;Step 2: Static Manip&lt;&#x2F;h3&gt;
+&lt;p&gt;To get started with the Static Manip, you want to save in-front of
+whichever Pokémon you want to receive. Here I am in front Regirock.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;List: Castform, Kyogre, Groudon, Lileep, &amp; Anorith&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;These five Pokémon have slightly unique save positions and requirements
+than the rest of the &lt;strong&gt;Static&lt;&#x2F;strong&gt; encounters.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Castform&lt;&#x2F;strong&gt;: Castform is given to you after you defeat Team Aqua or
+Magma in the Weather Institute, directly after a battle. Make sure to
+enter this battle with a party of 6 Pokémon, that way, after the battle,
+the Scientist who gives Castform to you will not do so because your
+party is full. We want to do this so we can receive Castform later,
+without the battle interfering with the RNG Manip. Once you do this,
+return to the Scientist with a party of 5 Pokémon and save in-front of
+him to perform the Manip.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Kyogre &amp;amp; Groudon&lt;&#x2F;strong&gt;: These Legendaries have text which is triggered by
+a &lt;strong&gt;Step Forward&lt;&#x2F;strong&gt; rather than an &lt;strong&gt;A Press&lt;&#x2F;strong&gt;. Save one step away from
+this tile.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Lileep &amp;amp; Anorith&lt;&#x2F;strong&gt;: The two fossils are generated when you receive
+them from the Scientist, not when you give them to him. So first you
+must give him your fossil, then walk out of the building so he finishes
+reviving them, and walk back to him and save the game.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage15.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then, in Eon Timer, put the number from the &lt;strong&gt;Advances&lt;&#x2F;strong&gt; Column into the
+&lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; box in EonTimer. In my case, it is 7660. Also, make
+sure the value in &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; is 0.&lt;&#x2F;p&gt;
+&lt;p&gt;For every type of Manip, the amount of calibration will be different,
+because the game delays generating whatever you&#x27;re manipping
+differently, based on what it&#x27;s generating.Your Eon Timer should look
+something like this, but with your target advance instead.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Pretimer&lt;&#x2F;strong&gt; is optional.&lt;&#x2F;p&gt;
+&lt;p&gt;When set to 0, clicking Start on EonTimer will immediately start the
+countdown to your target &lt;strong&gt;Advance&lt;&#x2F;strong&gt;. This requires you to soft reset
+your game at the same time as clicking &lt;strong&gt;Start&lt;&#x2F;strong&gt; on Eon Timer.&lt;&#x2F;p&gt;
+&lt;p&gt;Setting this to 5000 will create a 5 second countdown, which you will
+soft reset the game to, then the countdown for your &lt;strong&gt;Target Advance&lt;&#x2F;strong&gt;
+Begins. I&#x27;ll be using this method for the remainder of the guide.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage9.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;We are almost ready to begin. You need to know two more things.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;WHEN&lt;&#x2F;em&gt; to press A to encounter the Pokémon. Usually it&#x27;s the final text box
+before receipt &#x2F; encounter.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;IF&lt;&#x2F;em&gt; there is text at all. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Here is a list so you can be certain of when to Press A, and if there is text.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;List: Final A Press Locations&lt;&#x2F;summary&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Treecko: Do you choose this POKéMON? YES&#x2F;NO&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Torchic: Do you choose this POKéMON? YES&#x2F;NO&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Mudkip: Do you choose this POKéMON? YES&#x2F;NO&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Lileep: The fossil was an ancient POKéMON. LILEEP, it was!&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Anorith: The fossil was an ancient POKéMON. ANORITH, it was!&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Castform: It might be an odd way of thanking you, but take this POKéMON.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Wynaut (Egg): Good! I hope you&#x27;ll walk plenty with this here EGG!&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Beldum: Take the POKé BALL? YES&#x2F;NO&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Kecleon: The startled POKéMON attacked!&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Voltorb: Press A in front of it&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Electrode: Press A in front of it&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Regirock: Press A in front of it&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Regice: Press A in front of it&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Registeel: Press A in front of it&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Latias (Southern Island): Press A in front of it&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Latios (Southern Island): Press A in front of it&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Kyogre: XXX&#x27;s BLUE ORB suddenly began glowing!&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Groudon: XXX&#x27;s RED ORB suddenly began glowing!&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Rayquaza: Press A in front of it&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;List compiled by &lt;strong&gt;ZSpica&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;If the Pokémon you are aiming for says &lt;em&gt;Press A in front of it&lt;&#x2F;em&gt;, click this drop down and follow the steps contained within. &lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;No Text Box:&lt;&#x2F;summary&gt;
+&lt;p&gt;At this point, we&#x27;re ready! Click &lt;strong&gt;Start&lt;&#x2F;strong&gt; Eon Timer, and when the
+pretimer finishes on the 6th beep, soft reset the game.&lt;&#x2F;p&gt;
+&lt;p&gt;If your Pokémon DOES NOT have dialogue, press &lt;strong&gt;Start&lt;&#x2F;strong&gt; to bring up the
+&lt;strong&gt;Menu&lt;&#x2F;strong&gt;. This will freeze any NPCs nearby, who may cause extra unwanted
+RNG Advancements. Dialogue boxes do this naturally, so those Static
+Pokémon do not need this extra step. Pictured below is how I wait for
+Regirock.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage17.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then, when Eontimer gets near the end of its countdown, it will beep 6
+times. On the &lt;strong&gt;3rd&lt;&#x2F;strong&gt; beep &lt;strong&gt;Press B&lt;&#x2F;strong&gt; to &lt;strong&gt;Close the Menu&lt;&#x2F;strong&gt;, and on the
+&lt;strong&gt;6th&lt;&#x2F;strong&gt; beep, when the timer finishes, &lt;strong&gt;Press A&lt;&#x2F;strong&gt; to start the
+encounter.&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;Otherwise, click this drop down and follow these steps.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Has Text Box:&lt;&#x2F;summary&gt;
+&lt;p&gt;At this point, we&#x27;re ready! Click &lt;strong&gt;Start&lt;&#x2F;strong&gt; Eon Timer, and when the
+pretimer finishes on the 6th beep, soft reset the game.&lt;&#x2F;p&gt;
+&lt;p&gt;If your Pokémon HAS text boxes in the list above, talk to whatever NPC &#x2F;
+Encounter you&#x27;re in and get to the final box of dialogue. Then, wait
+there until Eon Timer finishes counting down. Pictured Below is what
+waiting for Groudon looks like:&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage16.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then, when Eontimer gets near the end of its countdown, it will beep 6
+times. The goal is to press A on the 6th beep to start the encounter.&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage13.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;And we can see it&#x27;s not shiny like I wanted. It&#x27;s likely you also missed
+your target. We&#x27;re going to have to check the Pokémons summary screen to
+figure out what &lt;strong&gt;RNG Advance&lt;&#x2F;strong&gt; we landed on. To do that, we&#x27;ll have to
+catch it if it&#x27;s an encounter.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s worth mentioning, if you are aiming for a &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; and didn&#x27;t get
+one, just use the Masterball for a catch if you have it. You will not be
+keeping the Pokémon, so it just speeds the process up.&lt;&#x2F;p&gt;
+&lt;p&gt;Once you can view the Pokémons summary screen, we can move onto how to
+adjust.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;step-3-static-adjustment&quot;&gt;Step 3: Static Adjustment&lt;&#x2F;h3&gt;
+&lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
+out its IVs and use that to search.&lt;&#x2F;p&gt;
+&lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; we&#x27;ll leave Seed and Method alone, but we are going to
+change &#x27;Initial Advances&#x27;. To be about 1000 advances before our target.&lt;&#x2F;p&gt;
+&lt;p&gt;In my case, I am aiming for 7660. So I set it to 6660. Also set &lt;strong&gt;Max
+Advances&lt;&#x2F;strong&gt; to 2000. This will generate Pokémon spreads from 1000
+Advances before your target, and 1000 after it.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, for the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section, clear everything out to their default
+values. All IVs should be 0 to 31, and all of the drop downs should say
+&lt;strong&gt;Any&lt;&#x2F;strong&gt;, except &lt;strong&gt;Nature&lt;&#x2F;strong&gt; and &lt;strong&gt;Gender&lt;&#x2F;strong&gt;. Set those to what the Pokémon
+you received had. In my case it&#x27;s a &lt;strong&gt;Hardy&lt;&#x2F;strong&gt; Regirock, who has no
+&lt;strong&gt;Gender&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;After that, click the IV Calculator Button.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage5.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will pop up called IV Calculator. Here, you input a
+Pokémons stats, which get converted into IV Ranges for &lt;strong&gt;Generators IV&lt;&#x2F;strong&gt;
+&lt;strong&gt;Filters&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;Pokémon&lt;&#x2F;strong&gt; drop down, select the Pokémon you are manipping. And
+in the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; box, select its nature.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, at the bottom, put in the Pokémons Level and all of its stats, and
+hit &lt;strong&gt;Find IVs&lt;&#x2F;strong&gt;. You will see the &lt;strong&gt;Results&lt;&#x2F;strong&gt; section populated with IV
+Ranges.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage3.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage14.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;If you have Rare Candies to raise the Pokémon&#x27;s level, we can make the
+IV Ranges even more Precise. We aren&#x27;t keeping this Pokémon, so it&#x27;s
+safe to use them to gain info. They will come back when we soft reset!&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+To account for the extra level, click the &lt;strong&gt;Add Row&lt;&#x2F;strong&gt; button, and a new
+row to enter the information for its next level will appear.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage10.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage2.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;br&gt;
+&lt;p&gt;Once you have clicked &lt;strong&gt;Find IV&#x27;s&lt;&#x2F;strong&gt;, it also fills that info out within
+the &lt;strong&gt;Static Generator&lt;&#x2F;strong&gt; in PokéFinder.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage7.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;br&gt;
+&lt;p&gt;At this point, hit Generate. You should only get one result. If you get
+more than that, you can narrow down the results further by doing more
+levels in the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;If you do not have &lt;strong&gt;ANY&lt;&#x2F;strong&gt; rare candies and have &lt;strong&gt;more than one
+result&lt;&#x2F;strong&gt;, it&#x27;s generally fine to assume you hit the closest &lt;strong&gt;Advance&lt;&#x2F;strong&gt;
+to your target. In my case, I only got one possibility near me.&lt;&#x2F;p&gt;
+&lt;p&gt;If you have no results at all, expand your search range by decreasing
+&lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; by 1000, and increasing &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; by 1000,
+and click &lt;strong&gt;Generate&lt;&#x2F;strong&gt; again. Do this until you get at least 1 result.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage11.png&quot; width=&quot;90%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Now we need to update Eon Timer. In the &lt;strong&gt;Frame Hit&lt;&#x2F;strong&gt; box, put the
+Advance that you determined you landed on, and click update. The
+calibration will change, and you can try again.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage8.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Now repeat the process from &lt;strong&gt;Static Manip&lt;&#x2F;strong&gt; until you get your desired
+Pokémon.&lt;&#x2F;p&gt;
+&lt;p&gt;Eventually, with enough attempts, you will land on the Pokémon you are
+aiming for. The Regirock for this guide took me 3 attempts, including
+the first adjustment run.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage1.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage6.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;br&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Note: Some tips&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;If on the attempt after your adjustment run, you find you&#x27;re only one
+or two &lt;strong&gt;Advances&lt;&#x2F;strong&gt; off, try not adjusting. 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; is only 16
+milliseconds, well within the margin of human error.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Alternatively, if you find yourself dancing around it, consistently
+being 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; early or late several times, try adjusting anyway.
+Sometimes breaking out of the cycle, even if it makes you more late or
+early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Lastly, have patience! This is a skill to hone, maybe it takes you 10,
+15 tries now. But a couple weeks from now, maybe 5! Hope you&#x27;re having
+fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;p&gt;If you enjoyed this process and want to do more RNG Manips, I would
+suggest moving on to Wild RNG. While the general process and structure
+of the manip (Wait for timer, push button at right time) is not
+different, finding what &lt;strong&gt;Advance&lt;&#x2F;strong&gt; you landed on is slightly more
+challenging. Once you have Wild RNG Mastered, you&#x27;ll be able to take on
+some more advanced manip challenges.&lt;&#x2F;p&gt;
 </content>
         
     </entry>
