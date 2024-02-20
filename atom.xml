@@ -2500,6 +2500,336 @@ some more advanced manip challenges.&lt;&#x2F;p&gt;
         
     </entry>
     <entry xml:lang="en">
+        <title>R&#x2F;S Wild Encounter Manip</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/rs/beginner/wild-manip/"/>
+        <id>https://retailrng.com/rs/beginner/wild-manip/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/rs/beginner/wild-manip/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;After RNG Manipping your first Static Pokemon, you may be looking for
+some variety. Look no further than basic wild rng manips. While the
+general process is the same as Static (Start timer, Press A when done),
+you have a much wider variety of targets, and searching for what
+&lt;strong&gt;Advance&lt;&#x2F;strong&gt; you landed on is more difficult.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Wild RNG&lt;&#x2F;strong&gt; includes anywhere you can randomly find Pokemon by walking.
+This includes &lt;strong&gt;Grass&lt;&#x2F;strong&gt;, &lt;strong&gt;Surfing&lt;&#x2F;strong&gt;, &lt;strong&gt;Diving&lt;&#x2F;strong&gt;, &amp;amp; &lt;strong&gt;Caves&lt;&#x2F;strong&gt;. I will be
+excluding the &lt;strong&gt;Safari Zone&lt;&#x2F;strong&gt; from this guide, it is slightly more
+challenging for various reasons, and will be covered in our
+&lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; section.&lt;&#x2F;p&gt;
+&lt;p&gt;With that said, once you have mastered &lt;strong&gt;Static&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;Wild&lt;&#x2F;strong&gt; RNG Manips,
+you should move on to some more difficult manips.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pokemon Ruby or Sapphire(any language)&lt;br &#x2F;&gt;
+GameBoy Advance, Gameboy Player, Nintendo DS &#x2F; DS Lite, or a GBA
+Emulator&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Save at the location directly in-front of whichever Pokemon you wish
+to capture or receive.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Any Pokemon with the move &lt;strong&gt;Sweet Scent&lt;&#x2F;strong&gt;. The earliest available
+user in Ruby &amp;amp; Sapphire is &lt;strong&gt;Surskit&lt;&#x2F;strong&gt; on Route 102. But &lt;strong&gt;Oddish&lt;&#x2F;strong&gt;
+on route 110 is far more common, if you are willing to wait.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;At least one free space in your party.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokeballs to capture it, if it&#x27;s a capture.(&lt;strong&gt;Master Ball
+preferred&lt;&#x2F;strong&gt;)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokemon to aid in capture, such as a &lt;strong&gt;false swipe&lt;&#x2F;strong&gt; user or a
+&lt;strong&gt;spore user&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;5-10 Rare Candies. (Not 100% Needed, but helpful).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokéFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;RetailRNG&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;v3.0.0&quot;&gt;EonTimer 3.0.0&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=z7W7J657tqY&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
+PokeFinder, and select &lt;strong&gt;Wild&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage1.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will open up and by default be on the &lt;strong&gt;Generator&lt;&#x2F;strong&gt; tab,
+which is where we want to be. Before inputting any settings, make sure
+you select your profile. &lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;emerald&#x2F;beginner&#x2F;starter-rng&#x2F;#step-3-starter-timer&quot;&gt;If you have not set one up, I covered how to
+here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section set &lt;strong&gt;Method&lt;&#x2F;strong&gt; to &lt;strong&gt;Wild 1.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Selecting your &lt;strong&gt;Profile&lt;&#x2F;strong&gt; should have set the seed to &lt;strong&gt;5A0.&lt;&#x2F;strong&gt; .&lt;&#x2F;p&gt;
+&lt;p&gt;Leave &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt;, &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt;, and &lt;strong&gt;Delay&lt;&#x2F;strong&gt; at their
+default values.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Note: Sweet Scent Delay?&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;In our &lt;strong&gt;Static RNG Guide&lt;&#x2F;strong&gt;, I covered why we do not list delays
+anymore. But you may be wondering why not cover &lt;strong&gt;Sweet Scents&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;
+&lt;em&gt;&lt;strong&gt;Delay&lt;&#x2F;strong&gt;, since it should be the same everywhere?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;The reason is because &lt;strong&gt;Sweet Scent&#x27;s&lt;&#x2F;strong&gt; delay changes based on which
+area you are in, and what game you are in. And again, learning how to
+calibrate after missing your &lt;strong&gt;Target&lt;&#x2F;strong&gt; once is an important step in the
+process.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;In short- Don&#x27;t stress about &lt;strong&gt;Delay&lt;&#x2F;strong&gt;. It&#x27;s not useful to us, learning
+how to &lt;strong&gt;Calibrate&lt;&#x2F;strong&gt; will teach you how to handle delays.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;Before we move on to settings, think of what &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; you want to RNG
+Manip, because its species, &lt;strong&gt;Location&lt;&#x2F;strong&gt;, &amp;amp; &lt;strong&gt;Encounter Type&lt;&#x2F;strong&gt; will all
+be important to this section.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;strong&gt;Settings&lt;&#x2F;strong&gt; you will choose your &lt;strong&gt;Encounter Type&lt;&#x2F;strong&gt;. We can choose
+between &lt;strong&gt;Grass&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;Surfing&lt;&#x2F;strong&gt;. Functionally, they are the same, but
+they have different &lt;strong&gt;Locations&lt;&#x2F;strong&gt; available to them.&lt;&#x2F;p&gt;
+&lt;p&gt;If you are unsure of a Pokemons &lt;strong&gt;Location&lt;&#x2F;strong&gt; &amp;amp; what &lt;strong&gt;Encounter Type&lt;&#x2F;strong&gt;
+it uses, &lt;strong&gt;PokeFinder&lt;&#x2F;strong&gt; has a tool to help you. Back in the &lt;strong&gt;Main
+Window&lt;&#x2F;strong&gt;, we will click the &lt;strong&gt;Tools&lt;&#x2F;strong&gt; dropdown, and then click
+&lt;strong&gt;Encounter Lookup&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage12.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will pop up. Here, in the &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; dropdown, select your
+target &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt;. Then, in the &lt;strong&gt;Game&lt;&#x2F;strong&gt; dropdown, select your
+&lt;strong&gt;Game&lt;&#x2F;strong&gt;. Then, click &lt;strong&gt;Find&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage9.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You will be shown every &lt;strong&gt;Location&lt;&#x2F;strong&gt; in the game where your &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt;
+spawns, and what &lt;strong&gt;Encounter&lt;&#x2F;strong&gt; type it uses. Here we can see &lt;strong&gt;Duskull&lt;&#x2F;strong&gt;
+uses the &lt;strong&gt;Grass Encounter Type&lt;&#x2F;strong&gt;, and all its &lt;strong&gt;Locations&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;After we select &lt;strong&gt;Encounter&lt;&#x2F;strong&gt;, we will select our &lt;strong&gt;Location&lt;&#x2F;strong&gt;, which is
+provided by &lt;strong&gt;Encounter Lookup&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, we select our &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; in the &lt;strong&gt;Pokemon Dropdown.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Lastly is the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section. This again, is personal choice.
+Select the &lt;strong&gt;IVs&lt;&#x2F;strong&gt;, &lt;strong&gt;Nature&lt;&#x2F;strong&gt;, &lt;strong&gt;Gender&lt;&#x2F;strong&gt;, &lt;strong&gt;Hidden Power&lt;&#x2F;strong&gt;, Ability
+you want. And also select if you want a &lt;strong&gt;Shiny.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+I will just be aiming for a simple &lt;strong&gt;Shiny&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+&lt;strong&gt;Shiny&lt;&#x2F;strong&gt; is set to Star&#x2F;Square, which will show every potential Shiny.
+Star vs. Square doesn&#x27;t matter in any game other than Sword &amp;amp; Shield,
+but Pokémon transferred from Gen 3 up to those games will retain their
+Star&#x2F;Square Shiny status.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s worth mentioning that &lt;strong&gt;Wild RNG&lt;&#x2F;strong&gt; is not the same as &lt;strong&gt;Static&lt;&#x2F;strong&gt;
+&lt;strong&gt;RNG&lt;&#x2F;strong&gt; in the sense that you will always have the same targets
+available to you. Sometimes trainer IDs may produce multiple shiny
+targets of different species on nearby &lt;strong&gt;Advances&lt;&#x2F;strong&gt;. So I encourage you
+to leave the &lt;strong&gt;Pokemon Dropdown&lt;&#x2F;strong&gt; blank to see if you have any other
+&lt;strong&gt;Targets&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This Trainer ID unfortunately only has &lt;strong&gt;Advance&lt;&#x2F;strong&gt; 7657 available as a
+Shiny, which, while being a different &lt;strong&gt;Advance&lt;&#x2F;strong&gt;, is the same &lt;strong&gt;PID&lt;&#x2F;strong&gt; &amp;amp;
+&lt;strong&gt;IVs&lt;&#x2F;strong&gt; as our &lt;strong&gt;Starter &#x2F; Static&lt;&#x2F;strong&gt; targets. You probably have the same
+&lt;strong&gt;PID&lt;&#x2F;strong&gt; available to you, but you also may not. It&#x27;s up to you to
+investigate.&lt;&#x2F;p&gt;
+&lt;p&gt;Once your &lt;strong&gt;Filters&lt;&#x2F;strong&gt; are set, click &lt;strong&gt;Generate&lt;&#x2F;strong&gt;. You should get
+several results, and have a window that looks like this:&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage15.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;If you get no results, that means no Pokemon within &lt;strong&gt;100,000 Advances&lt;&#x2F;strong&gt;
+exists, which is about a 26 minute period of time. There are ways to
+circumvent this issue, but they are difficult techniques covered in our
+&lt;strong&gt;Advanced&lt;&#x2F;strong&gt; section.&lt;&#x2F;p&gt;
+&lt;p&gt;In the meantime, if you have none, loosen your restrictions on what you
+want. Accept some worse IVs, or a Worse Nature, Different Species, or
+&lt;strong&gt;Change Routes&lt;&#x2F;strong&gt; if your Pokemon is available on another one.&lt;&#x2F;p&gt;
+&lt;p&gt;I will be aiming for &lt;strong&gt;Advance&lt;&#x2F;strong&gt; 7657. You can see here the earlier
+&lt;strong&gt;Advances&lt;&#x2F;strong&gt; I had available to me via &lt;strong&gt;Static RNG&lt;&#x2F;strong&gt; are missing. I
+only have the &lt;strong&gt;Adamant&lt;&#x2F;strong&gt; Target, so this is not 100% the same.&lt;&#x2F;p&gt;
+&lt;p&gt;With our target picked out, we can move onto the Wild Manip!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wild-manip&quot;&gt;Wild Manip&lt;&#x2F;h3&gt;
+&lt;p&gt;To get started with the Wild Manip, you want to save in-front in the
+&lt;strong&gt;Location&lt;&#x2F;strong&gt; you want to RNG Manip in. Here is me saved on Route 121.
+Your area in the &lt;strong&gt;Location&lt;&#x2F;strong&gt; does not matter.&lt;&#x2F;p&gt;
+&lt;p&gt;Also &lt;strong&gt;MAKE SURE YOU HAVE A POKEMON WITH SWEET SCENT IN YOUR PARTY&lt;&#x2F;strong&gt;. In
+my case, I am using Oddish. You can use any &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; with that move.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage19.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then, in Eon Timer, put the number from the &lt;strong&gt;Advances&lt;&#x2F;strong&gt; Column into the
+&lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; box in EonTimer. In my case, it is 7657. Also, make
+sure the value in &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; is 0.&lt;&#x2F;p&gt;
+&lt;p&gt;For every type of Manip, the amount of calibration will be different,
+because the game delays generating whatever you&#x27;re manipping
+differently, based on what it&#x27;s generating. Your Eon Timer should look
+something like this, but with your target advance instead.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Pretimer&lt;&#x2F;strong&gt; is optional.&lt;&#x2F;p&gt;
+&lt;p&gt;When set to 0, clicking Start on EonTimer will immediately start the
+countdown to your target &lt;strong&gt;Advance&lt;&#x2F;strong&gt;. This requires you to soft reset
+your game at the same time as clicking &lt;strong&gt;Start&lt;&#x2F;strong&gt; on Eon Timer.&lt;&#x2F;p&gt;
+&lt;p&gt;Setting this to 5000 will create a 5 second countdown, which you will
+soft reset the game to, then the countdown for your &lt;strong&gt;Target Advance&lt;&#x2F;strong&gt;
+Begins. I&#x27;ll be using this method for the remainder of the guide.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage10.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You should also click the gear icon, and make sure your console setting
+is correct.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+GBA and NDS-GBA have slightly different frame rates.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+&lt;strong&gt;GBA: 59.7275 fps&lt;br &#x2F;&gt;
+NDS-GBA: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative
+to the actual game.&lt;&#x2F;p&gt;
+&lt;p&gt;If you&#x27;re playing on unofficial hardware or emulator, stick with GBA as
+this is usually the default.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage8.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;br&gt;
+&lt;p&gt;You don&#x27;t need to touch &lt;strong&gt;Refresh Interval&lt;&#x2F;strong&gt; or &lt;strong&gt;Precision
+Calibration&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;We are all ready to begin!&lt;&#x2F;p&gt;
+&lt;p&gt;At this point, we&#x27;re ready! Click &lt;strong&gt;Start&lt;&#x2F;strong&gt; Eon Timer, and when the&lt;&#x2F;p&gt;
+&lt;p&gt;pretimer finishes on the 6th beep, soft reset the game.&lt;&#x2F;p&gt;
+&lt;p&gt;Get to the overworld, and press &lt;strong&gt;Start&lt;&#x2F;strong&gt; to bring up the &lt;strong&gt;Menu&lt;&#x2F;strong&gt;. This
+will freeze any NPCs nearby, who may cause extra unwanted RNG
+Advancements.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage18.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then, head into your &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; Menu. Press A on your Sweet Scent user,
+and hover over the &lt;strong&gt;Sweet Scent&lt;&#x2F;strong&gt; option.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage21.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then, when Eontimer gets near the end of its countdown, it will beep 6
+times. The goal is to press A on the 6th beep to start the encounter
+using &lt;strong&gt;Sweet Scent&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage13.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;And we can see not only is the &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; not shiny, it&#x27;s not even the
+correct species.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s likely you also missed your target. We&#x27;re going to have to check
+the Pokemons summary screen to figure out what &lt;strong&gt;RNG Advance&lt;&#x2F;strong&gt; we landed
+on. To do that, we&#x27;ll have to catch it.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s worth mentioning, if you are aiming for a &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; and didn&#x27;t get
+one, just use the Masterball for a catch if you have it. You will not be
+keeping the Pokemon, so it just speeds the process up.&lt;&#x2F;p&gt;
+&lt;p&gt;Once you can view the Pokemons summary screen, we can move onto how to
+adjust.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;wild-adjustment&quot;&gt;Wild Adjustment&lt;&#x2F;h3&gt;
+&lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
+out its IVs and use that to search.&lt;&#x2F;p&gt;
+&lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; we&#x27;ll leave Seed and Method alone, but we are going to
+change &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; to be about 1000 advances before our target.&lt;&#x2F;p&gt;
+&lt;p&gt;In my case, I am aiming for 7657. So I set it to 6657. Also set &lt;strong&gt;Max
+Advances&lt;&#x2F;strong&gt; to 2000. This will generate Pokemon spreads from 1000
+Advances before your target, and 1000 after it.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;Settings&lt;&#x2F;strong&gt; section, change the &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; to the species you
+caught.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, for the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section, clear everything out to their default
+values. All IVs should be 0 to 31, and all of the drop downs should say
+&lt;strong&gt;Any&lt;&#x2F;strong&gt;, except &lt;strong&gt;Nature&lt;&#x2F;strong&gt; and &lt;strong&gt;Gender&lt;&#x2F;strong&gt;. Set those to what the Pokemon
+you received had. In my case it&#x27;s an &lt;strong&gt;Adamant&lt;&#x2F;strong&gt; Oddish, who is
+&lt;strong&gt;Female&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;After that, click the IV Calculator Button.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage11.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will pop up called IV Calculator. Here, you input a
+Pokemons stats, which get converted into IV Ranges for &lt;strong&gt;Generators IV
+Filters&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; drop down, select the Pokemon you are manipping. And
+in the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; box, select its nature.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, at the bottom, put in the Pokemons Level and all of its stats, and
+hit &lt;strong&gt;Find IVs&lt;&#x2F;strong&gt;. You will see the &lt;strong&gt;Results&lt;&#x2F;strong&gt; section populated with IV
+Ranges.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage5.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage17.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;If you have Rare Candies to raise the Pokemon&#x27;s level, we can make the
+IV Ranges even more Precise. We aren&#x27;t keeping this Pokemon, so it&#x27;s
+safe to use them to gain info. They will come back when we soft reset!&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+To account for the extra level, click the &lt;strong&gt;Add Row&lt;&#x2F;strong&gt; button, and a new
+row to enter the information for its next level will appear.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage20.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage3.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once you have clicked &lt;strong&gt;Find IV&#x27;s&lt;&#x2F;strong&gt;, it also fills that info out within
+the &lt;strong&gt;Static Generator&lt;&#x2F;strong&gt; in PokeFinder.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage14.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;At this point, hit Generate. You should only get one result. If you get
+more than that, you can narrow down the results further by doing more
+levels in the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;If you do not have &lt;strong&gt;ANY&lt;&#x2F;strong&gt; rare candies and have &lt;strong&gt;more than one
+result&lt;&#x2F;strong&gt;, it&#x27;s generally fine to assume you hit the closest &lt;strong&gt;Advance&lt;&#x2F;strong&gt;
+to your target. In my case, I only got one possibility near me.&lt;&#x2F;p&gt;
+&lt;p&gt;If you have no results at all, expand your search range by decreasing
+&lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; by 1000, and increasing &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; by 1000,
+and click &lt;strong&gt;Generate&lt;&#x2F;strong&gt; again. Do this until you get at least 1 result.&lt;&#x2F;p&gt;
+&lt;p&gt;If you get no results &lt;strong&gt;after that&lt;&#x2F;strong&gt;, there is always the chance you hit
+a &lt;strong&gt;Different Method&lt;&#x2F;strong&gt;. While rare, it can happen. Be sure to check
+&lt;strong&gt;Methods Wild 2&lt;&#x2F;strong&gt;, and &lt;strong&gt;Wild 4&lt;&#x2F;strong&gt; if you get no results for
+&lt;strong&gt;THOUSANDS&lt;&#x2F;strong&gt; of &lt;strong&gt;Advances&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage6.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Note: Two Identical Results&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;Finding the correct &lt;strong&gt;Advance&lt;&#x2F;strong&gt; you landed on can be difficult if you
+do not have the ability to level up your &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; &amp;amp; it is a low level
+encounter. Sometimes, you will end up with a situation like this:&lt;&#x2F;em&gt;&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage7.png&quot; width=&quot;90%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;&lt;em&gt;As you can see, it&#x27;s impossible to tell which &lt;strong&gt;Oddish&lt;&#x2F;strong&gt; I received.
+They are &lt;strong&gt;IDENTICAL&lt;&#x2F;strong&gt;. When this is the case, repeat the steps from
+&lt;strong&gt;Wild Manip&lt;&#x2F;strong&gt; until you land on a &lt;strong&gt;Target&lt;&#x2F;strong&gt; where you get only one
+result. This is not common, but it can happen.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Also, make sure you&#x27;re looking at all the details. &lt;strong&gt;Species&lt;&#x2F;strong&gt; &amp;amp;
+&lt;strong&gt;Level&lt;&#x2F;strong&gt; can be different while all else is identical. Just keep it in
+mind.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;Now we need to update Eon Timer. In the &lt;strong&gt;Frame Hit&lt;&#x2F;strong&gt; box, put the
+Advance that you determined you landed on, and click update. The
+calibration will change, and you can try again.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage2.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Now repeat the process from &lt;strong&gt;Wild Manip&lt;&#x2F;strong&gt; until you get your desired
+Pokemon.&lt;&#x2F;p&gt;
+&lt;p&gt;Eventually, with enough attempts, you will land on the Pokemon you are
+aiming for. The Duskull for this guide took me 3 attempts, including the
+first adjustment run.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage16.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage4.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Note: Some tips&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;If on the attempt after your adjustment run, you find you&#x27;re only one
+or two &lt;strong&gt;Advances&lt;&#x2F;strong&gt; off, try not adjusting. 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; is only 16
+milliseconds, well within the margin of human error.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;On the contrary, if you find yourself dancing around it, consistently
+being 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; early or late several times, try adjusting anyway.
+Sometimes breaking out of the cycle, even if it makes you more late or
+early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Lastly, have patience! This is a skill to hone, maybe it takes you 10,
+15 tries now. But a couple weeks from now, maybe 5! Hope you&#x27;re having
+fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;p&gt;Congratulations! You&#x27;ve finished all the &lt;strong&gt;Beginner&lt;&#x2F;strong&gt; RNG Manips for
+&lt;strong&gt;Ruby&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;Sapphire&lt;&#x2F;strong&gt;! At this point, I&#x27;d suggest delving into some
+more complicated subjects in our &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; section, or trying
+&lt;strong&gt;Pokemon Emerald&lt;&#x2F;strong&gt;, which is very similar to this.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; will contain a lot of familiar techniques showcased
+here, but with various different challenges. Things like &lt;strong&gt;Pokemon Box
+Ruby &amp;amp; Sapphire&lt;&#x2F;strong&gt;, &lt;strong&gt;Fishing&lt;&#x2F;strong&gt;, &lt;strong&gt;Rock Smash&lt;&#x2F;strong&gt;, &lt;strong&gt;The Safari Zone&lt;&#x2F;strong&gt; are
+all more challenging than these manips, while still being &amp;quot;Press A at
+Right Moment&amp;quot;. It&#x27;s other things that complicate them.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Advanced&lt;&#x2F;strong&gt; will contain extremely challenging manips with &lt;strong&gt;Multiple
+Frame Perfect Inputs&lt;&#x2F;strong&gt;, for those who want to go the extra mile to gain
+&lt;strong&gt;Perfect IV Shiny Pokemon &#x2F; Very Rare Pokemon&lt;&#x2F;strong&gt;. Things like &lt;strong&gt;Painting
+RNG&lt;&#x2F;strong&gt;, &lt;strong&gt;Egg RNG&lt;&#x2F;strong&gt;, &amp;amp; &lt;strong&gt;WishMakr Jirachi.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Flowtimer Converter</title>
         <published>2021-05-01T08:00:00+00:00</published>
         <updated>2021-05-01T08:00:00+00:00</updated>
