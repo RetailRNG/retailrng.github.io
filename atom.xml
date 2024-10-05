@@ -3218,6 +3218,8 @@ body {
     &lt;option value=&quot;0&quot;&gt;Ruby &#x2F; Sapphire&lt;&#x2F;option&gt;
 
             &lt;option value=&quot;0&quot;&gt;Emerald&lt;&#x2F;option&gt;
+			
+			&lt;option value=&quot;0&quot;&gt;Colosseum&#x2F;XD&lt;&#x2F;option&gt;
 
             &lt;option value=&quot;0&quot;&gt;SM&#x2F;USUM&lt;&#x2F;option&gt;
 
@@ -3237,8 +3239,12 @@ body {
 
     &lt;option value=&quot;59.8261&quot;&gt;New 3DS&#x2F;2DS&lt;&#x2F;option&gt;
 
-    &lt;option value=&quot;59.8261&quot;&gt;Old 3DS&#x2F;2DS&lt;&#x2F;option&gt;    
-	
+    &lt;option value=&quot;59.8261&quot;&gt;Old 3DS&#x2F;2DS&lt;&#x2F;option&gt;
+
+	&lt;option value=&quot;59.94&quot;&gt;NTSC-U&lt;&#x2F;option&gt; 
+
+	&lt;option value=&quot;50&quot;&gt;PAL&lt;&#x2F;option&gt;   	
+    	
 	&lt;option value=&quot;60&quot;&gt;60FPS&lt;&#x2F;option&gt;
 
 
@@ -3255,6 +3261,8 @@ body {
     &lt;option value=&quot;268&quot;&gt;Sweet Scent(Indoors)&lt;&#x2F;option&gt;
 
     &lt;option value=&quot;0&quot;&gt;ID RNG&lt;&#x2F;option&gt;
+	
+    &lt;option value=&quot;0&quot;&gt;ZERO VALUE&lt;&#x2F;option&gt;
 
             
 
