@@ -704,7 +704,7 @@ at &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translat
         
     </entry>
     <entry xml:lang="en">
-        <title>FRLG Section 1</title>
+        <title>R&#x2F;S Rock Smash RNG</title>
         <published>2021-05-01T18:20:00+00:00</published>
         <updated>2021-05-01T18:20:00+00:00</updated>
         
@@ -716,104 +716,325 @@ at &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translat
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://retailrng.com/rs/intermediate/section-1/"/>
-        <id>https://retailrng.com/rs/intermediate/section-1/</id>
+        <link rel="alternate" type="text/html" href="https://retailrng.com/rs/intermediate/rock-smash-rs/"/>
+        <id>https://retailrng.com/rs/intermediate/rock-smash-rs/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/intermediate/section-1/">&lt;h2 id=&quot;our-pledge&quot;&gt;Our Pledge&lt;&#x2F;h2&gt;
-&lt;p&gt;We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, caste, color, religion, or sexual identity
-and orientation.&lt;&#x2F;p&gt;
-&lt;p&gt;We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;our-standards&quot;&gt;Our Standards&lt;&#x2F;h2&gt;
-&lt;p&gt;Examples of behavior that contributes to a positive environment for our
-community include:&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/intermediate/rock-smash-rs/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;After getting a handle on the basics of RNG, you might be interested in
+some Pokemon who cannot be obtained with standard wild RNG Manipulation.
+While niche, in Ruby and Sapphire there are two Pokemon who are
+exclusive to the Smashable Rocks. Nosepass, who is the main prize, and
+the Geodude line.&lt;&#x2F;p&gt;
+&lt;p&gt;While a similar process to Static RNG, on most advances there are no
+Pokemon spawns, so calibration can be challenging. In addition, rock
+smash rocks count as randomly moving NPCs, so you may run into issues
+with extra random noise.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Demonstrating empathy and kindness toward other people&lt;&#x2F;li&gt;
-&lt;li&gt;Being respectful of differing opinions, viewpoints, and experiences&lt;&#x2F;li&gt;
-&lt;li&gt;Giving and gracefully accepting constructive feedback&lt;&#x2F;li&gt;
-&lt;li&gt;Accepting responsibility and apologizing to those affected by our mistakes,
-and learning from the experience&lt;&#x2F;li&gt;
-&lt;li&gt;Focusing on what is best not just for us as individuals, but for the
-overall community&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokemon Ruby or Sapphire with a Dead Internal Battery (any
+language)&lt;br &#x2F;&gt;
+GameBoy Advance, Gameboy Player, Nintendo DS &#x2F; DS Lite, GBA
+Emulator, or Pokemon Box Ruby &amp;amp; Sapphire.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;Examples of unacceptable behavior include:&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
 &lt;ul&gt;
-&lt;li&gt;The use of sexualized language or imagery, and sexual attention or
-advances of any kind&lt;&#x2F;li&gt;
-&lt;li&gt;Trolling, insulting or derogatory comments, and personal or political attacks&lt;&#x2F;li&gt;
-&lt;li&gt;Public or private harassment&lt;&#x2F;li&gt;
-&lt;li&gt;Publishing others&#x27; private information, such as a physical or email
-address, without their explicit permission&lt;&#x2F;li&gt;
-&lt;li&gt;Other conduct which could reasonably be considered inappropriate in a
-professional setting&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;At least one free space in your party.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokeballs to capture it, if it&#x27;s a capture. Masterball is preferred.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokemon to aid in capture, such as a &lt;strong&gt;false swipe&lt;&#x2F;strong&gt; user or a
+&lt;strong&gt;spore user&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;5-10 Rare Candies. (Not 100% Needed, but helpful).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;enforcement-responsibilities&quot;&gt;Enforcement Responsibilities&lt;&#x2F;h2&gt;
-&lt;p&gt;Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.&lt;&#x2F;p&gt;
-&lt;p&gt;Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;scope&quot;&gt;Scope&lt;&#x2F;h2&gt;
-&lt;p&gt;This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;enforcement&quot;&gt;Enforcement&lt;&#x2F;h2&gt;
-&lt;p&gt;Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-&lt;a href=&quot;mailto:aaranxu@outlook.com&quot;&gt;aaranxu@outlook.com&lt;&#x2F;a&gt;.
-All complaints will be reviewed and investigated promptly and fairly.&lt;&#x2F;p&gt;
-&lt;p&gt;All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;enforcement-guidelines&quot;&gt;Enforcement Guidelines&lt;&#x2F;h2&gt;
-&lt;p&gt;Community leaders will follow these Community Impact Guidelines in determining
-the consequences for any action they deem in violation of this Code of Conduct:&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;1-correction&quot;&gt;1. Correction&lt;&#x2F;h3&gt;
-&lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: Use of inappropriate language or other behavior deemed
-unprofessional or unwelcome in the community.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A private, written warning from community leaders, providing
-clarity around the nature of the violation and an explanation of why the
-behavior was inappropriate. A public apology may be requested.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;2-warning&quot;&gt;2. Warning&lt;&#x2F;h3&gt;
-&lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: A violation through a single incident or series
-of actions.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A warning with consequences for continued behavior. No
-interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period of time. This
-includes avoiding interactions in community spaces as well as external channels
-like social media. Violating these terms may lead to a temporary or
-permanent ban.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;3-temporary-ban&quot;&gt;3. Temporary Ban&lt;&#x2F;h3&gt;
-&lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: A serious violation of community standards, including
-sustained inappropriate behavior.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time. No public or
-private interaction with the people involved, including unsolicited interaction
-with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;4-permanent-ban&quot;&gt;4. Permanent Ban&lt;&#x2F;h3&gt;
-&lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior,  harassment of an
-individual, or aggression toward or disparagement of classes of individuals.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A permanent ban from any sort of public interaction within
-the community.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;attribution&quot;&gt;Attribution&lt;&#x2F;h2&gt;
-&lt;p&gt;This Code of Conduct is adapted from the &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&quot;&gt;Contributor Covenant&lt;&#x2F;a&gt;,
-version 2.0, available at
-&lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;version&#x2F;2&#x2F;0&#x2F;code_of_conduct.html&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;version&#x2F;2&#x2F;0&#x2F;code_of_conduct.html&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;Community Impact Guidelines were inspired by 
-&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mozilla&#x2F;diversity&quot;&gt;Mozilla&#x27;s code of conduct enforcement ladder&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;For answers to common questions about this code of conduct, see the FAQ at
-&lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;faq&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;faq&lt;&#x2F;a&gt;. Translations are available 
-at &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translations&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translations&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokéFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;EonTimer 3.0.0-rc.6&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=lk_YzV08jKU&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Pick your Target&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Calibrate your delay&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Attempt your Target&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Adjustments&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
+PokeFinder, and select &lt;strong&gt;Wild&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage24.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will open up and by default be on the &lt;strong&gt;Generator&lt;&#x2F;strong&gt; tab,
+which is where we want to be. Before inputting any settings, make sure
+you select your profile. &lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;rs&#x2F;beginner&#x2F;trainer-id-starter-manip&#x2F;#step-4-starter-setup&quot;&gt;If you have not set one up, I covered how to
+here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section set &lt;strong&gt;Method&lt;&#x2F;strong&gt; to &lt;strong&gt;Method Wild 1.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Your profile should automatically set the &lt;strong&gt;Seed&lt;&#x2F;strong&gt; to 5A0, Ruby &amp;amp;
+Sapphires dead battery seed.&lt;&#x2F;p&gt;
+&lt;p&gt;Leave &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt;, &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt;, and &lt;strong&gt;Delay&lt;&#x2F;strong&gt; at their
+default values.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;strong&gt;Settings&lt;&#x2F;strong&gt; you will choose your &lt;strong&gt;Encounter Type&lt;&#x2F;strong&gt;. You should
+choose &lt;strong&gt;Rock Smash&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+For the Location, you should select the one that has the Pokemon you
+want to RNG Manip. There&#x27;s only three available from &lt;strong&gt;Rock Smash&lt;&#x2F;strong&gt; in
+&lt;strong&gt;Ruby &amp;amp; Sapphire&lt;&#x2F;strong&gt;, so I&#x27;ll list them out here.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+If you want &lt;strong&gt;Nosepass&lt;&#x2F;strong&gt;, choose &lt;strong&gt;Granite Cave BF2&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+&lt;strong&gt;Geodude&lt;&#x2F;strong&gt; is in every location on this list, and &lt;strong&gt;Graveler&lt;&#x2F;strong&gt; is only
+in &lt;strong&gt;Victory Road BF1&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+After your location is selected, select which Pokemon you want from the
+dropdown menu.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+Lastly is the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section. This again, is personal choice.
+Select the &lt;strong&gt;IVs&lt;&#x2F;strong&gt;, &lt;strong&gt;Nature&lt;&#x2F;strong&gt;, &lt;strong&gt;Gender&lt;&#x2F;strong&gt;, &lt;strong&gt;Hidden Power&lt;&#x2F;strong&gt;, Ability
+you want. And also select if you want a &lt;strong&gt;Shiny.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+I will just be going for a simple &lt;strong&gt;Shiny&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+&lt;strong&gt;Shiny&lt;&#x2F;strong&gt; is set to Star&#x2F;Square, which will show every potential Shiny.
+Star vs. Square doesn&#x27;t matter in any game other than Sword &amp;amp; Shield,
+but Pokémon transferred from Gen 3 up to those games will retain their
+Star&#x2F;Square Shiny status.&lt;&#x2F;p&gt;
+&lt;p&gt;Once your &lt;strong&gt;Filters&lt;&#x2F;strong&gt; are set, click &lt;strong&gt;Generate&lt;&#x2F;strong&gt;. You should get
+several results, and have a window that looks like this:&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage22.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;If you get no results, that means no Pokemon within &lt;strong&gt;100,000 Advances&lt;&#x2F;strong&gt;
+exists, which is about a 26 minute period of time. There are ways to
+circumvent this issue, but they are difficult techniques covered in our
+&lt;strong&gt;Advanced&lt;&#x2F;strong&gt; section.&lt;&#x2F;p&gt;
+&lt;p&gt;In the meantime, if you have none, loosen your restrictions on what you
+want. Accept some worse IVs, or a Worse Nature, no shiny, etc.&lt;&#x2F;p&gt;
+&lt;p&gt;I will be aiming for &lt;strong&gt;Advance 2558&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+With our target picked out, we can move onto the Rock Smash Manip!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;rock-smash-manip&quot;&gt;Rock Smash Manip&lt;&#x2F;h3&gt;
+&lt;p&gt;To get started with Rock Smash RNG Manips we need to head to our targets
+location &amp;amp; destroy every rock but 1. In my case, I am going for
+&lt;strong&gt;Nosepass&lt;&#x2F;strong&gt;, so we&#x27;ll head to &lt;strong&gt;BF2&lt;&#x2F;strong&gt; of &lt;strong&gt;Granite Cave&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+Here you can see what the area typically looks like.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage20.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;&lt;br &#x2F;&gt;
+And here is what it looks like after I finished prepping.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage17.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;I even broke the rocks that are off screen.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Note: Spinning NPCs&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;i&gt;Typically NPCs do not interfere much with basic &amp;amp; intermediate RNG
+Manips in Ruby &amp;amp; Sapphire. And even if they did, there is not much you
+can do about them. But, for Rock Smash, NPCs can be active &amp;amp; moving
+during the animation, and each Rock Smash rock counts as an NPC who
+spins in a random direction.&lt;&#x2F;p&gt;
+&lt;p&gt;There&#x27;s several interaction objects that do this, and you should do your
+best to remove them from the screen if you can.&lt;&#x2F;p&gt;
+&lt;p&gt;The list is as follows: Rock Smash Rocks, Strength Boulders, Cut Trees,
+Visible Items (shaped like Pokeballs), and Invisible Kecleons.&lt;&#x2F;i&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;Then, in Eon Timer, put the number from the &lt;strong&gt;Advances&lt;&#x2F;strong&gt; Column into the
+&lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; box in EonTimer. In my case, it is 2558. Also, make
+sure the value in &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; is 0.&lt;&#x2F;p&gt;
+&lt;p&gt;For every type of Manip, the amount of calibration will be different,
+because the game delays generating whatever you&#x27;re manipping
+differently, based on what it&#x27;s generating.Your Eon Timer should look
+something like this, but with your target advance instead.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Pretimer&lt;&#x2F;strong&gt; is optional.&lt;&#x2F;p&gt;
+&lt;p&gt;When set to 0, clicking Start on EonTimer will immediately start the
+countdown to your target &lt;strong&gt;Advance&lt;&#x2F;strong&gt;. This requires you to soft reset
+your game at the same time as clicking &lt;strong&gt;Start&lt;&#x2F;strong&gt; on Eon Timer.&lt;&#x2F;p&gt;
+&lt;p&gt;Setting this to 5000 will create a 5 second countdown, which you will
+soft reset the game to, then the countdown for your &lt;strong&gt;Target Advance&lt;&#x2F;strong&gt;
+Begins. I&#x27;ll be using this method for the remainder of the guide.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage14.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Also make sure to double check your console in EonTimers settings!&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage6.png&quot; width=&quot;30%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;I selected GBA, since I am doing this on a Gameboy Player. But if you&#x27;re
+on a DS or DSLite, select NDS- Slot 2&lt;&#x2F;p&gt;
+&lt;p&gt;At this point, we&#x27;re ready! Click &lt;strong&gt;Start&lt;&#x2F;strong&gt; Eon Timer, and when the
+pretimer finishes on the 6th beep, soft reset the game.&lt;&#x2F;p&gt;
+&lt;p&gt;While Eon Timer counts down, immediately talk to the Rock and use Rock
+Smash. Go through the dialogue and wait on the X used ROCK SMASH.
+Dialogue box, which is the final one.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage21.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center
+&lt;p&gt;Then, when Eontimer gets near the end of its countdown, it will beep 6
+times. The goal is to press A on the 6th beep to start the encounter.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+You most likely got no encounter! So, what do we do about this?&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage11.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This is the challenging part. What we have to do is increment our target
+advance by a random amount until we hit &lt;strong&gt;ANY&lt;&#x2F;strong&gt; Pokemon. That will give
+us enough intel to do our calibration.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+You can go by 1, by 16, any arbitrary number. We&#x27;re changing the Target
+Frame box in Eon Timer for this.&lt;&#x2F;p&gt;
+&lt;p&gt;I went 1 by 1 until I was on advance 2576 and saw a non-shiny Nosepass!&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage9.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once we get a Pokemon, we need to catch it. After that, we&#x27;re going to
+have to check the Pokemons summary screen to figure out what &lt;strong&gt;RNG Advance&lt;&#x2F;strong&gt; we landed on.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s worth mentioning, if you have one, just use the Masterball for this
+catch. You will not be keeping the Pokemon, so it just speeds the
+process up.&lt;&#x2F;p&gt;
+&lt;p&gt;Once you can view the Pokemons summary screen, we can move onto how to
+adjust.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;rock-smash-adjustment&quot;&gt;Rock Smash Adjustment&lt;&#x2F;h3&gt;
+&lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
+out its IVs and use that to search.&lt;&#x2F;p&gt;
+&lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; we&#x27;ll leave Seed and Method alone, but we are going to
+change &#x27;Initial Advances&#x27;. To be about 1000 advances before our target.&lt;&#x2F;p&gt;
+&lt;p&gt;In my case, I am aiming for 2576. So I set it to 1576. Also set &lt;strong&gt;Max
+Advances&lt;&#x2F;strong&gt; to 2000. This will generate Pokemon spreads from 1000
+Advances before your target, and 1000 after it.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+For &lt;strong&gt;Settings&lt;&#x2F;strong&gt;, set &lt;strong&gt;Encounter&lt;&#x2F;strong&gt; to &lt;strong&gt;Rock Smash&lt;&#x2F;strong&gt;. &lt;strong&gt;Location&lt;&#x2F;strong&gt; to
+your Location, in my case it&#x27;s G&lt;strong&gt;ranite Cave B2F&lt;&#x2F;strong&gt;. And select which
+Pokemon you received. In my case it&#x27;s &lt;strong&gt;Nosepass&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, for the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section, clear everything out to their default
+values. All IVs should be 0 to 31, and all of the drop downs should say
+&lt;strong&gt;Any&lt;&#x2F;strong&gt;, except &lt;strong&gt;Nature&lt;&#x2F;strong&gt; and &lt;strong&gt;Gender&lt;&#x2F;strong&gt;. Set those to what the Pokemon
+you received had. In my case it&#x27;s a &lt;strong&gt;Timid&lt;&#x2F;strong&gt;, &lt;strong&gt;Male Nosepass&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;After that, click the IV Calculator Button.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage4.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will pop up called IV Calculator. Here, you input a
+Pokemon&#x27;s stats, which get converted into IV Ranges for &lt;strong&gt;Generators IV
+Filters&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; drop down, select the Pokemon you are manipping. And
+in the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; box, select its nature.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, at the bottom, put in the Pokemons Level and all of its stats, and
+hit &lt;strong&gt;Find IVs&lt;&#x2F;strong&gt;. You will see the &lt;strong&gt;Results&lt;&#x2F;strong&gt; section populated with IV
+Ranges.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage3.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage15.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;If you have Rare Candies to raise the Pokemon&#x27;s level, we can make the
+IV Ranges even more Precise. We aren&#x27;t keeping this Pokemon, so it&#x27;s
+safe to use them to gain info. They will come back when we soft reset!&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+To account for the extra level, click the &lt;strong&gt;Add Row&lt;&#x2F;strong&gt; button, and a new
+row to enter the information for its next level will appear.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage19.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage2.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once you have clicked &lt;strong&gt;Find IV&#x27;s&lt;&#x2F;strong&gt;, it also fills that info out within
+the &lt;strong&gt;Wild Generator&lt;&#x2F;strong&gt; in PokeFinder.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage10.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;At this point, hit Generate. You should only get one result. If you get
+more than that, you can narrow down the results further by doing more
+levels in the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;If you do not have &lt;strong&gt;ANY&lt;&#x2F;strong&gt; rare candies and have &lt;strong&gt;more than one
+result&lt;&#x2F;strong&gt;, it&#x27;s generally fine to assume you hit the closest &lt;strong&gt;Advance&lt;&#x2F;strong&gt;
+to your target.&lt;&#x2F;p&gt;
+&lt;p&gt;If nothing comes up, make sure to check the other wild Methods.&lt;&#x2F;p&gt;
+&lt;p&gt;If you still have no results, expand your search range by decreasing
+&lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; by 1000, and increasing &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; by 1000,
+and click &lt;strong&gt;Generate&lt;&#x2F;strong&gt; again. Do this until you get at least 1 result.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+In my case, I had to change the drop down to &lt;strong&gt;Wild 4&lt;&#x2F;strong&gt; to get a
+result.&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Note: Wild Methods&lt;&#x2F;summary&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage12.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Now we need to calibrate. You may notice this is quite a distance away
+from your target! I had &lt;strong&gt;2576&lt;&#x2F;strong&gt; in EonTimer, but this Nosepass spawned
+on &lt;strong&gt;2766&lt;&#x2F;strong&gt;! That&#x27;s a &lt;strong&gt;190 Advance difference&lt;&#x2F;strong&gt;. So, what we&#x27;ll do is
+put that into the &lt;strong&gt;Delay&lt;&#x2F;strong&gt; box in PokeFinder. Then, we&#x27;ll clear all our
+&lt;strong&gt;Filters&lt;&#x2F;strong&gt; except for &lt;strong&gt;Shiny&lt;&#x2F;strong&gt;, which we&#x27;ll set back to
+&lt;strong&gt;Star&#x2F;Square&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+In &lt;strong&gt;Settings&lt;&#x2F;strong&gt;, change the &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; to your target species, but keep
+&lt;strong&gt;Location&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;Encounter&lt;&#x2F;strong&gt; the same.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+And in &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt;, change &lt;strong&gt;Method&lt;&#x2F;strong&gt; back to &lt;strong&gt;Wild 1&lt;&#x2F;strong&gt;, leave
+&lt;strong&gt;Seed&lt;&#x2F;strong&gt; as &lt;strong&gt;5a0&lt;&#x2F;strong&gt;, change &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; back to &lt;strong&gt;0&lt;&#x2F;strong&gt;, and
+&lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; back to &lt;strong&gt;100,000&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+Then click &lt;strong&gt;generate&lt;&#x2F;strong&gt;!&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+&lt;br&gt;&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Tip: IV Clear&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;i&gt;If you click HP&#x2F;ATK&#x2F;DEF&#x2F;SPA&#x2F;SPD&#x2F;SPE in PokeFinder, it sets the ranges
+back to 0-31!&lt;&#x2F;i&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage23.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You&#x27;ll see the same target Pokemon you aimed for earlier, but the
+&lt;strong&gt;Advances&lt;&#x2F;strong&gt; are different! This is our new target we&#x27;ll put into Eon
+Timer.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage18.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Now repeat the process from &lt;strong&gt;Rock Smash Manip.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;If you get no Pokemon spawn, just go up or down an Advance in your
+EonTimer target until you spawn something consistently.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+You can see in PokeFinder, if you uncheck shiny &amp;amp; look around your
+target, that not every advance spawns a Pokemon.&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage1.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;So, just go up or down until you hit a Pokemon. We should be pretty
+close to our target this time, however.&lt;&#x2F;p&gt;
+&lt;p&gt;If you get a Pokemon &amp;amp; it&#x27;s not shiny, we can repeat the calibration
+step. Catch a Pokemon, calculate its IVs, and find where you landed.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage5.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage13.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;We can see here that I hit 1 Advance early! So, I&#x27;m close!&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage8.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This time, put what you hit into EonTimers &amp;quot;Frame Hit&amp;quot; box rather than
+doing the more complicated adjustments we did earlier. Click update, and
+try again!&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage7.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Eventually, with enough attempts, you will land on the Pokemon you are
+aiming for. This is a bit more tedious than other manips. Nosepass took
+me around 45 minutes to get with this methodology. And it&#x27;s almost
+exclusively because of how long it took me to calibrate the rocksmash
+delay.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage16.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summar&gt;Note: Some tips&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;If on the attempt after your adjustment run, you find you&#x27;re only one
+or two &lt;strong&gt;Advances&lt;&#x2F;strong&gt; off, try not adjusting. 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; is only 16
+milliseconds, well within the margin of human error.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;On the contrary, if you find yourself dancing around it, consistently
+being 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; early or late several times, try adjusting anyway.
+Sometimes breaking out of the cycle, even if it makes you more late or
+early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Lastly, have patience! This is a skill to hone, maybe it takes you 10,
+15 tries now. But a couple weeks from now, maybe 5! Hope you&#x27;re having
+fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;p&gt;If you enjoyed this process and want to do more RNG Manips, I think it&#x27;s fine to jump around to anything in Intermediate.
+Most of these are going to be difficult in unique ways and get you ready to learn how to do some of the Advanced manips!&lt;&#x2F;p&gt;
 </content>
         
     </entry>
