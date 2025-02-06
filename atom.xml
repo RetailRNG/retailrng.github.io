@@ -311,21 +311,6 @@ with extra random noise.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=lk_YzV08jKU&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;&#x2F;h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Pick your Target&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Calibrate your delay&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Attempt your Target&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Adjustments&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;&#x2F;ol&gt;
 &lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
@@ -404,9 +389,9 @@ location &amp;amp; destroy every rock but 1. In my case, I am going for
 &lt;strong&gt;Nosepass&lt;&#x2F;strong&gt;, so we&#x27;ll head to &lt;strong&gt;BF2&lt;&#x2F;strong&gt; of &lt;strong&gt;Granite Cave&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 Here you can see what the area typically looks like.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;emrocksmashimage2.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;emrocksmashimage2.png&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;And here is what it looks like after I finished prepping.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;emrocksmashimage1.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;emrocksmashimage1.png&quot; width=&quot;70%&quot;&gt;&lt;&#x2F;center&gt;
 I even broke the rocks that are off screen.
 &lt;br&gt;
 &lt;details style=&quot;border:&quot;&gt;
@@ -941,6 +926,340 @@ at &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translat
         
     </entry>
     <entry xml:lang="en">
+        <title>R&#x2F;S Roamer RNG</title>
+        <published>2021-05-01T18:20:00+00:00</published>
+        <updated>2021-05-01T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/rs/intermediate/roaming-pokemon/"/>
+        <id>https://retailrng.com/rs/intermediate/roaming-pokemon/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/rs/intermediate/roaming-pokemon/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;After getting a handle on the basics of RNG, you might be interested in
+something more unique or challenging. The Ruby &amp;amp; Sapphire Roamer RNG
+Manip is perfect for this because of two unique challenges it has.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The roamers IVs are glitched, and always going to have 4 of them
+be 0. HP is generated normally, then attack can be a maximum of 7.
+Everything else will be 0. So all you really have to be able to
+identify your Latios or Latias is their nature and HP stat. Because
+of this, the only real purpose to do this manip is to aim for a
+shiny.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Finding and catching the roamer can be quite tedious, so even though
+the execution of the manip is not difficult, the amount of time this
+takes can be quite high.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pokemon Ruby or Sapphire with a Dead Internal Battery (any
+language)&lt;br &#x2F;&gt;
+GameBoy Advance, Gameboy Player, Nintendo DS &#x2F; DS Lite, GBA
+Emulator, or Pokemon Box Ruby &amp;amp; Sapphire.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Save at the location directly in-front of the TV in your parents
+house.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;At least one free space in your party.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokeballs to capture it, if it&#x27;s a capture. Masterball is preferred.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokemon to aid in capture, such as a &lt;strong&gt;false swipe&lt;&#x2F;strong&gt; user or a
+&lt;strong&gt;spore user&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;5-10 Rare Candies. (Not 100% Needed, but helpful)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;99 Max Repels (or as many as you can afford).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;A Pokemon above level 30, but below level 40.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Acro Bike&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;If you have TWO GBAs, A Link Cable, and the Roamer you&#x27;re manipping
+in another game, trading to unlock its Pokedex entry before you beat
+the elite 4 will speed up the identification process.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokeFinder 4.2.1&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;EonTimer 3.0.0&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=FXZ8D0actz4&amp;amp;list=PL4o9bTT3px_h08zUFb3oChEFku_jG6zyt&amp;amp;index=8&quot;&gt;&lt;strong&gt;im a blisy ._.&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
+PokeFinder, and select &lt;strong&gt;Static&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage11.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will open up and by default be on the &lt;strong&gt;Generator&lt;&#x2F;strong&gt; tab,
+which is where we want to be. Before inputting any settings, make sure
+you select your profile. &lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;rs&#x2F;beginner&#x2F;trainer-id-starter-manip&#x2F;#step-4-starter-setup&quot;&gt;If you have not set one up, I covered how to
+here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section set &lt;strong&gt;Method&lt;&#x2F;strong&gt; to &lt;strong&gt;Method 1.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Your profile should automatically set the &lt;strong&gt;Seed&lt;&#x2F;strong&gt; to 5A0, Ruby &amp;amp;
+Sapphires dead battery seed.&lt;&#x2F;p&gt;
+&lt;p&gt;Leave &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt;, &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt;, and &lt;strong&gt;Delay&lt;&#x2F;strong&gt; at their
+default values.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Note: What is Delay?&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Delay&lt;&#x2F;strong&gt; in Ruby, Sapphire, Emerald, Fire Red, and Leaf Green is how
+many RNG Advances occur after you press A to encounter or receive your
+Pokémon, but before the Pokémon is generated.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;In the past, we would consult a list that told you what this value was
+for various encounters. We no longer do this, and no guide here will
+reference such lists. This is for two main reasons.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;1. Attempting to hit your target Pokémon, missing it, and calibrating
+your miss is an integral part of the RNG Process. Figuring out a
+specific legendaries &lt;strong&gt;Delay&lt;&#x2F;strong&gt; will only take one of these. Because we
+teach RNGing this way, &lt;strong&gt;Delay&lt;&#x2F;strong&gt; no longer serves a purpose.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;2. Many people would refrain from performing certain manips if they did
+not know a Pokémon&#x27;s &lt;strong&gt;Delay&lt;&#x2F;strong&gt;. Such hesitance is bad, we do not want
+people thinking they &lt;strong&gt;CANNOT&lt;&#x2F;strong&gt; do a manip without an arbitrary list
+somewhere, when they absolutely can.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;In short, &lt;strong&gt;Delay&lt;&#x2F;strong&gt; is a social construct we as a community have moved
+past the need for.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;In &lt;strong&gt;Settings&lt;&#x2F;strong&gt; you will choose your &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt;. The Latis are in the
+&lt;strong&gt;Roamer&lt;&#x2F;strong&gt; Category.&lt;&#x2F;p&gt;
+&lt;p&gt;In this example, I will be using &lt;strong&gt;Latios&lt;&#x2F;strong&gt; in Ruby, but &lt;strong&gt;Latias&lt;&#x2F;strong&gt; in
+Sapphire is no different!&lt;&#x2F;p&gt;
+&lt;p&gt;Lastly is the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section. This is typically a personal choice
+for what &lt;strong&gt;IVs&lt;&#x2F;strong&gt;, &lt;strong&gt;Nature&lt;&#x2F;strong&gt;, &amp;amp; &lt;strong&gt;Ability&lt;&#x2F;strong&gt; you&#x27;d like, in addition to
+Shinyness.&lt;&#x2F;p&gt;
+&lt;p&gt;However, as mentioned earlier, the Roaming Latis in Ruby &amp;amp; Sapphire (not
+Emerald) are bugged to always have Defense, Special Attack, Special
+Defense, and Speed IVs be 0. In addition, the attack IV cannot be higher
+than 7. Because of this, do not be very strict with your IV Parameters!&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+On top of that, the Latis only have one ability. This means we&#x27;re really
+only able to pick our HP IV, Nature, &amp;amp; if it&#x27;s shiny or not.&lt;&#x2F;p&gt;
+&lt;p&gt;This is not an issue with the Lati generation, however. It is generated
+normally using &lt;strong&gt;Method 1.&lt;&#x2F;strong&gt; This means &lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;rs&#x2F;beginner&#x2F;trainer-id-starter-manip&#x2F;&quot;&gt;you can use the ID&#x2F;Starter RNG
+Advance you chose in the Beginner
+Guides&lt;&#x2F;a&gt;.
+The IVs you &lt;em&gt;SHOULD&lt;&#x2F;em&gt; have are actually always in your save file, and you
+could extract them with glitches or hacks, if you wanted. The issue is
+how the game extracts said Lati from your save file when a battle
+loads.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+You see, in order to keep the Pokemon consistent across multiple
+battles, the game generates a Lati when you talk to the TV, then stores
+its IVs and PID in your save file. And everytime you see it, it rebuilds
+it based on said information.&lt;&#x2F;p&gt;
+&lt;p&gt;But this rebuilding code is bugged, and does not load all the IVs. This
+problem also exists in FRLG, but was fixed for Emerald.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+Because of all of this, I will just be going for a simple &lt;strong&gt;Shiny&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+&lt;strong&gt;Shiny&lt;&#x2F;strong&gt; is set to Star&#x2F;Square, which will show every potential Shiny.
+Star vs. Square doesn&#x27;t matter in any game other than Sword &amp;amp; Shield,
+but Pokémon transferred from Gen 3 up to those games will retain their
+Star&#x2F;Square Shiny status.&lt;&#x2F;p&gt;
+&lt;p&gt;Once your &lt;strong&gt;Filters&lt;&#x2F;strong&gt; are set, click &lt;strong&gt;Generate&lt;&#x2F;strong&gt;. You should get
+several results, and have a window that looks like this:&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage9.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;PokeFinder does a great job at showcasing the glitch in action! You&#x27;ll
+notice the HP and Nature values of your typical shiny &lt;strong&gt;Advances&lt;&#x2F;strong&gt;, but
+everything else is 0. Let&#x27;s look at what the Southern Island Lati looks
+like, as a comparison.&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage14.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;&lt;br &#x2F;&gt;
+If you get no results, that means no Pokemon within &lt;strong&gt;100,000 Advances&lt;&#x2F;strong&gt;
+exists, which is about a 26 minute period of time.&lt;&#x2F;p&gt;
+&lt;p&gt;This means you have to loosen your restrictions on what you want. Accept
+a worse HP IV, or a Worse Nature, etc.&lt;&#x2F;p&gt;
+&lt;p&gt;I will be aiming for &lt;strong&gt;Advance&lt;&#x2F;strong&gt; 2133. It should be quick attempts, &amp;amp;
+Quiet Boosts special attack!&lt;&#x2F;p&gt;
+&lt;p&gt;With our target picked out, we can move onto the Roamer Manip!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;roamer-manip&quot;&gt;Roamer Manip&lt;&#x2F;h3&gt;
+&lt;p&gt;To get started with the Roamer Manip, you want to save in-front of the
+TV in your parents house. This event only spawns immediately after you
+defeat the elite 4. You CANNOT&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage12.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then, in Eon Timer, put the number from the &lt;strong&gt;Advances&lt;&#x2F;strong&gt; Column into the
+&lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; box in EonTimer. In my case, it is 2133. Also, make
+sure the value in &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; is 0.&lt;&#x2F;p&gt;
+&lt;p&gt;For every type of Manip, the amount of calibration will be different,
+because the game delays generating whatever you&#x27;re manipping
+differently, based on what it&#x27;s generating.Your Eon Timer should look
+something like this, but with your target advance instead.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Pretimer&lt;&#x2F;strong&gt; is optional.&lt;&#x2F;p&gt;
+&lt;p&gt;When set to 0, clicking Start on EonTimer will immediately start the
+countdown to your target &lt;strong&gt;Advance&lt;&#x2F;strong&gt;. This requires you to soft reset
+your game at the same time as clicking &lt;strong&gt;Start&lt;&#x2F;strong&gt; on Eon Timer.&lt;&#x2F;p&gt;
+&lt;p&gt;Setting this to 5000 will create a 5 second countdown, which you will
+soft reset the game to, then the countdown for your &lt;strong&gt;Target Advance&lt;&#x2F;strong&gt;
+Begins. I&#x27;ll be using this method for the remainder of the guide.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage3.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Also make sure to double check your console in EonTimers settings!&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage6.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;I selected GBA, since I am doing this on a Gameboy Player. A regular
+GBA, and GBA Emulators should also select this. But if you&#x27;re on a DS
+or DSLite, select NDS - Slot 2.&lt;&#x2F;p&gt;
+&lt;p&gt;At this point, we&#x27;re ready! Click &lt;strong&gt;Start&lt;&#x2F;strong&gt; Eon Timer, and when the
+pretimer finishes on the 6th beep, soft reset the game.&lt;&#x2F;p&gt;
+&lt;p&gt;After that, press A until you&#x27;re loaded into the game and talk to the TV
+and get to the final box of dialogue. Then, wait there until Eon Timer
+finishes counting down.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage13.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then, when Eontimer gets near the end of its countdown, it will beep 6
+times. The goal is to press A on the 6th beep to release the roamer.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+Now, we have to go find it!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;finding-the-roamer&quot;&gt;Finding the Roamer&lt;&#x2F;h3&gt;
+&lt;p&gt;Route 118 is the most common route the roamer can appear on, so I head
+to this spot on Route 123, by the berry master&#x27;s house.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage1.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Put a repel on &amp;amp; make sure the lead pokemon of your party is above level
+30, but below level 40. I use a level 33 Dunsparce for mine. Then, go to
+the grass and bunny hop on the Acro Bike for a little while. If the
+roamer doesn&#x27;t appear, I go back to Route 123 so the route sign drops
+down, and head back to 118 and repeat.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage15.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Do this until the roamer spawns.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage2.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;And we can see it&#x27;s not shiny like I wanted. It&#x27;s likely you also missed
+your target. We&#x27;re going to have to check the Pokemons summary screen to
+figure out what &lt;strong&gt;RNG Advance&lt;&#x2F;strong&gt; we landed on. To do that, we&#x27;ll have to
+catch it!&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s worth mentioning, if you are aiming for a &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; and didn&#x27;t get
+one, just use the Masterball for a catch if you have it. You will not be
+keeping the Pokemon, so it just speeds the process up.&lt;&#x2F;p&gt;
+&lt;p&gt;Once you can view the Pokemons summary screen, we can move onto how to
+adjust.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;roamer-adjustment&quot;&gt;Roamer Adjustment&lt;&#x2F;h3&gt;
+&lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
+out its IVs and use that to search. This is the tricky part! We only
+have Nature, HP &amp;amp; Attack as information to guide us.&lt;&#x2F;p&gt;
+&lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; we&#x27;ll leave Seed and Method alone, but we are going to
+change &#x27;Initial Advances&#x27;. To be about 1000 advances before our target.&lt;&#x2F;p&gt;
+&lt;p&gt;In my case, I am aiming for 2133. So I set it to 1133. Also set &lt;strong&gt;Max
+Advances&lt;&#x2F;strong&gt; to 2000. This will generate Pokemon spreads from 1000
+Advances before your target, and 1000 after it.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, for the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section, clear everything out to their default
+values. All IVs should be 0 to 31, and all of the drop downs should say
+&lt;strong&gt;Any&lt;&#x2F;strong&gt;, except &lt;strong&gt;Nature&lt;&#x2F;strong&gt;. Set that to what the Roamer you received
+had. In my case it&#x27;s a &lt;strong&gt;Calm&lt;&#x2F;strong&gt; Latios.&lt;&#x2F;p&gt;
+&lt;p&gt;After that, click the IV Calculator Button.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage4.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will pop up called IV Calculator. Here, you input a Roamers
+stats, which get converted into IV Ranges for &lt;strong&gt;Generators IV Filters&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; drop down, select the Pokemon you are manipping. And
+in the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; box, select its nature.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, at the bottom, put in the Pokemons Level and all of its stats, and
+hit &lt;strong&gt;Find IVs&lt;&#x2F;strong&gt;. You will see the &lt;strong&gt;Results&lt;&#x2F;strong&gt; section populated with IV
+Ranges.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage5.png&quot; width=&quot;70%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage16.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;If you have Rare Candies to raise the Roamers level, we can make the IV
+Ranges even more Precise. We aren&#x27;t keeping this Pokemon, so it&#x27;s safe
+to use them to gain info. They will come back when we soft reset!&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+Typically, narrowing just a little bit will help A LOT. However, with
+the glitched IVs here, I think it&#x27;s important to narrow the IV Ranges as
+much as possible. I recommend getting exact IVs for HP and Attack. It
+only took me 3 candies to do so.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+To account for the extra levels, click the &lt;strong&gt;Add Row&lt;&#x2F;strong&gt; button, and a new
+row to enter the information for its next level will appear.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage10.png&quot; width=&quot;70%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage18.png&quot; &quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once you have clicked &lt;strong&gt;Find IV&#x27;s&lt;&#x2F;strong&gt;, it also fills that info out within
+the &lt;strong&gt;Static Generator&lt;&#x2F;strong&gt; in PokeFinder.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage19.png&quot; width=&quot;80%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;At this point, hit Generate. You should only get one result.&lt;&#x2F;p&gt;
+&lt;p&gt;If you have no results at all, expand your search range by decreasing
+&lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; by 1000, and increasing &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; by 1000,
+and click &lt;strong&gt;Generate&lt;&#x2F;strong&gt; again. Do this until you get at least 1 result.
+If you get more than that, there isn&#x27;t much you can do to gain more
+info.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage21.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;However, let&#x27;s look at how many Latios&#x27; similar to mine exist, and where
+they are in relation to it.&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage20.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;As you can see, the closest &lt;strong&gt;Calm Latios&lt;&#x2F;strong&gt; with my IVs is over &lt;strong&gt;10,000
+Advances&lt;&#x2F;strong&gt; away. The closest two Latios here are these:
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage17.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Which are over &lt;strong&gt;800 advances&lt;&#x2F;strong&gt; away from each other. 800 advances is 13
+seconds. You are not going to be that early or late.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+All that to say; If you use the Nature of the Roamer &amp;amp; always narrow the
+IVs EXACTLY &amp;amp; you get more than 1 result, it&#x27;s &lt;strong&gt;safe to assume&lt;&#x2F;strong&gt; you
+hit the pokemon closest to your target &lt;strong&gt;Advance&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Now we need to update Eon Timer. In the &lt;strong&gt;Frame Hit&lt;&#x2F;strong&gt; box, put the
+Advance that you determined you landed on, and click update. The
+calibration will change, and you can try again.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage8.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Now repeat the process from &lt;strong&gt;Roamer Manip&lt;&#x2F;strong&gt; until you get your desired
+Roamer!&lt;&#x2F;p&gt;
+&lt;p&gt;Eventually, with enough attempts, you will land on the Pokemon you are
+aiming for. Remember to have patience. This Latios literally only took
+me 2 attempts; the calibration run, then I succeeded. But that took me
+&lt;strong&gt;over 2 hours&lt;&#x2F;strong&gt;. This is because of how difficult it is to find the
+roamers when they&#x27;re not yet on your map.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage22.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage7.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Note: Some tips&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;If on the attempt after your adjustment run, you find you&#x27;re only one
+or two &lt;strong&gt;Advances&lt;&#x2F;strong&gt; off, try not adjusting. 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; is only 16
+milliseconds, well within the margin of human error.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Alternatively, if you find yourself dancing around it, consistently
+being 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; early or late several times, try adjusting anyway.
+Sometimes breaking out of the cycle, even if it makes you more late or
+early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Lastly, have patience! This is a skill to hone, maybe it takes you 10,
+15 tries now. But a couple weeks from now, maybe 5! Hope you&#x27;re having
+fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;p&gt;If you enjoyed this process and want to do more RNG Manips, I would
+suggest moving on to Rock Smash RNG. While the general process and
+structure of the manip (Wait for timer, push button at right time) is
+not different, hitting your &lt;strong&gt;Advance&lt;&#x2F;strong&gt; the first time is very tedious,
+and requires a LOT of patience, just like this &lt;strong&gt;Roamer Manip&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>R&#x2F;S Rock Smash RNG</title>
         <published>2021-05-01T18:20:00+00:00</published>
         <updated>2021-05-01T18:20:00+00:00</updated>
@@ -1004,21 +1323,6 @@ Emulator, or Pokemon Box Ruby &amp;amp; Sapphire.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=lk_YzV08jKU&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;&#x2F;h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Pick your Target&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Calibrate your delay&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Attempt your Target&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Adjustments&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;&#x2F;ol&gt;
 &lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
@@ -1245,7 +1549,7 @@ step. Catch a Pokemon, calculate its IVs, and find where you landed.&lt;&#x2F;p&
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage13.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;We can see here that I hit 1 Advance early! So, I&#x27;m close!&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage8.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage8.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;This time, put what you hit into EonTimers &amp;quot;Frame Hit&amp;quot; box rather than
 doing the more complicated adjustments we did earlier. Click update, and
 try again!&lt;&#x2F;p&gt;
