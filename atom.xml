@@ -619,10 +619,10 @@ RNG Manip, or difficult to get in cases where you cannot save.&lt;&#x2F;p&gt;
 &lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Pokemon Ruby or Sapphire with a Dead Internal Battery (any
-language)&lt;br &#x2F;&gt;
-GameBoy Advance, Gameboy Player, Nintendo DS &#x2F; DS Lite, GBA
-Emulator, or Pokemon Box Ruby &amp;amp; Sapphire.&lt;&#x2F;p&gt;
+&lt;p&gt;Pokemon Emerald&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;GameBoy Advance, Gameboy Player, Nintendo DS &#x2F; DS Lite, GBA Emulator&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
 &lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
@@ -753,7 +753,7 @@ There&#x27;s better ways to do this now, though. But that&#x27;s for the
 does-- It resets the position of the RNG. But instead of 0, it&#x27;s to a
 position we choose.&lt;&#x2F;p&gt;
 &lt;p&gt;We can&#x27;t make it exactly our target, though! Otherwise by the time the
-video was closed, our target advance, and therefore pokemon, will have
+video was closed, our target advance, and therefore Pokémon, will have
 passed us by.&lt;&#x2F;p&gt;
 &lt;p&gt;What we have to do then is aim for an &lt;strong&gt;advance&lt;&#x2F;strong&gt; BEFORE our target.&lt;&#x2F;p&gt;
 &lt;p&gt;I find that around 2000~ &lt;strong&gt;Advances&lt;&#x2F;strong&gt; before our target is a nice sweet
