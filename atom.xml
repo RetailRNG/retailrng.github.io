@@ -584,6 +584,383 @@ suggest moving on to X RNG.&lt;&#x2F;p&gt;
         
     </entry>
     <entry xml:lang="en">
+        <title>Emerald Safari Zone &#x2F; Battle Record RNG</title>
+        <published>2021-05-01T18:20:00+00:00</published>
+        <updated>2021-05-01T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/emerald/intermediate/emerald-safari-zone/"/>
+        <id>https://retailrng.com/emerald/intermediate/emerald-safari-zone/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/emerald/intermediate/emerald-safari-zone/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;While learning RNG Manips in Emerald, you may have noticed that,
+generally, the process is the same for everything. Save the game, reset,
+try and get your target.&lt;&#x2F;p&gt;
+&lt;p&gt;But there&#x27;s certain areas in the game that you cannot do this in, most
+notable of which is the Safari Zone! In Emerald, the extensions grant
+you the ability to catch a lot of Pokemon that are pretty rare in gen 3.&lt;&#x2F;p&gt;
+&lt;p&gt;You might think the technique to Manip here would be to save outside the
+Safari Zone &amp;amp; run to your desired location. However, running over grass
+tiles &amp;amp; randomly moving NPCs will cause you to have inconsistent
+results.&lt;&#x2F;p&gt;
+&lt;p&gt;We have a solution, though! And it&#x27;s the Battle Record feature from the
+enhanced trainer card you get once you reach the Battle Frontier.&lt;&#x2F;p&gt;
+&lt;p&gt;This tutorial will serve as a basic use case for this feature, which
+will let you hit target Pokemon that would otherwise seem unfeasible to
+RNG Manip, or difficult to get in cases where you cannot save.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pokemon Ruby or Sapphire with a Dead Internal Battery (any
+language)&lt;br &#x2F;&gt;
+GameBoy Advance, Gameboy Player, Nintendo DS &#x2F; DS Lite, GBA
+Emulator, or Pokemon Box Ruby &amp;amp; Sapphire.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Enter the Battle Frontier once so you have the Battle Frontier
+Trainer Card.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;A Pokemon with Sweet Scent&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;At least one free space in your party.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;5-10 Rare Candies. (Not 100% Needed, but helpful).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;3 Pokemon who know Explosion &#x2F; Self Destruct (Not 100% Needed, but
+helpful).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokeFinder 4.2.1&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;Eon Timer 3.0.0-rc.6&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=HlhM6BTDXvc&quot;&gt;&lt;strong&gt;im a blisy ._.&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
+PokeFinder, and select &lt;strong&gt;Wild&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage24.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will open up and by default be on the &lt;strong&gt;Generator&lt;&#x2F;strong&gt; tab,
+which is where we want to be. Before inputting any settings, make sure
+you select your profile. &lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section set &lt;strong&gt;Method&lt;&#x2F;strong&gt; to &lt;strong&gt;Method Wild 2.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Your profile should automatically set the &lt;strong&gt;Seed&lt;&#x2F;strong&gt; to 0..&lt;&#x2F;p&gt;
+&lt;p&gt;Leave &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt;, and &lt;strong&gt;Delay&lt;&#x2F;strong&gt; at their default values.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Max Advances&lt;&#x2F;strong&gt;, change to 500,000.&lt;&#x2F;p&gt;
+&lt;p&gt;I will not be using any &lt;strong&gt;Lead&lt;&#x2F;strong&gt; in this guide. But if you&#x27;re using &lt;strong&gt;Cute
+Charm, Synchronize, Hustle&lt;&#x2F;strong&gt;, or any other Lead ability, set it as well.&lt;&#x2F;p&gt;
+&lt;p&gt;Before we change our &lt;strong&gt;Settings&lt;&#x2F;strong&gt;, we need to decide on a &lt;strong&gt;Target
+Pokemon&lt;&#x2F;strong&gt;. I will be aiming for a &lt;strong&gt;Shiny Heracross&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;strong&gt;Settings&lt;&#x2F;strong&gt; you will choose your &lt;strong&gt;Encounter Type&lt;&#x2F;strong&gt;. I will be
+choosing &lt;strong&gt;Grass&lt;&#x2F;strong&gt; in this example, since that is where &lt;strong&gt;Heracross&lt;&#x2F;strong&gt;
+is, but the Safari Zone has &lt;strong&gt;Grass&lt;&#x2F;strong&gt;, &lt;strong&gt;Surf&lt;&#x2F;strong&gt;, &lt;strong&gt;Rock Smash&lt;&#x2F;strong&gt; &amp;amp;
+&lt;strong&gt;Fishing&lt;&#x2F;strong&gt; available.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+You can find which &lt;strong&gt;Encounter Type&lt;&#x2F;strong&gt; your target Pokemon uses in the
+&lt;strong&gt;Encounter Lookup&lt;&#x2F;strong&gt; &lt;strong&gt;tool&lt;&#x2F;strong&gt;. I&#x27;ve covered how to use it
+&lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;emerald&#x2F;beginner&#x2F;emerald-wild&#x2F;#pick-your-target&quot;&gt;here&lt;&#x2F;a&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+The &lt;strong&gt;Safari Zone&lt;&#x2F;strong&gt; also has several zones, it&#x27;s not just one location
+in &lt;strong&gt;PokeFinder&lt;&#x2F;strong&gt;. The &lt;strong&gt;Encounter Lookup too&lt;&#x2F;strong&gt;l does tell you which
+zone the Pokemon will be in, but it can still be confusing. Below is a
+visual of which zone is which.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage25.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;After your location is selected, select your target Pokemon you want
+from the dropdown menu.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+Lastly is the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section. This again, is personal choice.
+Select the &lt;strong&gt;IVs&lt;&#x2F;strong&gt;, &lt;strong&gt;Nature&lt;&#x2F;strong&gt;, &lt;strong&gt;Gender&lt;&#x2F;strong&gt;, &lt;strong&gt;Hidden Power&lt;&#x2F;strong&gt;, Ability
+you want. And also select if you want a &lt;strong&gt;Shiny.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+I will just be going for a simple &lt;strong&gt;Shiny&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+&lt;strong&gt;Shiny&lt;&#x2F;strong&gt; is set to Star&#x2F;Square, which will show every potential Shiny.
+Star vs. Square doesn&#x27;t matter in any game other than Sword &amp;amp; Shield,
+but Pokémon transferred from Gen 3 up to those games will retain their
+Star&#x2F;Square Shiny status.&lt;&#x2F;p&gt;
+&lt;p&gt;Once your &lt;strong&gt;Filters&lt;&#x2F;strong&gt; are set, click &lt;strong&gt;Generate&lt;&#x2F;strong&gt;. You should get
+several results, and have a window that looks like this:&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage20.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You might notice that for Heracross, a rare Pokemon, we got quite a lot
+of available targets! That&#x27;s because we expanded &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; to be
+5 times higher than normal.&lt;&#x2F;p&gt;
+&lt;p&gt;I will be aiming for &lt;strong&gt;Advance 162,770&lt;&#x2F;strong&gt;. This is roughly a 45~ minute
+wait.&lt;&#x2F;p&gt;
+&lt;p&gt;There is an earlier Heracross available, but it has the ability
+&lt;strong&gt;Swarm&lt;&#x2F;strong&gt;, which I don&#x27;t like.&lt;&#x2F;p&gt;
+&lt;p&gt;It might seem crazy at first to wait 45 minutes per attempt, but this is
+where the Battle Record feature comes into play!&lt;&#x2F;p&gt;
+&lt;p&gt;Once we set it up, we only have to do this wait &lt;strong&gt;once&lt;&#x2F;strong&gt;!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-is-a-battle-record&quot;&gt;What is a Battle Record?&lt;&#x2F;h3&gt;
+&lt;p&gt;So what is a Battle Record anyway? Once you beat Pokemon Emerald you
+gain access to the Battle Frontier. And the first time you enter it,
+your trainer card gets upgraded to the Frontier Pass. So now, when you
+click on your trainer name in the start menu you&#x27;ll see this screen.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage11.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;&lt;strong&gt;Battle Record&lt;&#x2F;strong&gt; is a selectable option on the Frontier Pass that lets
+you view a replay of a battle that you had, either in multiplayer versus
+another player using Emerald, or from a battle versus an NPC in the
+Frontier.&lt;&#x2F;p&gt;
+&lt;p&gt;This replay isn&#x27;t a video, though, it&#x27;s an actual battle the game is
+doing. To save space, gamefreak stores the trainers&#x27; teams, the moves
+they selected, and uses that data to recreate the match!&lt;&#x2F;p&gt;
+&lt;p&gt;In order to make sure the luck is the same, the current state of the RNG
+is also stored!&lt;&#x2F;p&gt;
+&lt;p&gt;In short, when we load a &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt;, we set the RNG to what it
+WAS at the start of the battle!&lt;&#x2F;p&gt;
+&lt;p&gt;This means for my 45~ minute wait Heracross, yes, I have to wait 45
+minutes ONCE, but from then on I can try as many times as I&#x27;d like
+simply by opening the record again!&lt;&#x2F;p&gt;
+&lt;p&gt;This can be very useful for hitting specific targets who have rare
+encounter slots. For example, Heracross here is on encounter slots 11 &amp;amp;
+9.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage19.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;We could use this same &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt; for a 1% encounter Seedot!&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage14.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You can also use it to aim for outrageously faraway advances! &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=2l3srBIvhAE&quot;&gt;I once
+waited a month for a
+Latias&lt;&#x2F;a&gt;.
+There&#x27;s better ways to do this now, though. But that&#x27;s for the
+&lt;strong&gt;Advanced&lt;&#x2F;strong&gt; section!&lt;&#x2F;p&gt;
+&lt;p&gt;Now that we understand &lt;em&gt;&lt;strong&gt;what&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; a Battle Record is, let&#x27;s set one up!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;setting-up-a-battle-record&quot;&gt;Setting up a Battle Record&lt;&#x2F;h3&gt;
+&lt;p&gt;Consider a &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt; similar to what soft resetting your game
+does-- It resets the position of the RNG. But instead of 0, it&#x27;s to a
+position we choose.&lt;&#x2F;p&gt;
+&lt;p&gt;We can&#x27;t make it exactly our target, though! Otherwise by the time the
+video was closed, our target advance, and therefore pokemon, will have
+passed us by.&lt;&#x2F;p&gt;
+&lt;p&gt;What we have to do then is aim for an &lt;strong&gt;advance&lt;&#x2F;strong&gt; BEFORE our target.&lt;&#x2F;p&gt;
+&lt;p&gt;I find that around 2000~ &lt;strong&gt;Advances&lt;&#x2F;strong&gt; before our target is a nice sweet
+spot. If you accidently over advance, you&#x27;ll have a bit of wiggle room.
+If you are dead on, your wait is still pretty short.&lt;&#x2F;p&gt;
+&lt;p&gt;In my case, I&#x27;m aiming for &lt;strong&gt;Advance 162770&lt;&#x2F;strong&gt;, so my &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt;
+target will be &lt;strong&gt;160770&lt;&#x2F;strong&gt;!&lt;&#x2F;p&gt;
+&lt;p&gt;Once you know what your &lt;strong&gt;Battle Record Target&lt;&#x2F;strong&gt; is, set it up in &lt;strong&gt;Eon
+Timer&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage6.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Your &lt;strong&gt;Eon Timer&lt;&#x2F;strong&gt; should look something like this, but with your target
+advance instead. By this point in the tutorials, you should be
+comfortable setting &lt;strong&gt;Eon Timer&lt;&#x2F;strong&gt; up on your own. If you need a
+refresher on it, see the &lt;strong&gt;Beginner Courses&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Also make sure to double check your console in Eon Timers settings!&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage13.png&quot; width=&quot;40%&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;I selected GBA, since I am doing this on a Gameboy Player.&lt;&#x2F;p&gt;
+&lt;p&gt;For a &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt; attempt, we want to quickly end a battle in any
+facility without clicking Run. The quickest for this is the &lt;strong&gt;Battle
+Tower&lt;&#x2F;strong&gt;. You can do &lt;strong&gt;Level 50 or Open level&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;You can win or lose, it doesn&#x27;t matter. If you win, though, you have to
+click &lt;strong&gt;Retire&lt;&#x2F;strong&gt; before your next battle to end your streak.&lt;&#x2F;p&gt;
+&lt;p&gt;I bring 3 Pokemon with Explosion &#x2F; Self Destruct to make sure the match
+is always over as fast as possible.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage4.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;br&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Note: Explosion Pokemon&lt;&#x2F;summary&gt;
+&lt;i&gt;Here&#x27;s a few options for explosion&#x2F;self desutrct Pokemon in Emerald. 
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Voltorb &#x2F; Electrode - Level 27&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Baltoy &#x2F; Claydol - Level 19&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Regice &#x2F; Registeel &#x2F; Regirock - Move Reminder&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Koffing &#x2F; Weezing - Level 17&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Geodude &#x2F; Graveler - Level 21&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;i&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;At this point, it&#x27;s time to actually get the &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt;!&lt;&#x2F;p&gt;
+&lt;p&gt;Save in front of the Battle Tower Clerk and we can begin!&lt;&#x2F;p&gt;
+&lt;p&gt;Click &lt;strong&gt;Start&lt;&#x2F;strong&gt; Eon Timer, and when the pretimer finishes on the 6th
+beep, soft reset the game.&lt;&#x2F;p&gt;
+&lt;p&gt;Once you&#x27;re in the game, talk to the clerk and mash through their
+dialogue. Go all the way up into your opponent trainer shows up, and has
+their dialogue. But &lt;strong&gt;DO NOT&lt;&#x2F;strong&gt; start the battle.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage3.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;It should look like this.&lt;&#x2F;p&gt;
+&lt;p&gt;Now we wait for Eon Timer to count down! My wait is about 44 minutes. I
+recommend doing something else during your long wait. Have you cleaned
+your room lately?&lt;&#x2F;p&gt;
+&lt;p&gt;Then, when Eon Timer gets near the end of its countdown, it will beep 6
+times. The goal is to press A on the 6th beep to start the trainer
+battle.&lt;&#x2F;p&gt;
+&lt;p&gt;Once you&#x27;re in the battle, do not worry about time AT ALL. You can end
+the battle as quickly or slowly as you need.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage22.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;I lost the battle, so I do not need to click Retire.&lt;&#x2F;p&gt;
+&lt;p&gt;Once you lose or click Retire, you&#x27;ll be back in the Battle Tower Lobby.&lt;&#x2F;p&gt;
+&lt;p&gt;The clerk will ask if you want to record your last battle on your
+Frontier Pass. Say YES to this.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage1.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;It looks like this. Once you say yes, you also must save the game
+regularly, or your &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt; will not stick.&lt;&#x2F;p&gt;
+&lt;p&gt;At this point, we&#x27;re done making the Battle Record! Now we have to
+attempt our target!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;battle-record-manip&quot;&gt;Battle Record Manip&lt;&#x2F;h3&gt;
+&lt;p&gt;To get started, I&#x27;m going to head to the &lt;strong&gt;North Safari Zone&lt;&#x2F;strong&gt;, where
+Heracross is located! I&#x27;ll also swap out my 3 exploders, since I do not
+need them anymore.&lt;&#x2F;p&gt;
+&lt;p&gt;Also remember to bring your &lt;strong&gt;Sweet Scent&lt;&#x2F;strong&gt; user with you!&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage18.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Now, in Eon Timer, we&#x27;re going to go to the &lt;strong&gt;Custom&lt;&#x2F;strong&gt; Tab. Here, set
+the &lt;strong&gt;Unit&lt;&#x2F;strong&gt; to &lt;strong&gt;Advances&lt;&#x2F;strong&gt;, and input how many &lt;strong&gt;Advances&lt;&#x2F;strong&gt; you
+subtracted from your target. I did 2000.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage16.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;We don&#x27;t know for certain that we&#x27;re 2000 advances away exactly. In
+fact, we&#x27;re probably not! So our first attempt will be us trying to
+figure out where we actually hit!&lt;&#x2F;p&gt;
+&lt;p&gt;At this point, we&#x27;re ready!&lt;&#x2F;p&gt;
+&lt;p&gt;What we&#x27;re going to do is open the &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt;, then, while the
+intro to the battle happens, close the &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt; with &lt;strong&gt;B&lt;&#x2F;strong&gt;, and
+press &lt;strong&gt;Start&lt;&#x2F;strong&gt; on Eon Timer at the same time!&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage7.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;I closed it around here. The RNG doesn&#x27;t advance until a Pokemon makes
+an attack, so you don&#x27;t have to rush.&lt;&#x2F;p&gt;
+&lt;p&gt;While Eon Timer counts down, I go to the Pokemon Menu and hover over the
+field move sweet scent, waiting for it to finish counting down.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage12.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then, when Eon Timer gets near the end of its countdown, it will beep 6
+times. The goal is to press A on the 6th beep to start the encounter.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage23.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;I got a non-shiny Phanpy. If you catch it, we can move on to Adjustment!
+If not, that&#x27;s fine. Just repeat from &lt;strong&gt;Battle Record Manip.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;battle-record-adjustment&quot;&gt;Battle Record Adjustment&lt;&#x2F;h3&gt;
+&lt;p&gt;To find out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure out
+its IVs and use that to search.&lt;&#x2F;p&gt;
+&lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; we&#x27;ll leave Seed and Method alone, but we are going to
+change &#x27;Initial Advances&#x27;. To be about 2000 advances before our target.&lt;&#x2F;p&gt;
+&lt;p&gt;In my case, I am aiming for 162770. So I set it to 160770. Also set
+&lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; to 4000. This will generate Pokemon spreads from 2000
+Advances before your target, and 2000 after it.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+For &lt;strong&gt;Settings&lt;&#x2F;strong&gt;, set &lt;strong&gt;Encounter&lt;&#x2F;strong&gt; to Your Encounter Type, mine is
+&lt;strong&gt;Grass&lt;&#x2F;strong&gt;. &lt;strong&gt;Location&lt;&#x2F;strong&gt; to your Location, in my case it&#x27;s &lt;strong&gt;Safari Zone
+North&lt;&#x2F;strong&gt;. And select which Pokemon you received. In my case it&#x27;s
+&lt;strong&gt;Phanpy.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Then, for the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section, clear everything out to their default
+values. All IVs should be 0 to 31, and all of the drop downs should say
+&lt;strong&gt;Any&lt;&#x2F;strong&gt;, except &lt;strong&gt;Nature&lt;&#x2F;strong&gt; and &lt;strong&gt;Gender&lt;&#x2F;strong&gt;. Set those to what the Pokemon
+you received had. In my case it&#x27;s a &lt;strong&gt;Hardy, Male Phanpy&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;After that, click the IV Calculator Button.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage8.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;A new window will pop up called IV Calculator. Here, you input a
+Pokemon&#x27;s stats, which get converted into IV Ranges for &lt;strong&gt;Generators IV
+Filters&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In the &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; drop down, select the Pokemon you are manipping. And
+in the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; box, select its nature.&lt;&#x2F;p&gt;
+&lt;p&gt;Then, at the bottom, put in the Pokemons Level and all of its stats, and
+hit &lt;strong&gt;Find IVs&lt;&#x2F;strong&gt;. You will see the &lt;strong&gt;Results&lt;&#x2F;strong&gt; section populated with IV
+Ranges.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage10.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage21.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;If you have Rare Candies to raise the Pokemon&#x27;s level, we can make the
+IV Ranges even more Precise. We aren&#x27;t keeping this Pokemon, so it&#x27;s
+safe to use them to gain info. They will come back when we soft reset!&lt;&#x2F;p&gt;
+&lt;p&gt;You should be used to doing this by now, if you need a refresher on how
+to more precisely calculate the IVs, re-read one of the previous
+courses!&lt;&#x2F;p&gt;
+&lt;p&gt;Once you have clicked &lt;strong&gt;Find IV&#x27;s&lt;&#x2F;strong&gt;, it also fills that info out within
+the &lt;strong&gt;Wild Generator&lt;&#x2F;strong&gt; in PokeFinder.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage9.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;At this point, hit Generate. You should only get one result. If you get
+more than that, you can narrow down the results further by doing more
+levels in the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;If you do not have &lt;strong&gt;ANY&lt;&#x2F;strong&gt; rare candies and have &lt;strong&gt;more than one
+result&lt;&#x2F;strong&gt;, it&#x27;s generally fine to assume you hit the closest &lt;strong&gt;Advance&lt;&#x2F;strong&gt;
+to your target.&lt;&#x2F;p&gt;
+&lt;p&gt;If nothing comes up, make sure to check the other wild Methods, like 1
+and 4.&lt;&#x2F;p&gt;
+&lt;p&gt;If you still have no results, expand your search range by decreasing
+&lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; by 1000, and increasing &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; by 1000,
+and click &lt;strong&gt;Generate&lt;&#x2F;strong&gt; again. Do this until you get at least 1 result.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+In my case, I hit this &lt;strong&gt;Wild 2&lt;&#x2F;strong&gt; Phanpy.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage5.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Now we need to calibrate. You may notice this is quite a distance away
+from your target! I was aiming for 162770, but this Phanpy spawned on
+&lt;strong&gt;163422&lt;&#x2F;strong&gt;! That&#x27;s a &lt;strong&gt;652 Advance difference&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;You have to calculate this yourself by subtracting the higher number
+from the lower number. IE, if you hit later than your target, like I
+did, you subtract your target &lt;strong&gt;Advance&lt;&#x2F;strong&gt; from what you landed on.&lt;&#x2F;p&gt;
+&lt;p&gt;If you were early, let&#x27;s say I hit 161770, I&#x27;d subtract that from my
+target &lt;strong&gt;Advance&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;If you were late, add the number you got to the Number you have in Eon
+Timer. If you were early, subtract it.&lt;&#x2F;p&gt;
+&lt;p&gt;I was &lt;strong&gt;652&lt;&#x2F;strong&gt; Late, and have &lt;strong&gt;2000&lt;&#x2F;strong&gt; in Eon Timer.&lt;&#x2F;p&gt;
+&lt;p&gt;So I add those together and put the result in the &lt;strong&gt;Hit&lt;&#x2F;strong&gt; box in Eon
+Timer. Then, I click &lt;strong&gt;Update&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage17.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You&#x27;ll notice the calibration changes!&lt;&#x2F;p&gt;
+&lt;p&gt;I would also recommend you reset the filters section of PokeFinder back
+to default values, incase you miss your Target again!&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;Tip: IV Clear&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;i&gt;If you click HP&#x2F;ATK&#x2F;DEF&#x2F;SPA&#x2F;SPD&#x2F;SPE in PokeFinder, it sets the ranges
+back to 0-31!&lt;&#x2F;i&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;Now repeat the process from &lt;strong&gt;Battle Record Manip&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;Battle Record
+Adjustment&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Eventually, with enough attempts, you will land on the Pokemon you are
+aiming for. I tend to only adjust if I am more than 2 off, or I land on
+the same Advanced repeatedly.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage2.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Here it only took me 4 attempts once I calibrated to land on my target
+&lt;strong&gt;Heracross&lt;&#x2F;strong&gt;!&lt;&#x2F;p&gt;
+&lt;p&gt;And remember, this &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt; is &lt;strong&gt;REUSABLE&lt;&#x2F;strong&gt;. I now have a
+calibrated Eon Timer for 2000 advances away from a shiny, that I can use
+whenever I please!&lt;&#x2F;p&gt;
+&lt;p&gt;And it&#x27;s on encounter slots 11 &amp;amp; 9, which are rare Pokemon! I could use
+it for Chimecho, or Volbeat, etc! You can see what encounter slot a
+Pokemon is by selecting them in the dropdown, then looking in filters.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage15.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;So use the Battle Record as much as you can &amp;amp; get those rare Pokemon!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;p&gt;At this point you&#x27;re all done with the Intermediate course! Next up is
+Advanced. In there we&#x27;ll cover some complex, multi step Manips that will
+focus on not only getting SHINY Pokemon, but Pokemon with good stats. So
+if you like competitive play &amp;amp; you feel like you&#x27;ve mastered the basics,
+check out our Egg RNG and Painting RNG guides!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Section 2</title>
         <published>2021-05-01T18:20:00+00:00</published>
         <updated>2021-05-01T18:20:00+00:00</updated>
@@ -1022,7 +1399,7 @@ the elite 4 will speed up the identification process.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
 PokeFinder, and select &lt;strong&gt;Static&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage11.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage11.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;A new window will open up and by default be on the &lt;strong&gt;Generator&lt;&#x2F;strong&gt; tab,
 which is where we want to be. Before inputting any settings, make sure
 you select your profile. &lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;rs&#x2F;beginner&#x2F;trainer-id-starter-manip&#x2F;#step-4-starter-setup&quot;&gt;If you have not set one up, I covered how to
@@ -1110,7 +1487,7 @@ Quiet Boosts special attack!&lt;&#x2F;p&gt;
 &lt;p&gt;To get started with the Roamer Manip, you want to save in-front of the
 TV in your parents house. This event only spawns immediately after you
 defeat the elite 4. You CANNOT&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage12.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage12.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Then, in Eon Timer, put the number from the &lt;strong&gt;Advances&lt;&#x2F;strong&gt; Column into the
 &lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; box in EonTimer. In my case, it is 2133. Also, make
 sure the value in &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; is 0.&lt;&#x2F;p&gt;
@@ -1127,7 +1504,7 @@ soft reset the game to, then the countdown for your &lt;strong&gt;Target Advance
 Begins. I&#x27;ll be using this method for the remainder of the guide.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage3.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Also make sure to double check your console in EonTimers settings!&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage6.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage6.png&quot; width=&quot;40%&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;I selected GBA, since I am doing this on a Gameboy Player. A regular
 GBA, and GBA Emulators should also select this. But if you&#x27;re on a DS
 or DSLite, select NDS - Slot 2.&lt;&#x2F;p&gt;
@@ -1136,7 +1513,7 @@ pretimer finishes on the 6th beep, soft reset the game.&lt;&#x2F;p&gt;
 &lt;p&gt;After that, press A until you&#x27;re loaded into the game and talk to the TV
 and get to the final box of dialogue. Then, wait there until Eon Timer
 finishes counting down.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage13.png&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage13.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Then, when Eontimer gets near the end of its countdown, it will beep 6
 times. The goal is to press A on the 6th beep to release the roamer.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
@@ -1144,15 +1521,15 @@ Now, we have to go find it!&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;finding-the-roamer&quot;&gt;Finding the Roamer&lt;&#x2F;h3&gt;
 &lt;p&gt;Route 118 is the most common route the roamer can appear on, so I head
 to this spot on Route 123, by the berry master&#x27;s house.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage1.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage1.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Put a repel on &amp;amp; make sure the lead pokemon of your party is above level
 30, but below level 40. I use a level 33 Dunsparce for mine. Then, go to
 the grass and bunny hop on the Acro Bike for a little while. If the
 roamer doesn&#x27;t appear, I go back to Route 123 so the route sign drops
 down, and head back to 118 and repeat.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage15.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage15.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Do this until the roamer spawns.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage2.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage2.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;And we can see it&#x27;s not shiny like I wanted. It&#x27;s likely you also missed
 your target. We&#x27;re going to have to check the Pokemons summary screen to
 figure out what &lt;strong&gt;RNG Advance&lt;&#x2F;strong&gt; we landed on. To do that, we&#x27;ll have to
@@ -1185,8 +1562,8 @@ in the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; box, select its nature.&lt;&#x2F
 &lt;p&gt;Then, at the bottom, put in the Pokemons Level and all of its stats, and
 hit &lt;strong&gt;Find IVs&lt;&#x2F;strong&gt;. You will see the &lt;strong&gt;Results&lt;&#x2F;strong&gt; section populated with IV
 Ranges.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage5.png&quot; width=&quot;70%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage16.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage5.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage16.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;If you have Rare Candies to raise the Roamers level, we can make the IV
 Ranges even more Precise. We aren&#x27;t keeping this Pokemon, so it&#x27;s safe
 to use them to gain info. They will come back when we soft reset!&lt;br &#x2F;&gt;
@@ -1198,8 +1575,8 @@ only took me 3 candies to do so.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 To account for the extra levels, click the &lt;strong&gt;Add Row&lt;&#x2F;strong&gt; button, and a new
 row to enter the information for its next level will appear.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage10.png&quot; width=&quot;70%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage18.png&quot; &quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage10.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage18.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Once you have clicked &lt;strong&gt;Find IV&#x27;s&lt;&#x2F;strong&gt;, it also fills that info out within
 the &lt;strong&gt;Static Generator&lt;&#x2F;strong&gt; in PokeFinder.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage19.png&quot; width=&quot;80%&quot;&gt;&lt;&#x2F;center&gt;
@@ -1235,8 +1612,8 @@ aiming for. Remember to have patience. This Latios literally only took
 me 2 attempts; the calibration run, then I succeeded. But that took me
 &lt;strong&gt;over 2 hours&lt;&#x2F;strong&gt;. This is because of how difficult it is to find the
 roamers when they&#x27;re not yet on your map.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage22.png&quot; &gt;&lt;&#x2F;center&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage7.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage22.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage7.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;details style=&quot;border:&quot;&gt;
 &lt;summary&gt;Note: Some tips&lt;&#x2F;summary&gt;
 &lt;p&gt;&lt;em&gt;If on the attempt after your adjustment run, you find you&#x27;re only one
@@ -1364,7 +1741,7 @@ but Pokémon transferred from Gen 3 up to those games will retain their
 Star&#x2F;Square Shiny status.&lt;&#x2F;p&gt;
 &lt;p&gt;Once your &lt;strong&gt;Filters&lt;&#x2F;strong&gt; are set, click &lt;strong&gt;Generate&lt;&#x2F;strong&gt;. You should get
 several results, and have a window that looks like this:&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage22.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage22.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;If you get no results, that means no Pokemon within &lt;strong&gt;100,000 Advances&lt;&#x2F;strong&gt;
 exists, which is about a 26 minute period of time. There are ways to
 circumvent this issue, but they are difficult techniques covered in our
