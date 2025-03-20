@@ -1616,16 +1616,11 @@ roamers when they&#x27;re not yet on your map.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage7.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;details style=&quot;border:&quot;&gt;
 &lt;summary&gt;Note: Some tips&lt;&#x2F;summary&gt;
-&lt;p&gt;&lt;em&gt;If on the attempt after your adjustment run, you find you&#x27;re only one
-or two &lt;strong&gt;Advances&lt;&#x2F;strong&gt; off, try not adjusting. 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; is only 16
-milliseconds, well within the margin of human error.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;Alternatively, if you find yourself dancing around it, consistently
-being 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; early or late several times, try adjusting anyway.
-Sometimes breaking out of the cycle, even if it makes you more late or
-early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;Lastly, have patience! This is a skill to hone, maybe it takes you 10,
-15 tries now. But a couple weeks from now, maybe 5! Hope you&#x27;re having
-fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;i&gt;The worst part of this manip is FINDING the dang Lati.&lt;&#x2F;p&gt;
+&lt;p&gt;I really reccomend trading over a Lati beforehand for the dex entry, otherwise this manip is tedious.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;d also highly reccomend either using the masterball, or having catching Pokemon at the ready!&lt;&#x2F;p&gt;
+&lt;p&gt;Other than that, this manip isn&#x27;t too different to your normal static encounter!
+&lt;&#x2F;i&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
 &lt;p&gt;If you enjoyed this process and want to do more RNG Manips, I would
@@ -1951,8 +1946,8 @@ early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
-&lt;p&gt;If you enjoyed this process and want to do more RNG Manips, I think it&#x27;s fine to jump around to anything in Intermediate.
-Most of these are going to be difficult in unique ways and get you ready to learn how to do some of the Advanced manips!&lt;&#x2F;p&gt;
+&lt;p&gt;Up next we&#x27;ll be tackling the Safari Zone, and using it as a way to teach you the basics of &lt;strong&gt;Pathing&lt;&#x2F;strong&gt; in Ruby &amp;amp; Sapphire.
+This is something you really won&#x27;t have to worry about in any other game! &lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -2197,8 +2192,8 @@ content directories as needed.&lt;&#x2F;p&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokéFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;RetailRNG&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;v3.0.0&quot;&gt;EonTimer 3.0.0&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokéFinder 4.2.1&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;EonTimer 3.0.0-rc.6&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
 &lt;ul&gt;
@@ -2206,7 +2201,7 @@ content directories as needed.&lt;&#x2F;p&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=4G_fWWnlKWg&amp;t=1s&quot;&gt;Papa Jefe&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;step-1-trainer-id-setup&quot;&gt;Step 1: Trainer ID Setup&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;trainer-id-setup&quot;&gt;Trainer ID Setup&lt;&#x2F;h3&gt;
 &lt;p&gt;Before we can start any manips, we have to know what Trainer ID and Secret ID we want. What we&#x27;re going to do is pick a specific target advance to &lt;strong&gt;make&lt;&#x2F;strong&gt; shiny. &lt;&#x2F;p&gt;
 &lt;p&gt;Which one you pick is up to personal preference– It&#x27;s all about IVs, Nature, &amp;amp; Gender. Also, the higher advance you pick, the longer the wait you will have. Be careful not to go for too short of a wait, though, as you need enough time to be able to reset the game and press A at the correct time. I would not pick a target below 1000. &lt;&#x2F;p&gt;
 &lt;p&gt;To pick your target, open PokéFinder, and in the Gen 3 Tab, click &lt;strong&gt;Static&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
@@ -2229,7 +2224,7 @@ content directories as needed.&lt;&#x2F;p&gt;
 &lt;p&gt;When we click Generate here, it will use that PID we pasted to generate multiple different Trainer ID and Secret IDs that will make any Static Encounter, Gift Pokémon, Legendary, or Roamer Shiny if we receive&#x2F;encounter it on the advance we picked. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDSIDWindow.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;I will be aiming for Advance 7660, Trainer ID &lt;strong&gt;14002&lt;&#x2F;strong&gt; and Secret ID &lt;strong&gt;29131&lt;&#x2F;strong&gt;. At this point, our prep is complete. You should have a Trainer ID and a Starter Pokémon you are aiming for ready. So it&#x27;s time to move on to the TID Manip. &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-2-trainer-id-manip&quot;&gt;Step 2: Trainer ID Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;trainer-id-manip&quot;&gt;Trainer ID Manip&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with the manip, we’re going to boot up our copy of Ruby or Sapphire, and open the Eon Timer 3.0 App on our computer. &lt;&#x2F;p&gt;
 &lt;p&gt;In Eon Timer, click the &lt;strong&gt;3&lt;&#x2F;strong&gt; tab, and make sure the &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; Box is set to 0. &lt;&#x2F;p&gt;
 &lt;p&gt;Also, make sure to put your &lt;strong&gt;Target Advance&lt;&#x2F;strong&gt; from the IDs section into the &lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; box in Eon Timer. Mine was 7660. &lt;&#x2F;p&gt;
@@ -2239,9 +2234,9 @@ content directories as needed.&lt;&#x2F;p&gt;
 &lt;p&gt;Your timer should look something like this:&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDEonTimer.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;You should also click the gear icon, and make sure your console setting is correct. 
-GBA and NDS-GBA have slightly different frame rates. &lt;&#x2F;p&gt;
+regular GBA and GBA Games on the DS have slightly different frame rates. &lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;GBA: 59.7275 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;NDS-GBA: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NDS - Slot 2: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative to the actual game. 
 If you’re playing on unofficial hardware or emulator, stick with GBA as this is usually the default.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDEonTimerSettings.png&quot; &gt;&lt;&#x2F;center&gt;
@@ -2253,7 +2248,7 @@ If you’re playing on unofficial hardware or emulator, stick with GBA as this i
 &lt;p&gt;Once the overworld loads, open up the start menu and click your Trainer Name to check your ID on the Trainer Card. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDWrong.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;And as you can see here, it’s not the one I wanted. You also probably didn’t get it. What’s going on here? Well, as mentioned in the &lt;strong&gt;Introduction&lt;&#x2F;strong&gt; page, the gen 3 games move at around 60 frames per second, and different manips have different offsets and delays. This is no different, so I’ll show you how to account for your own personal timing, and any delay incurred by the game itself in the next section. &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-3-trainer-id-adjust&quot;&gt;Step 3: Trainer ID Adjust&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;trainer-id-adjust&quot;&gt;Trainer ID Adjust&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we’re going to do post attempt is open back up the IDs section of PokéFinder. We can leave the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section the same as our setup. But in the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section, we’re going to click the &lt;strong&gt;TID&lt;&#x2F;strong&gt; bubble. &lt;&#x2F;p&gt;
 &lt;p&gt;There, we’ll type out what TID we just got in-game, and hit generate. You should only get 1 result using these parameters.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDmissed.png&quot; width=&quot;90%&quot; &gt;&lt;&#x2F;center&gt;
@@ -2264,7 +2259,7 @@ If you’re playing on unofficial hardware or emulator, stick with GBA as this i
 &lt;p&gt;This is a precise endeavor, the timing is 1&#x2F;60th of a second, remember. So have patience, and with enough attempts you will get the ID you want. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDRight.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Once you do, it’s time to use that Trainer ID to get a shiny starter! &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-4-starter-setup&quot;&gt;Step 4: Starter Setup&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;starter-setup&quot;&gt;Starter Setup&lt;&#x2F;h3&gt;
 &lt;p&gt;The process for the Starter Manip is very similar to the Trainer ID Manip, but before we get started I want to walk you through setting up a Profile in PokéFinder for Gen 3, and making your target starter show up in PokéFinder. &lt;&#x2F;p&gt;
 &lt;p&gt;First, we’ll head back into the &lt;strong&gt;Static&lt;&#x2F;strong&gt; section in Gen 3 on PokéFinder. Up top, there’s a &lt;strong&gt;Profile&lt;&#x2F;strong&gt; section, click the Manager Button. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterProfile1.png&quot; width=&quot;90%&quot; &gt;&lt;&#x2F;center&gt;
@@ -2284,7 +2279,7 @@ If you’re playing on unofficial hardware or emulator, stick with GBA as this i
 &lt;p&gt;You may be wondering what the Star&#x2F;Square Distinction is in PokéFinder in the Shiny Column. This is for Pokémon Sword and Shield. That game has two distinct shiny animations, and this column tells you if it will be the animation with stars, or with squares. It makes no visual difference in any other game.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterStarSquare.png&quot;  &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Okay, at this point, we have the ability to search for a target, we know our Trainer ID should theoretically produce a shiny, so let’s confirm we’re correct.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-5-starter-manip&quot;&gt;Step 5: Starter Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;starter-manip&quot;&gt;Starter Manip&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with the starter manip, you want to play through the intro until you are in front of Professor Birch&#x27;s bag, and save the game. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterSaveLoc.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Then, in Eon Timer, put the number from the  &lt;strong&gt;Advances&lt;&#x2F;strong&gt; Column into the &lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; box. In my case, it is the same number I used for my Trainer ID Manip. Also, change the value in the  &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; box to be 0 again. &lt;&#x2F;p&gt;
@@ -2296,7 +2291,7 @@ If you’re playing on unofficial hardware or emulator, stick with GBA as this i
 &lt;p&gt;When the timer finishes counting down, hit A to start the battle with Poochyena. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterWrong.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;We can check the summary screen and see that we missed our target once again. Just like with the Trainer ID Manip, we are going to have to learn how to calibrate missing our target. &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-6-starter-adjust&quot;&gt;Step 6: Starter Adjust&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;starter-adjust&quot;&gt;Starter Adjust&lt;&#x2F;h3&gt;
 &lt;p&gt;To figure out which Mudkip we hit, we’re going to have to figure out its IVs and use that to search. &lt;&#x2F;p&gt;
 &lt;p&gt;First, though, let’s set up Generator for a search. &lt;&#x2F;p&gt;
 &lt;p&gt;In &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; we’ll leave Seed and Method alone, but we are going to change &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt;. To be about 1000 advances before our target.&lt;&#x2F;p&gt;
@@ -2349,9 +2344,7 @@ variety in situations and circumstances.&lt;&#x2F;p&gt;
 &lt;p&gt;This pool of Pokémon includes all of the &lt;strong&gt;Legendary Pokémon&lt;&#x2F;strong&gt;, various
 overworld encounters, like Kecleon or Electrode, and all the gift
 Pokémon.&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
-&lt;strong&gt;NOTE:&lt;&#x2F;strong&gt; This guide will &lt;strong&gt;NOT INCLUDE ROAMING Pokémon&lt;&#x2F;strong&gt;. There will be
-a separate guide in the &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; section for them.&lt;&#x2F;p&gt;
+&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
 &lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
 &lt;ul&gt;
@@ -2386,10 +2379,13 @@ to capture or receive.&lt;&#x2F;p&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokéFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;RetailRNG&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;v3.0.0&quot;&gt;EonTimer 3.0.0&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokeFinder 4.2.1&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;Eon Timer 3.0.0-rc.6&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;&quot;&gt;&lt;&#x2F;h3&gt;
 &lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=66jIEyGy3OA&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
@@ -2506,7 +2502,7 @@ we will be covering ways around this.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;To get started with the Static Manip, you want to save in-front of
 whichever Pokémon you want to receive. Here I am in front of Rayquaza.&lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
-&lt;summary&gt;Note: Castform, Lileep, &amp; Anorith&lt;&#x2F;summary&gt;
+&lt;summary&gt;Note: Castform, Lileep, Anorith, &amp; Roaming Latios &#x2F; Latias&lt;&#x2F;summary&gt;
 &lt;p&gt;&lt;em&gt;These three Pokémon have slightly unique save positions and
 requirements than the rest of the &lt;strong&gt;Static&lt;&#x2F;strong&gt; encounters.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Castform&lt;&#x2F;strong&gt;: Castform is given to you after you defeat Team Aqua or
@@ -2522,6 +2518,12 @@ the Manip.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 them from the Scientist, not when you give them to him. So first you
 must give him your fossil, then walk out of the building so he finishes
 reviving them, and walk back to him and save the game.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;i&gt;&lt;em&gt;&lt;strong&gt;Latios&#x2F;Latias&lt;&#x2F;strong&gt;: The roaming Pokemon is generated like a normal static&lt;&#x2F;em&gt;
+when you select the color on the TV. In R&#x2F;S&#x2F;FR&#x2F;LG the Roaming Pokemon is bugged
+to have horrible IVs. But this is fixed in Emerald! &lt;&#x2F;p&gt;
+&lt;p&gt;Catching the roamer is quite annoying, but you can read about the best way to do it
+&lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;rs&#x2F;intermediate&#x2F;roaming-pokemon&#x2F;#finding-the-roamer&quot;&gt;here, in the R&#x2F;S Roamer guide.&lt;&#x2F;a&gt;.
+Those games get a separate guide just because of the aforementioned glitch.&lt;&#x2F;i&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;br&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstaticimage11.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
@@ -2541,18 +2543,13 @@ your game at the same time as clicking &lt;strong&gt;Start&lt;&#x2F;strong&gt; o
 soft reset the game to, then the countdown for your &lt;strong&gt;Target Advance&lt;&#x2F;strong&gt;
 Begins. I&#x27;ll be using this method for the remainder of the guide.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstaticimage1.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;You should also click the gear icon, and make sure your console setting
-is correct.&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
-GBA and NDS-GBA have slightly different frame rates.&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
-&lt;strong&gt;GBA: 59.7275 fps&lt;br &#x2F;&gt;
-NDS-GBA: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative
-to the actual game.&lt;&#x2F;p&gt;
-&lt;p&gt;If you&#x27;re playing on unofficial hardware or emulator, stick with GBA as
-this is usually the default.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstaticimage3.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You should also click the gear icon, and make sure your console setting is correct. 
+regular GBA and GBA Games on the DS have slightly different frame rates. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA: 59.7275 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NDS - Slot 2: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative to the actual game. 
+If you’re playing on unofficial hardware or emulator, stick with GBA as this is usually the default.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstaticimage3.png&quot; width=&quot;40%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;You don&#x27;t need to touch &lt;strong&gt;Refresh Interva&lt;&#x2F;strong&gt;l or &lt;strong&gt;Precision&lt;&#x2F;strong&gt;
 &lt;strong&gt;Calibration&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;We are almost ready to begin. You need to know three more things.&lt;&#x2F;p&gt;
@@ -2628,6 +2625,9 @@ there is text.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
 &lt;p&gt;Registeel: Press A in front of it&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Roaming Lati@s: Press A on the Red&#x2F;Blue option on the TV.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
 &lt;p&gt;Latias (Southern Island): Press A in front of it&lt;&#x2F;p&gt;
@@ -2852,10 +2852,13 @@ preferred&lt;&#x2F;strong&gt;)&lt;&#x2F;p&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokéFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;RetailRNG&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;v3.0.0&quot;&gt;EonTimer 3.0.0&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokeFinder 4.2.1&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;Eon Timer 3.0.0-rc.6&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;&quot;&gt;&lt;&#x2F;h3&gt;
 &lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=pciQkasUJ7g&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
@@ -2881,23 +2884,16 @@ did not, do that now.&lt;&#x2F;p&gt;
 &lt;p&gt;Leave &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt;, &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt;, and &lt;strong&gt;Delay&lt;&#x2F;strong&gt; at their
 default values.&lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
-&lt;summary&gt;Note: What is Delay?&lt;&#x2F;summary&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Delay&lt;&#x2F;strong&gt; in Ruby, Sapphire, Emerald, Fire Red, and Leaf Green is how
-many RNG Advances occur after you press A to encounter or receive your
-Pokémon, but before the Pokémon is generated.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;In the past, we would consult a list that told you what this value was
-for various encounters. We no longer do this, and no guide here will
-reference such lists. This is for two main reasons.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;1. Attempting to hit your target Pokémon, missing it, and calibrating
-your miss is an integral part of the RNG Process. Figuring out a
-specific legendaries &lt;strong&gt;Delay&lt;&#x2F;strong&gt; will only take one of these. Because we
-teach RNGing this way, &lt;strong&gt;Delay&lt;&#x2F;strong&gt; no longer serves a purpose.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;2. Many people would refrain from performing certain manips if they did
-not know a Pokémon&#x27;s &lt;strong&gt;Delay&lt;&#x2F;strong&gt;. Such hesitance is bad, we do not want
-people thinking they &lt;strong&gt;CANNOT&lt;&#x2F;strong&gt; do a manip without an arbitrary list
-somewhere, when they absolutely can.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;In short, &lt;strong&gt;Delay&lt;&#x2F;strong&gt; is a social construct we as a community have moved
-past the need for.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;summary&gt;Note: Sweet Scent Delay?&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;In our &lt;strong&gt;Static RNG Guide&lt;&#x2F;strong&gt;, I covered why we do not list delays
+anymore. But you may be wondering why not cover &lt;strong&gt;Sweet Scents&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;
+&lt;em&gt;&lt;strong&gt;Delay&lt;&#x2F;strong&gt;, since it should be the same everywhere?&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;The reason is because &lt;strong&gt;Sweet Scent&#x27;s&lt;&#x2F;strong&gt; delay changes based on which
+area you are in, and what game you are in. And again, learning how to
+calibrate after missing your &lt;strong&gt;Target&lt;&#x2F;strong&gt; once is an important step in the
+process.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;In short- Don&#x27;t stress about &lt;strong&gt;Delay&lt;&#x2F;strong&gt;. It&#x27;s not useful to us, learning
+how to &lt;strong&gt;Calibrate&lt;&#x2F;strong&gt; will teach you how to handle delays.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;br&gt;
 &lt;p&gt;Before we move on to settings, think of what &lt;strong&gt;Pokemon&lt;&#x2F;strong&gt; you want to RNG
@@ -2977,18 +2973,13 @@ your game at the same time as clicking &lt;strong&gt;Start&lt;&#x2F;strong&gt; o
 soft reset the game to, then the countdown for your &lt;strong&gt;Target Advance&lt;&#x2F;strong&gt;
 Begins. I&#x27;ll be using this method for the remainder of the guide.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emwildimage13.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;You should also click the gear icon, and make sure your console setting
-is correct.&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
-GBA and NDS-GBA have slightly different frame rates.&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
-&lt;strong&gt;GBA: 59.7275 fps&lt;br &#x2F;&gt;
-NDS-GBA: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative
-to the actual game.&lt;&#x2F;p&gt;
-&lt;p&gt;If you&#x27;re playing on unofficial hardware or emulator, stick with GBA as
-this is usually the default.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emwildimage16.png&quot; &gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You should also click the gear icon, and make sure your console setting is correct. 
+regular GBA and GBA Games on the DS have slightly different frame rates. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA: 59.7275 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NDS - Slot 2: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative to the actual game. 
+If you’re playing on unofficial hardware or emulator, stick with GBA as this is usually the default.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstaticimage3.png&quot; width=&quot;40%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;You don&#x27;t need to touch &lt;strong&gt;Refresh Interva&lt;&#x2F;strong&gt;l or &lt;strong&gt;Precision
 Calibration&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;We are all ready to begin!&lt;&#x2F;p&gt;
@@ -3097,25 +3088,20 @@ first adjustment run.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emwildimage2.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;details style=&quot;border:&quot;&gt;
 &lt;summary&gt;Note: Some tips&lt;&#x2F;summary&gt;
-&lt;p&gt;&lt;em&gt;If on the attempt after your adjustment run, you find you&#x27;re only one
-or two &lt;strong&gt;Advances&lt;&#x2F;strong&gt; off, try not adjusting. 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; is only 16
-milliseconds, well within the margin of human error.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;On the contrary, if you find yourself dancing around it, consistently
-being 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; early or late several times, try adjusting anyway.
-Sometimes breaking out of the cycle, even if it makes you more late or
-early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;Lastly, have patience! This is a skill to hone, maybe it takes you 10,
-15 tries now. But a couple weeks from now, maybe 5! Hope you&#x27;re having
-fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;i&gt;Remember to always check other wild methods when searching for what target you hit!
+If you find your results don&#x27;t make sense, that could be the key!&lt;&#x2F;p&gt;
+&lt;p&gt;In addition, really make sure to check your &lt;strong&gt;Lead Ability&lt;&#x2F;strong&gt;. If you have one on, but
+didn&#x27;t mean to, it&#x27;ll cause your results to vary wildly!&lt;&#x2F;p&gt;
+&lt;p&gt;This is really not that different from the &lt;strong&gt;Static&lt;&#x2F;strong&gt; RNG you should&#x27;ve done!
+&lt;&#x2F;i&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
-&lt;br&gt;
 &lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
 &lt;p&gt;Congratulations! You&#x27;ve finished all the &lt;strong&gt;Beginner&lt;&#x2F;strong&gt; RNG Manips for
 &lt;strong&gt;Emerald&lt;&#x2F;strong&gt;! At this point, I&#x27;d suggest delving into some more
 complicated subjects in our &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; section, or trying
 &lt;strong&gt;Pokemon Ruby&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;Sapphire&lt;&#x2F;strong&gt;, which is very similar to this.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; will contain a lot of familiar techniques showcased
-here, but with various different challenges. Things like &lt;strong&gt;Roamer&lt;&#x2F;strong&gt;,
+here, but with various different challenges. Things like
 &lt;strong&gt;Fishing&lt;&#x2F;strong&gt;, &lt;strong&gt;Rock Smash&lt;&#x2F;strong&gt;, &lt;strong&gt;The Safari Zone&lt;&#x2F;strong&gt; are all more
 challenging than these manips, while still being &amp;quot;Press A at Right
 Moment&amp;quot;. It&#x27;s other things that complicate them.&lt;&#x2F;p&gt;
@@ -3209,8 +3195,12 @@ using your TID and a Shiny Starter to deduce your Secret ID.&lt;&#x2F;p&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokéFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;RetailRNG&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;v3.0.0&quot;&gt;EonTimer 3.0.0&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokeFinder 4.2.1&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;Eon Timer 3.0.0-rc.6&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
 &lt;ul&gt;
@@ -3218,24 +3208,19 @@ using your TID and a Shiny Starter to deduce your Secret ID.&lt;&#x2F;p&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=-1XfmKlSojY&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;step-1-new-game-timer&quot;&gt;&lt;strong&gt;Step 1: New Game Timer&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;new-game-timer&quot;&gt;&lt;strong&gt;New Game Timer&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The first step to getting a shiny starter is to start a New Game, and
 get to the Name Entry screen.&lt;&#x2F;p&gt;
 &lt;p&gt;After entering your desired name, open EonTimer, click the Gen 3 tab,
 make sure &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; is 0 and Timer is set to 950 frames.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage9.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;You should also click the gear icon, and make sure your console setting
-is correct.&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
-GBA and NDS-GBA have slightly different frame rates.&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
-&lt;strong&gt;GBA: 59.7275 fps&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
-&lt;strong&gt;NDS-GBA: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative
-to the actual game.&lt;&#x2F;p&gt;
-&lt;p&gt;If you&#x27;re playing on unofficial hardware or emulator, stick with GBA as
-this is usually the default.&lt;&#x2F;p&gt;
+&lt;p&gt;You should also click the gear icon, and make sure your console setting is correct. 
+regular GBA and GBA Games on the DS have slightly different frame rates. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA: 59.7275 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NDS - Slot 2: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative to the actual game. 
+If you’re playing on unofficial hardware or emulator, stick with GBA as this is usually the default.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage12.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;&lt;strong&gt;Pretimer&lt;&#x2F;strong&gt; is optional.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
@@ -3253,7 +3238,7 @@ start EonTimer at the same time.&lt;&#x2F;p&gt;
 &lt;br&gt;
 &lt;p&gt;This will cause the game to advance to the Inside of the Truck, at which
 point, you can open your Trainer Card and check your Trainer ID.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-2-finding-potential-sids&quot;&gt;&lt;strong&gt;Step 2: Finding Potential SIDs&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;finding-potential-sids&quot;&gt;Finding Potential SIDs**&lt;&#x2F;h3&gt;
 &lt;p&gt;The Trainer ID was set immediately upon leaving the Naming Screen.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 Emerald used this Trainer ID to seed the RNG, which then determines your
@@ -3330,7 +3315,7 @@ the Secret ID on Advance 1000, then you can check the others.&lt;&#x2F;p&gt;
 &lt;p&gt;In our example, Advance 1000 would be SID &lt;strong&gt;05610.&lt;&#x2F;strong&gt; The next step is
 attempting to RNG a Shiny Starter Pokémon, assuming this Secret ID is
 correct.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-3-starter-timer&quot;&gt;&lt;strong&gt;Step 3: Starter Timer&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;starter-timer&quot;&gt;&lt;strong&gt;Starter Timer&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Now that we know our first potential Trainer ID and Secret ID, we&#x27;ll be
 using PokéFinder and EonTimer together.&lt;&#x2F;p&gt;
 &lt;p&gt;Go back to PokéFinder&#x27;s main menu, and select Gen 3 tab, and click
@@ -3381,7 +3366,7 @@ after the game starts, and so we can set &lt;strong&gt;Target Frame&lt;&#x2F;str
 8131.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage26.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;h3 id=&quot;step-4-first-attempt&quot;&gt;Step 4: First Attempt&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;first-attempt&quot;&gt;First Attempt&lt;&#x2F;h3&gt;
 &lt;p&gt;We&#x27;re now ready to progress the story in-game, up until the point where
 your character is standing in front of the Starter bag.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
@@ -3400,7 +3385,7 @@ Pokémon and check the &lt;strong&gt;Stats&lt;&#x2F;strong&gt; and &lt;strong&gt
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage16.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;The next step is to plug these stats into PokéFinder and determine how
 close the attempt was to the target RNG Advance of 8131.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-5-adjustment&quot;&gt;Step 5: Adjustment&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;adjustment&quot;&gt;Adjustment&lt;&#x2F;h3&gt;
 &lt;p&gt;Input the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; and &lt;strong&gt;Gender&lt;&#x2F;strong&gt; of the Pokémon, and then set the
 &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; dropdown to &lt;strong&gt;Any&lt;&#x2F;strong&gt;,&lt;br &#x2F;&gt;
 then click the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt; button.&lt;br &#x2F;&gt;
@@ -3489,7 +3474,7 @@ Until...&lt;br &#x2F;&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage13.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;h3 id=&quot;step-6-failure-conditions&quot;&gt;Step 6: Failure Conditions&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;failure-conditions&quot;&gt;Failure Conditions&lt;&#x2F;h3&gt;
 &lt;p&gt;It&#x27;s absolutely possible to get your Shiny Starter after checking only 1
 or 2 SIDs. However, it entirely depends on how accurately the timer was
 hit during the intro cutscene, and whether or not errors were made.&lt;br &#x2F;&gt;
@@ -3513,8 +3498,8 @@ Whatever you choose to do, once you see a Shiny Starter and your Secret
 ID is confirmed, RNG manipulating the rest of the game is now available
 to you.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h1&gt;
-&lt;p&gt;Beginner: Sweet Scent RNG Manipulation&lt;br &#x2F;&gt;
-Beginner: Stationary RNG Manipulation&lt;&#x2F;p&gt;
+&lt;p&gt;With the Starter &amp;amp; TID&#x2F;SID Manip out of the way, you&#x27;re ready to move on to the next steps!
+Either Static or Wild Manips will do, although, Wild is &lt;i&gt;slightly&lt;&#x2F;i&gt; more challenging. Hope to see you there!&lt;&#x2F;p&gt;
 </content>
         
     </entry>
@@ -3584,7 +3569,7 @@ Pokémon, but with more variety in situations and circumstances.&lt;&#x2F;p&gt;
 &lt;p&gt;This pool of Pokémon includes all of the &lt;strong&gt;Legendary Pokémon&lt;&#x2F;strong&gt; and
 various overworld encounters, like Kecleon or Electrode.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
-&lt;strong&gt;NOTE:&lt;&#x2F;strong&gt; This guide will &lt;strong&gt;NOT INCLUDE ROAMING Pokémon&lt;&#x2F;strong&gt;. There will be
+&lt;strong&gt;NOTE:&lt;&#x2F;strong&gt; This guide will &lt;strong&gt;NOT INCLUDE ROAMING Latios &amp;amp; Latias&lt;&#x2F;strong&gt;. They will have
 a separate guide in the &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; section for them.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
 &lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
@@ -3621,15 +3606,15 @@ to capture or receive.&lt;&#x2F;p&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokéFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;RetailRNG&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;v3.0.0&quot;&gt;EonTimer 3.0.0&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokéFinder 4.2.1&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;EonTimer 3.0.0-rc.6&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_8qxkkGeXok&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;step-1-pick-your-target&quot;&gt;Step 1: Pick your target&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokémon. Open
 PokéFinder, and select &lt;strong&gt;Static&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage4.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
@@ -3735,7 +3720,7 @@ we will be covering ways around this.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;br&gt;
 &lt;p&gt;With our target picked out, we can move onto the Static Manip!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-2-static-manip&quot;&gt;Step 2: Static Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;static-manip&quot;&gt;Static Manip&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with the Static Manip, you want to save in-front of
 whichever Pokémon you want to receive. Here I am in front Regirock.&lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
@@ -3775,8 +3760,10 @@ your game at the same time as clicking &lt;strong&gt;Start&lt;&#x2F;strong&gt; o
 soft reset the game to, then the countdown for your &lt;strong&gt;Target Advance&lt;&#x2F;strong&gt;
 Begins. I&#x27;ll be using this method for the remainder of the guide.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage9.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You should also click the gear icon, and make sure your console setting is correct. 
+regular GBA and GBA Games on the DS have slightly different frame rates. &lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;GBA: 59.7275 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;NDS-GBA: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NDS - Slot 2: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative to the actual game. 
 If you’re playing on unofficial hardware or emulator, stick with GBA as this is usually the default.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDEonTimerSettings.png&quot; &gt;&lt;&#x2F;center&gt;
@@ -3898,7 +3885,7 @@ one, just use the Masterball for a catch if you have it. You will not be
 keeping the Pokémon, so it just speeds the process up.&lt;&#x2F;p&gt;
 &lt;p&gt;Once you can view the Pokémons summary screen, we can move onto how to
 adjust.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;step-3-static-adjustment&quot;&gt;Step 3: Static Adjustment&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;static-adjustment&quot;&gt;Static Adjustment&lt;&#x2F;h3&gt;
 &lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
 out its IVs and use that to search.&lt;&#x2F;p&gt;
 &lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
@@ -4051,8 +4038,8 @@ preferred&lt;&#x2F;strong&gt;)&lt;&#x2F;p&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokéFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;RetailRNG&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;v3.0.0&quot;&gt;EonTimer 3.0.0&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokéFinder 4.2.1&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;EonTimer 3.0.0-rc.6&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
 &lt;ul&gt;
@@ -4068,7 +4055,7 @@ which is where we want to be. Before inputting any settings, make sure
 you select your profile. &lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;emerald&#x2F;beginner&#x2F;starter-rng&#x2F;#step-3-starter-timer&quot;&gt;If you have not set one up, I covered how to
 here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;In the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section set &lt;strong&gt;Method&lt;&#x2F;strong&gt; to &lt;strong&gt;Wild 1.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Selecting your &lt;strong&gt;Profile&lt;&#x2F;strong&gt; should have set the seed to &lt;strong&gt;5A0.&lt;&#x2F;strong&gt; .&lt;&#x2F;p&gt;
+&lt;p&gt;Selecting your &lt;strong&gt;Profile&lt;&#x2F;strong&gt; should have set the seed to &lt;strong&gt;5A0.&lt;&#x2F;strong&gt; &lt;&#x2F;p&gt;
 &lt;p&gt;Leave &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt;, &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt;, and &lt;strong&gt;Delay&lt;&#x2F;strong&gt; at their
 default values.&lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
@@ -4163,19 +4150,13 @@ your game at the same time as clicking &lt;strong&gt;Start&lt;&#x2F;strong&gt; o
 soft reset the game to, then the countdown for your &lt;strong&gt;Target Advance&lt;&#x2F;strong&gt;
 Begins. I&#x27;ll be using this method for the remainder of the guide.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage10.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;You should also click the gear icon, and make sure your console setting
-is correct.&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
-GBA and NDS-GBA have slightly different frame rates.&lt;br &#x2F;&gt;
-&lt;br &#x2F;&gt;
-&lt;strong&gt;GBA: 59.7275 fps&lt;br &#x2F;&gt;
-NDS-GBA: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative
-to the actual game.&lt;&#x2F;p&gt;
-&lt;p&gt;If you&#x27;re playing on unofficial hardware or emulator, stick with GBA as
-this is usually the default.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage8.png&quot;&gt;&lt;&#x2F;center&gt;
-&lt;br&gt;
+&lt;p&gt;You should also click the gear icon, and make sure your console setting is correct. 
+regular GBA and GBA Games on the DS have slightly different frame rates. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA: 59.7275 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NDS - Slot 2: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative to the actual game. 
+If you’re playing on unofficial hardware or emulator, stick with GBA as this is usually the default.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDEonTimerSettings.png&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;You don&#x27;t need to touch &lt;strong&gt;Refresh Interval&lt;&#x2F;strong&gt; or &lt;strong&gt;Precision
 Calibration&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;We are all ready to begin!&lt;&#x2F;p&gt;
@@ -4284,16 +4265,10 @@ first adjustment run.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage4.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;details style=&quot;border:&quot;&gt;
 &lt;summary&gt;Note: Some tips&lt;&#x2F;summary&gt;
-&lt;p&gt;&lt;em&gt;If on the attempt after your adjustment run, you find you&#x27;re only one
-or two &lt;strong&gt;Advances&lt;&#x2F;strong&gt; off, try not adjusting. 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; is only 16
-milliseconds, well within the margin of human error.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;On the contrary, if you find yourself dancing around it, consistently
-being 1 &lt;strong&gt;Advance&lt;&#x2F;strong&gt; early or late several times, try adjusting anyway.
-Sometimes breaking out of the cycle, even if it makes you more late or
-early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;Lastly, have patience! This is a skill to hone, maybe it takes you 10,
-15 tries now. But a couple weeks from now, maybe 5! Hope you&#x27;re having
-fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;i&gt;Remember to always check other wild methods when searching for what target you hit!
+If you find your results don&#x27;t make sense, that could be the key!&lt;&#x2F;p&gt;
+&lt;p&gt;This is really not that different from the &lt;strong&gt;Static&lt;&#x2F;strong&gt; RNG you should&#x27;ve done!
+&lt;&#x2F;i&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
 &lt;p&gt;Congratulations! You&#x27;ve finished all the &lt;strong&gt;Beginner&lt;&#x2F;strong&gt; RNG Manips for
