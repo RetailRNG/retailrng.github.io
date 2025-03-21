@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title>Retail Pokemon RNG</title>
-    <subtitle>RetailRNG is here to teach you how to RNG Manipulate in every generation of Pokemon.</subtitle>
+    <title>Retail Pokémon RNG</title>
+    <subtitle>RetailRNG is here to teach you how to RNG Manipulate in every generation of Pokémon.</subtitle>
     <link rel="self" type="application/atom+xml" href="https://retailrng.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://retailrng.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
