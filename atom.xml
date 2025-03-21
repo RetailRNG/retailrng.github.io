@@ -3525,7 +3525,7 @@ Either Static or Wild Manips will do, although, Wild is &lt;i&gt;slightly&lt;&#x
         
     </entry>
     <entry xml:lang="en">
-        <title>Introduction</title>
+        <title>R&#x2F;S RNG Manip Introduction</title>
         <published>2021-05-01T08:00:00+00:00</published>
         <updated>2021-05-01T08:00:00+00:00</updated>
         
@@ -3540,8 +3540,36 @@ Either Static or Wild Manips will do, although, Wild is &lt;i&gt;slightly&lt;&#x
         <link rel="alternate" type="text/html" href="https://retailrng.com/rs/beginner/introduction/"/>
         <id>https://retailrng.com/rs/beginner/introduction/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/beginner/introduction/">&lt;h2 id=&quot;starter-knowledge&quot;&gt;Starter Knowledge&lt;&#x2F;h2&gt;
-&lt;p&gt;One page summary of how to start a new AdiDoks project. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/beginner/introduction/">&lt;p&gt;From my perspective, Ruby &amp;amp; Sapphire are &lt;strong&gt;THE BEST&lt;&#x2F;strong&gt; third generation game
+to start learning RNG Manips with! Unlike later generations, &lt;strong&gt;every
+single Pokemon&lt;&#x2F;strong&gt; is RNG Manippable, and the basic manips are really easy
+to execute and understand!&lt;&#x2F;p&gt;
+&lt;p&gt;In addition, you can RNG Manip your Trainer ID &#x2F; Secret ID with relative
+ease. So you can start a shiny only playthrough from a new game to get
+the hang of everything. This is something you cannot do in
+FireRed&#x2F;LeafGreen, and Emerald!&lt;&#x2F;p&gt;
+&lt;p&gt;At first these games might seem very limited when doing RNG Manips,
+since you&#x27;re restricted to the set initial seed of 5A0.&lt;&#x2F;p&gt;
+&lt;p&gt;This happens when the internal battery dies in Ruby &amp;amp; Sapphire, so, if
+you want to do these manips, you have to make sure this message appears!&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsintroimage2.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You either have to wait for this to happen naturally, which it probably
+has if you&#x27;ve not replaced it, or open your game up and remove the
+battery yourself.&lt;&#x2F;p&gt;
+&lt;p&gt;Despite the set seed, these games are also extremely versatile thanks to
+some advanced techniques, like Painting, Pokemon Box Ruby &amp;amp; Sapphire,
+and more!&lt;&#x2F;p&gt;
+&lt;p&gt;Using them, I&#x27;ve gotten tons of 5 Perfect IV Shiny, Competitive Shiny
+Pokemon! Not to mention probably hundreds of random shinies.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsintroimage1.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Of course I didn&#x27;t get these Pokemon instantly-- it took a lot of time
+and practice to hone the skills I have!&lt;&#x2F;p&gt;
+&lt;p&gt;And that&#x27;s what this course is designed to do! I&#x27;ll walk you from the
+most basic RNG to the toughest ones I know how to do in Ruby &amp;amp; Sapphire,
+so you too can have perfect, shiny, competitive Pokemon without any
+glitches or hacks!&lt;&#x2F;p&gt;
+&lt;p&gt;So, if you&#x27;re ready to get started, head over to our &lt;a href=&quot;&#x2F;rs&#x2F;beginner&#x2F;trainer-id-starter-manip&#x2F;&quot;&gt;R&#x2F;S Trainer ID &amp;amp; Starter Manip tutorial!&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;-- im a blisy ._.&lt;&#x2F;center&gt;
 </content>
         
     </entry>
