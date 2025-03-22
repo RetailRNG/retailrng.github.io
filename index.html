@@ -223,32 +223,32 @@
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 3</h2>
-          <p><a href="/rs/">Ruby/Sapphire</a>&nbsp<img onload="displayImage()" src="kyogre.png" name="canvas" ><br><a href="/frlg/">Fire Red/Leaf Green</a>&nbsp<img src="charizard.png"><br><a href="/emerald/">Emerald</a>&nbsp<img src="rayquaza.png"></p>
+          <p><a href="/rs/">Ruby/Sapphire</a>&nbsp<img decoding="async" id="random-image-rs" src="" alt="Random image"><br><a href="/frlg/">Fire Red/Leaf Green</a>&nbsp<img decoding="async" id="random-image-frlg" src="" alt="Random image""><br><a href="/emerald/">Emerald</a>&nbsp<img src="rayquaza.png"></p>
         </div>
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 4</h2>
-          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Diamond/Pearl/Platinum</a><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Heart Gold/Soul Silver</a></p>
+          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Diamond/Pearl/Platinum</a>&nbsp<img decoding="async" id="random-image-dppt" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Heart Gold/Soul Silver</a>&nbsp<img decoding="async" id="random-image-hgss" src="" alt="Random image""></p>
         </div>
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 5</h2>
-          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Black/White</a><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Black 2/White 2</a></p>
+          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Black/White</a>&nbsp<img decoding="async" id="random-image-bw" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Black 2/White 2</a>&nbsp<img decoding="async" id="random-image-bw2" src="" alt="Random image""></p>
         </div>
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 6</h2>
-          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">X/Y</a><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Omega Ruby/Alpha Sapphire</a></p>
+          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">X/Y</a>&nbsp<img decoding="async" id="random-image-xy" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Omega Ruby/Alpha Sapphire&nbsp<img decoding="async" id="random-image-oras" src="" alt="Random image""></a></p>
         </div>
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 7</h2>
-          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Sun/Moon</a><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Ultra Sun/Ultra Moon</a></p>
+          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Sun/Moon</a>&nbsp<img decoding="async" id="random-image-sm" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Ultra Sun/Ultra Moon</a>&nbsp<img decoding="async" id="random-image-usum" src="" alt="Random image""></p>
         </div>
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 8</h2>
-          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Sword/Shield</a><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Brilliant Diamond/Shining Pearl</a><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Pokemon Legends Arceus</a></p>
+          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Sword/Shield</a><img decoding="async" id="random-image-swsh" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Brilliant Diamond/Shining Pearl</a><img decoding="async" id="random-image-bdsp" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Pokemon Legends Arceus</a><img decoding="async" id="random-image-pla" src="" alt="Random image""></p>
         </div>
         
       
@@ -261,6 +261,123 @@
     <div class="col-lg-9"></div>
   </div>
 </section>
+<script>
+ imgEl = document.getElementById('random-image-rs');
+ srcArray = [
+'groudon.png',
+'kyogre.png',
+];
+// Stores path to images in an array
+
+randomImage();
+
+imgEl = document.getElementById('random-image-frlg');
+srcArray = [
+'charizard.png',
+'venusaur.png',
+];
+
+randomImage();
+
+imgEl = document.getElementById('random-image-dppt');
+srcArray = [
+'palkia.png',
+'dialga.png',
+'giratina.png',
+'giratina-origin.png'
+];
+
+randomImage();
+
+imgEl = document.getElementById('random-image-hgss');
+srcArray = [
+'ho-oh.png',
+'lugia.png'
+];
+
+randomImage();
+
+imgEl = document.getElementById('random-image-bw');
+srcArray = [
+'reshiram.png',
+'zekrom.png'
+];
+
+randomImage();
+
+imgEl = document.getElementById('random-image-bw2');
+srcArray = [
+'kyurem-black.png',
+'kyurem-white.png'
+];
+
+randomImage();
+
+imgEl = document.getElementById('random-image-xy');
+srcArray = [
+'xerneas.png',
+'yveltal.png'
+];
+
+randomImage();
+
+imgEl = document.getElementById('random-image-oras');
+srcArray = [
+'groudon-primal.png',
+'kyogre-primal.png',
+'rayquaza-mega.png'
+];
+
+randomImage();
+
+imgEl = document.getElementById('random-image-sm');
+srcArray = [
+'solgaleo.png',
+'lunala.png'
+];
+
+randomImage();
+
+
+imgEl = document.getElementById('random-image-usum');
+srcArray = [
+'necrozma-ultra.png',
+'necrozma-dusk.png',
+'necrozma-dawn.png'
+];
+
+randomImage();
+
+imgEl = document.getElementById('random-image-swsh');
+srcArray = [
+'zamazenta-crowned.png',
+'zacian-crowned.png'
+];
+
+randomImage();
+
+imgEl = document.getElementById('random-image-bdsp');
+srcArray = [
+'dialga-origin.png',
+'palkia-origin.png'
+];
+
+randomImage();
+
+imgEl = document.getElementById('random-image-pla');
+srcArray = [
+'arceus.png'
+];
+
+randomImage();
+function randomImage() {
+randomIndex = Math.floor(Math.random()*srcArray.length);
+imgEl.src = srcArray[randomIndex];
+//...if so, set random value as new image src...
+
+
+}
+</script>
 
 
   
