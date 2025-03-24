@@ -8,6 +8,393 @@
     <updated>2025-03-24T18:20:00+00:00</updated>
     <id>https://retailrng.com/atom.xml</id>
     <entry xml:lang="en">
+        <title>Using Gen 3s Unused Flash Memory Section</title>
+        <published>2025-03-24T09:19:42+00:00</published>
+        <updated>2025-03-24T09:19:42+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/article/gen3sunusedflashmemorysection/"/>
+        <id>https://retailrng.com/article/gen3sunusedflashmemorysection/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/article/gen3sunusedflashmemorysection/">&lt;p&gt;A big issue I had with my original E-Reader events was space. I did not have enough of it!&lt;&#x2F;p&gt;
+&lt;p&gt;The gen 3 games have a few defined spaces in the players save file for info obtained externally. &lt;&#x2F;p&gt;
+&lt;p&gt;These are things like secret bases from other players, other players battle tower teams, and yes, information from the E-Reader.&lt;&#x2F;p&gt;
+&lt;p&gt;The space defined for the Eon Ticket, specifically, is called RamScript. It’s 995 bytes in size. &lt;&#x2F;p&gt;
+&lt;p&gt;For my first 6 events, I stored all my data in that location. This includes text, script commands, and assembly code. This is hardly ideal. &lt;&#x2F;p&gt;
+&lt;p&gt;I played around with other storage solutions, but today I’m going to write about the best one I’ve found, and how to utilize it. &lt;&#x2F;p&gt;
+&lt;p&gt;When a Gen 3 game saves, it transfers data from the GBAs RAM to the flash memory chip on the cartridge. &lt;&#x2F;p&gt;
+&lt;p&gt;They also divided this flash memory chip into several sectors. Each sector is 4096 bytes, although some are lumped together. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;Sectors 0-13&lt;&#x2F;code&gt; are for your save file.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;Sectors 14-28&lt;&#x2F;code&gt; are for the backup of your save file&lt;&#x2F;p&gt;
+&lt;p&gt;And &lt;code&gt;sector 29&lt;&#x2F;code&gt; is for your hall of fame data.&lt;&#x2F;p&gt;
+&lt;p&gt;In Ruby &amp;amp; Sapphire, &lt;code&gt;30 and 31&lt;&#x2F;code&gt; are entirely unused. &lt;&#x2F;p&gt;
+&lt;p&gt;In Emerald, &lt;code&gt;31&lt;&#x2F;code&gt; is used for the battle record feature. But &lt;code&gt;30&lt;&#x2F;code&gt; is still unused. Or, it is, but only in international copies. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;30&lt;&#x2F;code&gt; is used in Japanese Emerald &amp;amp; FRLG to store the custom trainer hill data from E-Cards. &lt;&#x2F;p&gt;
+&lt;p&gt;This space is both unused &amp;amp; never written to normally by the game. This means it’s 4kb of space the player can’t accidently write to by using the battle tower!&lt;&#x2F;p&gt;
+&lt;p&gt;The game has premade functions to read from and write to the flash chip, so we don’t have to do a lot of work to use it. &lt;&#x2F;p&gt;
+&lt;p&gt;Let’s talk about writing, first. &lt;&#x2F;p&gt;
+&lt;p&gt;I use &lt;code&gt;TryWriteSector&lt;&#x2F;code&gt;, &amp;amp; it has 2 arguments. &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Which flash memory section are we using. In our case, 0x1E, aka 30.&lt;&#x2F;li&gt;
+&lt;li&gt;Where is the data in RAM to flash?&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Then, when called, it writes 4096 bytes from the location you input in as the argument are written to that flash sector. &lt;&#x2F;p&gt;
+&lt;p&gt;When RSE connects to the E-Reader the entire e-card gets sent through the link cable into RSEs WRAM. &lt;&#x2F;p&gt;
+&lt;p&gt;The game then looks for what’s called a “preload” script in the e-card. This is a section that runs the games scripting language commands, meant to check if the data is okay to send over.&lt;&#x2F;p&gt;
+&lt;p&gt;The Eon Ticket, for example, checks if you already have an Eon Ticket in your bag. &lt;&#x2F;p&gt;
+&lt;p&gt;Crucially, though, it does not have a size limit.&lt;&#x2F;p&gt;
+&lt;p&gt;So, what I do is store tons of data in the preload script. One of those being a small assembly program that sets up then calls &lt;code&gt;TryWriteSector&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;Let’s take a look at what that looks like for me. This is all done using the Eon Ticket disassembly by hacky.&lt;&#x2F;p&gt;
+&lt;p&gt;After DataStart, I set up the preloadscript.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;asm&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-asm &quot;&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;DataStart:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;IN_GAME_SCRIPT
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;24&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;11&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt; ; petalburg gym
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;   ; norman
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	GBAPTR NormanScriptStart
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	GBAPTR NormanScriptEnd
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;PRELOAD_SCRIPT
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	GBAPTR PreloadScriptStart
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;END_OF_CHUNKS
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;PreloadScriptStart:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	setvirtualaddress PreloadScriptStart
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;code&gt;PreloadScriptStart&lt;&#x2F;code&gt; is where we’ll be working from, from now on. &lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;asm&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-asm &quot;&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;PreloadScriptStart:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	setvirtualaddress PreloadScriptStart
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	callasm &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;02000045
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	virtualloadpointer GoSeeYourFather
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	setbyte &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;dw $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0000 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	end
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	WriteFlashMemory
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This is the start of my preload script. &lt;code&gt;callasm $02000045&lt;&#x2F;code&gt; jumps the game to &lt;code&gt;WriteFlashMemory&lt;&#x2F;code&gt;. Crucially, it’s after “end”, so the thumb code never gets read as script commands. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;WriteFlashMemory&lt;&#x2F;code&gt; is the thumb assembly code I wrote to actually call &lt;code&gt;TryWriteSector&lt;&#x2F;code&gt;. It’s stored as machine code in an include file with the macros for the script commands. &lt;&#x2F;p&gt;
+&lt;p&gt;I’ll note that in Emerald, if you copy this code, the callasm should be &lt;code&gt;0201C045&lt;&#x2F;code&gt; instead. Emeralds spot it loads the E-Reader into is slightly different. &lt;&#x2F;p&gt;
+&lt;p&gt;Here’s what the actual code looks like:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;asm&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-asm &quot;&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;WriteToUnusedFlashMemoryLocation:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;movs &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;r0&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;#&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0x1e&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;    ;1E is the index of the unused flash memory block. 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;ldr r1&lt;&#x2F;span&gt;&lt;span&gt;, [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;pc&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;#&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0xc&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;;Loads WRAMLocation into r1.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;ldr r2&lt;&#x2F;span&gt;&lt;span&gt;, [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;pc&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;#&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0xc&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;;Loads TryWriteSector into r2
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;bx &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;r2
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;align
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;WRAMLocation:&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;     ;This is where the data I want in the unused flash memory section is stored. 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;0200005C&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;          ;This is 0201C054 in Emerald
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;TryWriteSector:&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;   ;this will change depending on game version and revision!
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;08125441
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;It’s a very simple bit of code since I’m just setting up the registers for a built-in function of the game. &lt;&#x2F;p&gt;
+&lt;p&gt;After WriteFlashMemory, I have a bunch of code &amp;amp; data I want to store in the unused flash memory section. &lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;asm&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-asm &quot;&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;PreloadScriptStart:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	setvirtualaddress PreloadScriptStart
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	callasm &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;02000045
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	virtualloadpointer GoSeeYourFather
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	setbyte &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;dw $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0000
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	end
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	WriteFlashMemory
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	FillMapPattern&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;   ;Everything on this line and after is what gets put into the save sector. 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	PatternStruct
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	MOVEDOWN
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	DEOGAMEORIGIN
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	DEOMETLOC
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	DEOEVENTLEGAL
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	CLEFAIRY
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	CLEFGAMEORIGIN
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	CLEFMETLOC
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	CLEFBALL
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	CLEFAIRYSCRIPT    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	MOVEDEO
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	DEOXYSSPRITE
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	DEOXYSSPRITEPOINTER
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	DEOXYSSPRITESETUPSCRIPT
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	CLEFAIRYSCRIPT2	
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;After this the usual ramscript information begins! This is what triggers when you talk to an NPC, and it’s labeled “NormanScript”, because it’s a hack of the Eon Ticket, and you receive that from Norman. &lt;&#x2F;p&gt;
+&lt;p&gt;This script uses several “callasm” calls, which relies on info that is within the unused flash memory section.&lt;&#x2F;p&gt;
+&lt;p&gt;That data is not loaded into RAM anywhere by default, so we have to run a function to pull it from the flash memory section!&lt;&#x2F;p&gt;
+&lt;p&gt;In Ruby &amp;amp; Sapphire, since there is no Address Space Layout Randomization, I store the thumb code I need directly in RamScript near the top, like so:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;asm&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-asm &quot;&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;NormanScriptStart:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	setvirtualaddress NormanScriptStart
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;43&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;              	;This checks if your party is bigger than 0
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	compare LASTRESULT&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;   ;It&amp;#39;s so I can store thumb code in static spot.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	virtualgotoif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;Start&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;  ;It should never fail.
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	FAKEMAPHEADER
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	READFLASH
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;Start:    
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	callasm &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;02028DF9&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;       ;This calls READFLASH
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;lock
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Let’s take a look at &lt;code&gt;READFLASH&lt;&#x2F;code&gt;. It works similarly to WriteFlashMemory, as we’re just setting up a different in-game function. It’s called &lt;code&gt;DoReadFlashWholeSection&lt;&#x2F;code&gt; in PokeRuby, &amp;amp; &lt;code&gt;ReadFlashSector&lt;&#x2F;code&gt; in PokeEmerald.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;asm&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-asm &quot;&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;movs &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;r0&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;#&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;30&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt; ;Index of the unused flash memory section
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;ldr r1&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;WRAMLocation&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt; ;where in ram I load the flash memory section to
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;ldr r3&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;DoReadFlashWholeSection&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt; ;actual function
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;bx &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;r3
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;align
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;WRAMLocation:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    .long &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0x0201b201
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;DoReadFlashWholeSection:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    .long &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0x08125bf9
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I chose &lt;code&gt;0201b201&lt;&#x2F;code&gt; as it doesn’t seem to be a space the game uses, but I can’t guarantee!&lt;&#x2F;p&gt;
+&lt;p&gt;But once this thumb runs, all my code &amp;amp; data is loaded to that space and my script can continue.&lt;&#x2F;p&gt;
+&lt;p&gt;Obviously, in Emerald, this won’t work. What I do instead is store this code as &lt;code&gt;writebytetoaddr&lt;&#x2F;code&gt; commands. This, in a way, builds the thumb code live somewhere in Emeralds RAM that isn’t in ASLR space. &lt;&#x2F;p&gt;
+&lt;p&gt;Each command does what it says on the tin-- it writes the byte specified to the address specified. &lt;&#x2F;p&gt;
+&lt;p&gt;I tend to choose &lt;code&gt;gEnemyParty&lt;&#x2F;code&gt; for this, since it’s usually not in use when I’m talking to an NPC!&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;asm&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-asm &quot;&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;1E&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024744
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;20&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024745
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;01&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024746
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;49&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024747
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;01&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024748
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;4B&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024749
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;18&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474A
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;47&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474B
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;BC&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474C
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;AB&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474D
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;03&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474E
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;02&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474F
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;4D&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024750
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;31&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024751
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;15&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024752
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;08&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024753
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	callasm &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;02024745&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt; ;readflash
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This is what that looks like! &lt;&#x2F;p&gt;
+&lt;p&gt;It does eat 96 bytes into my payload, but I’m not really sure there’s a better way for Emerald. &lt;&#x2F;p&gt;
+&lt;p&gt;Speaking of Emerald, I’ve actually taken to storing most of my events in this space, rather than ramscript. Since all the data at 0201b201 isn’t subject to ASLR, I can have the player get into battles &amp;amp; do other things without the typical worries I’d have. &lt;&#x2F;p&gt;
+&lt;p&gt;My Celebi event, for example, only has code in RamScript to init the unused flash memory section. All the dialogue, script, etc, is stored in the unused flash section. &lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;asm&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-asm &quot;&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;NormanScriptStart:
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;1E&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024744
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;20&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024745
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;01&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024746
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;49&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024747
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;01&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024748
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;4B&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024749
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;18&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474A
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;47&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474B
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;BC&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474C
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;AB&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474D
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;03&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474E
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;02&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;202474F
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;4D&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024750
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;31&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024751
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;15&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024752
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	writebytetoaddr &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;08&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2024753
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	callasm &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;02024745&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt; ;readflash
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	goto &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;0203abbc&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt; ;this is a jump command but in the scripting language for gen 3. 
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;That’s RamScript for Celebi. Nothing else! &lt;&#x2F;p&gt;
+&lt;p&gt;Here’s what’s in the Preload Script! It&#x27;s the full source to my Celebi Event in Emerald. In Ruby &amp;amp; Sapphire, all of this would be within RamScript itself. &lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;asm&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-asm &quot;&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;PreloadScriptStart:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	setvirtualaddress PreloadScriptStart
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	callasm &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;0201C045
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	virtualloadpointer GoSeeYourFather
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	setbyte &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;dw $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0000
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	end
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	WriteFlashMemory
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;CelebiScriptStart:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	setvirtualaddress CelebiScriptStart
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;    	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;00
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;     	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;dw $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0000
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;        virtualmsgbox Poor
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	waitmsg
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;6E&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;17&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;8
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;        release
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	compare LASTRESULT&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	virtualgotoif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;Changemind    
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	virtualgotoif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;CelebiEvent      	 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;                     	 
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;           	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;00
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;           	TEMPCELEBI
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;           	STRUCTURETABLECOMPRESSED
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;           	LOADSTOREPARTYAMOUNT
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;           	CelebiRNGAlgo2
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;  	 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;   
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;CelebiEvent:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;43
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	compare LASTRESULT&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;5
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	virtualgotoif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;NoRoom
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	copyvar &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;800B&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;800D
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	setwildbattle &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;F4&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;30&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;00
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	callasm &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;0203AC5D&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt; ;Colo RNG
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	special &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;13F
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	sound &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;13
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;   	 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	waitstate
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	playmoncry &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;FB&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	virtualmsgbox Celebi
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	waitmsg
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;        waitmoncry
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	waitkeypress
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	release
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	special &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;145
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;   	 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	playsong &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0166&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;        waitmoncry
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;               	 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	waitstate
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;43
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	comparevar LASTRESULT&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;800B      	 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;      	 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	virtualgotoif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;FlewAway
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;       	virtualgotoif &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;Catch
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;Catch:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;        callasm &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;0203AD19
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;      	killscript
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;NoRoom:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	virtualmsgbox NoSpace
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	waitmsg
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	waitkeypress
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	release
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	end
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;Changemind:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	virtualmsgbox Change
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	waitmsg
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	waitkeypress
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	release
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	end
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;NoRoomToGive:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	virtualloadpointer PartyFull
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	setbyte &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;3
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	killscript   	 
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;FlewAway:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;97&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;01
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;db $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;97&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;00
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	virtualmsgbox Flew
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	waitmsg
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	waitkeypress
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	release
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	end
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;PartyFull:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;You need space in your party\n&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;to play this MYSTERY EVENT!@&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;Poor:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;A Pokemon is rustling around\n&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;in this tree.\p&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Would you like to investigate?@&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;Change:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Maybe another time.@&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;Flew:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;The CELEBI flew away!@&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;NoSpace:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;You need space in your party\n&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;to capture CELEBI!@&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;Celebi:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;CELEBI: Biyoo!@&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;GoSeeYourFather:
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;A bright flash was seen in\n&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;PETALBURG WOODS!\p&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Ever since, a rare Pokemon has\n&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;	Text_EN &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;been seen healing thin trees.@&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I think, generally, using the Unused Flash Memory section is superior to storing data elsewhere in R&#x2F;S&#x2F;E, and if you’re going to do any Eon Ticket hack like I have, try to use this technique for storage instead!&lt;&#x2F;p&gt;
+&lt;p&gt;Feel free to contact me if you’re trying to use this and have any questions. I can be reached @blisy on discord, @blisy.net on bsky, and imablisy@gmail.com via email!&lt;&#x2F;p&gt;
+&lt;center&gt;-- im a blisy ._.&lt;&#x2F;center&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>im a blisy ._.</title>
         <published>2025-03-22T18:20:00+00:00</published>
         <updated>2025-03-22T18:20:00+00:00</updated>
@@ -4217,30 +4604,6 @@ version 2.0, available at
 &lt;p&gt;For answers to common questions about this code of conduct, see the FAQ at
 &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;faq&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;faq&lt;&#x2F;a&gt;. Translations are available 
 at &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translations&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translations&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Placeholder</title>
-        <published>2021-05-01T09:19:42+00:00</published>
-        <updated>2021-05-01T09:19:42+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://retailrng.com/blog/placeholder/"/>
-        <id>https://retailrng.com/blog/placeholder/</id>
-        
-        <content type="html" xml:base="https://retailrng.com/blog/placeholder/">&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;How to make a code box
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;&lt;code&gt;println!&lt;&#x2F;code&gt; Smaller code box&lt;&#x2F;p&gt;
 </content>
         
     </entry>
