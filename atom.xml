@@ -5,7 +5,7 @@
     <link rel="self" type="application/atom+xml" href="https://retailrng.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://retailrng.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-03-22T18:20:00+00:00</updated>
+    <updated>2025-03-24T18:20:00+00:00</updated>
     <id>https://retailrng.com/atom.xml</id>
     <entry xml:lang="en">
         <title>im a blisy ._.</title>
@@ -883,7 +883,7 @@ RNG&lt;&#x2F;strong&gt;, &lt;strong&gt;Egg RNG&lt;&#x2F;strong&gt;, &amp;amp; &l
     <entry xml:lang="en">
         <title>Emerald Starter Manip</title>
         <published>2025-03-22T18:20:00+00:00</published>
-        <updated>2025-03-22T18:20:00+00:00</updated>
+        <updated>2025-03-24T18:20:00+00:00</updated>
         
         <author>
           <name>
@@ -974,19 +974,19 @@ ID is locked in 50 RNG advances later.&lt;br &#x2F;&gt;
 &lt;p&gt;By setting EonTimer&#x27;s Target Frame to 950, the goal is landing on the
 Secret ID exactly 1000 Frames after the TID was set.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
-We can view all of these potential SIDs using the &lt;strong&gt;Researcher&lt;&#x2F;strong&gt; tool in
+We can view all of these potential SIDs using the &lt;strong&gt;IDs&lt;&#x2F;strong&gt; section in
 PokéFinder.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage23.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;There are many options in this tool, but in order to view Secret ID
-results you must match the following settings.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage7.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;The Researcher needs a Hexadecimal input for &lt;strong&gt;Seed&lt;&#x2F;strong&gt;, so we must
-convert TID from Decimal to Hexadecimal.&lt;br &#x2F;&gt;
+&lt;p&gt;In order to view Secret ID results you must match the following settings.&lt;&#x2F;p&gt;
+&lt;p&gt;First, click on the FRLGE tab. Then, input your Trainer ID into the TID box. &lt;&#x2F;p&gt;
+&lt;p&gt;Lastly, set Initial Advances to 990, then hit generate. &lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage7.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Your TID is used as your &lt;strong&gt;Initial Seed&lt;&#x2F;strong&gt;, which we usually denote in Hexadecimal.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 For example, a Trainer ID of &lt;strong&gt;16804&lt;&#x2F;strong&gt; becomes &lt;strong&gt;41A4&lt;&#x2F;strong&gt; in Hexadecimal.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
-To do this, type your Trainer ID into the box below and hit convert. It will switch it to a Hexadecimal Number. &lt;&#x2F;p&gt;
+To see this, type your Trainer ID into the box below and hit convert. It will switch it to a Hexadecimal Representation. &lt;&#x2F;p&gt;
 &lt;p&gt;&lt;center&gt;&lt;input type=&quot;text&quot; id=&quot;decvalue&quot; value=&quot;42069&quot;&gt;
 &lt;br&gt;
 &lt;button type=&quot;button&quot; onclick=&quot;hexconvert()&quot;&gt;
@@ -1018,15 +1018,12 @@ To do this, type your Trainer ID into the box below and hit convert. It will swi
 		
 		&lt;&#x2F;script&gt;
 &lt;br&gt;
-Once the Hexadecimal Seed is entered into Researcher, click Generate.
 The given settings will generate all of the potential Secret IDs in the
-&amp;quot;Custom 1&amp;quot; column from Advance 990 onward.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage5.png&quot;&gt;&lt;&#x2F;center&gt;
+&amp;quot;SID&amp;quot; column from Advance 990 onward.&lt;&#x2F;p&gt;
 &lt;p&gt;Advance 1000 was our target so, assuming your last A-press on the intro
 sequence was frame perfect, this would be your Secret ID.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage2.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;Before exiting this window, it&#x27;s a good idea to screenshot the list of
-Secret IDs from 995 to 1005 as shown above. In the event you didn&#x27;t hit
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage2.png&quot; width=&quot;30%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Do not exit this window, it&#x27;s a list of Secret IDs from 995 to 1005. In the event you didn&#x27;t hit
 the Secret ID on Advance 1000, then you can check the others.&lt;&#x2F;p&gt;
 &lt;p&gt;In our example, Advance 1000 would be SID &lt;strong&gt;05610.&lt;&#x2F;strong&gt; The next step is
 attempting to RNG a Shiny Starter Pokémon, assuming this Secret ID is
@@ -1162,7 +1159,7 @@ of human error.&lt;&#x2F;p&gt;
 This means that you were not frame perfect on your Secret ID A-Press
 when exiting the Intro Cutscene earlier, and that&#x27;s okay! In our
 example, this means our Secret ID was not &lt;strong&gt;05610.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage22.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage22.png&quot; width=&quot;70%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;This is why it&#x27;s recommended to save the list of potential Secret IDs
 that are near 1000.&lt;&#x2F;p&gt;
 &lt;p&gt;Rather than starting a New Game and trying to hit Advance 1000 again,
