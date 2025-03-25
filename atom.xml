@@ -456,7 +456,7 @@
         <link rel="alternate" type="text/html" href="https://retailrng.com/emerald/beginner/emerald-static/"/>
         <id>https://retailrng.com/emerald/beginner/emerald-static/</id>
         
-        <content type="html" xml:base="https://retailrng.com/emerald/beginner/emerald-static/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/emerald/beginner/emerald-static/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;After finding your Secret ID and successfully RNG Manipping your Starter
 Pokémon, Manipping a &lt;strong&gt;Static&lt;&#x2F;strong&gt; encounter is the next logical step. This
 is, largely, the same process as the Starter Pokémon, but with more
@@ -465,8 +465,8 @@ variety in situations and circumstances.&lt;&#x2F;p&gt;
 overworld encounters, like Kecleon or Electrode, and all the gift
 Pokémon.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
-&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hardware-requirements&quot; aria-label=&quot;Anchor link for: hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Pokémon Emerald (any language)&lt;br &#x2F;&gt;
@@ -477,7 +477,7 @@ Emulator&lt;&#x2F;p&gt;
 &lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#in-game-requirements&quot; aria-label=&quot;Anchor link for: in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Save at the location directly in-front of whichever Pokémon you wish
@@ -497,7 +497,7 @@ to capture or receive.&lt;&#x2F;p&gt;
 &lt;p&gt;5-10 Rare Candies. (Not 100% Needed, but helpful).&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokeFinder 4.2.1&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -506,12 +506,12 @@ to capture or receive.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;Eon Timer 3.0.0-rc.6&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=66jIEyGy3OA&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#pick-your-target&quot; aria-label=&quot;Anchor link for: pick-your-target&quot;&gt;Pick your target&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokémon. Open
 PokéFinder, and select &lt;strong&gt;Static&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstaticimage2.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
@@ -618,7 +618,7 @@ we will be covering ways around this.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;br&gt;
 &lt;p&gt;With our target picked out, we can move onto the Static Manip!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;static-manip&quot;&gt;Static Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;static-manip&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#static-manip&quot; aria-label=&quot;Anchor link for: static-manip&quot;&gt;Static Manip&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with the Static Manip, you want to save in-front of
 whichever Pokémon you want to receive. Here I am in front of Rayquaza.&lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
@@ -821,7 +821,7 @@ one, just use the Masterball for a catch if you have it. You will not be
 keeping the Pokémon, so it just speeds the process up.&lt;&#x2F;p&gt;
 &lt;p&gt;Once you can view the Pokémons summary screen, we can move onto how to
 adjust.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;static-adjustment&quot;&gt;Static Adjustment&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;static-adjustment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#static-adjustment&quot; aria-label=&quot;Anchor link for: static-adjustment&quot;&gt;Static Adjustment&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
 out its IVs and use that to search.&lt;&#x2F;p&gt;
 &lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
@@ -892,7 +892,7 @@ early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 15 tries now. But a couple weeks from now, maybe 5! Hope you&#x27;re having
 fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;If you enjoyed this process and want to do more RNG Manips, I would
 suggest moving on to Wild RNG. While the general process and structure
 of the manip (Wait for timer, push button at right time) is not
@@ -918,7 +918,7 @@ some more advanced manip challenges.&lt;&#x2F;p&gt;
         <link rel="alternate" type="text/html" href="https://retailrng.com/emerald/beginner/emerald-wild/"/>
         <id>https://retailrng.com/emerald/beginner/emerald-wild/</id>
         
-        <content type="html" xml:base="https://retailrng.com/emerald/beginner/emerald-wild/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/emerald/beginner/emerald-wild/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;After RNG Manipping your first Static Pokemon, you may be looking for
 some variety. Look no further than basic wild rng manips. While the
 general process is the same as Static (Start timer, Press A when done),
@@ -931,8 +931,8 @@ challenging for various reasons, and will be covered in our
 &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; section.&lt;&#x2F;p&gt;
 &lt;p&gt;With that said, once you have mastered &lt;strong&gt;Static&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;Wild&lt;&#x2F;strong&gt; RNG Manips,
 you should move on to some more difficult manips.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
-&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hardware-requirements&quot; aria-label=&quot;Anchor link for: hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Pokemon Emerald(any language)&lt;br &#x2F;&gt;
@@ -943,7 +943,7 @@ Emulator&lt;&#x2F;p&gt;
 &lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#in-game-requirements&quot; aria-label=&quot;Anchor link for: in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Save at the location directly in-front of whichever Pokemon you wish
@@ -970,7 +970,7 @@ preferred&lt;&#x2F;strong&gt;)&lt;&#x2F;p&gt;
 &lt;p&gt;5-10 Rare Candies. (Not 100% Needed, but helpful).&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokeFinder 4.2.1&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -979,12 +979,12 @@ preferred&lt;&#x2F;strong&gt;)&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;Eon Timer 3.0.0-rc.6&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=pciQkasUJ7g&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#pick-your-target&quot; aria-label=&quot;Anchor link for: pick-your-target&quot;&gt;Pick your target&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
 PokeFinder, and select &lt;strong&gt;Wild&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emwildimage3.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
@@ -1071,7 +1071,7 @@ want. Accept some worse IVs, or a Worse Nature, Different Species, or
 &lt;strong&gt;Change Routes&lt;&#x2F;strong&gt; if your Pokemon is available on another one.&lt;&#x2F;p&gt;
 &lt;p&gt;I will be aiming for &lt;strong&gt;Advance&lt;&#x2F;strong&gt; 7146.&lt;&#x2F;p&gt;
 &lt;p&gt;With our target picked out, we can move onto the Wild Manip!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;wild-manip&quot;&gt;Wild Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;wild-manip&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#wild-manip&quot; aria-label=&quot;Anchor link for: wild-manip&quot;&gt;Wild Manip&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with the Wild Manip, you want to save in-front in the
 &lt;strong&gt;Location&lt;&#x2F;strong&gt; you want to RNG Manip in. Here is me saved on Route 121.
 Your area in the &lt;strong&gt;Location&lt;&#x2F;strong&gt; does not matter.&lt;&#x2F;p&gt;
@@ -1126,7 +1126,7 @@ one, just use the Masterball for a catch if you have it. You will not be
 keeping the Pokemon, so it just speeds the process up.&lt;&#x2F;p&gt;
 &lt;p&gt;Once you can view the Pokemons summary screen, we can move onto how to
 adjust.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;wild-adjustment&quot;&gt;Wild Adjustment&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;wild-adjustment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#wild-adjustment&quot; aria-label=&quot;Anchor link for: wild-adjustment&quot;&gt;Wild Adjustment&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
 out its IVs and use that to search.&lt;&#x2F;p&gt;
 &lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
@@ -1215,7 +1215,7 @@ didn&#x27;t mean to, it&#x27;ll cause your results to vary wildly!&lt;&#x2F;p&gt
 &lt;p&gt;This is really not that different from the &lt;strong&gt;Static&lt;&#x2F;strong&gt; RNG you should&#x27;ve done!
 &lt;&#x2F;i&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Congratulations! You&#x27;ve finished all the &lt;strong&gt;Beginner&lt;&#x2F;strong&gt; RNG Manips for
 &lt;strong&gt;Emerald&lt;&#x2F;strong&gt;! At this point, I&#x27;d suggest delving into some more
 complicated subjects in our &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; section, or trying
@@ -1283,20 +1283,20 @@ RNG&lt;&#x2F;strong&gt;, &lt;strong&gt;Egg RNG&lt;&#x2F;strong&gt;, &amp;amp; &l
         <link rel="alternate" type="text/html" href="https://retailrng.com/emerald/beginner/starter-rng/"/>
         <id>https://retailrng.com/emerald/beginner/starter-rng/</id>
         
-        <content type="html" xml:base="https://retailrng.com/emerald/beginner/starter-rng/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/emerald/beginner/starter-rng/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;The first step of learning to manipulate the RNG of Pokémon Emerald
 begins with the Starter.&lt;&#x2F;p&gt;
 &lt;p&gt;Once successful, you&#x27;ll have both a Shiny Starter Pokémon and know your
 Secret ID for manipulating future Shiny Pokémon. It should be noted that
 you cannot control your TID or SID with this method, but instead are
 using your TID and a Shiny Starter to deduce your Secret ID.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Pokémon Emerald (any language)&lt;&#x2F;li&gt;
 &lt;li&gt;GameBoy Advance, Nintendo DS or DS Lite&lt;&#x2F;li&gt;
 &lt;li&gt;Windows 10&#x2F;11 PC&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokeFinder 4.2.1&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -1305,13 +1305,13 @@ using your TID and a Shiny Starter to deduce your Secret ID.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;Eon Timer 3.0.0-rc.6&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=ARy_xSgXh2I&quot;&gt;Pokémon Trainer Choppy&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=-1XfmKlSojY&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;new-game-timer&quot;&gt;&lt;strong&gt;New Game Timer&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;new-game-timer&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#new-game-timer&quot; aria-label=&quot;Anchor link for: new-game-timer&quot;&gt;&lt;strong&gt;New Game Timer&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The first step to getting a shiny starter is to start a New Game, and
 get to the Name Entry screen.&lt;&#x2F;p&gt;
 &lt;p&gt;After entering your desired name, open EonTimer, click the Gen 3 tab,
@@ -1341,7 +1341,7 @@ start EonTimer at the same time.&lt;&#x2F;p&gt;
 &lt;br&gt;
 &lt;p&gt;This will cause the game to advance to the Inside of the Truck, at which
 point, you can open your Trainer Card and check your Trainer ID.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;finding-potential-sids&quot;&gt;Finding Potential SIDs&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;finding-potential-sids&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-potential-sids&quot; aria-label=&quot;Anchor link for: finding-potential-sids&quot;&gt;Finding Potential SIDs&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The Trainer ID was set immediately upon leaving the Naming Screen.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 Emerald used this Trainer ID to seed the RNG, which then determines your
@@ -1415,7 +1415,7 @@ the Secret ID on Advance 1000, then you can check the others.&lt;&#x2F;p&gt;
 &lt;p&gt;In our example, Advance 1000 would be SID &lt;strong&gt;05610.&lt;&#x2F;strong&gt; The next step is
 attempting to RNG a Shiny Starter Pokémon, assuming this Secret ID is
 correct.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;starter-timer&quot;&gt;&lt;strong&gt;Starter Timer&lt;&#x2F;strong&gt;&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;starter-timer&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#starter-timer&quot; aria-label=&quot;Anchor link for: starter-timer&quot;&gt;&lt;strong&gt;Starter Timer&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Now that we know our first potential Trainer ID and Secret ID, we&#x27;ll be
 using PokéFinder and EonTimer together.&lt;&#x2F;p&gt;
 &lt;p&gt;Go back to PokéFinder&#x27;s main menu, and select Gen 3 tab, and click
@@ -1466,7 +1466,7 @@ after the game starts, and so we can set &lt;strong&gt;Target Frame&lt;&#x2F;str
 8131.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage26.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;h3 id=&quot;first-attempt&quot;&gt;First Attempt&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;first-attempt&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#first-attempt&quot; aria-label=&quot;Anchor link for: first-attempt&quot;&gt;First Attempt&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;We&#x27;re now ready to progress the story in-game, up until the point where
 your character is standing in front of the Starter bag.&lt;br &#x2F;&gt;
 &lt;&#x2F;p&gt;
@@ -1485,7 +1485,7 @@ Pokémon and check the &lt;strong&gt;Stats&lt;&#x2F;strong&gt; and &lt;strong&gt
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage16.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;The next step is to plug these stats into PokéFinder and determine how
 close the attempt was to the target RNG Advance of 8131.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;adjustment&quot;&gt;Adjustment&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;adjustment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#adjustment&quot; aria-label=&quot;Anchor link for: adjustment&quot;&gt;Adjustment&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Input the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; and &lt;strong&gt;Gender&lt;&#x2F;strong&gt; of the Pokémon, and then set the
 &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; dropdown to &lt;strong&gt;Any&lt;&#x2F;strong&gt;,&lt;br &#x2F;&gt;
 then click the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt; button.&lt;br &#x2F;&gt;
@@ -1574,7 +1574,7 @@ Until...&lt;br &#x2F;&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;beginner&#x2F;emstarterimage13.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;h3 id=&quot;failure-conditions&quot;&gt;Failure Conditions&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;failure-conditions&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#failure-conditions&quot; aria-label=&quot;Anchor link for: failure-conditions&quot;&gt;Failure Conditions&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;It&#x27;s absolutely possible to get your Shiny Starter after checking only 1
 or 2 SIDs. However, it entirely depends on how accurately the timer was
 hit during the intro cutscene, and whether or not errors were made.&lt;br &#x2F;&gt;
@@ -1597,7 +1597,7 @@ and wind up checking 20 SIDs with no Shiny.&lt;br &#x2F;&gt;
 Whatever you choose to do, once you see a Shiny Starter and your Secret
 ID is confirmed, RNG manipulating the rest of the game is now available
 to you.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;p&gt;With the Starter &amp;amp; TID&#x2F;SID Manip out of the way, you&#x27;re ready to move on to the next steps!
 Either Static or Wild Manips will do, although, Wild is &lt;i&gt;slightly&lt;&#x2F;i&gt; more challenging. Hope to see you there!&lt;&#x2F;p&gt;
 </content>
@@ -1619,7 +1619,7 @@ Either Static or Wild Manips will do, although, Wild is &lt;i&gt;slightly&lt;&#x
         <link rel="alternate" type="text/html" href="https://retailrng.com/emerald/intermediate/emerald-rock-smash/"/>
         <id>https://retailrng.com/emerald/intermediate/emerald-rock-smash/</id>
         
-        <content type="html" xml:base="https://retailrng.com/emerald/intermediate/emerald-rock-smash/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/emerald/intermediate/emerald-rock-smash/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;After getting a handle on the basics of RNG, you might be interested in
 some Pokemon who cannot be obtained with standard wild RNG Manipulation.
 While niche, in Emerald there are three Pokemon who are exclusive to the
@@ -1629,8 +1629,8 @@ Geodude line.&lt;&#x2F;p&gt;
 Pokemon spawns, so calibration can be challenging. In addition, rock
 smash rocks count as randomly moving NPCs, so you may run into issues
 with extra random noise.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
-&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hardware-requirements&quot; aria-label=&quot;Anchor link for: hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Pokemon Emerald&lt;&#x2F;p&gt;
@@ -1642,7 +1642,7 @@ with extra random noise.&lt;&#x2F;p&gt;
 &lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#in-game-requirements&quot; aria-label=&quot;Anchor link for: in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;At least one free space in your party.&lt;&#x2F;p&gt;
@@ -1658,17 +1658,17 @@ with extra random noise.&lt;&#x2F;p&gt;
 &lt;p&gt;5-10 Rare Candies. (Not 100% Needed, but helpful).&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokéFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;EonTimer 3.0.0-rc.6&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=lk_YzV08jKU&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#pick-your-target&quot; aria-label=&quot;Anchor link for: pick-your-target&quot;&gt;Pick your target&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
 PokeFinder, and select &lt;strong&gt;Wild&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;emrocksmashimage24.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
@@ -1739,7 +1739,7 @@ want. Accept some worse IVs, or a Worse Nature, no shiny, etc.&lt;&#x2F;p&gt;
 &lt;p&gt;I will be aiming for &lt;strong&gt;Advance 2061&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 With our target picked out, we can move onto the Rock Smash Manip!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;rock-smash-manip&quot;&gt;Rock Smash Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;rock-smash-manip&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#rock-smash-manip&quot; aria-label=&quot;Anchor link for: rock-smash-manip&quot;&gt;Rock Smash Manip&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with Rock Smash RNG Manips we need to head to our targets
 location &amp;amp; destroy every rock but 1. In my case, I am going for
 &lt;strong&gt;Nosepass&lt;&#x2F;strong&gt;, so we&#x27;ll head to &lt;strong&gt;BF2&lt;&#x2F;strong&gt; of &lt;strong&gt;Granite Cave&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
@@ -1814,7 +1814,7 @@ catch. You will not be keeping the Pokemon, so it just speeds the
 process up.&lt;&#x2F;p&gt;
 &lt;p&gt;Once you can view the Pokemons summary screen, we can move onto how to
 adjust.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;rock-smash-adjustment&quot;&gt;Rock Smash Adjustment&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;rock-smash-adjustment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#rock-smash-adjustment&quot; aria-label=&quot;Anchor link for: rock-smash-adjustment&quot;&gt;Rock Smash Adjustment&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
 out its IVs and use that to search.&lt;&#x2F;p&gt;
 &lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
@@ -1933,7 +1933,7 @@ early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 15 tries now. But a couple weeks from now, maybe 5! Hope you&#x27;re having
 fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;If you enjoyed this process and want to do more RNG Manips, I would
 suggest moving on to X RNG.&lt;&#x2F;p&gt;
 </content>
@@ -1955,7 +1955,7 @@ suggest moving on to X RNG.&lt;&#x2F;p&gt;
         <link rel="alternate" type="text/html" href="https://retailrng.com/emerald/intermediate/emerald-safari-zone/"/>
         <id>https://retailrng.com/emerald/intermediate/emerald-safari-zone/</id>
         
-        <content type="html" xml:base="https://retailrng.com/emerald/intermediate/emerald-safari-zone/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/emerald/intermediate/emerald-safari-zone/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;While learning RNG Manips in Emerald, you may have noticed that,
 generally, the process is the same for everything. Save the game, reset,
 try and get your target.&lt;&#x2F;p&gt;
@@ -1971,8 +1971,8 @@ enhanced trainer card you get once you reach the Battle Frontier.&lt;&#x2F;p&gt;
 &lt;p&gt;This tutorial will serve as a basic use case for this feature, which
 will let you hit target Pokemon that would otherwise seem unfeasible to
 RNG Manip, or difficult to get in cases where you cannot save.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
-&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hardware-requirements&quot; aria-label=&quot;Anchor link for: hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Pokemon Emerald&lt;&#x2F;p&gt;
@@ -1984,7 +1984,7 @@ RNG Manip, or difficult to get in cases where you cannot save.&lt;&#x2F;p&gt;
 &lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#in-game-requirements&quot; aria-label=&quot;Anchor link for: in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Enter the Battle Frontier once so you have the Battle Frontier
@@ -2004,7 +2004,7 @@ Trainer Card.&lt;&#x2F;p&gt;
 helpful).&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokeFinder 4.2.1&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -2013,10 +2013,10 @@ helpful).&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;Eon Timer 3.0.0-rc.6&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=HlhM6BTDXvc&quot;&gt;&lt;strong&gt;im a blisy ._.&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#pick-your-target&quot; aria-label=&quot;Anchor link for: pick-your-target&quot;&gt;Pick your target&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
 PokeFinder, and select &lt;strong&gt;Wild&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage24.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
@@ -2072,7 +2072,7 @@ wait.&lt;&#x2F;p&gt;
 &lt;p&gt;It might seem crazy at first to wait 45 minutes per attempt, but this is
 where the Battle Record feature comes into play!&lt;&#x2F;p&gt;
 &lt;p&gt;Once we set it up, we only have to do this wait &lt;strong&gt;once&lt;&#x2F;strong&gt;!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;what-is-a-battle-record&quot;&gt;What is a Battle Record?&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;what-is-a-battle-record&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-a-battle-record&quot; aria-label=&quot;Anchor link for: what-is-a-battle-record&quot;&gt;What is a Battle Record?&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;So what is a Battle Record anyway? Once you beat Pokemon Emerald you
 gain access to the Battle Frontier. And the first time you enter it,
 your trainer card gets upgraded to the Frontier Pass. So now, when you
@@ -2104,7 +2104,7 @@ Latias&lt;&#x2F;a&gt;.
 There&#x27;s better ways to do this now, though. But that&#x27;s for the
 &lt;strong&gt;Advanced&lt;&#x2F;strong&gt; section!&lt;&#x2F;p&gt;
 &lt;p&gt;Now that we understand &lt;em&gt;&lt;strong&gt;what&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; a Battle Record is, let&#x27;s set one up!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;setting-up-a-battle-record&quot;&gt;Setting up a Battle Record&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;setting-up-a-battle-record&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#setting-up-a-battle-record&quot; aria-label=&quot;Anchor link for: setting-up-a-battle-record&quot;&gt;Setting up a Battle Record&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Consider a &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt; similar to what soft resetting your game
 does-- It resets the position of the RNG. But instead of 0, it&#x27;s to a
 position we choose.&lt;&#x2F;p&gt;
@@ -2186,7 +2186,7 @@ Frontier Pass. Say YES to this.&lt;&#x2F;p&gt;
 regularly, or your &lt;strong&gt;Battle Record&lt;&#x2F;strong&gt; will not stick.&lt;&#x2F;p&gt;
 &lt;p&gt;At this point, we&#x27;re done making the Battle Record! Now we have to
 attempt our target!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;battle-record-manip&quot;&gt;Battle Record Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;battle-record-manip&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#battle-record-manip&quot; aria-label=&quot;Anchor link for: battle-record-manip&quot;&gt;Battle Record Manip&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started, I&#x27;m going to head to the &lt;strong&gt;North Safari Zone&lt;&#x2F;strong&gt;, where
 Heracross is located! I&#x27;ll also swap out my 3 exploders, since I do not
 need them anymore.&lt;&#x2F;p&gt;
@@ -2214,7 +2214,7 @@ times. The goal is to press A on the 6th beep to start the encounter.&lt;&#x2F;p
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage23.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;I got a non-shiny Phanpy. If you catch it, we can move on to Adjustment!
 If not, that&#x27;s fine. Just repeat from &lt;strong&gt;Battle Record Manip.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;battle-record-adjustment&quot;&gt;Battle Record Adjustment&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;battle-record-adjustment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#battle-record-adjustment&quot; aria-label=&quot;Anchor link for: battle-record-adjustment&quot;&gt;Battle Record Adjustment&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To find out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure out
 its IVs and use that to search.&lt;&#x2F;p&gt;
 &lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
@@ -2307,7 +2307,7 @@ it for Chimecho, or Volbeat, etc! You can see what encounter slot a
 Pokemon is by selecting them in the dropdown, then looking in filters.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;emerald&#x2F;intermediate&#x2F;battlerecordimage15.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;So use the Battle Record as much as you can &amp;amp; get those rare Pokemon!&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;At this point you&#x27;re all done with the Intermediate course! Next up is
 Advanced. In there we&#x27;ll cover some complex, multi step Manips that will
 focus on not only getting SHINY Pokemon, but Pokemon with good stats. So
@@ -2381,7 +2381,7 @@ glitches or hacks!&lt;&#x2F;p&gt;
         <link rel="alternate" type="text/html" href="https://retailrng.com/rs/beginner/static-manip/"/>
         <id>https://retailrng.com/rs/beginner/static-manip/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/beginner/static-manip/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/beginner/static-manip/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;After setting up your Trainer ID and Secret ID and successfully RNG
 Manipping your Starter Pokémon, Manipping a &lt;strong&gt;Static&lt;&#x2F;strong&gt; encounter is the
 next logical step. This is, largely, the same process as the Starter
@@ -2391,8 +2391,8 @@ various overworld encounters, like Kecleon or Electrode.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 &lt;strong&gt;NOTE:&lt;&#x2F;strong&gt; This guide will &lt;strong&gt;NOT INCLUDE ROAMING Latios &amp;amp; Latias&lt;&#x2F;strong&gt;. They will have
 a separate guide in the &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; section for them.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
-&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hardware-requirements&quot; aria-label=&quot;Anchor link for: hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Pokémon Ruby or Sapphire with a Dead Internal Battery (any
@@ -2404,7 +2404,7 @@ Emulator, or Pokémon Box Ruby &amp;amp; Sapphire.&lt;&#x2F;p&gt;
 &lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#in-game-requirements&quot; aria-label=&quot;Anchor link for: in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Save at the location directly in-front of whichever Pokémon you wish
@@ -2424,17 +2424,17 @@ to capture or receive.&lt;&#x2F;p&gt;
 &lt;p&gt;5-10 Rare Candies. (Not 100% Needed, but helpful).&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokéFinder 4.2.1&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;EonTimer 3.0.0-rc.6&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_8qxkkGeXok&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#pick-your-target&quot; aria-label=&quot;Anchor link for: pick-your-target&quot;&gt;Pick your target&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokémon. Open
 PokéFinder, and select &lt;strong&gt;Static&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rsstaticimage4.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
@@ -2540,7 +2540,7 @@ we will be covering ways around this.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;br&gt;
 &lt;p&gt;With our target picked out, we can move onto the Static Manip!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;static-manip&quot;&gt;Static Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;static-manip&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#static-manip&quot; aria-label=&quot;Anchor link for: static-manip&quot;&gt;Static Manip&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with the Static Manip, you want to save in-front of
 whichever Pokémon you want to receive. Here I am in front Regirock.&lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
@@ -2705,7 +2705,7 @@ one, just use the Masterball for a catch if you have it. You will not be
 keeping the Pokémon, so it just speeds the process up.&lt;&#x2F;p&gt;
 &lt;p&gt;Once you can view the Pokémons summary screen, we can move onto how to
 adjust.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;static-adjustment&quot;&gt;Static Adjustment&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;static-adjustment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#static-adjustment&quot; aria-label=&quot;Anchor link for: static-adjustment&quot;&gt;Static Adjustment&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
 out its IVs and use that to search.&lt;&#x2F;p&gt;
 &lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
@@ -2779,7 +2779,7 @@ early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 15 tries now. But a couple weeks from now, maybe 5! Hope you&#x27;re having
 fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;If you enjoyed this process and want to do more RNG Manips, I would
 suggest moving on to Wild RNG. While the general process and structure
 of the manip (Wait for timer, push button at right time) is not
@@ -2805,27 +2805,27 @@ some more advanced manip challenges.&lt;&#x2F;p&gt;
         <link rel="alternate" type="text/html" href="https://retailrng.com/rs/beginner/trainer-id-starter-manip/"/>
         <id>https://retailrng.com/rs/beginner/trainer-id-starter-manip/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/beginner/trainer-id-starter-manip/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/beginner/trainer-id-starter-manip/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Ruby &amp;amp; Sapphire are the best place to begin your RNG Journey within Generation 3, thanks to this combined manip. In this guide I&#x27;ll be covering how to manip your Trainer ID and Secret ID, which determine when your shiny targets are available, and we will follow that up with a Shiny Starter manip, so you can be sure you did the Trainer ID manip correctly. &lt;&#x2F;p&gt;
 &lt;p&gt;Even if your main goal is not to use RNG Manips to shiny hunt, this will still serve as a way to teach you the fundamentals you&#x27;ll need to understand any Manip you want to do in the future. &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Pokémon Ruby or Sapphire with a Dead Internal Battery (any language)&lt;&#x2F;li&gt;
 &lt;li&gt;GameBoy Advance, Gameboy Player, Nintendo DS &#x2F; DS Lite, GBA Emulator, or Pokémon Box Ruby &amp; Sapphire. &lt;&#x2F;li&gt;
 &lt;li&gt;Windows 10&#x2F;11 PC&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokéFinder 4.2.1&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;EonTimer 3.0.0-rc.6&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=5feON9zDy6g&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=4G_fWWnlKWg&amp;t=1s&quot;&gt;Papa Jefe&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;trainer-id-setup&quot;&gt;Trainer ID Setup&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;trainer-id-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#trainer-id-setup&quot; aria-label=&quot;Anchor link for: trainer-id-setup&quot;&gt;Trainer ID Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Before we can start any manips, we have to know what Trainer ID and Secret ID we want. What we&#x27;re going to do is pick a specific target advance to &lt;strong&gt;make&lt;&#x2F;strong&gt; shiny. &lt;&#x2F;p&gt;
 &lt;p&gt;Which one you pick is up to personal preference– It&#x27;s all about IVs, Nature, &amp;amp; Gender. Also, the higher advance you pick, the longer the wait you will have. Be careful not to go for too short of a wait, though, as you need enough time to be able to reset the game and press A at the correct time. I would not pick a target below 1000. &lt;&#x2F;p&gt;
 &lt;p&gt;To pick your target, open PokéFinder, and in the Gen 3 Tab, click &lt;strong&gt;Static&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
@@ -2848,7 +2848,7 @@ some more advanced manip challenges.&lt;&#x2F;p&gt;
 &lt;p&gt;When we click Generate here, it will use that PID we pasted to generate multiple different Trainer ID and Secret IDs that will make any Static Encounter, Gift Pokémon, Legendary, or Roamer Shiny if we receive&#x2F;encounter it on the advance we picked. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDSIDWindow.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;I will be aiming for Advance 7660, Trainer ID &lt;strong&gt;14002&lt;&#x2F;strong&gt; and Secret ID &lt;strong&gt;29131&lt;&#x2F;strong&gt;. At this point, our prep is complete. You should have a Trainer ID and a Starter Pokémon you are aiming for ready. So it&#x27;s time to move on to the TID Manip. &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;trainer-id-manip&quot;&gt;Trainer ID Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;trainer-id-manip&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#trainer-id-manip&quot; aria-label=&quot;Anchor link for: trainer-id-manip&quot;&gt;Trainer ID Manip&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with the manip, we’re going to boot up our copy of Ruby or Sapphire, and open the Eon Timer 3.0 App on our computer. &lt;&#x2F;p&gt;
 &lt;p&gt;In Eon Timer, click the &lt;strong&gt;3&lt;&#x2F;strong&gt; tab, and make sure the &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; Box is set to 0. &lt;&#x2F;p&gt;
 &lt;p&gt;Also, make sure to put your &lt;strong&gt;Target Advance&lt;&#x2F;strong&gt; from the IDs section into the &lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; box in Eon Timer. Mine was 7660. &lt;&#x2F;p&gt;
@@ -2872,7 +2872,7 @@ If you’re playing on unofficial hardware or emulator, stick with GBA as this i
 &lt;p&gt;Once the overworld loads, open up the start menu and click your Trainer Name to check your ID on the Trainer Card. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDWrong.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;And as you can see here, it’s not the one I wanted. You also probably didn’t get it. What’s going on here? Well, as mentioned in the &lt;strong&gt;Introduction&lt;&#x2F;strong&gt; page, the gen 3 games move at around 60 frames per second, and different manips have different offsets and delays. This is no different, so I’ll show you how to account for your own personal timing, and any delay incurred by the game itself in the next section. &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;trainer-id-adjust&quot;&gt;Trainer ID Adjust&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;trainer-id-adjust&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#trainer-id-adjust&quot; aria-label=&quot;Anchor link for: trainer-id-adjust&quot;&gt;Trainer ID Adjust&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we’re going to do post attempt is open back up the IDs section of PokéFinder. We can leave the &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; section the same as our setup. But in the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; section, we’re going to click the &lt;strong&gt;TID&lt;&#x2F;strong&gt; bubble. &lt;&#x2F;p&gt;
 &lt;p&gt;There, we’ll type out what TID we just got in-game, and hit generate. You should only get 1 result using these parameters.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDmissed.png&quot; width=&quot;90%&quot; &gt;&lt;&#x2F;center&gt;
@@ -2883,7 +2883,7 @@ If you’re playing on unofficial hardware or emulator, stick with GBA as this i
 &lt;p&gt;This is a precise endeavor, the timing is 1&#x2F;60th of a second, remember. So have patience, and with enough attempts you will get the ID you want. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;TIDRight.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Once you do, it’s time to use that Trainer ID to get a shiny starter! &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;starter-setup&quot;&gt;Starter Setup&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;starter-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#starter-setup&quot; aria-label=&quot;Anchor link for: starter-setup&quot;&gt;Starter Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The process for the Starter Manip is very similar to the Trainer ID Manip, but before we get started I want to walk you through setting up a Profile in PokéFinder for Gen 3, and making your target starter show up in PokéFinder. &lt;&#x2F;p&gt;
 &lt;p&gt;First, we’ll head back into the &lt;strong&gt;Static&lt;&#x2F;strong&gt; section in Gen 3 on PokéFinder. Up top, there’s a &lt;strong&gt;Profile&lt;&#x2F;strong&gt; section, click the Manager Button. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterProfile1.png&quot; width=&quot;90%&quot; &gt;&lt;&#x2F;center&gt;
@@ -2903,7 +2903,7 @@ If you’re playing on unofficial hardware or emulator, stick with GBA as this i
 &lt;p&gt;You may be wondering what the Star&#x2F;Square Distinction is in PokéFinder in the Shiny Column. This is for Pokémon Sword and Shield. That game has two distinct shiny animations, and this column tells you if it will be the animation with stars, or with squares. It makes no visual difference in any other game.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterStarSquare.png&quot;  &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Okay, at this point, we have the ability to search for a target, we know our Trainer ID should theoretically produce a shiny, so let’s confirm we’re correct.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;starter-manip&quot;&gt;Starter Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;starter-manip&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#starter-manip&quot; aria-label=&quot;Anchor link for: starter-manip&quot;&gt;Starter Manip&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with the starter manip, you want to play through the intro until you are in front of Professor Birch&#x27;s bag, and save the game. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterSaveLoc.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Then, in Eon Timer, put the number from the  &lt;strong&gt;Advances&lt;&#x2F;strong&gt; Column into the &lt;strong&gt;Target Frame&lt;&#x2F;strong&gt; box. In my case, it is the same number I used for my Trainer ID Manip. Also, change the value in the  &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; box to be 0 again. &lt;&#x2F;p&gt;
@@ -2915,7 +2915,7 @@ If you’re playing on unofficial hardware or emulator, stick with GBA as this i
 &lt;p&gt;When the timer finishes counting down, hit A to start the battle with Poochyena. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterWrong.png&quot; width=&quot;50%&quot; &gt;&lt;&#x2F;center&gt;
 &lt;p&gt;We can check the summary screen and see that we missed our target once again. Just like with the Trainer ID Manip, we are going to have to learn how to calibrate missing our target. &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;starter-adjust&quot;&gt;Starter Adjust&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;starter-adjust&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#starter-adjust&quot; aria-label=&quot;Anchor link for: starter-adjust&quot;&gt;Starter Adjust&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To figure out which Mudkip we hit, we’re going to have to figure out its IVs and use that to search. &lt;&#x2F;p&gt;
 &lt;p&gt;First, though, let’s set up Generator for a search. &lt;&#x2F;p&gt;
 &lt;p&gt;In &lt;strong&gt;RNG Info&lt;&#x2F;strong&gt; we’ll leave Seed and Method alone, but we are going to change &lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt;. To be about 1000 advances before our target.&lt;&#x2F;p&gt;
@@ -2938,7 +2938,7 @@ If you’re playing on unofficial hardware or emulator, stick with GBA as this i
 &lt;p&gt;Now repeat the process from Starter Manip until you get your desired Pokémon. &lt;&#x2F;p&gt;
 &lt;p&gt;If you find yourself dancing around your target, being 1 or 2 advances late or early repeatedly– that’s okay. The timing is strict, do not worry about it. Just keep practicing and you will eventually succeed. &lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;StarterRight.png&quot; width=&quot;60%&quot; &gt;&lt;&#x2F;center&gt;
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;If you enjoyed this process and want to do more RNG Manips, I would suggest moving on to Static RNG. It is the same type of RNG Manip as the Starter Pokémon, but with a couple of different targets available to choose from. &lt;&#x2F;p&gt;
 &lt;p&gt;Alternatively, if you want to jump straight into doing some Wild Pokémon RNG, that’s a feasible path as well. It is slightly more difficult to determine where you land during this manip, but the timing is not any more difficult. &lt;&#x2F;p&gt;
 </content>
@@ -2960,7 +2960,7 @@ If you’re playing on unofficial hardware or emulator, stick with GBA as this i
         <link rel="alternate" type="text/html" href="https://retailrng.com/rs/beginner/wild-manip/"/>
         <id>https://retailrng.com/rs/beginner/wild-manip/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/beginner/wild-manip/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/beginner/wild-manip/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;After RNG Manipping your first Static Pokemon, you may be looking for
 some variety. Look no further than basic wild rng manips. While the
 general process is the same as Static (Start timer, Press A when done),
@@ -2973,8 +2973,8 @@ challenging for various reasons, and will be covered in our
 &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; section.&lt;&#x2F;p&gt;
 &lt;p&gt;With that said, once you have mastered &lt;strong&gt;Static&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;Wild&lt;&#x2F;strong&gt; RNG Manips,
 you should move on to some more difficult manips.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
-&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hardware-requirements&quot; aria-label=&quot;Anchor link for: hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Pokemon Ruby or Sapphire(any language)&lt;br &#x2F;&gt;
@@ -2985,7 +2985,7 @@ Emulator&lt;&#x2F;p&gt;
 &lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#in-game-requirements&quot; aria-label=&quot;Anchor link for: in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Save at the location directly in-front of whichever Pokemon you wish
@@ -3011,17 +3011,17 @@ preferred&lt;&#x2F;strong&gt;)&lt;&#x2F;p&gt;
 &lt;p&gt;5-10 Rare Candies. (Not 100% Needed, but helpful).&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokéFinder 4.2.1&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;EonTimer 3.0.0-rc.6&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=z7W7J657tqY&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#pick-your-target&quot; aria-label=&quot;Anchor link for: pick-your-target&quot;&gt;Pick your target&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
 PokeFinder, and select &lt;strong&gt;Wild&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;beginner&#x2F;rswildimage1.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
@@ -3103,7 +3103,7 @@ want. Accept some worse IVs, or a Worse Nature, Different Species, or
 &lt;strong&gt;Advances&lt;&#x2F;strong&gt; I had available to me via &lt;strong&gt;Static RNG&lt;&#x2F;strong&gt; are missing. I
 only have the &lt;strong&gt;Adamant&lt;&#x2F;strong&gt; Target, so this is not 100% the same.&lt;&#x2F;p&gt;
 &lt;p&gt;With our target picked out, we can move onto the Wild Manip!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;wild-manip&quot;&gt;Wild Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;wild-manip&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#wild-manip&quot; aria-label=&quot;Anchor link for: wild-manip&quot;&gt;Wild Manip&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with the Wild Manip, you want to save in-front in the
 &lt;strong&gt;Location&lt;&#x2F;strong&gt; you want to RNG Manip in. Here is me saved on Route 121.
 Your area in the &lt;strong&gt;Location&lt;&#x2F;strong&gt; does not matter.&lt;&#x2F;p&gt;
@@ -3158,7 +3158,7 @@ one, just use the Masterball for a catch if you have it. You will not be
 keeping the Pokemon, so it just speeds the process up.&lt;&#x2F;p&gt;
 &lt;p&gt;Once you can view the Pokemons summary screen, we can move onto how to
 adjust.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;wild-adjustment&quot;&gt;Wild Adjustment&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;wild-adjustment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#wild-adjustment&quot; aria-label=&quot;Anchor link for: wild-adjustment&quot;&gt;Wild Adjustment&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
 out its IVs and use that to search.&lt;&#x2F;p&gt;
 &lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
@@ -3245,7 +3245,7 @@ If you find your results don&#x27;t make sense, that could be the key!&lt;&#x2F;
 &lt;p&gt;This is really not that different from the &lt;strong&gt;Static&lt;&#x2F;strong&gt; RNG you should&#x27;ve done!
 &lt;&#x2F;i&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Congratulations! You&#x27;ve finished all the &lt;strong&gt;Beginner&lt;&#x2F;strong&gt; RNG Manips for
 &lt;strong&gt;Ruby&lt;&#x2F;strong&gt; &amp;amp; &lt;strong&gt;Sapphire&lt;&#x2F;strong&gt;! At this point, I&#x27;d suggest delving into some
 more complicated subjects in our &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; section, or trying
@@ -3278,7 +3278,7 @@ RNG&lt;&#x2F;strong&gt;, &lt;strong&gt;Egg RNG&lt;&#x2F;strong&gt;, &amp;amp; &l
         <link rel="alternate" type="text/html" href="https://retailrng.com/rs/intermediate/roaming-pokemon/"/>
         <id>https://retailrng.com/rs/intermediate/roaming-pokemon/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/intermediate/roaming-pokemon/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/intermediate/roaming-pokemon/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;After getting a handle on the basics of RNG, you might be interested in
 something more unique or challenging. The Ruby &amp;amp; Sapphire Roamer RNG
 Manip is perfect for this because of two unique challenges it has.&lt;&#x2F;p&gt;
@@ -3297,8 +3297,8 @@ the execution of the manip is not difficult, the amount of time this
 takes can be quite high.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
-&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hardware-requirements&quot; aria-label=&quot;Anchor link for: hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Pokemon Ruby or Sapphire with a Dead Internal Battery (any
@@ -3310,7 +3310,7 @@ Emulator, or Pokemon Box Ruby &amp;amp; Sapphire.&lt;&#x2F;p&gt;
 &lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#in-game-requirements&quot; aria-label=&quot;Anchor link for: in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Save at the location directly in-front of the TV in your parents
@@ -3344,7 +3344,7 @@ in another game, trading to unlock its Pokedex entry before you beat
 the elite 4 will speed up the identification process.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.2.1&quot;&gt;PokeFinder 4.2.1&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -3353,10 +3353,10 @@ the elite 4 will speed up the identification process.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;EonTimer 3.0.0&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=FXZ8D0actz4&amp;amp;list=PL4o9bTT3px_h08zUFb3oChEFku_jG6zyt&amp;amp;index=8&quot;&gt;&lt;strong&gt;im a blisy ._.&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#pick-your-target&quot; aria-label=&quot;Anchor link for: pick-your-target&quot;&gt;Pick your target&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
 PokeFinder, and select &lt;strong&gt;Static&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage11.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
@@ -3443,7 +3443,7 @@ a worse HP IV, or a Worse Nature, etc.&lt;&#x2F;p&gt;
 &lt;p&gt;I will be aiming for &lt;strong&gt;Advance&lt;&#x2F;strong&gt; 2133. It should be quick attempts, &amp;amp;
 Quiet Boosts special attack!&lt;&#x2F;p&gt;
 &lt;p&gt;With our target picked out, we can move onto the Roamer Manip!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;roamer-manip&quot;&gt;Roamer Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;roamer-manip&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#roamer-manip&quot; aria-label=&quot;Anchor link for: roamer-manip&quot;&gt;Roamer Manip&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with the Roamer Manip, you want to save in-front of the
 TV in your parents house. This event only spawns immediately after you
 defeat the elite 4. You CANNOT&lt;&#x2F;p&gt;
@@ -3478,7 +3478,7 @@ finishes counting down.&lt;&#x2F;p&gt;
 times. The goal is to press A on the 6th beep to release the roamer.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 Now, we have to go find it!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;finding-the-roamer&quot;&gt;Finding the Roamer&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;finding-the-roamer&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-the-roamer&quot; aria-label=&quot;Anchor link for: finding-the-roamer&quot;&gt;Finding the Roamer&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Route 118 is the most common route the roamer can appear on, so I head
 to this spot on Route 123, by the berry master&#x27;s house.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage1.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
@@ -3499,7 +3499,7 @@ one, just use the Masterball for a catch if you have it. You will not be
 keeping the Pokemon, so it just speeds the process up.&lt;&#x2F;p&gt;
 &lt;p&gt;Once you can view the Pokemons summary screen, we can move onto how to
 adjust.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;roamer-adjustment&quot;&gt;Roamer Adjustment&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;roamer-adjustment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#roamer-adjustment&quot; aria-label=&quot;Anchor link for: roamer-adjustment&quot;&gt;Roamer Adjustment&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
 out its IVs and use that to search. This is the tricky part! We only
 have Nature, HP &amp;amp; Attack as information to guide us.&lt;&#x2F;p&gt;
@@ -3582,7 +3582,7 @@ roamers when they&#x27;re not yet on your map.&lt;&#x2F;p&gt;
 &lt;p&gt;Other than that, this manip isn&#x27;t too different to your normal static encounter!
 &lt;&#x2F;i&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;If you enjoyed this process and want to do more RNG Manips, I would
 suggest moving on to Rock Smash RNG. While the general process and
 structure of the manip (Wait for timer, push button at right time) is
@@ -3607,7 +3607,7 @@ and requires a LOT of patience, just like this &lt;strong&gt;Roamer Manip&lt;&#x
         <link rel="alternate" type="text/html" href="https://retailrng.com/rs/intermediate/rock-smash-rs/"/>
         <id>https://retailrng.com/rs/intermediate/rock-smash-rs/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/intermediate/rock-smash-rs/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/intermediate/rock-smash-rs/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;After getting a handle on the basics of RNG, you might be interested in
 some Pokemon who cannot be obtained with standard wild RNG Manipulation.
 While niche, in Ruby and Sapphire there are two Pokemon who are
@@ -3617,8 +3617,8 @@ the Geodude line.&lt;&#x2F;p&gt;
 Pokemon spawns, so calibration can be challenging. In addition, rock
 smash rocks count as randomly moving NPCs, so you may run into issues
 with extra random noise.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;h3&gt;
-&lt;h4 id=&quot;hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;h4&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hardware-requirements&quot; aria-label=&quot;Anchor link for: hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Pokemon Ruby or Sapphire with a Dead Internal Battery (any
@@ -3630,7 +3630,7 @@ Emulator, or Pokemon Box Ruby &amp;amp; Sapphire.&lt;&#x2F;p&gt;
 &lt;p&gt;Windows 10&#x2F;11 PC&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h4 id=&quot;in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#in-game-requirements&quot; aria-label=&quot;Anchor link for: in-game-requirements&quot;&gt;In-Game Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;At least one free space in your party.&lt;&#x2F;p&gt;
@@ -3646,17 +3646,17 @@ Emulator, or Pokemon Box Ruby &amp;amp; Sapphire.&lt;&#x2F;p&gt;
 &lt;p&gt;5-10 Rare Candies. (Not 100% Needed, but helpful).&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;tools-used&quot;&gt;Tools Used&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;tag&#x2F;v4.1.2&quot;&gt;PokéFinder 4.1.2&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;EonTimer 3.0.0-rc.6&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;video-examples&quot;&gt;Video Examples&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=lk_YzV08jKU&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;the-guide&quot;&gt;The Guide&lt;&#x2F;h2&gt;
-&lt;h3 id=&quot;pick-your-target&quot;&gt;Pick your target&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pick-your-target&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#pick-your-target&quot; aria-label=&quot;Anchor link for: pick-your-target&quot;&gt;Pick your target&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;The first thing we have to do is pick our target Pokemon. Open
 PokeFinder, and select &lt;strong&gt;Wild&lt;&#x2F;strong&gt; from the Gen 3 main window.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsrocksmashimage24.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
@@ -3706,7 +3706,7 @@ want. Accept some worse IVs, or a Worse Nature, no shiny, etc.&lt;&#x2F;p&gt;
 &lt;p&gt;I will be aiming for &lt;strong&gt;Advance 2558&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 With our target picked out, we can move onto the Rock Smash Manip!&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;rock-smash-manip&quot;&gt;Rock Smash Manip&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;rock-smash-manip&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#rock-smash-manip&quot; aria-label=&quot;Anchor link for: rock-smash-manip&quot;&gt;Rock Smash Manip&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To get started with Rock Smash RNG Manips we need to head to our targets
 location &amp;amp; destroy every rock but 1. In my case, I am going for
 &lt;strong&gt;Nosepass&lt;&#x2F;strong&gt;, so we&#x27;ll head to &lt;strong&gt;BF2&lt;&#x2F;strong&gt; of &lt;strong&gt;Granite Cave&lt;&#x2F;strong&gt;.&lt;br &#x2F;&gt;
@@ -3778,7 +3778,7 @@ catch. You will not be keeping the Pokemon, so it just speeds the
 process up.&lt;&#x2F;p&gt;
 &lt;p&gt;Once you can view the Pokemons summary screen, we can move onto how to
 adjust.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;rock-smash-adjustment&quot;&gt;Rock Smash Adjustment&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;rock-smash-adjustment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#rock-smash-adjustment&quot; aria-label=&quot;Anchor link for: rock-smash-adjustment&quot;&gt;Rock Smash Adjustment&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;To figure out which &lt;strong&gt;Advance&lt;&#x2F;strong&gt; we hit, we&#x27;re going to have to figure
 out its IVs and use that to search.&lt;&#x2F;p&gt;
 &lt;p&gt;First, though, let&#x27;s set up Generator for a search.&lt;&#x2F;p&gt;
@@ -3905,7 +3905,7 @@ early, can help!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 15 tries now. But a couple weeks from now, maybe 5! Hope you&#x27;re having
 fun!&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps...&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Up next we&#x27;ll be tackling the Safari Zone, and using it as a way to teach you the basics of &lt;strong&gt;Pathing&lt;&#x2F;strong&gt; in Ruby &amp;amp; Sapphire.
 This is something you really won&#x27;t have to worry about in any other game! &lt;&#x2F;p&gt;
 </content>
@@ -3927,23 +3927,23 @@ This is something you really won&#x27;t have to worry about in any other game! &
         <link rel="alternate" type="text/html" href="https://retailrng.com/emerald/advanced/section1/"/>
         <id>https://retailrng.com/emerald/advanced/section1/</id>
         
-        <content type="html" xml:base="https://retailrng.com/emerald/advanced/section1/">&lt;h2 id=&quot;what-is-the-adidoks&quot;&gt;What is the AdiDoks?&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/emerald/advanced/section1/">&lt;h2 id=&quot;what-is-the-adidoks&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-the-adidoks&quot; aria-label=&quot;Anchor link for: what-is-the-adidoks&quot;&gt;What is the AdiDoks?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;AdiDoks is a Zola theme for Documentation&#x27;s sites, ported by the Hugo Theme
 &lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;, which is a pretty nice theme. Thanks a lot to 
 &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;h-enk&quot;&gt;&lt;em&gt;h-enk&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, the creator of the &lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#keyboard-shortcuts-for-search&quot; aria-label=&quot;Anchor link for: keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;focus: &lt;code&gt;&#x2F;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;select: &lt;code&gt;↓&lt;&#x2F;code&gt; and &lt;code&gt;↑&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;open: &lt;code&gt;Enter&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;close: &lt;code&gt;Esc&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;other-documentation&quot;&gt;Other documentation?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;other-documentation&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#other-documentation&quot; aria-label=&quot;Anchor link for: other-documentation&quot;&gt;Other documentation?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.netlify.com&#x2F;&quot;&gt;Netlify&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;overview&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;contact-the-creator&quot;&gt;Contact the creator?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;contact-the-creator&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#contact-the-creator&quot; aria-label=&quot;Anchor link for: contact-the-creator&quot;&gt;Contact the creator?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Send &lt;em&gt;Aaran Xu&lt;&#x2F;em&gt; an E-mail:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;mailto:aaranxu@outlook.com&quot;&gt;aaranxu@outlook.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -3967,23 +3967,23 @@ This is something you really won&#x27;t have to worry about in any other game! &
         <link rel="alternate" type="text/html" href="https://retailrng.com/emerald/advanced/section2/"/>
         <id>https://retailrng.com/emerald/advanced/section2/</id>
         
-        <content type="html" xml:base="https://retailrng.com/emerald/advanced/section2/">&lt;h2 id=&quot;what-is-the-adidoks&quot;&gt;What is the AdiDoks?&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/emerald/advanced/section2/">&lt;h2 id=&quot;what-is-the-adidoks&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-the-adidoks&quot; aria-label=&quot;Anchor link for: what-is-the-adidoks&quot;&gt;What is the AdiDoks?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;AdiDoks is a Zola theme for Documentation&#x27;s sites, ported by the Hugo Theme
 &lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;, which is a pretty nice theme. Thanks a lot to 
 &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;h-enk&quot;&gt;&lt;em&gt;h-enk&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, the creator of the &lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#keyboard-shortcuts-for-search&quot; aria-label=&quot;Anchor link for: keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;focus: &lt;code&gt;&#x2F;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;select: &lt;code&gt;↓&lt;&#x2F;code&gt; and &lt;code&gt;↑&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;open: &lt;code&gt;Enter&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;close: &lt;code&gt;Esc&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;other-documentation&quot;&gt;Other documentation?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;other-documentation&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#other-documentation&quot; aria-label=&quot;Anchor link for: other-documentation&quot;&gt;Other documentation?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.netlify.com&#x2F;&quot;&gt;Netlify&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;overview&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;contact-the-creator&quot;&gt;Contact the creator?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;contact-the-creator&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#contact-the-creator&quot; aria-label=&quot;Anchor link for: contact-the-creator&quot;&gt;Contact the creator?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Send &lt;em&gt;Aaran Xu&lt;&#x2F;em&gt; an E-mail:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;mailto:aaranxu@outlook.com&quot;&gt;aaranxu@outlook.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -4087,23 +4087,23 @@ This is something you really won&#x27;t have to worry about in any other game! &
         <link rel="alternate" type="text/html" href="https://retailrng.com/rs/advanced/section1/"/>
         <id>https://retailrng.com/rs/advanced/section1/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/advanced/section1/">&lt;h2 id=&quot;what-is-the-adidoks&quot;&gt;What is the AdiDoks?&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/advanced/section1/">&lt;h2 id=&quot;what-is-the-adidoks&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-the-adidoks&quot; aria-label=&quot;Anchor link for: what-is-the-adidoks&quot;&gt;What is the AdiDoks?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;AdiDoks is a Zola theme for Documentation&#x27;s sites, ported by the Hugo Theme
 &lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;, which is a pretty nice theme. Thanks a lot to 
 &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;h-enk&quot;&gt;&lt;em&gt;h-enk&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, the creator of the &lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#keyboard-shortcuts-for-search&quot; aria-label=&quot;Anchor link for: keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;focus: &lt;code&gt;&#x2F;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;select: &lt;code&gt;↓&lt;&#x2F;code&gt; and &lt;code&gt;↑&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;open: &lt;code&gt;Enter&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;close: &lt;code&gt;Esc&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;other-documentation&quot;&gt;Other documentation?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;other-documentation&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#other-documentation&quot; aria-label=&quot;Anchor link for: other-documentation&quot;&gt;Other documentation?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.netlify.com&#x2F;&quot;&gt;Netlify&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;overview&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;contact-the-creator&quot;&gt;Contact the creator?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;contact-the-creator&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#contact-the-creator&quot; aria-label=&quot;Anchor link for: contact-the-creator&quot;&gt;Contact the creator?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Send &lt;em&gt;Aaran Xu&lt;&#x2F;em&gt; an E-mail:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;mailto:aaranxu@outlook.com&quot;&gt;aaranxu@outlook.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -4127,23 +4127,23 @@ This is something you really won&#x27;t have to worry about in any other game! &
         <link rel="alternate" type="text/html" href="https://retailrng.com/rs/advanced/section2/"/>
         <id>https://retailrng.com/rs/advanced/section2/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/advanced/section2/">&lt;h2 id=&quot;what-is-the-adidoks&quot;&gt;What is the AdiDoks?&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/advanced/section2/">&lt;h2 id=&quot;what-is-the-adidoks&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-is-the-adidoks&quot; aria-label=&quot;Anchor link for: what-is-the-adidoks&quot;&gt;What is the AdiDoks?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;AdiDoks is a Zola theme for Documentation&#x27;s sites, ported by the Hugo Theme
 &lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;, which is a pretty nice theme. Thanks a lot to 
 &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;h-enk&quot;&gt;&lt;em&gt;h-enk&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, the creator of the &lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#keyboard-shortcuts-for-search&quot; aria-label=&quot;Anchor link for: keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;focus: &lt;code&gt;&#x2F;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;select: &lt;code&gt;↓&lt;&#x2F;code&gt; and &lt;code&gt;↑&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;open: &lt;code&gt;Enter&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;close: &lt;code&gt;Esc&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;other-documentation&quot;&gt;Other documentation?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;other-documentation&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#other-documentation&quot; aria-label=&quot;Anchor link for: other-documentation&quot;&gt;Other documentation?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.netlify.com&#x2F;&quot;&gt;Netlify&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;overview&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;contact-the-creator&quot;&gt;Contact the creator?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;contact-the-creator&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#contact-the-creator&quot; aria-label=&quot;Anchor link for: contact-the-creator&quot;&gt;Contact the creator?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Send &lt;em&gt;Aaran Xu&lt;&#x2F;em&gt; an E-mail:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;mailto:aaranxu@outlook.com&quot;&gt;aaranxu@outlook.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -4167,7 +4167,7 @@ This is something you really won&#x27;t have to worry about in any other game! &
         <link rel="alternate" type="text/html" href="https://retailrng.com/emerald/intermediate/section-2/"/>
         <id>https://retailrng.com/emerald/intermediate/section-2/</id>
         
-        <content type="html" xml:base="https://retailrng.com/emerald/intermediate/section-2/">&lt;h2 id=&quot;our-pledge&quot;&gt;Our Pledge&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/emerald/intermediate/section-2/">&lt;h2 id=&quot;our-pledge&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#our-pledge&quot; aria-label=&quot;Anchor link for: our-pledge&quot;&gt;Our Pledge&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;We as members, contributors, and leaders pledge to make participation in our
 community a harassment-free experience for everyone, regardless of age, body
 size, visible or invisible disability, ethnicity, sex characteristics, gender
@@ -4176,7 +4176,7 @@ nationality, personal appearance, race, caste, color, religion, or sexual identi
 and orientation.&lt;&#x2F;p&gt;
 &lt;p&gt;We pledge to act and interact in ways that contribute to an open, welcoming,
 diverse, inclusive, and healthy community.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;our-standards&quot;&gt;Our Standards&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;our-standards&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#our-standards&quot; aria-label=&quot;Anchor link for: our-standards&quot;&gt;Our Standards&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Examples of behavior that contributes to a positive environment for our
 community include:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -4199,7 +4199,7 @@ address, without their explicit permission&lt;&#x2F;li&gt;
 &lt;li&gt;Other conduct which could reasonably be considered inappropriate in a
 professional setting&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;enforcement-responsibilities&quot;&gt;Enforcement Responsibilities&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;enforcement-responsibilities&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#enforcement-responsibilities&quot; aria-label=&quot;Anchor link for: enforcement-responsibilities&quot;&gt;Enforcement Responsibilities&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Community leaders are responsible for clarifying and enforcing our standards of
 acceptable behavior and will take appropriate and fair corrective action in
 response to any behavior that they deem inappropriate, threatening, offensive,
@@ -4208,29 +4208,29 @@ or harmful.&lt;&#x2F;p&gt;
 comments, commits, code, wiki edits, issues, and other contributions that are
 not aligned to this Code of Conduct, and will communicate reasons for moderation
 decisions when appropriate.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;scope&quot;&gt;Scope&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;scope&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#scope&quot; aria-label=&quot;Anchor link for: scope&quot;&gt;Scope&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;This Code of Conduct applies within all community spaces, and also applies when
 an individual is officially representing the community in public spaces.
 Examples of representing our community include using an official e-mail address,
 posting via an official social media account, or acting as an appointed
 representative at an online or offline event.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;enforcement&quot;&gt;Enforcement&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;enforcement&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#enforcement&quot; aria-label=&quot;Anchor link for: enforcement&quot;&gt;Enforcement&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
 &lt;a href=&quot;mailto:aaranxu@outlook.com&quot;&gt;aaranxu@outlook.com&lt;&#x2F;a&gt;.
 All complaints will be reviewed and investigated promptly and fairly.&lt;&#x2F;p&gt;
 &lt;p&gt;All community leaders are obligated to respect the privacy and security of the
 reporter of any incident.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;enforcement-guidelines&quot;&gt;Enforcement Guidelines&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;enforcement-guidelines&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#enforcement-guidelines&quot; aria-label=&quot;Anchor link for: enforcement-guidelines&quot;&gt;Enforcement Guidelines&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Community leaders will follow these Community Impact Guidelines in determining
 the consequences for any action they deem in violation of this Code of Conduct:&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;1-correction&quot;&gt;1. Correction&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;1-correction&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#1-correction&quot; aria-label=&quot;Anchor link for: 1-correction&quot;&gt;1. Correction&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: Use of inappropriate language or other behavior deemed
 unprofessional or unwelcome in the community.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A private, written warning from community leaders, providing
 clarity around the nature of the violation and an explanation of why the
 behavior was inappropriate. A public apology may be requested.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;2-warning&quot;&gt;2. Warning&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;2-warning&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#2-warning&quot; aria-label=&quot;Anchor link for: 2-warning&quot;&gt;2. Warning&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: A violation through a single incident or series
 of actions.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A warning with consequences for continued behavior. No
@@ -4239,7 +4239,7 @@ those enforcing the Code of Conduct, for a specified period of time. This
 includes avoiding interactions in community spaces as well as external channels
 like social media. Violating these terms may lead to a temporary or
 permanent ban.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;3-temporary-ban&quot;&gt;3. Temporary Ban&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;3-temporary-ban&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#3-temporary-ban&quot; aria-label=&quot;Anchor link for: 3-temporary-ban&quot;&gt;3. Temporary Ban&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: A serious violation of community standards, including
 sustained inappropriate behavior.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A temporary ban from any sort of interaction or public
@@ -4247,13 +4247,13 @@ communication with the community for a specified period of time. No public or
 private interaction with the people involved, including unsolicited interaction
 with those enforcing the Code of Conduct, is allowed during this period.
 Violating these terms may lead to a permanent ban.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;4-permanent-ban&quot;&gt;4. Permanent Ban&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;4-permanent-ban&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#4-permanent-ban&quot; aria-label=&quot;Anchor link for: 4-permanent-ban&quot;&gt;4. Permanent Ban&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: Demonstrating a pattern of violation of community
 standards, including sustained inappropriate behavior,  harassment of an
 individual, or aggression toward or disparagement of classes of individuals.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A permanent ban from any sort of public interaction within
 the community.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;attribution&quot;&gt;Attribution&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;attribution&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#attribution&quot; aria-label=&quot;Anchor link for: attribution&quot;&gt;Attribution&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;This Code of Conduct is adapted from the &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&quot;&gt;Contributor Covenant&lt;&#x2F;a&gt;,
 version 2.0, available at
 &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;version&#x2F;2&#x2F;0&#x2F;code_of_conduct.html&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;version&#x2F;2&#x2F;0&#x2F;code_of_conduct.html&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -4509,7 +4509,7 @@ at &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translat
         <link rel="alternate" type="text/html" href="https://retailrng.com/rs/intermediate/section-2/"/>
         <id>https://retailrng.com/rs/intermediate/section-2/</id>
         
-        <content type="html" xml:base="https://retailrng.com/rs/intermediate/section-2/">&lt;h2 id=&quot;our-pledge&quot;&gt;Our Pledge&lt;&#x2F;h2&gt;
+        <content type="html" xml:base="https://retailrng.com/rs/intermediate/section-2/">&lt;h2 id=&quot;our-pledge&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#our-pledge&quot; aria-label=&quot;Anchor link for: our-pledge&quot;&gt;Our Pledge&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;We as members, contributors, and leaders pledge to make participation in our
 community a harassment-free experience for everyone, regardless of age, body
 size, visible or invisible disability, ethnicity, sex characteristics, gender
@@ -4518,7 +4518,7 @@ nationality, personal appearance, race, caste, color, religion, or sexual identi
 and orientation.&lt;&#x2F;p&gt;
 &lt;p&gt;We pledge to act and interact in ways that contribute to an open, welcoming,
 diverse, inclusive, and healthy community.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;our-standards&quot;&gt;Our Standards&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;our-standards&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#our-standards&quot; aria-label=&quot;Anchor link for: our-standards&quot;&gt;Our Standards&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Examples of behavior that contributes to a positive environment for our
 community include:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -4541,7 +4541,7 @@ address, without their explicit permission&lt;&#x2F;li&gt;
 &lt;li&gt;Other conduct which could reasonably be considered inappropriate in a
 professional setting&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h2 id=&quot;enforcement-responsibilities&quot;&gt;Enforcement Responsibilities&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;enforcement-responsibilities&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#enforcement-responsibilities&quot; aria-label=&quot;Anchor link for: enforcement-responsibilities&quot;&gt;Enforcement Responsibilities&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Community leaders are responsible for clarifying and enforcing our standards of
 acceptable behavior and will take appropriate and fair corrective action in
 response to any behavior that they deem inappropriate, threatening, offensive,
@@ -4550,29 +4550,29 @@ or harmful.&lt;&#x2F;p&gt;
 comments, commits, code, wiki edits, issues, and other contributions that are
 not aligned to this Code of Conduct, and will communicate reasons for moderation
 decisions when appropriate.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;scope&quot;&gt;Scope&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;scope&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#scope&quot; aria-label=&quot;Anchor link for: scope&quot;&gt;Scope&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;This Code of Conduct applies within all community spaces, and also applies when
 an individual is officially representing the community in public spaces.
 Examples of representing our community include using an official e-mail address,
 posting via an official social media account, or acting as an appointed
 representative at an online or offline event.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;enforcement&quot;&gt;Enforcement&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;enforcement&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#enforcement&quot; aria-label=&quot;Anchor link for: enforcement&quot;&gt;Enforcement&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
 &lt;a href=&quot;mailto:aaranxu@outlook.com&quot;&gt;aaranxu@outlook.com&lt;&#x2F;a&gt;.
 All complaints will be reviewed and investigated promptly and fairly.&lt;&#x2F;p&gt;
 &lt;p&gt;All community leaders are obligated to respect the privacy and security of the
 reporter of any incident.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;enforcement-guidelines&quot;&gt;Enforcement Guidelines&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;enforcement-guidelines&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#enforcement-guidelines&quot; aria-label=&quot;Anchor link for: enforcement-guidelines&quot;&gt;Enforcement Guidelines&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Community leaders will follow these Community Impact Guidelines in determining
 the consequences for any action they deem in violation of this Code of Conduct:&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;1-correction&quot;&gt;1. Correction&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;1-correction&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#1-correction&quot; aria-label=&quot;Anchor link for: 1-correction&quot;&gt;1. Correction&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: Use of inappropriate language or other behavior deemed
 unprofessional or unwelcome in the community.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A private, written warning from community leaders, providing
 clarity around the nature of the violation and an explanation of why the
 behavior was inappropriate. A public apology may be requested.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;2-warning&quot;&gt;2. Warning&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;2-warning&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#2-warning&quot; aria-label=&quot;Anchor link for: 2-warning&quot;&gt;2. Warning&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: A violation through a single incident or series
 of actions.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A warning with consequences for continued behavior. No
@@ -4581,7 +4581,7 @@ those enforcing the Code of Conduct, for a specified period of time. This
 includes avoiding interactions in community spaces as well as external channels
 like social media. Violating these terms may lead to a temporary or
 permanent ban.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;3-temporary-ban&quot;&gt;3. Temporary Ban&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;3-temporary-ban&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#3-temporary-ban&quot; aria-label=&quot;Anchor link for: 3-temporary-ban&quot;&gt;3. Temporary Ban&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: A serious violation of community standards, including
 sustained inappropriate behavior.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A temporary ban from any sort of interaction or public
@@ -4589,13 +4589,13 @@ communication with the community for a specified period of time. No public or
 private interaction with the people involved, including unsolicited interaction
 with those enforcing the Code of Conduct, is allowed during this period.
 Violating these terms may lead to a permanent ban.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;4-permanent-ban&quot;&gt;4. Permanent Ban&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;4-permanent-ban&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#4-permanent-ban&quot; aria-label=&quot;Anchor link for: 4-permanent-ban&quot;&gt;4. Permanent Ban&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: Demonstrating a pattern of violation of community
 standards, including sustained inappropriate behavior,  harassment of an
 individual, or aggression toward or disparagement of classes of individuals.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A permanent ban from any sort of public interaction within
 the community.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;attribution&quot;&gt;Attribution&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;attribution&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#attribution&quot; aria-label=&quot;Anchor link for: attribution&quot;&gt;Attribution&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;This Code of Conduct is adapted from the &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&quot;&gt;Contributor Covenant&lt;&#x2F;a&gt;,
 version 2.0, available at
 &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;version&#x2F;2&#x2F;0&#x2F;code_of_conduct.html&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;version&#x2F;2&#x2F;0&#x2F;code_of_conduct.html&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
