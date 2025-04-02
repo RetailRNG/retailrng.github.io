@@ -46,11 +46,7 @@
         <loc>https://retailrng.com/emerald/advanced/</loc>
     </url>
     <url>
-        <loc>https://retailrng.com/emerald/advanced/section1/</loc>
-        <lastmod>2021-05-01T19:30:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://retailrng.com/emerald/advanced/section2/</loc>
+        <loc>https://retailrng.com/emerald/advanced/coming-soon/</loc>
         <lastmod>2021-05-01T19:30:00+00:00</lastmod>
     </url>
     <url>
@@ -84,10 +80,6 @@
         <lastmod>2025-03-22T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://retailrng.com/emerald/intermediate/section-2/</loc>
-        <lastmod>2021-05-01T18:20:00+00:00</lastmod>
-    </url>
-    <url>
         <loc>https://retailrng.com/frlg/</loc>
     </url>
     <url>
@@ -109,11 +101,7 @@
         <loc>https://retailrng.com/rs/advanced/</loc>
     </url>
     <url>
-        <loc>https://retailrng.com/rs/advanced/section1/</loc>
-        <lastmod>2021-05-01T19:30:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://retailrng.com/rs/advanced/section2/</loc>
+        <loc>https://retailrng.com/rs/advanced/coming-soon/</loc>
         <lastmod>2021-05-01T19:30:00+00:00</lastmod>
     </url>
     <url>
@@ -145,10 +133,6 @@
     <url>
         <loc>https://retailrng.com/rs/intermediate/rock-smash-rs/</loc>
         <lastmod>2025-03-22T18:20:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://retailrng.com/rs/intermediate/section-2/</loc>
-        <lastmod>2021-05-01T18:20:00+00:00</lastmod>
     </url>
     <url>
         <loc>https://retailrng.com/smusum/</loc>
