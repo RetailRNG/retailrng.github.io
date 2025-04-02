@@ -28,6 +28,18 @@
         <lastmod>2025-03-22T18:20:00+00:00</lastmod>
     </url>
     <url>
+        <loc>https://retailrng.com/bdsp/</loc>
+    </url>
+    <url>
+        <loc>https://retailrng.com/bw/</loc>
+    </url>
+    <url>
+        <loc>https://retailrng.com/bw2/</loc>
+    </url>
+    <url>
+        <loc>https://retailrng.com/dppt/</loc>
+    </url>
+    <url>
         <loc>https://retailrng.com/emerald/</loc>
     </url>
     <url>
@@ -79,37 +91,13 @@
         <loc>https://retailrng.com/frlg/</loc>
     </url>
     <url>
-        <loc>https://retailrng.com/frlg/advanced/</loc>
+        <loc>https://retailrng.com/hgss/</loc>
     </url>
     <url>
-        <loc>https://retailrng.com/frlg/advanced/section1/</loc>
-        <lastmod>2021-05-01T19:30:00+00:00</lastmod>
+        <loc>https://retailrng.com/oras/</loc>
     </url>
     <url>
-        <loc>https://retailrng.com/frlg/advanced/section2/</loc>
-        <lastmod>2021-05-01T19:30:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://retailrng.com/frlg/beginner/</loc>
-    </url>
-    <url>
-        <loc>https://retailrng.com/frlg/beginner/section1/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://retailrng.com/frlg/beginner/section2/</loc>
-        <lastmod>2021-05-01T08:20:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://retailrng.com/frlg/intermediate/</loc>
-    </url>
-    <url>
-        <loc>https://retailrng.com/frlg/intermediate/section-1/</loc>
-        <lastmod>2021-05-01T18:20:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://retailrng.com/frlg/intermediate/section-2/</loc>
-        <lastmod>2021-05-01T18:20:00+00:00</lastmod>
+        <loc>https://retailrng.com/pla/</loc>
     </url>
     <url>
         <loc>https://retailrng.com/privacy-policy/</loc>
@@ -163,6 +151,12 @@
         <lastmod>2021-05-01T18:20:00+00:00</lastmod>
     </url>
     <url>
+        <loc>https://retailrng.com/smusum/</loc>
+    </url>
+    <url>
+        <loc>https://retailrng.com/ss/</loc>
+    </url>
+    <url>
         <loc>https://retailrng.com/tools/</loc>
     </url>
     <url>
@@ -183,5 +177,8 @@
     <url>
         <loc>https://retailrng.com/tools/flowtimertools/teachytvflowtimerconverter/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://retailrng.com/xy/</loc>
     </url>
 </urlset>

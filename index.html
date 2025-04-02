@@ -10,6 +10,7 @@
 
 
 <link rel="stylesheet" href="https://retailrng.com/main.css">
+<link rel="stylesheet" href="https://retailrng.com/shortcodes.css">
 
 
 
@@ -42,7 +43,7 @@
 
 	
 
-<title>Retail Pokémon RNG | Modern Documentation Theme</title>
+<title>Retail Pokémon RNG | Tutorial for Pokémon RNG Manipulation</title>
 <meta name="description" content="RetailRNG is here to teach you how to RNG Manipulate in every generation of Pokémon.">
 <link rel="canonical" href="https://retailrng.com/">
 
@@ -231,32 +232,32 @@
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 3</h2>
-          <p><a href="/rs/">Ruby/Sapphire</a>&nbsp<img decoding="async" id="random-image-rs" src="" alt="Random image"><br><a href="/frlg/">Fire Red/Leaf Green</a>&nbsp<img decoding="async" id="random-image-frlg" src="" alt="Random image""><br><a href="/emerald/">Emerald</a>&nbsp<img src="rayquaza.png"></p>
+          <p><a href="/rs/">Ruby/Sapphire</a>&nbsp<img decoding="async" id="random-image-rs" src="" alt="Random image"><br><a href="/frlg/"><s>Fire Red/Leaf Green</s></a>&nbsp<img decoding="async" id="random-image-frlg" src="" alt="Random image""><br><a href="/emerald/">Emerald</a>&nbsp<img src="rayquaza.png"></p>
         </div>
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 4</h2>
-          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Diamond/Pearl/Platinum</a>&nbsp<img decoding="async" id="random-image-dppt" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Heart Gold/Soul Silver</a>&nbsp<img decoding="async" id="random-image-hgss" src="" alt="Random image""></p>
+          <p><a href="/dppt/"><s>Diamond/Pearl/Platinum</s></a>&nbsp<img decoding="async" id="random-image-dppt" src="" alt="Random image""><br><a href="/hgss/"><s>Heart Gold/Soul Silver</s></a>&nbsp<img decoding="async" id="random-image-hgss" src="" alt="Random image""></p>
         </div>
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 5</h2>
-          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Black/White</a>&nbsp<img decoding="async" id="random-image-bw" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Black 2/White 2</a>&nbsp<img decoding="async" id="random-image-bw2" src="" alt="Random image""></p>
+          <p><a href="/bw/"><s>Black/White</s></a>&nbsp<img decoding="async" id="random-image-bw" src="" alt="Random image""><br><a href="/bw2/"><s>Black 2/White 2</s></a>&nbsp<img decoding="async" id="random-image-bw2" src="" alt="Random image""></p>
         </div>
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 6</h2>
-          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">X/Y</a>&nbsp<img decoding="async" id="random-image-xy" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Omega Ruby/Alpha Sapphire&nbsp<img decoding="async" id="random-image-oras" src="" alt="Random image""></a></p>
+          <p><a href="/xy/"><s>X/Y</s></a>&nbsp<img decoding="async" id="random-image-xy" src="" alt="Random image""><br><a href="/oras/"><s>Omega Ruby/Alpha Sapphire</s>&nbsp<img decoding="async" id="random-image-oras" src="" alt="Random image""></a></p>
         </div>
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 7</h2>
-          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Sun/Moon</a>&nbsp<img decoding="async" id="random-image-sm" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Ultra Sun/Ultra Moon</a>&nbsp<img decoding="async" id="random-image-usum" src="" alt="Random image""></p>
+          <p><a href="/smusum/"><s>Sun/Moon/Ultra Sun/Ultra Moon</s></a>&nbsp<img decoding="async" id="random-image-sm" src="" alt="Random image""></p>
         </div>
         
         <div class="col-lg-5">
           <h2 class="h4">Gen 8</h2>
-          <p><a href="https://observatory.mozilla.org/analyze/adidoks.org">Sword/Shield</a><img decoding="async" id="random-image-swsh" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Brilliant Diamond/Shining Pearl</a><img decoding="async" id="random-image-bdsp" src="" alt="Random image""><br><a href="https://observatory.mozilla.org/analyze/adidoks.org">Pokemon Legends Arceus</a><img decoding="async" id="random-image-pla" src="" alt="Random image""></p>
+          <p><a href="/ss/"><s>Sword/Shield</s></a><img decoding="async" id="random-image-swsh" src="" alt="Random image""><br><a href="/bdsp/"><s>Brilliant Diamond/Shining Pearl</s></a><img decoding="async" id="random-image-bdsp" src="" alt="Random image""><br><a href="/pla/"><s>Pokemon Legends Arceus</s></a><img decoding="async" id="random-image-pla" src="" alt="Random image""></p>
         </div>
         
       
@@ -341,18 +342,13 @@ randomImage();
 imgEl = document.getElementById('random-image-sm');
 srcArray = [
 'solgaleo.png',
-'lunala.png'
-];
-
-randomImage();
-
-
-imgEl = document.getElementById('random-image-usum');
-srcArray = [
+'lunala.png',
 'necrozma-ultra.png',
 'necrozma-dusk.png',
 'necrozma-dawn.png'
 ];
+
+
 
 randomImage();
 
