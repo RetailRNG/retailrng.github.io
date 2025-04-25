@@ -8,6 +8,25 @@
     <updated>2025-04-24T18:20:00+00:00</updated>
     <id>https://retailrng.com/atom.xml</id>
     <entry xml:lang="en">
+        <title>Coming Soon!</title>
+        <published>2025-04-24T18:20:00+00:00</published>
+        <updated>2025-04-24T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/frlg/advanced/coming-soon/"/>
+        <id>https://retailrng.com/frlg/advanced/coming-soon/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/frlg/advanced/coming-soon/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>FRLG Starter RNG &amp; SID Deduction</title>
         <published>2025-04-24T18:20:00+00:00</published>
         <updated>2025-04-24T18:20:00+00:00</updated>
@@ -140,7 +159,7 @@ the results table.&lt;&#x2F;p&gt;
 &lt;p&gt;Our example TID was &lt;strong&gt;13789&lt;&#x2F;strong&gt; (ignore the leading zero, if your ID has one),
 and we find the &lt;strong&gt;Target SID&lt;&#x2F;strong&gt; by scrolling to &lt;strong&gt;Advance #1150,&lt;&#x2F;strong&gt; which
 in our example should be &lt;strong&gt;53782.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;**&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgstarterimage12.png&quot; width=&quot;90%&quot;&gt;&lt;&#x2F;center&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgstarterimage12.png&quot; width=&quot;90%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;There&#x27;s no guarantee that your first attempt was frame perfect, but with
 this list we can use process of elimination to figure out which Secret
 ID is correct.&lt;&#x2F;p&gt;
@@ -449,6 +468,25 @@ to you.&lt;&#x2F;p&gt;
 &lt;p&gt;With the Starter &amp;amp; TID&#x2F;SID Manip out of the way, you&#x27;re ready to move on to the next steps!
 Either Static or Wild Manips will do, although, Wild is &lt;i&gt;slightly&lt;&#x2F;i&gt; more challenging. Hope to see you there!&lt;&#x2F;p&gt;
 </content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Coming Soon!</title>
+        <published>2025-04-24T18:20:00+00:00</published>
+        <updated>2025-04-24T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/frlg/intermediate/coming-soon/"/>
+        <id>https://retailrng.com/frlg/intermediate/coming-soon/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/frlg/intermediate/coming-soon/"></content>
         
     </entry>
     <entry xml:lang="en">
