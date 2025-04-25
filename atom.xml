@@ -101,7 +101,7 @@ regular GBA and GBA Games on the DS have slightly different frame rates. &lt;&#x
 &lt;p&gt;&lt;strong&gt;GBA: 59.7275 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;NDS - Slot 2: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative to the actual game. 
-If you’re playing on unofficial hardware or emulator, stick with GBA as this is usually the default.
+I
 If playing on 3DS using &lt;strong&gt;open_agb_firm&lt;&#x2F;strong&gt;, you would also select &lt;strong&gt;NDS - Slot 2.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 Once everything is set up correctly, advance to the next screen and
@@ -110,7 +110,7 @@ start EonTimer at the same time.&lt;&#x2F;p&gt;
 &lt;br &#x2F;&gt;
 &lt;strong&gt;&amp;quot;Your very own POKEMON legend is about to unfold!&amp;quot;&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgstarterimage2.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;This will cause the game to advance to the Inside of the Truck, at which
+&lt;p&gt;This will cause the game to advance to the players bedroom, at which
 point, you can open your Trainer Card and check your Trainer ID.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgstarterimage7.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;h3 id=&quot;finding-potential-sids&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-potential-sids&quot; aria-label=&quot;Anchor link for: finding-potential-sids&quot;&gt;&lt;strong&gt;Finding Potential SIDs&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -140,17 +140,14 @@ unskippable text box. This will also vary based on the TEXT SPEED
 setting. For consistent results, choose FAST.&lt;br &#x2F;&gt;
 &lt;br &#x2F;&gt;
 SID Advance Values on FAST text speed.&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;hr &#x2F;&gt;
-&lt;p&gt;&lt;strong&gt;Language&lt;&#x2F;strong&gt;            &lt;strong&gt;Advances&lt;&#x2F;strong&gt;          &lt;strong&gt;Secret ID from 901
-Timer&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;hr &#x2F;&gt;
-&lt;p&gt;ENGLISH                 &lt;strong&gt;-249&lt;&#x2F;strong&gt;              &lt;strong&gt;1150&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;JAPANESE                &lt;strong&gt;-194&lt;&#x2F;strong&gt;              &lt;strong&gt;1095&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;ITALIAN                 &lt;strong&gt;-236&lt;&#x2F;strong&gt;              &lt;strong&gt;1137&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;FRENCH                  &lt;strong&gt;-205&lt;&#x2F;strong&gt;              &lt;strong&gt;1106&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;GERMAN                  &lt;strong&gt;-208&lt;&#x2F;strong&gt;              &lt;strong&gt;1109&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;SPANISH                 &lt;strong&gt;-202&lt;&#x2F;strong&gt;              &lt;strong&gt;1103&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;hr &#x2F;&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Language&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;strong&gt;Advances&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;strong&gt;Secret ID from 901 Timer&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;English&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;-249&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;1150&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Japanese&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;-194&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;1095&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Italian&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;-236&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;1137&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;French&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;-205&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;1106&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;German&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;-208&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;1109&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Spanish&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;-202&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;1103&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;We can view all of these potential SIDs using the &lt;strong&gt;IDs&lt;&#x2F;strong&gt; tool in
 PokeFinder, and selecting the &lt;strong&gt;FRLGE&lt;&#x2F;strong&gt; tab.&lt;&#x2F;p&gt;
 &lt;p&gt;Enter the TID from your trainer card, and set &lt;strong&gt;Initial Advances to
@@ -287,7 +284,7 @@ the GBA&#x27;s CPU called Timer1.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 because the starting value of Timer1 is only consistent from a hard boot
 of the game-- which is identified by the presence of the GAMEBOY BIOS
 screen.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;Everything input the user makes during the boot up sequence, as well as
+&lt;p&gt;&lt;em&gt;Every input the user makes during the boot up sequence, as well as
 the Sound and Button Mode settings in the save file, have an effect on
 Timer1 and therefore, the initial seeding process.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;For this reason, it&#x27;s important to not press any buttons or skip the
