@@ -83,6 +83,13 @@
         <loc>https://retailrng.com/frlg/</loc>
     </url>
     <url>
+        <loc>https://retailrng.com/frlg/beginner/</loc>
+    </url>
+    <url>
+        <loc>https://retailrng.com/frlg/beginner/frlgstarter/</loc>
+        <lastmod>2025-04-24T18:20:00+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://retailrng.com/hgss/</loc>
     </url>
     <url>
@@ -164,5 +171,16 @@
     </url>
     <url>
         <loc>https://retailrng.com/xy/</loc>
+    </url>
+    <url>
+        <loc>https://retailrng.com/xy/beginner/</loc>
+    </url>
+    <url>
+        <loc>https://retailrng.com/xy/beginner/initial-seed/</loc>
+        <lastmod>2025-03-24T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://retailrng.com/xy/beginner/introduction/</loc>
+        <lastmod>2025-03-22T18:20:00+00:00</lastmod>
     </url>
 </urlset>
