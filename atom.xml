@@ -5,8 +5,447 @@
     <link rel="self" type="application/atom+xml" href="https://retailrng.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://retailrng.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-04-25T18:20:00+00:00</updated>
+    <updated>2025-04-28T18:20:00+00:00</updated>
     <id>https://retailrng.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>FR&#x2F;LG Wild Encounter Manip</title>
+        <published>2025-04-28T18:20:00+00:00</published>
+        <updated>2025-04-28T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/frlg/beginner/frlgwild/"/>
+        <id>https://retailrng.com/frlg/beginner/frlgwild/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/frlg/beginner/frlgwild/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;This guide will cover beginner-level Wild RNG manipulation in FireRed
+and LeafGreen. The focus will be on acquiring Shiny Pokemon, without
+concern for competitive Natures or IVs.&lt;&#x2F;p&gt;
+&lt;p&gt;Wild RNG requires the use of Sweet Scent, which causes a Wild Pokemon to
+immediately spawn. This works in tall grass, caves, or surfing on water.&lt;&#x2F;p&gt;
+&lt;p&gt;In general, higher level areas will be easier for beginners. Low-level
+Pokemon will produce many duplicate search results, making it more
+difficult to identify the seed and advance hit. However, any area in the
+game that spawns Wild encounters is usable.&lt;&#x2F;p&gt;
+&lt;p&gt;We will be going for Shiny Mankey on Route 4, which is a rare spawn that
+can be level 10 or 12.&lt;&#x2F;p&gt;
+&lt;p&gt;You must know your &lt;strong&gt;Secret ID&lt;&#x2F;strong&gt; to find viable targets, which would be
+done during the Shiny Starter RNG process. If you are on a completed
+save and &lt;strong&gt;DO NOT&lt;&#x2F;strong&gt; know your &lt;strong&gt;Secret ID,&lt;&#x2F;strong&gt; there are methods to deduce
+it using a previously caught Shiny, using glitches to read it from a
+Pokemon, or view it via extracting Save Data and using a tool like
+PkHex.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hardware-requirements&quot; aria-label=&quot;Anchor link for: hardware-requirements&quot;&gt;Hardware Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pokemon Fire Red&#x2F;Leaf Green (any language)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;GameBoy Advance, Nintendo DS or DS Lite, Nintendo 3DS w&#x2F;
+open_agb_firm&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Windows &#x2F; Mac OS &#x2F; Ubuntu PC&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#in-game-requirements&quot; aria-label=&quot;Anchor link for: in-game-requirements&quot;&gt;In-game Requirements&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Save in the grass&#x2F;cave&#x2F;water where target Pokemon appears.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;!-- --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Any Pokemon with the move Sweet Scent.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;At least one free space in your party.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;!-- --&gt;
+&lt;ul&gt;
+&lt;li&gt;Pokeballs to capture it, if it&#x27;s a capture.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;!-- --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pokémon to aid in capture, such as a false swipe user or a spore
+user.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Master Ball (optional, but recommended for quick capture&#x2F;stat
+calculation)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;!-- --&gt;
+&lt;ul&gt;
+&lt;li&gt;At least one Rare Candy (5+ is helpful, but not required)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;NOTE&lt;&#x2F;b&gt;: Earliest available Sweet Scent users in FireRed &amp; LeafGreen&lt;&#x2F;summary&gt;
+&lt;br&gt;
+&lt;i&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bulbasaur: Chosen as Starter&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;a.  Learns Sweet Scent at Level 25&lt;&#x2F;p&gt;
+&lt;p&gt;b.  Don&#x27;t evolve to Ivysaur, who learns at Level 29&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Oddish: First Available at Route 24 (FireRed Only)&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;a.  Caught at Level 12-14&lt;&#x2F;p&gt;
+&lt;p&gt;b.  Learns Sweet Scent at Level 7&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bellsprout: First Available at Route 24 (LeafGreen Only)&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;a.  Caught at Level 12-14&lt;&#x2F;p&gt;
+&lt;p&gt;b.  Learns Sweet Scent at Level 30&lt;&#x2F;p&gt;
+&lt;p&gt;c.  Don&#x27;t evolve to Weepinbel, who learns at Level 33&lt;&#x2F;p&gt;
+&lt;&#x2F;i&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;details&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;&lt;strong&gt;EonTimer 3.0.0-rc6&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;lincoln-lm.github.io&#x2F;js-finder-py&#x2F;pages&#x2F;g3-calibration&quot;&gt;&lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;fire-red&#x2F;Land.html&quot;&gt;&lt;strong&gt;Fire Red Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;leaf-green&#x2F;Land.html&quot;&gt;&lt;strong&gt;Leaf Green Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Gsv9aHzDm4M&quot;&gt;im a blisy ._.&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;finding-a-shiny-target&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-a-shiny-target&quot; aria-label=&quot;Anchor link for: finding-a-shiny-target&quot;&gt;Finding a Shiny Target&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;To get started, open Lincoln&#x27;s G3 Calibration &lt;a href=&quot;https:&#x2F;&#x2F;lincoln-lm.github.io&#x2F;js-finder-py&#x2F;pages&#x2F;g3-calibration&quot;&gt;here&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Select your &lt;strong&gt;Game&lt;&#x2F;strong&gt;, and then leave the &lt;strong&gt;Sound, L, A, and Held
+Button&lt;&#x2F;strong&gt; settings on the default values of &lt;strong&gt;Mono, L=A, A, and None.&lt;&#x2F;strong&gt;
+Make sure to select your &lt;strong&gt;System&lt;&#x2F;strong&gt;, as the boot-up times and
+frame-rates are slightly different based on the console, and the tool
+accounts for those.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage12.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Open the settings in-game, and change &lt;strong&gt;Sound&lt;&#x2F;strong&gt; and &lt;strong&gt;Button Mode&lt;&#x2F;strong&gt; to
+match these settings in the tool.&lt;&#x2F;p&gt;
+&lt;p&gt;Make sure to SAVE after confirming these settings!&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage7.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Leave the default &lt;strong&gt;Target Seed (hex)&lt;&#x2F;strong&gt; and &lt;strong&gt;Seed +\-.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Advance Range&lt;&#x2F;strong&gt; to 1000 to 5000. This means your maximum wait time
+will be ~2 minutes.&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Encounter Method&lt;&#x2F;strong&gt; to &lt;strong&gt;Wild 1.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Encounter Type&lt;&#x2F;strong&gt; to &lt;strong&gt;Grass&lt;&#x2F;strong&gt; if the target is found in
+grass&#x2F;cave. &lt;strong&gt;Surf&lt;&#x2F;strong&gt; if the target is in water.&lt;&#x2F;p&gt;
+&lt;p&gt;Enter your &lt;strong&gt;Trainer ID&lt;&#x2F;strong&gt; and &lt;strong&gt;Secret ID.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Select &lt;strong&gt;Star&#x2F;Square&lt;&#x2F;strong&gt; from the Shiny Filter. This will filter to all
+possible Shiny targets.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Square Shiny&lt;&#x2F;strong&gt; is only relevant if sending to Sword&#x2F;Shield, but the
+option is there.&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Nature Filter&lt;&#x2F;strong&gt; to &lt;strong&gt;Any. (OPTIONAL:&lt;&#x2F;strong&gt; Select a desired Nature)&lt;&#x2F;p&gt;
+&lt;p&gt;Leave the &lt;strong&gt;IV Ranges&lt;&#x2F;strong&gt; as 0 ~ 31. &lt;strong&gt;(OPTIONAL:&lt;&#x2F;strong&gt; Increase minimum
+values for desirable stats)&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage13.png&quot; width=&quot;70%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once these settings are correct, click &lt;strong&gt;Submit&lt;&#x2F;strong&gt; to search for all the
+potential Shiny Pokemon you could attempt to RNG.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE: Your Browser might freeze momentarily while calculating, just
+wait. If anything pops up click &amp;quot;Wait&amp;quot; or &amp;quot;Continue&amp;quot;.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage3.png&quot; width=&quot;90%&quot;&gt;&lt;&#x2F;center&gt;
+\
+When the search is complete, there should be a table of potential
+**Shiny** **Seeds** and **Advances.**
+&lt;p&gt;Since this is Wild RNG, we&#x27;ll also need to identify the &lt;strong&gt;Encounter
+Slot&lt;&#x2F;strong&gt; of our target.&lt;&#x2F;p&gt;
+&lt;p&gt;These range from 0 to 11 and are identified by the &lt;strong&gt;Slot&lt;&#x2F;strong&gt; column in
+the search results.&lt;&#x2F;p&gt;
+&lt;p&gt;You can easily look these up using the Encounter Slot tables for each
+game.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;fire-red&#x2F;Land.html&quot;&gt;&lt;strong&gt;Fire Red Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;leaf-green&#x2F;Land.html&quot;&gt;&lt;strong&gt;Leaf Green Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Our target will be &lt;strong&gt;Mankey&lt;&#x2F;strong&gt; on &lt;strong&gt;Route 4&lt;&#x2F;strong&gt;, which can be either
+&lt;strong&gt;Encounter Slot 8&lt;&#x2F;strong&gt; or &lt;strong&gt;10.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage14.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;&lt;strong&gt;Keep this tab open, because we&#x27;ll also need it to look up which
+Pokemon we actually hit during RNG attempts!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;There might not be any Shiny results that match the &lt;strong&gt;Encounter Slot&lt;&#x2F;strong&gt;
+you&#x27;re searching for, especially for the rare encounters on the route.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Encounter Slot&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;strong&gt;Rarity&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;strong&gt;Encounter Slot&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;strong&gt;Rarity&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Slot 0&lt;&#x2F;td&gt;&lt;td&gt;20%&lt;&#x2F;td&gt;&lt;td&gt;Slot 6&lt;&#x2F;td&gt;&lt;td&gt;5%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Slot 1&lt;&#x2F;td&gt;&lt;td&gt;20%&lt;&#x2F;td&gt;&lt;td&gt;Slot 7&lt;&#x2F;td&gt;&lt;td&gt;5%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Slot 2&lt;&#x2F;td&gt;&lt;td&gt;10%&lt;&#x2F;td&gt;&lt;td&gt;Slot 8&lt;&#x2F;td&gt;&lt;td&gt;4%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Slot 3&lt;&#x2F;td&gt;&lt;td&gt;10%&lt;&#x2F;td&gt;&lt;td&gt;Slot 9&lt;&#x2F;td&gt;&lt;td&gt;4%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Slot 4&lt;&#x2F;td&gt;&lt;td&gt;10%&lt;&#x2F;td&gt;&lt;td&gt;Slot 10&lt;&#x2F;td&gt;&lt;td&gt;1%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Slot 5&lt;&#x2F;td&gt;&lt;td&gt;10%&lt;&#x2F;td&gt;&lt;td&gt;Slot 11&lt;&#x2F;td&gt;&lt;td&gt;1%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;In this case, increase maximum wait time on the Title Screen) &lt;strong&gt;OR&lt;&#x2F;strong&gt; alter the
+settings above to a different &lt;strong&gt;SOUND&lt;&#x2F;strong&gt; or &lt;strong&gt;BUTTON MODE,&lt;&#x2F;strong&gt; and Submit
+the search again**. Remember to update those settings in-game as well!**&lt;&#x2F;p&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;NOTE&lt;&#x2F;b&gt;: Changing &lt;b&gt;&quot;A Button&quot;&lt;&#x2F;b&gt; or &lt;b&gt;&quot;Held Button&quot;&lt;&#x2F;b&gt; in &lt;b&gt;G3
+Calibration&lt;&#x2F;b&gt;&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;For general purposes, changing only SOUND or BUTTON MODE should provide
+a sufficient variety of Shiny targets. However, if using particularly
+strict Nature or IV filters and receiving no results, you can change &amp;quot;A
+Button&amp;quot; and &amp;quot;Held Button&amp;quot; to check even more seeds.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;A Button&amp;quot; refers to the final A press on the Title Screen. This can be
+changed to either &lt;strong&gt;START&lt;&#x2F;strong&gt; or &lt;strong&gt;L (L=A)&lt;&#x2F;strong&gt;.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;START&lt;&#x2F;strong&gt; would mean pressing and holding START on the Title Screen
+instead of the A Button.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;L (L=A)&lt;&#x2F;strong&gt; only works when BUTTON MODE is L=A, and means pressing and
+holding L on the Title Screen.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;Held Button&amp;quot; refers to optional buttons that can be held during the
+boot-up sequence and intro cutscene.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;For beginners, &lt;strong&gt;STARTUP SELECT&lt;&#x2F;strong&gt; is the only option that requires no
+special timing.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;START UP A&lt;&#x2F;strong&gt; and the &lt;strong&gt;BLACKOUT&lt;&#x2F;strong&gt; Held Buttons will be covered in an
+ADVANCED guide.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;STARTUP SELECT&lt;&#x2F;strong&gt; means holding SELECT before booting the game, and
+holding it until the File Load screen appears. You must continue holding
+it, even while doing your final button press &amp;amp; hold on the Title
+Screen.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;Once you&#x27;ve chosen your desired target Shiny, change the &lt;strong&gt;Target Seed
+(hex)&lt;&#x2F;strong&gt; to match the Seed, and update the &lt;strong&gt;Advance Range&lt;&#x2F;strong&gt; to 500
+advances above and below your target.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage17.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;In our example, Mankey is Encounter Slot 8 or 10 and a Quiet Shiny was
+found on seed E476 and Advance 2064. Which means the Advance Range
+becomes 1564 to 2564.&lt;&#x2F;p&gt;
+&lt;p&gt;Now we update &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; for this target as well.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;timer-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#timer-setup&quot; aria-label=&quot;Anchor link for: timer-setup&quot;&gt;Timer Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Open &lt;strong&gt;EonTimer 3.0.0-RC6,&lt;&#x2F;strong&gt; and switch over to the Custom Tab (C).&lt;&#x2F;p&gt;
+&lt;p&gt;Click the (+) button at the bottom, and add two timer sections.&lt;&#x2F;p&gt;
+&lt;p&gt;Make the &lt;strong&gt;Unit&lt;&#x2F;strong&gt; of the first timer &lt;strong&gt;ms,&lt;&#x2F;strong&gt; and the second timer
+&lt;strong&gt;Advances&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Enter the &lt;strong&gt;ms&lt;&#x2F;strong&gt; value from the Seed into the first Target box.&lt;&#x2F;p&gt;
+&lt;p&gt;Enter the &lt;strong&gt;Advances&lt;&#x2F;strong&gt; value of the Shiny into the second Target box.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage10.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then click the gear icon in the bottom left, and &lt;strong&gt;make sure your
+console setting is correct.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage11.png&quot; width=&quot;30%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;GBA and NDS-GBA have slightly different frame rates.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA: 59.7275 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NDS-GBA: 59.6555 fps&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Having it set incorrectly will make longer timers inconsistent relative
+to the actual game.&lt;&#x2F;p&gt;
+&lt;p&gt;If playing on 3DS using open_agb_firm, you would also select NDS - Slot
+2.&lt;&#x2F;p&gt;
+&lt;p&gt;The tools are now set up for...&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-first-attempt&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-first-attempt&quot; aria-label=&quot;Anchor link for: the-first-attempt&quot;&gt;The First Attempt&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;In-game get your character to the correct position so you can
+immediately use Sweet Scent to start the Wild encounter.&lt;&#x2F;p&gt;
+&lt;p&gt;Open your in-game settings and double check that they match the SOUND
+and BUTTON MODE settings for the target Seed at the top of G3
+Calibration.&lt;&#x2F;p&gt;
+&lt;p&gt;Save your game, and then Power Off the system.&lt;&#x2F;p&gt;
+&lt;p&gt;The startup sequence is slightly different depending on the console
+being used.&lt;&#x2F;p&gt;
+&lt;p&gt;Reference the following Boot method for your system of choice.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;&lt;b&gt;Boot Methods&lt;&#x2F;b&gt;:&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;strong&gt;GBA:&lt;&#x2F;strong&gt; Flick the Power Switch&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NDS:&lt;&#x2F;strong&gt; Press A on &amp;quot;Start GBA Game&amp;quot; from the DS Home Screen&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;OFFICIAL GAMEBOY PLAYER:&lt;&#x2F;strong&gt; Press the &amp;quot;Change Game Pak&amp;quot; button, and
+confirm to Hard Reset&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;3DS OPEN_AGB_FIRM:&lt;&#x2F;strong&gt; Press A to boot the Fire Red&#x2F;Leaf Green ROM file&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GAMEBOY INTERFACE (GBI):&lt;&#x2F;strong&gt; Hold and Release the RESET button, or use
+Hard Reset Button Combo&lt;&#x2F;p&gt;
+&lt;p&gt;(Note: GBI boot times and frame-rate are identical to real GBA, so use
+GBA in the system selector)&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;The general flow of each attempt is as follows:&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Boot the game and click &lt;strong&gt;Start&lt;&#x2F;strong&gt; on &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; at the same time.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;GBA users might find this difficult. In this case, you can add a 3rd
+section to EonTimer&#x27;s Custom tab at the top, and set it to 5000ms.
+This creates what we call a &lt;strong&gt;pre-timer&lt;&#x2F;strong&gt; that will count down 5
+seconds, ending in 6 beeps before the actual seed timer starts. Using
+a pre-timer allows you to time your power-switch flip with the 6th
+beep, removing the need to coordinate a switch-flip and button press.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Wait for the &lt;strong&gt;ENTIRE&lt;&#x2F;strong&gt; Introduction to play, &lt;strong&gt;DO NOT PRESS ANY
+BUTTONS or SKIP.&lt;&#x2F;strong&gt; Your first timer should be long enough to make it to the Title Screen.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;3. When the timer is close to completion, you will hear the 1st of 6
+beeps.&lt;&#x2F;p&gt;
+&lt;p&gt;4. &lt;strong&gt;ON THE 6TH BEEP, PRESS&lt;&#x2F;strong&gt; and &lt;strong&gt;HOLD&lt;&#x2F;strong&gt; the &lt;strong&gt;A Button&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;5. Once the &lt;strong&gt;File Load&lt;&#x2F;strong&gt; screen appears, you can release all buttons
+and press A to load your save.&lt;&#x2F;p&gt;
+&lt;p&gt;6. Mash B to skip past any &amp;quot;Previously on...&amp;quot; screens.&lt;&#x2F;p&gt;
+&lt;p&gt;7a. Press START to open the menu, go into POKEMON, and then hover over
+SWEET SCENT&lt;&#x2F;p&gt;
+&lt;p&gt;8. When the second timer is close to completion, you will hear the 1st
+of 6 beeps.&lt;&#x2F;p&gt;
+&lt;p&gt;9. &lt;strong&gt;ON THE 6TH BEEP PRESS A&lt;&#x2F;strong&gt; to use SWEET SCENT.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;&lt;b&gt;Note: How do Seeds work?&lt;&#x2F;b&gt;&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;Seeds in FireRed and LeafGreen are determined by an ultra-fast timer in
+the GBA&#x27;s CPU called Timer1.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Traditional soft resetting using A + B + START + SELECT does not work,
+because the starting value of Timer1 is only consistent from a hard boot
+of the game-- which is identified by the presence of the GAMEBOY BIOS
+screen.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Every input the user makes during the boot up sequence, as well as
+the Sound and Button Mode settings in the save file, have an effect on
+Timer1 and therefore, the initial seeding process.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;For this reason, it&#x27;s important to not press any buttons or skip the
+intro cutscene, until the final button press at the Title Screen. The
+seed is set while the game transitions from the Title Screen to the File
+Load screen.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Reducing this process to only providing a single input after a specific
+amount of time, bypasses all the potential interference with Timer1 and
+allows the player to consistently hit the same seeds.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;This is possible because even though Timer1 is MUCH faster than 60fps,
+the game only checks for button inputs every frame. The seeds were
+tested and recorded using an automated bot that performs the button
+input frame perfectly, after a set number of milliseconds.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Clicking the &amp;quot;Show Seeds&amp;quot; button will display a list of all the Seeds
+the program is currently using for its search. The &amp;quot;Target Seed&amp;quot; should
+appear in the middle of the list, and the seeds around it are in
+sequential order based on the millisecond value the bot was programmed
+to use.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;The final ms value shown for each seed in the search results, is
+automatically adjusted for the selected system based on hard coded
+boot-time offsets, and the frame-rate of the chosen system.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;h3 id=&quot;initial-calibration&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#initial-calibration&quot; aria-label=&quot;Anchor link for: initial-calibration&quot;&gt;Initial Calibration&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;If possible, it&#x27;s generally a good idea to use a Master Ball for
+calibration purposes. This makes each attempt faster, by instantly
+acquiring the Pokemon to calculate stats. You will be resetting, so
+you&#x27;ll always have the Master Ball for later. On final capture, use your
+PokeBall of choice.&lt;&#x2F;p&gt;
+&lt;p&gt;After catching, open the Pokemon&#x27;s summary and look at the &lt;strong&gt;Nature&lt;&#x2F;strong&gt;
+and &lt;strong&gt;Stats.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage2.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Open the &lt;strong&gt;G3&lt;&#x2F;strong&gt; &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; tool, set &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; back to &lt;strong&gt;Any,&lt;&#x2F;strong&gt;
+select your caught Species, select the Nature and then enter Stats into
+the IV Calculator in the following order: &lt;strong&gt;LEVEL HP ATK DEF SPA SPD
+SPE&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Then click &lt;strong&gt;Calculate IVs.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage8.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This should automatically populate the Stat ranges with the best guess
+possible given the inputted data.&lt;&#x2F;p&gt;
+&lt;p&gt;Clicking &lt;strong&gt;Submit&lt;&#x2F;strong&gt; will search for all the potential Pokemon this could
+be, and if the Pokemon is a low level you&#x27;ll likely get many results.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage5.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;With this many results, we have no way to narrow down which Pokemon we
+actually hit. In this case, using &lt;strong&gt;Rare Candy&lt;&#x2F;strong&gt; to level up and provide
+more stats for the calculator to use can reduce the results.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage16.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;In our case, this actually caused the search to yield &lt;strong&gt;no results.&lt;&#x2F;strong&gt;
+However, this is expected sometimes, because Wild Pokemon in FireRed and
+LeafGreen can be generated using different &lt;strong&gt;Encounter Methods.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;NOTE&lt;&#x2F;b&gt;: What are Methods?&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;Methods result in different sets of IVs for a Pokemon, from the same RNG
+Advance. However, they have the same PID, which means they will still be
+Shiny and have the same Nature.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Which Method you get on a Wild Pokemon is out of the player&#x27;s control
+in FireRed and LeafGreen. &lt;strong&gt;Method 1&lt;&#x2F;strong&gt; is the most common, but it&#x27;s
+possible to hit &lt;strong&gt;Method 2&lt;&#x2F;strong&gt; or &lt;strong&gt;Method 4&lt;&#x2F;strong&gt; instead-- so it&#x27;s
+important to check all three for Wild RNG manipulation.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;This setting can be changed in the &lt;strong&gt;Encounter Method&lt;&#x2F;strong&gt; dropdown in the
+tool. Every time we search for which Pokemon we hit, it&#x27;s important to
+check &lt;strong&gt;Wild 1, Wild 2,&lt;&#x2F;strong&gt; and &lt;strong&gt;Wild
+4.&lt;&#x2F;strong&gt;&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage1.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;When searching &lt;strong&gt;Wild 1&lt;&#x2F;strong&gt; and &lt;strong&gt;Wild 2,&lt;&#x2F;strong&gt; our Rattata gets no results.
+Our Rattata &lt;strong&gt;ONLY&lt;&#x2F;strong&gt; gets search matches on Encounter Method &lt;strong&gt;Wild 4.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;With Wild Pokemon, it&#x27;s common for multiple Advances on the same Seed to
+have the same PID and IVs, but a different Encounter Slot.&lt;&#x2F;p&gt;
+&lt;p&gt;Our Level 10 Rattata lines up with &lt;strong&gt;Encounter Slot 1&lt;&#x2F;strong&gt; for Route 4. So
+we can confidently say the first attempt hit &lt;strong&gt;Seed 5AB3&lt;&#x2F;strong&gt; and &lt;strong&gt;Advance
+2225.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;If you get NO results on ANY METHOD, then increase Advance Range to
+1000 advances above and below target, and increase Seed +&#x2F;- to 50.
+Increase levels with Rare Candy as necessary. If this still yields no
+results, there was an error in the attempt and you must check all your
+settings and try again. Double check in-game settings match the settings
+in the g3 calibration tool, and that the timers match your target
+seed&#x2F;advance.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now that Rattata has been confirmed, we can enter the &lt;strong&gt;millisecond&lt;&#x2F;strong&gt;
+and &lt;strong&gt;Advance&lt;&#x2F;strong&gt; values from the result that matches our &lt;strong&gt;Encounter
+Slot&lt;&#x2F;strong&gt; into &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; and then click &lt;strong&gt;Update&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage4.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;The values in &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; should update accordingly, and you can now
+&lt;strong&gt;turn off your game&lt;&#x2F;strong&gt; and begin a second attempt.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;attempts-adjustment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#attempts-adjustment&quot; aria-label=&quot;Anchor link for: attempts-adjustment&quot;&gt;Attempts &amp;amp; Adjustment&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Repeat the same steps of:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Performing the startup sequence with EonTimer&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Capturing the Pokemon&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Entering Stats, Checking Methods, and Leveling Up as needed to reach
+a single search result&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Inputting the Seed ms, and Advance into EonTimer and clicking Update&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Make sure to use &lt;strong&gt;Encounter Slots&lt;&#x2F;strong&gt; to your advantage, like in this
+example.&lt;&#x2F;p&gt;
+&lt;p&gt;I still had three results left in the search, but &lt;strong&gt;Level 6 Sandshrew&lt;&#x2F;strong&gt;
+could only be &lt;strong&gt;Encounter Slot 2.&lt;&#x2F;strong&gt; Therefore, I must have hit my target
+seed of &lt;strong&gt;E476&lt;&#x2F;strong&gt; and &lt;strong&gt;Advance 2062.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage9.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This was my second attempt, and I hit my target seed and was only 2
+advances early.&lt;&#x2F;p&gt;
+&lt;p&gt;Once your calibration is within the range of &lt;strong&gt;+&#x2F;- 50ms&lt;&#x2F;strong&gt; for the Seed,
+and &lt;strong&gt;+&#x2F;- 3&lt;&#x2F;strong&gt; for Advances you can confidently narrow the search range
+in &lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt; to speed up attempts.&lt;&#x2F;p&gt;
+&lt;p&gt;Lower &lt;strong&gt;Seed +&#x2F;-&lt;&#x2F;strong&gt; to 10 and &lt;strong&gt;Advance Range&lt;&#x2F;strong&gt; to 20 advances below and
+above your target.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage15.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;With this smaller search range, you should be able to get a single
+result after only inputting the stats of the Pokemon. If you still get
+two or more results, use Rare Candy and Encounter Slots to narrow it
+down again.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;At this point&lt;&#x2F;strong&gt;, you must repeat attempts until you successfully hit
+your &lt;strong&gt;Target Seed&lt;&#x2F;strong&gt; and &lt;strong&gt;Advance.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This requires two frame perfect inputs, so it can be difficult.&lt;&#x2F;p&gt;
+&lt;p&gt;Only &lt;strong&gt;Update&lt;&#x2F;strong&gt; the calibration of &lt;strong&gt;EonTimer,&lt;&#x2F;strong&gt; if you notice you are
+consistently hitting early or late over multiple attempts. The optimal
+&lt;strong&gt;Calibration&lt;&#x2F;strong&gt; will have you landing sometimes early, sometimes late.&lt;&#x2F;p&gt;
+&lt;p&gt;Now it&#x27;s a matter of overcoming human error to succeed.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Eventually&lt;&#x2F;strong&gt;, you will hit your &lt;strong&gt;Shiny!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgwildimage6.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;h1 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Congratulations! Youu&#x27;ve finished all the &lt;strong&gt;Beginner&lt;&#x2F;strong&gt; RNG Manips for &lt;em&gt;Fire Red&lt;&#x2F;em&gt;* &amp;amp; &lt;strong&gt;Leaf Green&lt;&#x2F;strong&gt;!
+At this point, I reccomend continuing onto some more advanced Manips in the &lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; or &lt;strong&gt;Advanced&lt;&#x2F;strong&gt; sections. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Intermediate&lt;&#x2F;strong&gt; will contain a lot of familiar techniques showcased here, but with various different challenges. Things like &lt;strong&gt;Roamer&lt;&#x2F;strong&gt;, &lt;strong&gt;Fishing&lt;&#x2F;strong&gt;, &lt;strong&gt;Rock Smash&lt;&#x2F;strong&gt;, and &lt;strong&gt;The Safari Zone&lt;&#x2F;strong&gt; are all more challenging than these manips, while still being &amp;quot;Press A at Right Moment&amp;quot;. It&#x27;s other things that complicate them.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Advanced&lt;&#x2F;strong&gt; will contain extremely challenging manips, for those who want to go the extra mile to gain &lt;strong&gt;Perfect IV Shiny Pokemon &#x2F; Very Rare Pokemon&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>FR&#x2F;LG Static Encounter Manip</title>
         <published>2025-04-25T18:20:00+00:00</published>
@@ -86,9 +525,6 @@ calculation)&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;&lt;strong&gt;EonTimer 3.0.0-rc6&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Admiral-Fish&#x2F;PokeFinder&#x2F;releases&#x2F;&quot;&gt;&lt;strong&gt;PokeFinder 4.2.1&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;lincoln-lm.github.io&#x2F;js-finder-py&#x2F;pages&#x2F;g3-calibration&quot;&gt;&lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -291,7 +727,7 @@ BEEP.&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
 &lt;p&gt;9. &lt;strong&gt;ON THE 6TH BEEP PRESS A&lt;&#x2F;strong&gt; to receive the gift, or encounter the
 Pokemon.&lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
-&lt;summary&gt;&lt;b&gt;Note: How do Seeds work&lt;&#x2F;b&gt;:&lt;&#x2F;summary&gt;
+&lt;summary&gt;&lt;b&gt;Note: How do Seeds work?&lt;&#x2F;b&gt;&lt;&#x2F;summary&gt;
 &lt;p&gt;&lt;em&gt;Seeds in FireRed and LeafGreen are determined by an ultra-fast timer in
 the GBA&#x27;s CPU called Timer1.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;Traditional soft resetting using A + B + START + SELECT does not work,
@@ -399,7 +835,7 @@ consistently hitting early or late over multiple attempts. The optimal
 &lt;p&gt;&lt;strong&gt;Eventually&lt;&#x2F;strong&gt;, you will hit your &lt;strong&gt;Shiny!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;frlgstaticimage3.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;h1 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
-&lt;p&gt;Sweet Scent RNG Manips will be right up your ally after you mastered Static! They are slightly more challenging because deducing which Pokemon you hit is more difficult. But it still remains a &amp;quot;Press A at right moment&amp;quot; check, with no other nonsense, so you&#x27;ll be able to get the hang of it!&lt;&#x2F;p&gt;
+&lt;p&gt;Sweet Scent RNG Manips will be right up your alley after you mastered Static! They are slightly more challenging because deducing which Pokemon you hit is more difficult. But it still remains a &amp;quot;Press A at right moment&amp;quot; check, with no other nonsense, so you&#x27;ll be able to get the hang of it!&lt;&#x2F;p&gt;
 </content>
         
     </entry>
