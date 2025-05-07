@@ -611,45 +611,34 @@ pre-calibrated using the Game Corner Abra.&lt;&#x2F;p&gt;
 know when it&#x27;s potentially time to recalibrate due to human error or
 fatigue.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;identifying-non-shiny-roamer&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#identifying-non-shiny-roamer&quot; aria-label=&quot;Anchor link for: identifying-non-shiny-roamer&quot;&gt;Identifying Non-Shiny Roamer&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;Open PokeFinder 4.2.1, click the Gen 3 Tab at the top of the launcher
-window, and then Static.&lt;&#x2F;p&gt;
-&lt;p&gt;This opens the Gen 3 Static Generator, which.has the capability of
-displaying the bugged IVs.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage11.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;Enter your &lt;strong&gt;Target Seed&lt;&#x2F;strong&gt; into the &lt;strong&gt;Seed&lt;&#x2F;strong&gt; box.&lt;&#x2F;p&gt;
-&lt;p&gt;Input your &lt;strong&gt;Minimum Advances&lt;&#x2F;strong&gt; from &lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt; into the
-&lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; box.&lt;&#x2F;p&gt;
-&lt;p&gt;Set &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; to 100.&lt;&#x2F;p&gt;
-&lt;p&gt;Select Roamer, and the Species of your Roaming Legendary Beast.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage6.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;Now click the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt; button, and it will pop-up a window to
-input the Level, Nature, and Stats of your captured Roamer. Select the
-correct species, enter the Pokemon&#x27;s data, and then click &lt;strong&gt;Find IVs&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;Don&#x27;t worry about &lt;strong&gt;Hidden Power&lt;&#x2F;strong&gt; or &lt;strong&gt;Characteristics&lt;&#x2F;strong&gt;, they aren&#x27;t
-needed.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage12.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;After clicking &lt;strong&gt;Find IVs&lt;&#x2F;strong&gt; the Results will populate, and the &lt;strong&gt;IV
-Filters&lt;&#x2F;strong&gt; on the Gen 3 Static Generator will be populated with those
-values. Select your Pokemon&#x27;s Nature in the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; as well.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage2.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;Once all of these fields are set you can click &lt;strong&gt;Generate&lt;&#x2F;strong&gt; and the list
-will populate with all possible matches.&lt;&#x2F;p&gt;
-&lt;p&gt;In my case, I only received a single result on my &lt;strong&gt;Target Seed AB33&lt;&#x2F;strong&gt;
-on &lt;strong&gt;Advance 3306:&lt;&#x2F;strong&gt; 3 frames late.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage5.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;However, you might get &lt;strong&gt;no result&lt;&#x2F;strong&gt; on your &lt;strong&gt;Target Seed,&lt;&#x2F;strong&gt; and
-PokeFinder only checks one &lt;strong&gt;Seed&lt;&#x2F;strong&gt; at a time.&lt;&#x2F;p&gt;
-&lt;p&gt;In this case, you can use &lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt; to view your &lt;strong&gt;Adjacent
-Seeds.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Make sure all the &lt;strong&gt;Game&#x2F;Sound&#x2F;Button&#x2F;System settings&lt;&#x2F;strong&gt; are correct for
-your &lt;strong&gt;Target Seed.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Set &lt;strong&gt;Seed +&#x2F;-&lt;&#x2F;strong&gt; to 5, and then click the &lt;strong&gt;Show Seeds&lt;&#x2F;strong&gt; button.&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage9.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;You can plug these seeds into PokeFinder until you find the Roamer that
-was hit. This can be tedious, but this is precisely why we
-pre-calibrated using a Gift Pokemon. You should be hitting a very small
-number of seeds. Ideally 5 or less, but this depends on your personal
-button-pressing accuracy.&lt;&#x2F;p&gt;
+&lt;p&gt;Open &lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt; and make sure the &lt;strong&gt;Game&#x2F;Sound&#x2F;Button
+Mode&#x2F;System&lt;&#x2F;strong&gt; settings are correct for your &lt;strong&gt;Target Seed.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Input your &lt;strong&gt;Target Seed.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Seed +&#x2F;-&lt;&#x2F;strong&gt; to 5.&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Advance Range&lt;&#x2F;strong&gt; to 20 advances below and above your target.&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Encounter Method&lt;&#x2F;strong&gt; to Static 1.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;RoamerimageA.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Select your Roamer Species and Nature, then enter the Stats you see
+in-game into the &lt;strong&gt;IV Calculator,&lt;&#x2F;strong&gt; then click &lt;strong&gt;Calculate IVs.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;RoamerimageB.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Thanks to the Roamer IV bug, you should see the IV ranges for
+DEF&#x2F;SPA&#x2F;SPD&#x2F;SPE all get set to 0 - 1, and submitting a search like this
+would yield &lt;strong&gt;no results&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;RoamerimageC.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;However, the HP Range is still usable. Make note of this range, and then
+set the &lt;strong&gt;Nature Filter&lt;&#x2F;strong&gt; to &lt;strong&gt;Any.&lt;&#x2F;strong&gt; This will temporarily reset the IV
+calculator results back to 0 - 31 for all Stats.&lt;&#x2F;p&gt;
+&lt;p&gt;Then set the &lt;strong&gt;Nature Filter&lt;&#x2F;strong&gt; back to the &lt;strong&gt;Nature&lt;&#x2F;strong&gt; of your caught
+Roamer (in my case &lt;strong&gt;Bold&lt;&#x2F;strong&gt;), and then manually set the HP Range back to
+what it was before clearing the results, and click &lt;strong&gt;Submit.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;RoamerimageD.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This first example Entei wound up having multiple results, and
+unfortunately there&#x27;s no way to narrow it down further from here. I was
+either on-seed, 3 advances late &lt;strong&gt;OR&lt;&#x2F;strong&gt; 50ms late on seed, and 6 advances
+late.&lt;&#x2F;p&gt;
+&lt;p&gt;I chose to not adjust and trust in the pre-calibrated timer from the
+Game Corner Abra, because it&#x27;s more likely that I hit my seed and was
+only off by 3 frames.&lt;&#x2F;p&gt;
 &lt;p&gt;Adjusting EonTimer comes down to your personal preference, but either
 Seed or Advances being less than 3 away from the target is most likely
 within human error.&lt;&#x2F;p&gt;
@@ -667,10 +656,9 @@ moving target.&lt;br &#x2F;&gt;
 It&#x27;s also not a bad idea to re-calibrate off the Gift Pokemon again, if
 results really start to drift and it becomes too difficult to identify
 the Roamer hit.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;br &#x2F;&gt;
-Eventually&lt;&#x2F;strong&gt;, you&#x27;ll hit the &lt;strong&gt;Target Seed&lt;&#x2F;strong&gt; and &lt;strong&gt;Advance&lt;&#x2F;strong&gt; and see the
+&lt;p&gt;&lt;strong&gt;Eventually&lt;&#x2F;strong&gt;, you&#x27;ll hit the &lt;strong&gt;Target Seed&lt;&#x2F;strong&gt; and &lt;strong&gt;Advance&lt;&#x2F;strong&gt; and see the
 &lt;strong&gt;Shiny!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage10.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;RoamerimageE.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;And if you&#x27;re not immediately throwing a Master Ball, there are a few
 extra things to worry about when it comes to...&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;capturing-the-shiny-roamer&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#capturing-the-shiny-roamer&quot; aria-label=&quot;Anchor link for: capturing-the-shiny-roamer&quot;&gt;Capturing the Shiny Roamer&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;

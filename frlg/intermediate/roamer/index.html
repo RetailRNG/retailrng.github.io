@@ -539,45 +539,34 @@ pre-calibrated using the Game Corner Abra.</p>
 know when it's potentially time to recalibrate due to human error or
 fatigue.</p>
 <h3 id="identifying-non-shiny-roamer"><a class="zola-anchor" href="#identifying-non-shiny-roamer" aria-label="Anchor link for: identifying-non-shiny-roamer">Identifying Non-Shiny Roamer</a></h3>
-<p>Open PokeFinder 4.2.1, click the Gen 3 Tab at the top of the launcher
-window, and then Static.</p>
-<p>This opens the Gen 3 Static Generator, which.has the capability of
-displaying the bugged IVs.</p>
-<center><img src="/frlg/intermediate/Roamerimage11.png" width="50%"></center>
-<p>Enter your <strong>Target Seed</strong> into the <strong>Seed</strong> box.</p>
-<p>Input your <strong>Minimum Advances</strong> from <strong>G3 Calibration</strong> into the
-<strong>Initial Advances</strong> box.</p>
-<p>Set <strong>Max Advances</strong> to 100.</p>
-<p>Select Roamer, and the Species of your Roaming Legendary Beast.</p>
-<center><img src="/frlg/intermediate/Roamerimage6.png" width="50%"></center>
-<p>Now click the <strong>IV Calculator</strong> button, and it will pop-up a window to
-input the Level, Nature, and Stats of your captured Roamer. Select the
-correct species, enter the Pokemon's data, and then click <strong>Find IVs</strong>.</p>
-<p>Don't worry about <strong>Hidden Power</strong> or <strong>Characteristics</strong>, they aren't
-needed.</p>
-<center><img src="/frlg/intermediate/Roamerimage12.png" width="100%"></center>
-<p>After clicking <strong>Find IVs</strong> the Results will populate, and the <strong>IV
-Filters</strong> on the Gen 3 Static Generator will be populated with those
-values. Select your Pokemon's Nature in the <strong>Filters</strong> as well.</p>
-<center><img src="/frlg/intermediate/Roamerimage2.png" width="100%"></center>
-<p>Once all of these fields are set you can click <strong>Generate</strong> and the list
-will populate with all possible matches.</p>
-<p>In my case, I only received a single result on my <strong>Target Seed AB33</strong>
-on <strong>Advance 3306:</strong> 3 frames late.</p>
-<center><img src="/frlg/intermediate/Roamerimage5.png" width="100%"></center>
-<p>However, you might get <strong>no result</strong> on your <strong>Target Seed,</strong> and
-PokeFinder only checks one <strong>Seed</strong> at a time.</p>
-<p>In this case, you can use <strong>G3 Calibration</strong> to view your <strong>Adjacent
-Seeds.</strong></p>
-<p>Make sure all the <strong>Game/Sound/Button/System settings</strong> are correct for
-your <strong>Target Seed.</strong></p>
-<p>Set <strong>Seed +/-</strong> to 5, and then click the <strong>Show Seeds</strong> button.</p>
-<center><img src="/frlg/intermediate/Roamerimage9.png" width="50%"></center>
-<p>You can plug these seeds into PokeFinder until you find the Roamer that
-was hit. This can be tedious, but this is precisely why we
-pre-calibrated using a Gift Pokemon. You should be hitting a very small
-number of seeds. Ideally 5 or less, but this depends on your personal
-button-pressing accuracy.</p>
+<p>Open <strong>G3 Calibration</strong> and make sure the <strong>Game/Sound/Button
+Mode/System</strong> settings are correct for your <strong>Target Seed.</strong></p>
+<p>Input your <strong>Target Seed.</strong></p>
+<p>Set <strong>Seed +/-</strong> to 5.</p>
+<p>Set <strong>Advance Range</strong> to 20 advances below and above your target.</p>
+<p>Set <strong>Encounter Method</strong> to Static 1.</p>
+<center><img src="/frlg/intermediate/RoamerimageA.png" width="60%"></center>
+<p>Select your Roamer Species and Nature, then enter the Stats you see
+in-game into the <strong>IV Calculator,</strong> then click <strong>Calculate IVs.</strong></p>
+<center><img src="/frlg/intermediate/RoamerimageB.png" width="100%"></center>
+<p>Thanks to the Roamer IV bug, you should see the IV ranges for
+DEF/SPA/SPD/SPE all get set to 0 - 1, and submitting a search like this
+would yield <strong>no results</strong>.</p>
+<center><img src="/frlg/intermediate/RoamerimageC.png" width="50%"></center>
+<p>However, the HP Range is still usable. Make note of this range, and then
+set the <strong>Nature Filter</strong> to <strong>Any.</strong> This will temporarily reset the IV
+calculator results back to 0 - 31 for all Stats.</p>
+<p>Then set the <strong>Nature Filter</strong> back to the <strong>Nature</strong> of your caught
+Roamer (in my case <strong>Bold</strong>), and then manually set the HP Range back to
+what it was before clearing the results, and click <strong>Submit.</strong></p>
+<center><img src="/frlg/intermediate/RoamerimageD.png" width="100%"></center>
+<p>This first example Entei wound up having multiple results, and
+unfortunately there's no way to narrow it down further from here. I was
+either on-seed, 3 advances late <strong>OR</strong> 50ms late on seed, and 6 advances
+late.</p>
+<p>I chose to not adjust and trust in the pre-calibrated timer from the
+Game Corner Abra, because it's more likely that I hit my seed and was
+only off by 3 frames.</p>
 <p>Adjusting EonTimer comes down to your personal preference, but either
 Seed or Advances being less than 3 away from the target is most likely
 within human error.</p>
@@ -595,10 +584,9 @@ moving target.<br />
 It's also not a bad idea to re-calibrate off the Gift Pokemon again, if
 results really start to drift and it becomes too difficult to identify
 the Roamer hit.</p>
-<p><strong><br />
-Eventually</strong>, you'll hit the <strong>Target Seed</strong> and <strong>Advance</strong> and see the
+<p><strong>Eventually</strong>, you'll hit the <strong>Target Seed</strong> and <strong>Advance</strong> and see the
 <strong>Shiny!</strong></p>
-<center><img src="/frlg/intermediate/Roamerimage10.png" width="100%"></center>
+<center><img src="/frlg/intermediate/RoamerimageE.png" width="100%"></center>
 <p>And if you're not immediately throwing a Master Ball, there are a few
 extra things to worry about when it comes to...</p>
 <h3 id="capturing-the-shiny-roamer"><a class="zola-anchor" href="#capturing-the-shiny-roamer" aria-label="Anchor link for: capturing-the-shiny-roamer">Capturing the Shiny Roamer</a></h3>
