@@ -392,10 +392,9 @@ without doing a &lt;strong&gt;calibration update.&lt;&#x2F;strong&gt;&lt;&#x2F;p
 &lt;p&gt;Eventually you should get a result that can confidently be narrowed down
 to a single Advance, and those can be used to &lt;strong&gt;Update&lt;&#x2F;strong&gt; &lt;strong&gt;EonTimer.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage10.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
-\
-Once your calibration is within the range of **+&#x2F;- 50ms** for the Seed,
-and **+&#x2F;- 3** for Advances you can confidently narrow the search range
-in **G3 Calibration** to speed up attempts.
+&lt;p&gt;Once your calibration is within the range of &lt;strong&gt;+&#x2F;- 50ms&lt;&#x2F;strong&gt; for the Seed,
+and &lt;strong&gt;+&#x2F;- 3&lt;&#x2F;strong&gt; for Advances you can confidently narrow the search range
+in &lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt; to speed up attempts.&lt;&#x2F;p&gt;
 &lt;p&gt;Lower &lt;strong&gt;Seed +&#x2F;-&lt;&#x2F;strong&gt; to 10 and &lt;strong&gt;Advance Range&lt;&#x2F;strong&gt; to 20 advances below and
 above your target.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage6.png&quot; width=&quot;70%&quot;&gt;&lt;&#x2F;center&gt;
