@@ -5,8 +5,743 @@
     <link rel="self" type="application/atom+xml" href="https://retailrng.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://retailrng.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-05-02T18:20:00+00:00</updated>
+    <updated>2025-05-07T18:20:00+00:00</updated>
     <id>https://retailrng.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>FR&#x2F;LG Fishing Encounter Manip</title>
+        <published>2025-05-07T18:20:00+00:00</published>
+        <updated>2025-05-07T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/frlg/intermediate/fishing/"/>
+        <id>https://retailrng.com/frlg/intermediate/fishing/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/frlg/intermediate/fishing/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;This guide will cover Fishing RNG manipulation in FireRed and LeafGreen.
+The focus will be on acquiring Shiny Pokemon, without concern for
+competitive Natures or IVs.&lt;&#x2F;p&gt;
+&lt;p&gt;This is Intermediate-Level because Fishing has extra elements of
+randomness introduced compared to standard &lt;strong&gt;Static&lt;&#x2F;strong&gt; or &lt;strong&gt;Sweet Scent&lt;&#x2F;strong&gt;
+encounters.&lt;&#x2F;p&gt;
+&lt;p&gt;The first element of randomness is the fishing process itself. You
+cannot always get a fish on your first cast, and every additional cast
+adds extra RNG advances.&lt;&#x2F;p&gt;
+&lt;p&gt;The second element of randomness is in the levels of the caught Pokemon.
+Fishing encounters have very wide level ranges for each &lt;strong&gt;Encounter
+Slot&lt;&#x2F;strong&gt; so it can make identifying the caught Pokemon less
+straightforward than Sweet Scent, where levels are fixed.&lt;&#x2F;p&gt;
+&lt;p&gt;Fishing in FireRed and LeafGreen has quite a few exclusive species.&lt;&#x2F;p&gt;
+&lt;p&gt;Both Games:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Goldeen\Seaking&lt;&#x2F;li&gt;
+&lt;li&gt;Horsea\Seadra&lt;&#x2F;li&gt;
+&lt;li&gt;Poliwag\Poliwhirl&lt;&#x2F;li&gt;
+&lt;li&gt;Krabby\Kingler&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;FireRed Only:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shellder\Cloyster &lt;&#x2F;li&gt;
+&lt;li&gt;Qwilfish &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;LeafGreen Only:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Staryu\Starmie&lt;&#x2F;li&gt;
+&lt;li&gt;Remoraid\Octillery &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We will be going for &lt;strong&gt;Shiny Grimer&lt;&#x2F;strong&gt; which is an often forgotten Rare
+spawn with the &lt;strong&gt;Super Rod&lt;&#x2F;strong&gt; at the pond in Celadon City.&lt;&#x2F;p&gt;
+&lt;p&gt;You must know your &lt;strong&gt;Secret ID&lt;&#x2F;strong&gt; to find viable targets, which would be
+done during the Shiny Starter RNG process. If you are on a completed
+save and &lt;strong&gt;DO NOT&lt;&#x2F;strong&gt; know your &lt;strong&gt;Secret ID,&lt;&#x2F;strong&gt; there are methods to deduce
+it using a previously caught Shiny, using glitches to read it from a
+Pokemon, or view it via extracting Save Data and using a tool like
+PkHex.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hardware-requirements&quot; aria-label=&quot;Anchor link for: hardware-requirements&quot;&gt;Hardware Requirements:&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pokemon Fire Red&#x2F;Leaf Green (any language)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;GameBoy Advance, Nintendo DS or DS Lite, Nintendo 3DS w&#x2F;
+open_agb_firm&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Windows &#x2F; Mac OS &#x2F; Ubuntu PC&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#in-game-requirements&quot; aria-label=&quot;Anchor link for: in-game-requirements&quot;&gt;In-game Requirements:&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Save in front of the body of water used to Fish&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;The Fishing Rod required for your target, registered to the SELECT
+button&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pick up all Items on the ground in the area (they can cause extra
+RNG advances)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;!-- --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;At least one free space in your party&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokeballs to capture it&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokémon to aid in capture, such as a false swipe user or a spore
+user.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;!-- --&gt;
+&lt;ul&gt;
+&lt;li&gt;Master Ball (optional, but recommended for quick capture&#x2F;stat
+calculation)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;!-- --&gt;
+&lt;ul&gt;
+&lt;li&gt;At least one Rare Candy (5+ is helpful, but not required)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;&lt;strong&gt;EonTimer 3.0.0-rc6&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;lincoln-lm.github.io&#x2F;js-finder-py&#x2F;pages&#x2F;g3-calibration&quot;&gt;&lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;fire-red&#x2F;Land.html&quot;&gt;&lt;strong&gt;Fire Red Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;leaf-green&#x2F;Land.html&quot;&gt;&lt;strong&gt;Leaf Green Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;N&#x2F;A&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;finding-a-shiny-target&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-a-shiny-target&quot; aria-label=&quot;Anchor link for: finding-a-shiny-target&quot;&gt;Finding a Shiny Target&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;To get started, open Lincoln&#x27;s G3 Calibration &lt;a href=&quot;https:&#x2F;&#x2F;lincoln-lm.github.io&#x2F;js-finder-py&#x2F;pages&#x2F;g3-calibration&quot;&gt;here&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Select your &lt;strong&gt;Game&lt;&#x2F;strong&gt;, and then leave the &lt;strong&gt;Sound, L, A, and Held
+Button&lt;&#x2F;strong&gt; settings on the default values of &lt;strong&gt;Mono, L=A, A, and None.&lt;&#x2F;strong&gt;
+Make sure to select your &lt;strong&gt;System&lt;&#x2F;strong&gt;, as the boot-up times and
+frame-rates are slightly different based on the console, and the tool
+accounts for those.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage14.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Open the settings in-game, and change &lt;strong&gt;Sound&lt;&#x2F;strong&gt; and &lt;strong&gt;Button Mode&lt;&#x2F;strong&gt; to
+match these settings in the tool.&lt;&#x2F;p&gt;
+&lt;p&gt;Make sure to SAVE after confirming these settings!&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage8.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Leave the default &lt;strong&gt;Target Seed (hex)&lt;&#x2F;strong&gt; and &lt;strong&gt;Seed +\-.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Advance Range&lt;&#x2F;strong&gt; to 1000 to 5000. This means your maximum wait time
+will be ~2 minutes.&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Encounter Method&lt;&#x2F;strong&gt; to &lt;strong&gt;Wild 1.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Encounter Type&lt;&#x2F;strong&gt; to &lt;strong&gt;Old Rod &#x2F; Good Rod &#x2F; Super Rod.&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+Select &lt;strong&gt;Star&#x2F;Square&lt;&#x2F;strong&gt; from the Shiny Filter. This will filter to all
+possible Shiny targets.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Square Shiny&lt;&#x2F;strong&gt; is only relevant if sending to Sword&#x2F;Shield, but the
+option is there.&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Nature Filter&lt;&#x2F;strong&gt; to &lt;strong&gt;Any. (OPTIONAL:&lt;&#x2F;strong&gt; Select a desired Nature)&lt;&#x2F;p&gt;
+&lt;p&gt;Leave the &lt;strong&gt;IV Ranges&lt;&#x2F;strong&gt; as 0 ~ 31. &lt;strong&gt;(OPTIONAL:&lt;&#x2F;strong&gt; Increase minimum
+values for desirable stats)&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage3.png&quot; width=&quot;80%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once these settings are correct, click &lt;strong&gt;Submit&lt;&#x2F;strong&gt; to search for all the
+potential Shiny Pokemon you could attempt to RNG.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE: Your Browser might freeze momentarily while calculating, just
+wait. If anything pops up click &amp;quot;Wait&amp;quot; or &amp;quot;Continue&amp;quot;.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage15.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;When the search is complete, there should be a table of potential
+&lt;strong&gt;Shiny&lt;&#x2F;strong&gt; &lt;strong&gt;Seeds&lt;&#x2F;strong&gt; and &lt;strong&gt;Advances.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Since this is Wild RNG, we&#x27;ll also need to identify the &lt;strong&gt;Encounter
+Slot&lt;&#x2F;strong&gt; of our target.&lt;&#x2F;p&gt;
+&lt;p&gt;With &lt;strong&gt;Old Rod&lt;&#x2F;strong&gt;, there is only 0 and 1, and it&#x27;s always **Magikarp.&lt;br &#x2F;&gt;
+**With &lt;strong&gt;Good Rod,&lt;&#x2F;strong&gt; it ranges from 0 to 2.&lt;br &#x2F;&gt;
+With &lt;strong&gt;Super Rod,&lt;&#x2F;strong&gt; it ranges from 0 to 4.&lt;&#x2F;p&gt;
+&lt;p&gt;You can identify the species of the &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; using the &lt;strong&gt;Slot&lt;&#x2F;strong&gt; column
+in the search results.&lt;&#x2F;p&gt;
+&lt;p&gt;You can easily look these up using the Encounter Slot tables for each
+game.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;fire-red&#x2F;Land.html&quot;&gt;&lt;strong&gt;Fire Red Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;leaf-green&#x2F;Land.html&quot;&gt;&lt;strong&gt;Leaf Green Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Our Target &lt;strong&gt;Grimer&lt;&#x2F;strong&gt; is &lt;strong&gt;Slot 4&lt;&#x2F;strong&gt; using the &lt;strong&gt;Super Rod&lt;&#x2F;strong&gt; in &lt;strong&gt;Celadon
+City.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage9.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;&lt;strong&gt;Keep this tab open, because we&#x27;ll also need it to look up which
+Pokemon we actually hit during RNG attempts!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;There might not be any Shiny results that match the &lt;strong&gt;Encounter Slot&lt;&#x2F;strong&gt;
+you&#x27;re searching for, especially for the rarest encounters using &lt;strong&gt;Super
+Rod.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Encounter Slot&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;strong&gt;Rarity&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Slot 0&lt;&#x2F;td&gt;&lt;td&gt;40%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Slot 1&lt;&#x2F;td&gt;&lt;td&gt;40%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Slot 2&lt;&#x2F;td&gt;&lt;td&gt;15%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Slot 3&lt;&#x2F;td&gt;&lt;td&gt;4%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Slot 4&lt;&#x2F;td&gt;&lt;td&gt;1%&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;In this case, you can either increase the Seed +&#x2F;- to 50 (which will
+increase maximum wait time on the Title Screen) &lt;strong&gt;OR&lt;&#x2F;strong&gt; alter the
+settings above to a different &lt;strong&gt;SOUND&lt;&#x2F;strong&gt; or &lt;strong&gt;BUTTON MODE,&lt;&#x2F;strong&gt; and Submit
+the search again. &lt;strong&gt;Remember to update those settings in-game as well!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;NOTE&lt;&#x2F;b&gt;: Changing &lt;b&gt;&quot;A Button&quot;&lt;&#x2F;b&gt; or &lt;b&gt;&quot;Held Button&quot;&lt;&#x2F;b&gt; in &lt;b&gt;G3
+Calibration&lt;&#x2F;b&gt;&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;For general purposes, changing only SOUND or BUTTON MODE should provide
+a sufficient variety of Shiny targets. However, if using particularly
+strict Nature or IV filters and receiving no results, you can change &amp;quot;A
+Button&amp;quot; and &amp;quot;Held Button&amp;quot; to check even more seeds.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;A Button&amp;quot; refers to the final A press on the Title Screen. This can be
+changed to either &lt;strong&gt;START&lt;&#x2F;strong&gt; or &lt;strong&gt;L (L=A)&lt;&#x2F;strong&gt;.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;START&lt;&#x2F;strong&gt; would mean pressing and holding START on the Title Screen
+instead of the A Button.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;L (L=A)&lt;&#x2F;strong&gt; only works when BUTTON MODE is L=A, and means pressing and
+holding L on the Title Screen.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;Held Button&amp;quot; refers to optional buttons that can be held during the
+boot-up sequence and intro cutscene.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;For beginners, &lt;strong&gt;STARTUP SELECT&lt;&#x2F;strong&gt; is the only option that requires no
+special timing.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;START UP A&lt;&#x2F;strong&gt; and the &lt;strong&gt;BLACKOUT&lt;&#x2F;strong&gt; Held Buttons will be covered in an
+ADVANCED guide.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;STARTUP SELECT&lt;&#x2F;strong&gt; means holding SELECT before booting the game, and
+holding it until the File Load screen appears. You must continue holding
+it, even while doing your final button press &amp;amp; hold on the Title
+Screen.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+Once you&#x27;ve chosen your desired target Shiny, change the &lt;b&gt;Target Seed
+(hex)&lt;&#x2F;b&gt; to match the Seed, and update the &lt;b&gt;Advance Range&lt;&#x2F;b&gt; to 500
+advances above and below your target.
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage16.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;In our example, we found an Encounter Slot 4 Shiny on seed A372 and
+Advance 4014. Which means the Advance Range becomes 3514 to 4514.&lt;&#x2F;p&gt;
+&lt;p&gt;Now we update &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; for this target as well.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;timer-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#timer-setup&quot; aria-label=&quot;Anchor link for: timer-setup&quot;&gt;Timer Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Open &lt;strong&gt;EonTimer 3.0.0-RC6,&lt;&#x2F;strong&gt; and switch over to the Custom Tab (C).&lt;&#x2F;p&gt;
+&lt;p&gt;Click the (+) button at the bottom, and add two timer sections.&lt;&#x2F;p&gt;
+&lt;p&gt;Make the &lt;strong&gt;Unit&lt;&#x2F;strong&gt; of the first timer &lt;strong&gt;ms,&lt;&#x2F;strong&gt; and the second timer
+&lt;strong&gt;Advances&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Enter the &lt;strong&gt;ms&lt;&#x2F;strong&gt; value from the Seed into the first Target box.&lt;&#x2F;p&gt;
+&lt;p&gt;Enter the &lt;strong&gt;Advances&lt;&#x2F;strong&gt; value of the Shiny into the second Target box.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage12.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Then click the gear icon in the bottom left, and &lt;strong&gt;make sure your
+console setting is correct.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;GBA, GameBoy Player and GBI use the &amp;quot;GBA&amp;quot; setting.&lt;&#x2F;p&gt;
+&lt;p&gt;DS and 3DS (open_agb_firm) use the &amp;quot;NDS - Slot 2&amp;quot; setting.&lt;&#x2F;p&gt;
+&lt;p&gt;The tools are now set up for...&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-first-attempt&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-first-attempt&quot; aria-label=&quot;Anchor link for: the-first-attempt&quot;&gt;The First Attempt&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Position your character in front of the body of water you wish to Fish
+in.&lt;&#x2F;p&gt;
+&lt;p&gt;Make sure the Fishing Rod required for your Target is registered to
+SELECT in the KEY ITEMS menu.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage11.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Open your in-game settings and double check that they match the
+&lt;strong&gt;SOUND&lt;&#x2F;strong&gt; and &lt;strong&gt;BUTTON MODE&lt;&#x2F;strong&gt; settings for the target Seed at the top of
+&lt;strong&gt;G3 Calibration.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Save your game, and then Power Off the system.&lt;&#x2F;p&gt;
+&lt;p&gt;The startup sequence is slightly different depending on the console
+being used.&lt;&#x2F;p&gt;
+&lt;p&gt;Reference the following Boot method for your system of choice.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;&lt;b&gt;Boot Methods&lt;&#x2F;b&gt;:&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;strong&gt;NDS:&lt;&#x2F;strong&gt; Press A on &amp;quot;Start GBA Game&amp;quot; from the DS Home Screen&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;OFFICIAL GAMEBOY PLAYER:&lt;&#x2F;strong&gt; Press the &amp;quot;Change Game Pak&amp;quot; button, and
+confirm to Hard Reset&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;3DS OPEN_AGB_FIRM:&lt;&#x2F;strong&gt; Press A to boot the Fire Red&#x2F;Leaf Green ROM file&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GAMEBOY INTERFACE (GBI):&lt;&#x2F;strong&gt; Hold and Release the RESET button, or use
+Hard Reset Button Combo&lt;&#x2F;p&gt;
+&lt;p&gt;(Note: GBI boot times and frame-rate are identical to real GBA, so use
+GBA in the system selector)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA:&lt;&#x2F;strong&gt; Flick the Power Switch&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;GBA users might find this difficult. In this case, you can add a 3rd
+section to EonTimer&#x27;s Custom tab at the top, and set it to 5000ms. This
+creates what we call a &lt;strong&gt;pre-timer&lt;&#x2F;strong&gt; that will count down 5 seconds,
+ending in 6 beeps before the actual seed timer starts. Using a pre-timer
+allows you to time your power-switch flip with the 6th beep, removing
+the need to coordinate a switch-flip and button press.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;The general flow of each attempt is as follows:&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Boot the game and click &lt;strong&gt;Start&lt;&#x2F;strong&gt; on &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; at the same time.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;2. Wait for the &lt;strong&gt;ENTIRE&lt;&#x2F;strong&gt; Introduction to play, &lt;strong&gt;DO NOT PRESS ANY
+BUTTONS or SKIP.&lt;&#x2F;strong&gt;
+Your first timer should be long enough to make it to the Title Screen.&lt;&#x2F;p&gt;
+&lt;p&gt;3. When the timer is close to completion, you will hear the 1st of 6
+beeps.&lt;&#x2F;p&gt;
+&lt;p&gt;4. &lt;strong&gt;ON THE 6TH BEEP, PRESS&lt;&#x2F;strong&gt; and &lt;strong&gt;HOLD&lt;&#x2F;strong&gt; the &lt;strong&gt;A Button&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;5. Once the &lt;strong&gt;File Load&lt;&#x2F;strong&gt; screen appears, you can release all buttons
+and press A to load your save.&lt;&#x2F;p&gt;
+&lt;p&gt;6. Mash B to skip past any &amp;quot;Previously on...&amp;quot; screens.&lt;&#x2F;p&gt;
+&lt;p&gt;7. Mash &lt;strong&gt;SELECT&lt;&#x2F;strong&gt; to pull out your Fishing Rod.&lt;&#x2F;p&gt;
+&lt;p&gt;8a. Wait for the dots to pass, and if it says &lt;strong&gt;&amp;quot;A POKéMON&#x27;s on the
+hook!&amp;quot;&lt;&#x2F;strong&gt; then &lt;strong&gt;WAIT HERE&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;8b. Wait for the dots to pass, and if it says &lt;strong&gt;&amp;quot;Not even a
+nibble...&amp;quot;&lt;&#x2F;strong&gt; then &lt;strong&gt;RESET&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;9. When the second timer is close to completion, you will hear the 1st
+of 6 beeps.&lt;&#x2F;p&gt;
+&lt;p&gt;10. &lt;strong&gt;ON THE 6TH BEEP PRESS A&lt;&#x2F;strong&gt; to Reel in the Pokemon.&lt;&#x2F;p&gt;
+&lt;p&gt;11. Capture the Pokemon&lt;&#x2F;p&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;Note&lt;&#x2F;b&gt;: Why RESET after the first cast? Why not just keep casting?&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;Every cast of the Fishing Rod introduces extra RNG advances.
+Calibrating to Pokemon caught on anything other than the first cast will
+skew Advances results and lead to inconsistency.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Unfortunately Sticky Hold and Suction Cups didn&#x27;t gain the benefit of
+increasing fishing hook likelihood until Emerald, so FireRed and
+LeafGreen are stuck with the base odds of getting a hook on first cast.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;It&#x27;s not impossible to use casts beyond the first for general
+calibration, but be aware that the Advances number won&#x27;t be entirely
+accurate. Ultimately once you&#x27;re close to your target, you&#x27;ll only want
+to use first casts to guarantee consistent results on the Advances hit.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;h3 id=&quot;initial-calibration&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#initial-calibration&quot; aria-label=&quot;Anchor link for: initial-calibration&quot;&gt;Initial Calibration&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;After catching, open the Pokemon&#x27;s summary and look at the &lt;strong&gt;Nature&lt;&#x2F;strong&gt;
+and &lt;strong&gt;Stats.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage13.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Open the &lt;strong&gt;G3&lt;&#x2F;strong&gt; &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; tool, set &lt;strong&gt;Shiny&lt;&#x2F;strong&gt; back to &lt;strong&gt;Any,&lt;&#x2F;strong&gt;
+select your caught Species, select the Nature and then enter Stats into
+the IV Calculator in the following order: &lt;strong&gt;LEVEL HP ATK DEF SPA SPD
+SPE&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Then click &lt;strong&gt;Calculate IVs.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage4.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This should automatically populate the Stat ranges with the best guess
+possible given the inputted data.&lt;&#x2F;p&gt;
+&lt;p&gt;Clicking &lt;strong&gt;Submit&lt;&#x2F;strong&gt; will search for all the potential Pokemon this could
+be.&lt;&#x2F;p&gt;
+&lt;p&gt;Super Rod Pokemon are a high enough level that you should get a clear
+result or &lt;strong&gt;no result,&lt;&#x2F;strong&gt; but Good Rod or Old Rod might be low enough to
+yield multiple results. Use a &lt;strong&gt;Rare Candy&lt;&#x2F;strong&gt; to gain a level and refine
+the IV calculations.&lt;&#x2F;p&gt;
+&lt;p&gt;If the first search yields &lt;strong&gt;no results&lt;&#x2F;strong&gt;, this is expected sometimes.
+Fishing Pokemon in FireRed and LeafGreen can be generated using
+different &lt;strong&gt;Encounter Methods.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;NOTE&lt;&#x2F;b&gt;: What are Methods?&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;em&gt;Methods result in different sets of IVs for a Pokemon, from the same RNG
+Advance. However, they have the same PID, which means they will still be
+Shiny and have the same Nature.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Which Method you get on a Wild Pokemon is out of the player&#x27;s control
+in FireRed and LeafGreen. &lt;strong&gt;Method 1&lt;&#x2F;strong&gt; is the most common, but it&#x27;s
+possible to hit &lt;strong&gt;Method 2&lt;&#x2F;strong&gt; or &lt;strong&gt;Method 4&lt;&#x2F;strong&gt; instead-- so it&#x27;s
+important to check all three for Wild RNG manipulation.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage7.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Our Level 23 Magikarp lines up with &lt;strong&gt;Wild 1,&lt;&#x2F;strong&gt; &lt;strong&gt;Encounter Slot 2&lt;&#x2F;strong&gt; for
+&lt;strong&gt;Celadon City Super Rod&lt;&#x2F;strong&gt;. So we can confidently say the first attempt
+hit &lt;strong&gt;Seed A372&lt;&#x2F;strong&gt; and &lt;strong&gt;Advance 3923.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;If you get NO results on ANY METHOD, then increase Advance Range to
+1000 advances above and below target, and increase Seed +&#x2F;- to 50.
+Increase levels with Rare Candy as necessary. If this still yields no
+results, there was an error in the attempt and you must check all your
+settings and try again. Double check in-game settings match the settings
+in the g3 calibration tool, and that the timers match your target
+seed&#x2F;advance.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now that Exeggcute has been confirmed, we can enter the &lt;strong&gt;millisecond&lt;&#x2F;strong&gt;
+and &lt;strong&gt;Advance&lt;&#x2F;strong&gt; values from the result that matches our &lt;strong&gt;Encounter
+Slot&lt;&#x2F;strong&gt; into &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; and then click &lt;strong&gt;Update&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage5.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;The values in &lt;strong&gt;Calibration&lt;&#x2F;strong&gt; should update accordingly, and you can now
+&lt;strong&gt;turn off your game&lt;&#x2F;strong&gt; and begin a second attempt.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;attempts-adjustment&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#attempts-adjustment&quot; aria-label=&quot;Anchor link for: attempts-adjustment&quot;&gt;Attempts &amp;amp; Adjustment&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Repeat the same steps of:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Performing the startup sequence with EonTimer&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Capturing the Pokemon&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Entering Stats, Checking Methods, and Leveling Up as needed to reach
+a single search result&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Inputting the Seed ms, and Advance into EonTimer and clicking Update&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Fishing can make it very difficult to calibrate, especially in areas
+like &lt;strong&gt;Celadon City&lt;&#x2F;strong&gt;, because the different Encounter Slots can share
+Species and Level Ranges.&lt;&#x2F;p&gt;
+&lt;p&gt;In this example, I have no possible way of knowing which Advance this
+Magikarp came from because all of these results share the same Species,
+Level Range, PID and IVs.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage2.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;In cases like this, it&#x27;s best to just &lt;strong&gt;reset and try again&lt;&#x2F;strong&gt;
+without doing a &lt;strong&gt;calibration update.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Eventually you should get a result that can confidently be narrowed down
+to a single Advance, and those can be used to &lt;strong&gt;Update&lt;&#x2F;strong&gt; &lt;strong&gt;EonTimer.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage10.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+\
+Once your calibration is within the range of **+&#x2F;- 50ms** for the Seed,
+and **+&#x2F;- 3** for Advances you can confidently narrow the search range
+in **G3 Calibration** to speed up attempts.
+&lt;p&gt;Lower &lt;strong&gt;Seed +&#x2F;-&lt;&#x2F;strong&gt; to 10 and &lt;strong&gt;Advance Range&lt;&#x2F;strong&gt; to 20 advances below and
+above your target.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage6.png&quot; width=&quot;70%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;With this smaller search range, you should be able to get a single
+result after only inputting the stats of the Pokemon. If you still get
+two or more results, use Rare Candy and Encounter Slots to narrow it
+down again.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;At this point&lt;&#x2F;strong&gt;, you must repeat attempts until you successfully hit
+your &lt;strong&gt;Target Seed&lt;&#x2F;strong&gt; and &lt;strong&gt;Advance.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This requires two frame perfect inputs, so it can be difficult.&lt;&#x2F;p&gt;
+&lt;p&gt;Only &lt;strong&gt;Update&lt;&#x2F;strong&gt; the calibration of &lt;strong&gt;EonTimer,&lt;&#x2F;strong&gt; if you notice you are
+consistently hitting early or late over multiple attempts. The optimal
+&lt;strong&gt;Calibration&lt;&#x2F;strong&gt; will have you landing sometimes early, sometimes late.&lt;&#x2F;p&gt;
+&lt;p&gt;Now it&#x27;s a matter of overcoming human error to succeed.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Eventually&lt;&#x2F;strong&gt;, you will hit your &lt;strong&gt;Shiny!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;FRLGFishingimage1.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;h1 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Our final intermediate course will be the &lt;strong&gt;Roaming Pokemon&lt;&#x2F;strong&gt;! It&#x27;s the most tedious basic manip you can do thanks to difficulty in capture &amp;amp; seed verification.&lt;&#x2F;p&gt;
+&lt;p&gt;Safari Zone &amp;amp; Fishing should&#x27;ve given you enough practice to tackle it, so good luck!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>FR&#x2F;LG Roaming Pokemon Manip</title>
+        <published>2025-05-07T18:20:00+00:00</published>
+        <updated>2025-05-07T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/frlg/intermediate/roamer/"/>
+        <id>https://retailrng.com/frlg/intermediate/roamer/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/frlg/intermediate/roamer/">&lt;h2 id=&quot;overview&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#overview&quot; aria-label=&quot;Anchor link for: overview&quot;&gt;Overview&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;This guide will cover Roamer RNG manipulation in FireRed and LeafGreen.
+The focus will be on acquiring a Shiny Roamer, without concern for
+competitive Natures or IVs.&lt;&#x2F;p&gt;
+&lt;p&gt;This is Intermediate-Level because the Roaming Legendary Beast is bugged
+to have only a 0-7 IV in Attack, and 0 IVs in Defense, Special Attack,
+Special Defense and Speed.&lt;&#x2F;p&gt;
+&lt;p&gt;This makes identifying missed attempts difficult, which is made even
+more tedious by the Roamer itself being difficult to even find and
+capture. However, the method in this guide minimizes those frustrations
+by pre-calibrating timers on a Gift Pokemon first.&lt;&#x2F;p&gt;
+&lt;p&gt;The game uses the same exact method for generating the Roamer as it does
+for Gifts. Therefore the seeds, advances, and timings needed to hit a
+specific PID are the same. The IV bug only takes effect after the
+Roaming Pokemon is set in the save file.&lt;&#x2F;p&gt;
+&lt;p&gt;We will be going for &lt;strong&gt;Shiny Entei,&lt;&#x2F;strong&gt; because I chose Bulbasaur at the
+beginning of the game. Squirtle would instead release Raikou as the
+roamer, and Charmander would release Suicune.&lt;&#x2F;p&gt;
+&lt;p&gt;You must know your &lt;strong&gt;Secret ID&lt;&#x2F;strong&gt; to find viable targets, which would be
+done during the Shiny Starter RNG process. If you are on a completed
+save and &lt;strong&gt;DO NOT&lt;&#x2F;strong&gt; know your &lt;strong&gt;Secret ID,&lt;&#x2F;strong&gt; there are methods to deduce
+it using a previously caught Shiny, using glitches to read it from a
+Pokemon, or view it via extracting Save Data and using a tool like
+PkHex.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;recommended-setup&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#recommended-setup&quot; aria-label=&quot;Anchor link for: recommended-setup&quot;&gt;Recommended Setup&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;hardware-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hardware-requirements&quot; aria-label=&quot;Anchor link for: hardware-requirements&quot;&gt;Hardware Requirements:&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pokemon Fire Red&#x2F;Leaf Green (any language)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;GameBoy Advance, Nintendo DS or DS Lite, Nintendo 3DS w&#x2F;
+open_agb_firm&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Windows &#x2F; Mac OS &#x2F; Ubuntu PC&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;in-game-requirements&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#in-game-requirements&quot; aria-label=&quot;Anchor link for: in-game-requirements&quot;&gt;In-game Requirements:&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Enough Game Corner Coins to purchase a Pokemon&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Retrieved the SAPPHIRE from the Sevii Island post-game&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;!-- --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;At least one free space in your party&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Max Repels to find the Roamer (50+ recommended)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Master Ball &lt;strong&gt;(DO NOT EVEN THINK OF ATTEMPTING THIS WITHOUT IT)&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokeballs to capture the Roamer&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Pokémon to aid in capture (Fast Sleep&#x2F;Mean Look User)&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;tools-used&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tools-used&quot; aria-label=&quot;Anchor link for: tools-used&quot;&gt;Tools Used&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;DasAmpharos&#x2F;EonTimer&#x2F;releases&#x2F;tag&#x2F;3.0.0-rc.6&quot;&gt;&lt;strong&gt;EonTimer 3.0.0-rc6&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;lincoln-lm.github.io&#x2F;js-finder-py&#x2F;pages&#x2F;g3-calibration&quot;&gt;&lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;fire-red&#x2F;Land.html&quot;&gt;&lt;strong&gt;Fire Red Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;leaf-green&#x2F;Land.html&quot;&gt;&lt;strong&gt;Leaf Green Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;N&#x2F;A&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;the-guide&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-guide&quot; aria-label=&quot;Anchor link for: the-guide&quot;&gt;The Guide&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;pre-calibration&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#pre-calibration&quot; aria-label=&quot;Anchor link for: pre-calibration&quot;&gt;Pre-Calibration&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;As discussed in the Introduction, due to the Roamer IV bug it&#x27;s more
+efficient to utilize a Gift Pokemon to pre-calibrate EonTimer for use
+with the Roamer.&lt;&#x2F;p&gt;
+&lt;p&gt;The best Pokemon to use for this approach is a Gift from the Game
+Corner.&lt;&#x2F;p&gt;
+&lt;p&gt;Refer to the &lt;a href=&quot;https:&#x2F;&#x2F;retailrng.com&#x2F;frlg&#x2F;beginner&#x2F;frlgstatic&#x2F;&quot;&gt;FireRed &amp;amp; LeafGreen Static RNG
+Guide&lt;&#x2F;a&gt; for
+how to do this process successfully. When completed you should have
+already received a Shiny, and your EonTimer will already be calibrated
+to re-use on the Roamer.&lt;&#x2F;p&gt;
+&lt;p&gt;The timing and PID generation are identical between the Game Corner
+Gifts and the Roamer release, so in theory, using the same timer should
+produce the exact same Shiny result.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve successfully RNG manipulated this Timid Shiny Abra from &lt;strong&gt;Seed
+AB33&lt;&#x2F;strong&gt; and &lt;strong&gt;Advance 3303&lt;&#x2F;strong&gt;, with the following EonTimer calibration and
+will be using the same timer for &lt;strong&gt;Entei.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage8.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;h3 id=&quot;the-first-attempt&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-first-attempt&quot; aria-label=&quot;Anchor link for: the-first-attempt&quot;&gt;The First Attempt&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Position your character next to &lt;strong&gt;CELIO&lt;&#x2F;strong&gt; in the One Island Pokemon
+Center. You must be at the point in the game where you have received the
+SAPPHIRE, but not turned it in to &lt;strong&gt;CELIO.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage4.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Open your in-game settings and double check that they match the
+&lt;strong&gt;SOUND&lt;&#x2F;strong&gt; and &lt;strong&gt;BUTTON MODE&lt;&#x2F;strong&gt; settings for the target Seed at the top of
+&lt;strong&gt;G3 Calibration.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Save your game, and then Power Off the system.&lt;&#x2F;p&gt;
+&lt;p&gt;The startup sequence is slightly different depending on the console
+being used.&lt;&#x2F;p&gt;
+&lt;details style=&quot;border:&quot;&gt;
+&lt;summary&gt;&lt;b&gt;Boot Methods&lt;&#x2F;b&gt;:&lt;&#x2F;summary&gt;
+&lt;p&gt;&lt;strong&gt;NDS:&lt;&#x2F;strong&gt; Press A on &amp;quot;Start GBA Game&amp;quot; from the DS Home Screen&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;OFFICIAL GAMEBOY PLAYER:&lt;&#x2F;strong&gt; Press the &amp;quot;Change Game Pak&amp;quot; button, and
+confirm to Hard Reset&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;3DS OPEN_AGB_FIRM:&lt;&#x2F;strong&gt; Press A to boot the Fire Red&#x2F;Leaf Green ROM file&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GAMEBOY INTERFACE (GBI):&lt;&#x2F;strong&gt; Hold and Release the RESET button, or use
+Hard Reset Button Combo&lt;&#x2F;p&gt;
+&lt;p&gt;(Note: GBI boot times and frame-rate are identical to real GBA, so use
+GBA in the system selector)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA:&lt;&#x2F;strong&gt; Flick the Power Switch&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;GBA users might find this difficult. In this case, you can add a 3rd
+section to EonTimer&#x27;s Custom tab at the top, and set it to 5000ms. This
+creates what we call a &lt;strong&gt;pre-timer&lt;&#x2F;strong&gt; that will count down 5 seconds,
+ending in 6 beeps before the actual seed timer starts. Using a pre-timer
+allows you to time your power-switch flip with the 6th beep, removing
+the need to coordinate a switch-flip and button press.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;The general flow of each attempt is as follows:&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Boot the game and click &lt;strong&gt;Start&lt;&#x2F;strong&gt; on &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; at the same time.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;2. Wait for the &lt;strong&gt;ENTIRE&lt;&#x2F;strong&gt; Introduction to play, &lt;strong&gt;DO NOT PRESS ANY
+BUTTONS or SKIP.&lt;&#x2F;strong&gt;
+Your first timer should be long enough to make it to the Title Screen.&lt;&#x2F;p&gt;
+&lt;p&gt;3. When the timer is close to completion, you will hear the 1st of 6
+beeps.&lt;&#x2F;p&gt;
+&lt;p&gt;4. &lt;strong&gt;ON THE 6TH BEEP, PRESS&lt;&#x2F;strong&gt; and &lt;strong&gt;HOLD&lt;&#x2F;strong&gt; the &lt;strong&gt;A Button&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;5. Once the &lt;strong&gt;File Load&lt;&#x2F;strong&gt; screen appears, you can release all buttons
+and press A to load your save.&lt;&#x2F;p&gt;
+&lt;p&gt;6. Mash B to skip past any &amp;quot;Previously on...&amp;quot; screens.&lt;&#x2F;p&gt;
+&lt;p&gt;7. Talk to CELIO and get to his last text box &amp;quot;Thanks to you, my dream
+came true...&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;8. When the second timer is close to completion, you will hear the 1st
+of 6 beeps.&lt;&#x2F;p&gt;
+&lt;p&gt;9. &lt;strong&gt;ON THE 6TH BEEP PRESS A&lt;&#x2F;strong&gt; to Release the Roamer&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage3.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;h3 id=&quot;finding-the-roamer&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#finding-the-roamer&quot; aria-label=&quot;Anchor link for: finding-the-roamer&quot;&gt;Finding the Roamer&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;After releasing the Roamer for the first time, you must locate it in the
+Wild Grass of Kanto.&lt;&#x2F;p&gt;
+&lt;p&gt;Every time you change maps, the Roamer will move as well. There&#x27;s no way
+to trade over a Raikou, Entei, or Suicune early in order to get the
+Pokedex entry-- so you must brute force the first encounter to check.&lt;&#x2F;p&gt;
+&lt;p&gt;Route 2, just south of Pewter City is the best for this.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage7.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Use a Max Repel, and run around in the grass for 10-20 seconds. Make
+sure the Pokemon in the lead of your Party is lower than 50, but higher
+than Level 5.&lt;&#x2F;p&gt;
+&lt;p&gt;After 10-20 seconds of running around in the grass with no encounters,
+you can quickly enter and exit the gatehouse to Viridian Forest to
+relocate the Roamer.&lt;&#x2F;p&gt;
+&lt;p&gt;This can take quite a while, so make sure to bring a lot of Max Repels.
+Eventually you will get an Encounter with your Roamer.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage1.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;This guide will assume you have a Master Ball to use for capturing and
+checking the Roamer when you miss the Shiny. It&#x27;s not &lt;strong&gt;strictly
+necessary&lt;&#x2F;strong&gt; to capture and calculate each time, because we
+pre-calibrated using the Game Corner Abra.&lt;&#x2F;p&gt;
+&lt;p&gt;However, it can be useful to be able to identify your missed attempts to
+know when it&#x27;s potentially time to recalibrate due to human error or
+fatigue.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;identifying-non-shiny-roamer&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#identifying-non-shiny-roamer&quot; aria-label=&quot;Anchor link for: identifying-non-shiny-roamer&quot;&gt;Identifying Non-Shiny Roamer&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Open PokeFinder 4.2.1, click the Gen 3 Tab at the top of the launcher
+window, and then Static.&lt;&#x2F;p&gt;
+&lt;p&gt;This opens the Gen 3 Static Generator, which.has the capability of
+displaying the bugged IVs.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage11.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Enter your &lt;strong&gt;Target Seed&lt;&#x2F;strong&gt; into the &lt;strong&gt;Seed&lt;&#x2F;strong&gt; box.&lt;&#x2F;p&gt;
+&lt;p&gt;Input your &lt;strong&gt;Minimum Advances&lt;&#x2F;strong&gt; from &lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt; into the
+&lt;strong&gt;Initial Advances&lt;&#x2F;strong&gt; box.&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Max Advances&lt;&#x2F;strong&gt; to 100.&lt;&#x2F;p&gt;
+&lt;p&gt;Select Roamer, and the Species of your Roaming Legendary Beast.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage6.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Now click the &lt;strong&gt;IV Calculator&lt;&#x2F;strong&gt; button, and it will pop-up a window to
+input the Level, Nature, and Stats of your captured Roamer. Select the
+correct species, enter the Pokemon&#x27;s data, and then click &lt;strong&gt;Find IVs&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Don&#x27;t worry about &lt;strong&gt;Hidden Power&lt;&#x2F;strong&gt; or &lt;strong&gt;Characteristics&lt;&#x2F;strong&gt;, they aren&#x27;t
+needed.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage12.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;After clicking &lt;strong&gt;Find IVs&lt;&#x2F;strong&gt; the Results will populate, and the &lt;strong&gt;IV
+Filters&lt;&#x2F;strong&gt; on the Gen 3 Static Generator will be populated with those
+values. Select your Pokemon&#x27;s Nature in the &lt;strong&gt;Filters&lt;&#x2F;strong&gt; as well.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage2.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once all of these fields are set you can click &lt;strong&gt;Generate&lt;&#x2F;strong&gt; and the list
+will populate with all possible matches.&lt;&#x2F;p&gt;
+&lt;p&gt;In my case, I only received a single result on my &lt;strong&gt;Target Seed AB33&lt;&#x2F;strong&gt;
+on &lt;strong&gt;Advance 3306:&lt;&#x2F;strong&gt; 3 frames late.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage5.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;However, you might get &lt;strong&gt;no result&lt;&#x2F;strong&gt; on your &lt;strong&gt;Target Seed,&lt;&#x2F;strong&gt; and
+PokeFinder only checks one &lt;strong&gt;Seed&lt;&#x2F;strong&gt; at a time.&lt;&#x2F;p&gt;
+&lt;p&gt;In this case, you can use &lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt; to view your &lt;strong&gt;Adjacent
+Seeds.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Make sure all the &lt;strong&gt;Game&#x2F;Sound&#x2F;Button&#x2F;System settings&lt;&#x2F;strong&gt; are correct for
+your &lt;strong&gt;Target Seed.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Set &lt;strong&gt;Seed +&#x2F;-&lt;&#x2F;strong&gt; to 5, and then click the &lt;strong&gt;Show Seeds&lt;&#x2F;strong&gt; button.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage9.png&quot; width=&quot;50%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;You can plug these seeds into PokeFinder until you find the Roamer that
+was hit. This can be tedious, but this is precisely why we
+pre-calibrated using a Gift Pokemon. You should be hitting a very small
+number of seeds. Ideally 5 or less, but this depends on your personal
+button-pressing accuracy.&lt;&#x2F;p&gt;
+&lt;p&gt;Adjusting EonTimer comes down to your personal preference, but either
+Seed or Advances being less than 3 away from the target is most likely
+within human error.&lt;&#x2F;p&gt;
+&lt;p&gt;At this stage, it&#x27;s reasonable to &lt;strong&gt;Update&lt;&#x2F;strong&gt; only the &lt;strong&gt;Seed ms&lt;&#x2F;strong&gt; in
+&lt;strong&gt;EonTimer&lt;&#x2F;strong&gt;, if you&#x27;re consistently late or early on seed. You can
+safely leave the &lt;strong&gt;Advances&lt;&#x2F;strong&gt; &lt;strong&gt;Hit&lt;&#x2F;strong&gt; input for &lt;strong&gt;Advances&lt;&#x2F;strong&gt; empty in
+&lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; and click &lt;strong&gt;Update&lt;&#x2F;strong&gt;. It will update only the &lt;strong&gt;Seed ms
+Calibration&lt;&#x2F;strong&gt; and leave the &lt;strong&gt;Advances Calibration&lt;&#x2F;strong&gt; unchanged.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+It&#x27;s also generally a good practice, to only adjust &lt;strong&gt;Advances&lt;&#x2F;strong&gt; based
+on attempts that hit the &lt;strong&gt;Target Seed.&lt;&#x2F;strong&gt; Adjusting both too often makes
+things less consistent over multiple attempts, by creating a constantly
+moving target.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+It&#x27;s also not a bad idea to re-calibrate off the Gift Pokemon again, if
+results really start to drift and it becomes too difficult to identify
+the Roamer hit.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;br &#x2F;&gt;
+Eventually&lt;&#x2F;strong&gt;, you&#x27;ll hit the &lt;strong&gt;Target Seed&lt;&#x2F;strong&gt; and &lt;strong&gt;Advance&lt;&#x2F;strong&gt; and see the
+&lt;strong&gt;Shiny!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;intermediate&#x2F;Roamerimage10.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;And if you&#x27;re not immediately throwing a Master Ball, there are a few
+extra things to worry about when it comes to...&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;capturing-the-shiny-roamer&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#capturing-the-shiny-roamer&quot; aria-label=&quot;Anchor link for: capturing-the-shiny-roamer&quot;&gt;Capturing the Shiny Roamer&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Once the Shiny Roamer has been found, it&#x27;s a good idea to let it run
+immediately on first encounter.&lt;&#x2F;p&gt;
+&lt;p&gt;First, because it&#x27;s now permanently Shiny and unlocked in your Pokedex,
+so you can safely &lt;strong&gt;Save&lt;&#x2F;strong&gt; the game and prepare to find and capture it
+next time.&lt;&#x2F;p&gt;
+&lt;p&gt;Second, because there&#x27;s another bug with the Roamer in FireRed and
+LeafGreen that can make your Shiny Roamer &lt;strong&gt;permanently disappear.&lt;&#x2F;strong&gt;
+Both Raikou and Entei know Roar at Level 50, and if they use it against
+you, it counts as the Roamer being fainted instead of fleeing normally.&lt;&#x2F;p&gt;
+&lt;p&gt;If this happens you must &lt;strong&gt;reload the save&lt;&#x2F;strong&gt; to prevent permanently
+losing the Shiny Roamer.&lt;&#x2F;p&gt;
+&lt;p&gt;**Fleeing can be prevented by:&lt;br &#x2F;&gt;
+**1. Arena Trap and Shadow Tag abilities.&lt;br &#x2F;&gt;
+2. Using the move Mean Look or Block (lasts until Switch)&lt;br &#x2F;&gt;
+3. Putting the Roamer to Sleep (temporary)&lt;&#x2F;p&gt;
+&lt;p&gt;**Roaring can be prevented by:&lt;br &#x2F;&gt;
+**1. Soundproof and Suction Cups abilities&lt;br &#x2F;&gt;
+2. Using the move Ingrain or Imprison (lasts until Switch)&lt;&#x2F;p&gt;
+&lt;p&gt;3. Using the move Encore or Taunt (temporary)&lt;&#x2F;p&gt;
+&lt;p&gt;3. Putting the Roamer to Sleep (temporary)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Smeargle&lt;&#x2F;strong&gt; can use a combination of &lt;strong&gt;Mean Look, Ingrain, Spore,&lt;&#x2F;strong&gt; and
+&lt;strong&gt;False Swipe&lt;&#x2F;strong&gt; to serve as an all-in-one Roamer capture helper.
+However, it cannot be found natively in Kanto and only appears in
+Colosseum and Emerald&#x27;s post-games.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+Additionally, turning in the SAPPHIRE is what enables cross-gen trading.
+So you&#x27;d have to receive the Smeargle from another copy of FireRed and
+LeafGreen that already has trading unlocked.&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+There is no other perfect option, but thankfully any progress you make
+on its HP will remain after each encounter, as long as it doesn&#x27;t use
+Roar and delete itself.&lt;&#x2F;p&gt;
+&lt;p&gt;Here are some &lt;strong&gt;No-Trading Required&lt;&#x2F;strong&gt; options that can be used to
+varying degrees of effectiveness.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Parasect:&lt;&#x2F;strong&gt; Spore + False Swipe (Egg Move w&#x2F; Scyther)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Jynx:&lt;&#x2F;strong&gt; Lovely Kiss + Mean Look + Taunt&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Tangela:&lt;&#x2F;strong&gt; Sleep Powder + Ingrain&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Butterfree:&lt;&#x2F;strong&gt; Compound Eyes + Sleep Powder&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Haunter:&lt;&#x2F;strong&gt; Mean Look + Hypnosis + Taunt&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Snorlax:&lt;&#x2F;strong&gt; Block + Yawn&lt;&#x2F;p&gt;
+&lt;p&gt;Remember, because of the Roamer IV bug, the &lt;strong&gt;Speed&lt;&#x2F;strong&gt; stats will
+entirely depend on &lt;strong&gt;Nature.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You must be faster than the Roamer to stop it from fleeing with &lt;strong&gt;Sleep,
+Mean Look&lt;&#x2F;strong&gt; or &lt;strong&gt;Block&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Species&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;strong&gt;-Speed&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;strong&gt;Neutral&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th&gt;&lt;strong&gt;+Speed&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Suicune&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;81&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;90&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;99&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Entei&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;94&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;105&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;115&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Raikou&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;108&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;120&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;132&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;You can calculate your odds of success with your ball-of-choice using
+this catch odds calculator from &lt;a href=&quot;https:&#x2F;&#x2F;www.dragonflycave.com&#x2F;calculators&#x2F;gen-iii-iv-catch-rate&quot;&gt;dragonflycave.com&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;br &#x2F;&gt;
+Once it&#x27;s at 1 HP and Asleep, with enough patience you&#x27;ll eventually
+beat those 1.53% odds of capturing the Roamer in a standard PokeBall...
+&lt;strong&gt;Good luck!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;next-steps&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#next-steps&quot; aria-label=&quot;Anchor link for: next-steps&quot;&gt;Next Steps...&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Congratulations! That&#x27;s the end of Intermediate for FireRed and
+LeafGreen. With everything learned up to this point, it should be
+possible to successfully RNG manipulate a quick Shiny for most things in
+the game.&lt;&#x2F;p&gt;
+&lt;p&gt;The only exceptions are Unowns and Breeding, which are unique enough to
+warrant being considered Advanced-level. Those lessons are coming soon,
+along with RNG manipulation for competitive Pokemon using special
+held-button seeds and the Teachy TV. Hope to see you there!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>FR&#x2F;LG Safari Zone Encounter Manip</title>
         <published>2025-05-02T18:20:00+00:00</published>
@@ -710,7 +1445,6 @@ being used.&lt;&#x2F;p&gt;
 &lt;p&gt;Reference the following Boot method for your system of choice.&lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
 &lt;summary&gt;&lt;b&gt;Boot Methods&lt;&#x2F;b&gt;:&lt;&#x2F;summary&gt;
-&lt;p&gt;&lt;strong&gt;GBA:&lt;&#x2F;strong&gt; Flick the Power Switch&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;NDS:&lt;&#x2F;strong&gt; Press A on &amp;quot;Start GBA Game&amp;quot; from the DS Home Screen&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;OFFICIAL GAMEBOY PLAYER:&lt;&#x2F;strong&gt; Press the &amp;quot;Change Game Pak&amp;quot; button, and
 confirm to Hard Reset&lt;&#x2F;p&gt;
@@ -719,25 +1453,19 @@ confirm to Hard Reset&lt;&#x2F;p&gt;
 Hard Reset Button Combo&lt;&#x2F;p&gt;
 &lt;p&gt;(Note: GBI boot times and frame-rate are identical to real GBA, so use
 GBA in the system selector)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA:&lt;&#x2F;strong&gt; Flick the Power Switch&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;GBA users might find this difficult. In this case, you can add a 3rd
+section to EonTimer&#x27;s Custom tab at the top, and set it to 5000ms. This
+creates what we call a &lt;strong&gt;pre-timer&lt;&#x2F;strong&gt; that will count down 5 seconds,
+ending in 6 beeps before the actual seed timer starts. Using a pre-timer
+allows you to time your power-switch flip with the 6th beep, removing
+the need to coordinate a switch-flip and button press.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;br&gt;
-&lt;p&gt;&lt;strong&gt;The general flow of each attempt is as follows:&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
-&lt;&#x2F;p&gt;
-&lt;ol&gt;
-&lt;li&gt;Boot the game and click &lt;strong&gt;Start&lt;&#x2F;strong&gt; on &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; at the same time.&lt;&#x2F;li&gt;
-&lt;&#x2F;ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;GBA users might find this difficult. In this case, you can add a 3rd
-section to EonTimer&#x27;s Custom tab at the top, and set it to 5000ms.
-This creates what we call a &lt;strong&gt;pre-timer&lt;&#x2F;strong&gt; that will count down 5
-seconds, ending in 6 beeps before the actual seed timer starts. Using
-a pre-timer allows you to time your power-switch flip with the 6th
-beep, removing the need to coordinate a switch-flip and button press.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;&#x2F;blockquote&gt;
-&lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;Wait for the &lt;strong&gt;ENTIRE&lt;&#x2F;strong&gt; Introduction to play, &lt;strong&gt;DO NOT PRESS ANY
-BUTTONS or SKIP.&lt;&#x2F;strong&gt; Your first timer should be long enough to make it to the Title Screen.&lt;&#x2F;li&gt;
-&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;strong&gt;The general flow of each attempt is as follows:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;1. Boot the game and click &lt;strong&gt;Start&lt;&#x2F;strong&gt; on &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; at the same time.&lt;&#x2F;p&gt;
+&lt;p&gt;2. Wait for the &lt;strong&gt;ENTIRE&lt;&#x2F;strong&gt; Introduction to play, &lt;strong&gt;DO NOT PRESS ANY
+BUTTONS or SKIP.&lt;&#x2F;strong&gt; Your first timer should be long enough to make it to the Title Screen.&lt;&#x2F;p&gt;
 &lt;p&gt;3. When the timer is close to completion, you will hear the 1st of 6
 beeps.&lt;&#x2F;p&gt;
 &lt;p&gt;4. &lt;strong&gt;ON THE 6TH BEEP, PRESS&lt;&#x2F;strong&gt; and &lt;strong&gt;HOLD&lt;&#x2F;strong&gt; the &lt;strong&gt;A Button&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
@@ -1132,7 +1860,6 @@ being used.&lt;&#x2F;p&gt;
 &lt;p&gt;Reference the following Boot method for your system of choice.&lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
 &lt;summary&gt;&lt;b&gt;Boot Methods&lt;&#x2F;b&gt;:&lt;&#x2F;summary&gt;
-&lt;p&gt;&lt;strong&gt;GBA:&lt;&#x2F;strong&gt; Flick the Power Switch&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;NDS:&lt;&#x2F;strong&gt; Press A on &amp;quot;Start GBA Game&amp;quot; from the DS Home Screen&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;OFFICIAL GAMEBOY PLAYER:&lt;&#x2F;strong&gt; Press the &amp;quot;Change Game Pak&amp;quot; button, and
 confirm to Hard Reset&lt;&#x2F;p&gt;
@@ -1141,21 +1868,17 @@ confirm to Hard Reset&lt;&#x2F;p&gt;
 Hard Reset Button Combo&lt;&#x2F;p&gt;
 &lt;p&gt;(Note: GBI boot times and frame-rate are identical to real GBA, so use
 GBA in the system selector)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA:&lt;&#x2F;strong&gt; Flick the Power Switch&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;GBA users might find this difficult. In this case, you can add a 3rd
+section to EonTimer&#x27;s Custom tab at the top, and set it to 5000ms. This
+creates what we call a &lt;strong&gt;pre-timer&lt;&#x2F;strong&gt; that will count down 5 seconds,
+ending in 6 beeps before the actual seed timer starts. Using a pre-timer
+allows you to time your power-switch flip with the 6th beep, removing
+the need to coordinate a switch-flip and button press.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;br&gt;
-&lt;p&gt;&lt;strong&gt;The general flow of each attempt is as follows:&lt;&#x2F;strong&gt;&lt;br &#x2F;&gt;
-&lt;&#x2F;p&gt;
-&lt;ol&gt;
-&lt;li&gt;Boot the game and click &lt;strong&gt;Start&lt;&#x2F;strong&gt; on &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; at the same time.&lt;&#x2F;li&gt;
-&lt;&#x2F;ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;GBA users might find this difficult. In this case, you can add a 3rd
-section to EonTimer&#x27;s Custom tab at the top, and set it to 5000ms.
-This creates what we call a &lt;strong&gt;pre-timer&lt;&#x2F;strong&gt; that will count down 5
-seconds, ending in 6 beeps before the actual seed timer starts. Using
-a pre-timer allows you to time your power-switch flip with the 6th
-beep, removing the need to coordinate a switch-flip and button press.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The general flow of each attempt is as follows:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;1. Boot the game and click &lt;strong&gt;Start&lt;&#x2F;strong&gt; on &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; at the same time.&lt;&#x2F;p&gt;
 &lt;p&gt;2. Wait for the &lt;strong&gt;ENTIRE&lt;&#x2F;strong&gt; Introduction to play, &lt;strong&gt;DO NOT PRESS ANY
 BUTTONS or SKIP&lt;&#x2F;strong&gt;. Your first timer should be long enough to make it to the Title Screen.&lt;&#x2F;p&gt;
 &lt;p&gt;3. When the timer is close to completion, you will hear the 1st of 6
@@ -1527,7 +2250,6 @@ being used.&lt;&#x2F;p&gt;
 &lt;p&gt;Reference the following Boot method for your system of choice:&lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
 &lt;summary&gt;&lt;b&gt;Boot Methods&lt;&#x2F;b&gt;:&lt;&#x2F;summary&gt;
-&lt;p&gt;&lt;strong&gt;GBA:&lt;&#x2F;strong&gt; Flick the Power Switch&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;NDS:&lt;&#x2F;strong&gt; Press A on &amp;quot;Start GBA Game&amp;quot; from the DS Home Screen&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;OFFICIAL GAMEBOY PLAYER:&lt;&#x2F;strong&gt; Press the &amp;quot;Change Game Pak&amp;quot; button, and
 confirm to Hard Reset&lt;&#x2F;p&gt;
@@ -1536,20 +2258,17 @@ confirm to Hard Reset&lt;&#x2F;p&gt;
 Hard Reset Button Combo&lt;&#x2F;p&gt;
 &lt;p&gt;(Note: GBI boot times and frame-rate are identical to real GBA, so use
 GBA in the system selector)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;GBA:&lt;&#x2F;strong&gt; Flick the Power Switch&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;GBA users might find this difficult. In this case, you can add a 3rd
+section to EonTimer&#x27;s Custom tab at the top, and set it to 5000ms. This
+creates what we call a &lt;strong&gt;pre-timer&lt;&#x2F;strong&gt; that will count down 5 seconds,
+ending in 6 beeps before the actual seed timer starts. Using a pre-timer
+allows you to time your power-switch flip with the 6th beep, removing
+the need to coordinate a switch-flip and button press.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;details&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;strong&gt;The general flow of each attempt is as follows:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;ol&gt;
-&lt;li&gt;Boot the game and click &lt;strong&gt;Start&lt;&#x2F;strong&gt; on &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; at the same time.&lt;&#x2F;li&gt;
-&lt;&#x2F;ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;GBA users might find this difficult. In this case, you can add a 3rd
-section to EonTimer&#x27;s Custom tab at the top, and set it to 5000ms.
-This creates what we call a &lt;strong&gt;pre-timer&lt;&#x2F;strong&gt; that will count down 5
-seconds, ending in 6 beeps before the actual seed timer starts. Using
-a pre-timer allows you to time your power-switch flip with the 6th
-beep, removing the need to coordinate a switch-flip and button press.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
-&lt;&#x2F;blockquote&gt;
+&lt;p&gt;1. Boot the game and click &lt;strong&gt;Start&lt;&#x2F;strong&gt; on &lt;strong&gt;EonTimer&lt;&#x2F;strong&gt; at the same time.&lt;&#x2F;p&gt;
 &lt;p&gt;2. Wait for the &lt;strong&gt;ENTIRE&lt;&#x2F;strong&gt; Introduction to play, &lt;strong&gt;DO NOT PRESS ANY
 BUTTONS or SKIP.&lt;&#x2F;strong&gt; Your first timer should be long enough to make it to the Title Screen.&lt;&#x2F;p&gt;
 &lt;p&gt;3. When the timer is close to completion, you will hear the 1st of 6
@@ -1564,7 +2283,7 @@ really quite energetic!&amp;quot; text box.&lt;&#x2F;p&gt;
 of 6 beeps.&lt;&#x2F;p&gt;
 &lt;p&gt;9. &lt;strong&gt;ON THE 6TH BEEP PRESS A&lt;&#x2F;strong&gt; to lock-in your starter.&lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
-&lt;summary&gt;&lt;b&gt;Note: How do Seeds work&lt;&#x2F;b&gt;:&lt;&#x2F;summary&gt;
+&lt;summary&gt;&lt;b&gt;Note: How do Seeds work?&lt;&#x2F;b&gt;&lt;&#x2F;summary&gt;
 &lt;p&gt;&lt;em&gt;Seeds in FireRed and LeafGreen are determined by an ultra-fast timer in
 the GBA&#x27;s CPU called Timer1.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;Traditional soft resetting using A + B + START + SELECT does not work,
@@ -5324,6 +6043,8 @@ me 2 attempts; the calibration run, then I succeeded. But that took me
 roamers when they&#x27;re not yet on your map.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage22.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;rs&#x2F;intermediate&#x2F;rsroamerimage7.png&quot; width=&quot;60%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;Once the Shiny Roamer has been found, it’s a good idea to let it run immediately on first encounter.&lt;&#x2F;p&gt;
+&lt;p&gt;It’s now permanently Shiny and unlocked in your Pokedex, so you can safely Save the game and prepare to find and capture it next time with whatever setup you deem best. &lt;&#x2F;p&gt;
 &lt;details style=&quot;border:&quot;&gt;
 &lt;summary&gt;Note: Some tips&lt;&#x2F;summary&gt;
 &lt;p&gt;&lt;i&gt;The worst part of this manip is FINDING the dang Lati.&lt;&#x2F;p&gt;
