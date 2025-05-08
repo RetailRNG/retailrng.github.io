@@ -5,8 +5,45 @@
     <link rel="self" type="application/atom+xml" href="https://retailrng.com/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://retailrng.com/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-05-07T18:20:00+00:00</updated>
+    <updated>2025-05-08T18:20:00+00:00</updated>
     <id>https://retailrng.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>FR&#x2F;LG RNG Manip Introduction</title>
+        <published>2025-05-08T18:20:00+00:00</published>
+        <updated>2025-05-08T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://retailrng.com/frlg/beginner/introduction/"/>
+        <id>https://retailrng.com/frlg/beginner/introduction/</id>
+        
+        <content type="html" xml:base="https://retailrng.com/frlg/beginner/introduction/">&lt;p&gt;&lt;br&gt;&lt;br&gt;
+FireRed and LeafGreen have a reputation for being more difficult to RNG manipulate than Ruby, Sapphire, and Emerald-- and for good reason. Those games all start from a fixed initial seed, which means their RNG is perfectly predictable every time you boot the game. &lt;&#x2F;p&gt;
+&lt;p&gt;In Ruby and Sapphire, this is only the case if the internal battery that governs the Real-Time Clock has died, but Emerald is bugged to always start from the same initial seed.&lt;&#x2F;p&gt;
+&lt;p&gt;However, FireRed and LeafGreen do not have an internal battery or any Real-Time Clock functions. Instead, their initial RNG seed is determined based on an ultra-fast timer that starts running the instant you boot the game. This timer runs much faster than 60 frames-per-second, and every button input the user makes during the intro sequence has an effect on the initial seed.&lt;&#x2F;p&gt;
+&lt;p&gt;This might make it sound like RNG manipulation in FireRed and LeafGreen is nearly impossible, but thankfully, years of research have come together to make this process 100% under the player’s control.&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;introimage1.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;The secret is letting the entire intro sequence play, from the GAMEBOY boot screen to the Title Screen. This takes about 35 seconds, and afterwards the seed can be decided with a single press &amp;amp; hold input.&lt;&#x2F;p&gt;
+&lt;p&gt;The game only reads inputs once-per-frame, so this technique makes it possible for humans to hit the same seeds consistently-- as long as it’s on official GBA hardware. &lt;&#x2F;p&gt;
+&lt;p&gt;When combined with something like an &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=TdJPA8oDm6M&quot;&gt;arduino to automatically&lt;&#x2F;a&gt; test and record those different timings, it became possible to build an entire database of seeds with consistent and repeatable timings! &lt;&#x2F;p&gt;
+&lt;p&gt;That means instead of one fixed initial seed, you have access to thousands of different initial seeds! This improves the variety of Natures and IV spreads available for RNG manipulation, and even makes it possible to encounter perfect competitive Shiny Pokemon with only a few minutes of waiting...&lt;&#x2F;p&gt;
+&lt;center&gt;&lt;img src=&quot;&#x2F;frlg&#x2F;beginner&#x2F;introimage2.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
+&lt;p&gt;... but this power comes at a cost: &lt;strong&gt;TWO&lt;&#x2F;strong&gt; frame perfect inputs.&lt;&#x2F;p&gt;
+&lt;p&gt;In order to successfully RNG manipulate FireRed and LeafGreen you must hit two inputs with 16.66 millisecond accuracy back-to-back. Once at the Title Screen to lock in your initial seed, and again when you make your last button press to encounter or redeem a Pokemon.&lt;&#x2F;p&gt;
+&lt;p&gt;For this reason, FireRed and LeafGreen RNG are effectively twice as difficult as Ruby&#x2F;Sapphire&#x2F;Emerald, but don’t let this discourage you. &lt;&#x2F;p&gt;
+&lt;p&gt;This guide has been set-up with beginners in mind, and thanks to many hours of research being rolled into some fantastic new tools the process has never been more approachable.&lt;&#x2F;p&gt;
+&lt;p&gt;The first lesson starts with getting a Shiny Starter and determining your Secret ID, which is required to RNG manipulate Shiny Pokemon throughout the rest of the game. &lt;&#x2F;p&gt;
+&lt;p&gt;Completing that process will give you the skills to acquire Shiny Gift Pokemon, Wild Pokemon, Safari Zone Pokemon, Roaming Legendaries, and even Perfect Competitive Shiny Pokemon-- without hacking your save, using an emulator, or plugging in a cheating device.&lt;&#x2F;p&gt;
+&lt;p&gt;So, without further ado... let’s move on to &lt;strong&gt;FireRed &amp;amp; Leaf Green Starter RNG &amp;amp; SID Deduction&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;center&gt; - Papa Jefé&lt;&#x2F;center&gt;</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>FR&#x2F;LG Fishing Encounter Manip</title>
         <published>2025-05-07T18:20:00+00:00</published>
@@ -505,12 +542,6 @@ open_agb_firm&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;lincoln-lm.github.io&#x2F;js-finder-py&#x2F;pages&#x2F;g3-calibration&quot;&gt;&lt;strong&gt;G3 Calibration&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;fire-red&#x2F;Land.html&quot;&gt;&lt;strong&gt;Fire Red Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;shinyfinder.github.io&#x2F;encounter-slots&#x2F;leaf-green&#x2F;Land.html&quot;&gt;&lt;strong&gt;Leaf Green Encounter Slots&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;video-examples&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#video-examples&quot; aria-label=&quot;Anchor link for: video-examples&quot;&gt;Video Examples&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;

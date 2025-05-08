@@ -47,31 +47,31 @@
 
 	
 
-<title>Coming Soon! | Retail Pokémon RNG</title>
-<meta name="description" content="Intermediate Coming Soon!">
-<link rel="canonical" href="https://retailrng.com/frlg/advanced/coming-soon/">
+<title>FR/LG RNG Manip Introduction | Retail Pokémon RNG</title>
+<meta name="description" content="A brief passage about what FR&#x2F;LG RNG is like!">
+<link rel="canonical" href="https://retailrng.com/frlg/beginner/introduction/">
 
 
   <meta name="twitter:card" content="summary_large_image">
   
     <meta name="twitter:image" content="https://retailrng.com//doks.png">
   
-  <meta name="twitter:title" content="Coming Soon!">
-  <meta name="twitter:description" content="Intermediate Coming Soon!">
+  <meta name="twitter:title" content="FR&#x2F;LG RNG Manip Introduction">
+  <meta name="twitter:description" content="A brief passage about what FR&#x2F;LG RNG is like!">
   <meta name="twitter:site" content="@aaranxu">
   <meta name="twitter:creator" content="@aaranxu">
   
-  <meta property="og:title" content="Coming Soon!">
-  <meta property="og:description" content="Intermediate Coming Soon!">
+  <meta property="og:title" content="FR&#x2F;LG RNG Manip Introduction">
+  <meta property="og:description" content="A brief passage about what FR&#x2F;LG RNG is like!">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://retailrng.com/frlg/advanced/coming-soon/">
+  <meta property="og:url" content="https://retailrng.com/frlg/beginner/introduction/">
 
   
     <meta property="og:image" content="https://retailrng.com//doks.png">
   
 
-  <meta property="og:updated_time" content="2025-04-24T18:20:00+00:00">
-  <meta property="og:site_name" content="Coming Soon!">
+  <meta property="og:updated_time" content="2025-05-08T18:20:00+00:00">
+  <meta property="og:site_name" content="FR&#x2F;LG RNG Manip Introduction">
 
   
 
@@ -136,14 +136,11 @@
           {
             "@type": "ListItem",
             "position":  3 ,
-            "name": "Advanced",
-            "item": "https://retailrng.com/frlg/advanced/"
+            "name": "Beginner",
+            "item": "https://retailrng.com/frlg/beginner/"
           },
         
       
-        
-        
-        
         
         
         
@@ -157,8 +154,8 @@
           {
             "@type": "ListItem",
             "position":  4 ,
-            "name": "Coming Soon",
-            "item": "https://retailrng.com/frlg/advanced/coming-soon/"
+            "name": "Introduction",
+            "item": "https://retailrng.com/frlg/beginner/introduction/"
           },
         
       
@@ -275,7 +272,7 @@
 							<h3>Beginner</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://retailrng.com/frlg/beginner/introduction/">FR&#x2F;LG RNG Manip Introduction</a></li>
+									<li><a class="docs-link active" href="https://retailrng.com/frlg/beginner/introduction/">FR&#x2F;LG RNG Manip Introduction</a></li>
 							                           
 									<li><a class="docs-link" href="https://retailrng.com/frlg/beginner/frlgstarter/">FR&#x2F;LG Starter Manip &amp; SID Deduction</a></li>
 							                           
@@ -305,7 +302,7 @@
 							<h3>Advanced</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link active" href="https://retailrng.com/frlg/advanced/coming-soon/">Coming Soon!</a></li>
+									<li><a class="docs-link" href="https://retailrng.com/frlg/advanced/coming-soon/">Coming Soon!</a></li>
 							
 					</ul>
 					
@@ -329,11 +326,29 @@
   
 
       <main class="docs-content col-lg-11 col-xl-9">
-        <h1>Coming Soon!</h1>
+        <h1>FR&#x2F;LG RNG Manip Introduction</h1>
 		
 		<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support us on Ko-fi', '#e855eb', 'R6R71E2E0Z');kofiwidget2.draw();</script> 
         
-        
+        <p><br><br>
+FireRed and LeafGreen have a reputation for being more difficult to RNG manipulate than Ruby, Sapphire, and Emerald-- and for good reason. Those games all start from a fixed initial seed, which means their RNG is perfectly predictable every time you boot the game. </p>
+<p>In Ruby and Sapphire, this is only the case if the internal battery that governs the Real-Time Clock has died, but Emerald is bugged to always start from the same initial seed.</p>
+<p>However, FireRed and LeafGreen do not have an internal battery or any Real-Time Clock functions. Instead, their initial RNG seed is determined based on an ultra-fast timer that starts running the instant you boot the game. This timer runs much faster than 60 frames-per-second, and every button input the user makes during the intro sequence has an effect on the initial seed.</p>
+<p>This might make it sound like RNG manipulation in FireRed and LeafGreen is nearly impossible, but thankfully, years of research have come together to make this process 100% under the player’s control.</p>
+<center><img src="/frlg/beginner/introimage1.png" width="100%"></center>
+<p>The secret is letting the entire intro sequence play, from the GAMEBOY boot screen to the Title Screen. This takes about 35 seconds, and afterwards the seed can be decided with a single press &amp; hold input.</p>
+<p>The game only reads inputs once-per-frame, so this technique makes it possible for humans to hit the same seeds consistently-- as long as it’s on official GBA hardware. </p>
+<p>When combined with something like an <a href="https://www.youtube.com/watch?v=TdJPA8oDm6M">arduino to automatically</a> test and record those different timings, it became possible to build an entire database of seeds with consistent and repeatable timings! </p>
+<p>That means instead of one fixed initial seed, you have access to thousands of different initial seeds! This improves the variety of Natures and IV spreads available for RNG manipulation, and even makes it possible to encounter perfect competitive Shiny Pokemon with only a few minutes of waiting...</p>
+<center><img src="/frlg/beginner/introimage2.png" width="100%"></center>
+<p>... but this power comes at a cost: <strong>TWO</strong> frame perfect inputs.</p>
+<p>In order to successfully RNG manipulate FireRed and LeafGreen you must hit two inputs with 16.66 millisecond accuracy back-to-back. Once at the Title Screen to lock in your initial seed, and again when you make your last button press to encounter or redeem a Pokemon.</p>
+<p>For this reason, FireRed and LeafGreen RNG are effectively twice as difficult as Ruby/Sapphire/Emerald, but don’t let this discourage you. </p>
+<p>This guide has been set-up with beginners in mind, and thanks to many hours of research being rolled into some fantastic new tools the process has never been more approachable.</p>
+<p>The first lesson starts with getting a Shiny Starter and determining your Secret ID, which is required to RNG manipulate Shiny Pokemon throughout the rest of the game. </p>
+<p>Completing that process will give you the skills to acquire Shiny Gift Pokemon, Wild Pokemon, Safari Zone Pokemon, Roaming Legendaries, and even Perfect Competitive Shiny Pokemon-- without hacking your save, using an emulator, or plugging in a cheating device.</p>
+<p>So, without further ado... let’s move on to <strong>FireRed &amp; Leaf Green Starter RNG &amp; SID Deduction</strong></p>
+<center> - Papa Jefé</center>
 				<center><div style=" 
 
   border: 3px solid #e855eb;
@@ -354,34 +369,6 @@
     
     
       
-        
-        
-          
-        
-      
-        
-        
-          
-            
-              
-              <a href="https:&#x2F;&#x2F;retailrng.com&#x2F;frlg&#x2F;intermediate&#x2F;roamer&#x2F;">
-                <div class="card my-1">
-                  <div class="card-body py-2">
-                    &larr; FR&#x2F;LG Roaming Pokemon Manip
-                  </div>
-                </div>
-              </a>
-            
-            
-            
-          
-        
-      
-        
-        
-          
-        
-      
     
   
 
@@ -390,24 +377,13 @@
   
   
   
-    
-    
-    
-      
-      
-        
-      
-    
-      
-      
-        
-      
-    
-      
-      
-        
-      
-    
+    <a class="ms-auto" href="https:&#x2F;&#x2F;retailrng.com&#x2F;frlg&#x2F;beginner&#x2F;frlgstarter&#x2F;">
+      <div class="card my-1">
+        <div class="card-body py-2">
+          FR&#x2F;LG Starter Manip &amp; SID Deduction &rarr;
+        </div>
+      </div>
+    </a>
   
 </div>
 
