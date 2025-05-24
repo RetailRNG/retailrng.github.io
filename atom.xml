@@ -610,19 +610,15 @@ box.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 left of the program.&lt;&#x2F;p&gt;
 &lt;p&gt;Then, click &lt;strong&gt;calculate&lt;&#x2F;strong&gt;. You should get a few results.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;xyoras&#x2F;beginner&#x2F;XYORASTSVimage2.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
-&lt;p&gt;We can see I have one result that I should&#x27;ve received at around 8
-minutes real time. That means, 8 minutes AFTER I hit A on the title
-screen. This lines up perfectly with how long it took me to find my
-seed, get to Shalour, and then fish.&lt;&#x2F;p&gt;
+&lt;p&gt;We can see I have two results. To know which one is potentially ours, we can look at a few things. Firstly, is the &lt;strong&gt;Real Time&lt;&#x2F;strong&gt; column. You can see it says about 8 minutes there. That&#x27;s how long this Pokemon took AFTER hitting A on the title screen to appear. 8ish minutes seems right to me. Compare that to the other result, which is 10 hours. &lt;&#x2F;p&gt;
 &lt;p&gt;The amount of time you should expect here will vary based on how long
 you took to get over there and fish.&lt;&#x2F;p&gt;
-&lt;p&gt;So, if you have a result that makes sense like this, enter the IV Range
-of your shiny &amp;amp; hit calculate.&lt;&#x2F;p&gt;
+&lt;p&gt;The reason we&#x27;re checking this non-shiny catch is because it reduces the amount of false positives. If we have the non shiny at a lower real time value, then the shiny at a higher one that&#x27;s not too long after it, it&#x27;s safe to rule out a false positive.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyway, once we&#x27;ve confirmed the non-shiny appears on the seed you hit, enter the IV range for the shiny.&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;xyoras&#x2F;beginner&#x2F;XYORASTSVimage13.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;This time it sas 19 minutes, which again makes sense to me based on when
 I caught the shiny!&lt;&#x2F;p&gt;
-&lt;p&gt;If you think your results also make sense like this, you now have your
-TSV! It&#x27;s the PSV of the Shiny!&lt;&#x2F;p&gt;
+&lt;p&gt;You now have your TSV! It&#x27;s the PSV of the Shiny!&lt;&#x2F;p&gt;
 &lt;center&gt;&lt;img src=&quot;&#x2F;xyoras&#x2F;beginner&#x2F;XYORASTSVimage11.png&quot; width=&quot;100%&quot;&gt;&lt;&#x2F;center&gt;
 &lt;p&gt;Now that you know your TSV, let&#x27;s set up a profile so you don&#x27;t lose it.&lt;&#x2F;p&gt;
 &lt;p&gt;Also, if you don&#x27;t care about this shiny you caught &amp;amp; want to save the
