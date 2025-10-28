@@ -534,9 +534,9 @@ official release yet)</li>
 </ul>
 <blockquote>
 <p>Direct download links:
-<a href="https://github.com/Admiral-Fish/PokeFinder/actions/runs/17005292419/artifacts/3778955241">Windows</a> -
-<a href="https://github.com/Admiral-Fish/PokeFinder/actions/runs/17005292405/artifacts/3778980522">Mac</a> -
-<a href="https://github.com/Admiral-Fish/PokeFinder/actions/runs/17005292410/artifacts/3778931935">Linux</a></p>
+<a href="https://nightly.link/Admiral-Fish/PokeFinder/workflows/windows.yaml/master/PokeFinder-windows.zip">Windows</a> -
+<a href="https://nightly.link/Admiral-Fish/PokeFinder/workflows/macos.yaml/master/PokeFinder-macOS.zip">Mac</a> -
+<a href="https://nightly.link/Admiral-Fish/PokeFinder/workflows/ubuntu.yaml/master/PokeFinder-linux.zip">Linux</a></p>
 </blockquote>
 <ul>
 <li>
@@ -578,7 +578,7 @@ adding +5 to them).</p>
 	class="code-tab-label"
 	data-lang="DS"
 	id="tab-group-1-0_DS-label"
->DS</label>
+>DS(i)</label>
 <div
 	class="code-tabpanel"
 	role="tabpanel"
@@ -618,6 +618,11 @@ but also don't have to wait unnecessarily long. The calibration is more
 important to be at the recommended values here, however they won't work
 perfectly for everyone and I'll explain later how to adjust it for
 yourself if needed.</p>
+
+<p>Also make sure that <strong>“Precision Calibration” is turned 
+off</strong> in the settings under the “Timer” tab.</p>
+<center><img class="myImages" id="myImg" alt="Bedroom BW1" src="/bw/beginner/calibrationimage58.png" width="40%"></center>
+
 <h2 id="pick-a-method-to-use"><a class="zola-anchor" href="#pick-a-method-to-use" aria-label="Anchor link for: pick-a-method-to-use">Pick a Method to use</a></h2>
 <p>If you're playing <strong>BW1, select the Save Needle Calibration Tab</strong> and if
 you're playing <strong>BW2, select the Unova Link Needle Calibration Tab</strong>. IV
@@ -715,12 +720,16 @@ change, you start EonTimer</strong> by clicking the Start button.</p>
 <div class="tabcontainer" num="1">
 <div class="tab">
   <button class="tablinks active"  onclick="openCity(event, 1, 1)" >DS</button>
-  <button class="tablinks"         onclick="openCity(event, 2, 1)">3DS</button>
+  <button class="tablinks"         onclick="openCity(event, 2, 1)">DSi</button>
+  <button class="tablinks"         onclick="openCity(event, 3, 1)">3DS</button>
 </div>
 <div id="1" class="tabcontent active">
 <center><img class="myImages" id="myImg" alt="DS Date/time screen" src="/bw/beginner/calibrationimage11.png" width="60%"></center>
 </div>
 <div id="2" class="tabcontent">
+<center><img class="myImages" id="myImg" alt="DSi Date/time screen" src="/bw/beginner/calibrationimage57.png" width="60%"></center>
+</div>
+<div id="3" class="tabcontent">
 <center><img class="myImages" id="myImg" alt="3DS Date/time screen" src="/bw/beginner/calibrationimage26.png" width="60%"></center>
 </div>
 </div>
@@ -970,12 +979,16 @@ change, you start EonTimer</strong> by clicking the Start button.</p>
 <div class="tabcontainer" num="2">
 <div class="tab">
   <button class="tablinks active"  onclick="openCity(event, 1, 2)" >DS</button>
-  <button class="tablinks"         onclick="openCity(event, 2, 2)">3DS</button>
+  <button class="tablinks"         onclick="openCity(event, 2, 2)">DSi</button>
+  <button class="tablinks"         onclick="openCity(event, 3, 2)">3DS</button>
 </div>
 <div id="1" class="tabcontent active">
 <center><img class="myImages" id="myImg" alt="DS Date/time screen" src="/bw/beginner/calibrationimage11.png" width="60%"></center>
 </div>
 <div id="2" class="tabcontent">
+<center><img class="myImages" id="myImg" alt="DSi Date/time screen" src="/bw/beginner/calibrationimage57.png" width="60%"></center>
+</div>
+<div id="3" class="tabcontent">
 <center><img class="myImages" id="myImg" alt="3DS Date/time screen" src="/bw/beginner/calibrationimage26.png" width="60%"></center>
 </div>
 </div>
@@ -1269,12 +1282,16 @@ change, you start EonTimer</strong> by clicking the Start button.</p>
 <div class="tabcontainer" num="3">
 <div class="tab">
   <button class="tablinks active"  onclick="openCity(event, 1, 3)" >DS</button>
-  <button class="tablinks"         onclick="openCity(event, 2, 3)">3DS</button>
+  <button class="tablinks"         onclick="openCity(event, 2, 3)">DSi</button>
+  <button class="tablinks"         onclick="openCity(event, 3, 3)">3DS</button>
 </div>
 <div id="1" class="tabcontent active">
 <center><img class="myImages" id="myImg" alt="DS Date/time screen" src="/bw/beginner/calibrationimage11.png" width="60%"></center>
 </div>
 <div id="2" class="tabcontent">
+<center><img class="myImages" id="myImg" alt="DSi Date/time screen" src="/bw/beginner/calibrationimage57.png" width="60%"></center>
+</div>
+<div id="3" class="tabcontent">
 <center><img class="myImages" id="myImg" alt="3DS Date/time screen" src="/bw/beginner/calibrationimage26.png" width="60%"></center>
 </div>
 </div>
@@ -1404,15 +1421,16 @@ attempt so on attempt 2 I will target 15:01/3:01 pm, on attempt 3
 15:02/3:02 pm and so on.</p>
 <p>Another <strong>important thing to note</strong> is <strong>about the VCount</strong>. Whilst I
 did say earlier that this value stays consistent throughout your
-calibration, this isn't always true. If you're playing on a <strong>DSi or
-3DS</strong> model console, you <strong>may get 2 different VCount values</strong> that are
-tied to some of your Timer0's. This seemingly can only happen if the
-VCount you get is either <strong>AC or AD</strong> (but getting one of the two
-doesn't necessarily mean that you are affected by this; recently it was
-discovered that a VCount of AB can also have this happen with AC though
-it is much rarer than AD). In those cases you can also get the other
-VCount of the two on some of your Timer0's. If this is the case for you,
-make sure to note down which Timer0 has which VCount assigned to it.
+calibration, this isn't always true. <strong>In rare cases you may get 2 
+different VCount values</strong> that are tied to some of your Timer0’s.
+As of yet there have been reports about this happening with VCounts of 
+AB & AC, AC & AD, BD & BE and 82 & 83 (though getting any 1 of those 
+mentioned VCounts doesn't necessarily mean that you are affected by this). 
+It seems to be <strong>most common on DSi or 3DS</strong>, however the 
+report with VCounts of 82 & 83 was from a DS Lite user so <strong>even if 
+you’re playing on a DS or Lite, watch out for this</strong>. If this is the 
+case for you, make sure to note down which Timer0 has which VCount assigned 
+to it, as each Timer0 can only have 1 specific VCount value go with it.
 This will generally not impact your ability to RNG Manipulate, but it
 will make troubleshooting when something goes wrong a bit more annoying
 later.</p>
