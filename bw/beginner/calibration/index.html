@@ -1,0 +1,2330 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4MQPZPZDSJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4MQPZPZDSJ');
+</script>
+<style>
+.myImages {
+  border-radius: 0 !important;
+  overflow: visible !important;
+}
+
+.theme-dark { display: none; }
+
+:is(html.dark, body.dark, html[data-theme="dark"], body[data-theme="dark"]) .theme-light {
+  display: none;
+}
+
+:is(html.dark, body.dark, html[data-theme="dark"], body[data-theme="dark"]) .theme-dark {
+  display: inline;
+}
+
+img,
+img:active,
+img:focus,
+img:hover {
+  max-width: 80vw !important;
+  max-height: 80vh !important;
+  height: auto !important;
+}
+.medium-zoom-image--opened,
+.pswp__img,
+.gslide-image img,
+.lb-image,
+.mfp-content img,
+.modal-content,
+.modal-content img {
+  background: transparent !important;
+}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://retailrng.com/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://retailrng.com/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://retailrng.com/main.css">
+<link rel="stylesheet" href="https://retailrng.com/shortcodes.css">
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>BW/BW2 Calibration | Retail Pokémon RNG</title>
+<meta name="description" content="How to find your Timer0 for BW1 &amp; BW2 RNG Manipulation.">
+<link rel="canonical" href="https://retailrng.com/bw/beginner/calibration/">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  
+    <meta name="twitter:image" content="https://retailrng.com//doks.png">
+  
+  <meta name="twitter:title" content="BW&#x2F;BW2 Calibration">
+  <meta name="twitter:description" content="How to find your Timer0 for BW1 &amp; BW2 RNG Manipulation.">
+  <meta name="twitter:site" content="@aaranxu">
+  <meta name="twitter:creator" content="@aaranxu">
+  
+  <meta property="og:title" content="BW&#x2F;BW2 Calibration">
+  <meta property="og:description" content="How to find your Timer0 for BW1 &amp; BW2 RNG Manipulation.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://retailrng.com/bw/beginner/calibration/">
+
+  
+    <meta property="og:image" content="https://retailrng.com//doks.png">
+  
+
+  <meta property="og:updated_time" content="2025-09-04T18:20:00+00:00">
+  <meta property="og:site_name" content="BW&#x2F;BW2 Calibration">
+
+  
+
+  
+
+  
+  <meta property="article:publisher" content="https://www.facebook.com/ichunyun">
+  <meta property="article:author" content="https://www.facebook.com/ichunyun">
+  <meta property="og:locale" content="en_US">
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://retailrng.com/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Bw",
+            "item": "https://retailrng.com/bw/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Beginner",
+            "item": "https://retailrng.com/bw/beginner/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Calibration",
+            "item": "https://retailrng.com/bw/beginner/calibration/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://retailrng.com/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://retailrng.com/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://retailrng.com/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://retailrng.com/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+
+  
+
+<body class="docs single">
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://retailrng.com/">Retail Pokémon RNG</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+		
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://discord.gg/4RA7xKVPqg"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><g fill="currentColor" fill-opacity="0"><circle cx="9" cy="12" r="1.5"><animate fill="freeze" attributeName="fill-opacity" begin="1.2s" dur="0.4s" values="0;1"/></circle><circle cx="15" cy="12" r="1.5"><animate fill="freeze" attributeName="fill-opacity" begin="1.4s" dur="0.4s" values="0;1"/></circle></g><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="30" stroke-dashoffset="30" d="M15.5 17.5L16.5 19.5C16.5 19.5 20.671 18.172 22 16C22 15 22.53 7.853 19 5.5C17.5 4.5 15 4 15 4L14 6H12M8.52799 17.5L7.52799 19.5C7.52799 19.5 3.35699 18.172 2.02799 16C2.02799 15 1.49799 7.853 5.02799 5.5C6.52799 4.5 9.02799 4 9.02799 4L10.028 6H12.028"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="30;60"/></path><path stroke-dasharray="16" stroke-dashoffset="16" d="M5.5 16C10.5 18.5 13.5 18.5 18.5 16"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.4s" values="16;0"/></path></g></svg><span class="ms-2 visually-hidden">Discord</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.reddit.com/r/retailrng/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><mask id="lineMdReddit0"><g fill="#fff" fill-opacity="0"><ellipse cx="12" cy="14.71" stroke="#fff" stroke-dasharray="48" stroke-dashoffset="48" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" rx="8" ry="5.29"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="48;0"/><animate fill="freeze" attributeName="fill-opacity" begin="0.6s" dur="0.4s" values="0;1"/></ellipse><circle cx="7.24" cy="11.97" r="2.24"><set attributeName="fill-opacity" begin="1s" to="1"/><animate fill="freeze" attributeName="cx" begin="1s" dur="0.2s" values="7.24;3.94"/></circle><circle cx="16.76" cy="11.97" r="2.24"><set attributeName="fill-opacity" begin="1s" to="1"/><animate fill="freeze" attributeName="cx" begin="1s" dur="0.2s" values="16.76;20.06"/></circle><circle cx="18.45" cy="4.23" r="1.61"><set attributeName="fill-opacity" begin="2.6s" to="1"/></circle></g><path fill="none" stroke="#fff" stroke-dasharray="12" stroke-dashoffset="12" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8" d="M12 8.75L13.18 3.11L18.21 4.18"><animate fill="freeze" attributeName="stroke-dashoffset" begin="2.4s" dur="0.2s" values="12;0"/></path><g fill-opacity="0"><circle cx="8.45" cy="13.59" r="1.61"><animate fill="freeze" attributeName="fill-opacity" begin="1.2s" dur="0.4s" values="0;1"/></circle><circle cx="15.55" cy="13.59" r="1.61"><animate fill="freeze" attributeName="fill-opacity" begin="1.6s" dur="0.4s" values="0;1"/></circle></g><path fill="none" stroke="#000" stroke-dasharray="8" stroke-dashoffset="8" stroke-linecap="round" stroke-width=".8" d="M8.47 17.52C8.47 17.52 9.41 18.58 12 18.58C14.58 18.58 15.53 17.52 15.53 17.52"><animate fill="freeze" attributeName="stroke-dashoffset" begin="2s" dur="0.2s" values="8;0"/></path></mask><rect width="24" height="24" fill="currentColor" mask="url(#lineMdReddit0)"/></svg><span class="ms-2 visually-hidden">Reddit</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.youtube.com/@imablisy"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-dasharray="60" stroke-dashoffset="60" stroke-linecap="round" stroke-width="2" d="M12 5C21 5 21 5 21 12C21 19 21 19 12 19C3 19 3 19 3 12C3 5 3 5 12 5z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="60;0"/></path><path fill="currentColor" fill-opacity="0" d="M10 8.5L16 12L10 15.5z"><set attributeName="fill-opacity" begin="0.7s" to="1"/><animate fill="freeze" attributeName="d" begin="0.7s" dur="0.2s" values="M12 11L12 12L12 13z;M10 8.5L16 12L10 15.5z"/></path></svg><span class="ms-2 visually-hidden">Youtube</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.youtube.com/@PapaJefeYT"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-dasharray="60" stroke-dashoffset="60" stroke-linecap="round" stroke-width="2" d="M12 5C21 5 21 5 21 12C21 19 21 19 12 19C3 19 3 19 3 12C3 5 3 5 12 5z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="60;0"/></path><path fill="currentColor" fill-opacity="0" d="M10 8.5L16 12L10 15.5z"><set attributeName="fill-opacity" begin="0.7s" to="1"/><animate fill="freeze" attributeName="d" begin="0.7s" dur="0.2s" values="M12 11L12 12L12 13z;M10 8.5L16 12L10 15.5z"/></path></svg><span class="ms-2 visually-hidden">Youtube</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://retailrng.com/tools/">Tools</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://retailrng.com/article/">Articles</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://retailrng.com/authors/">Authors</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div> 
+</header>
+
+
+
+  
+
+
+<div class="wrap container" role="document">
+
+
+
+    <div class="content">
+        <div class="row flex-xl-nowrap">
+                <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+            
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+			
+			
+			
+			
+					
+					
+					
+							<h3>Beginner</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/beginner/introduction/">Gen 5 RNG Manip Introduction</a></li>
+							                           
+									<li><a class="docs-link active" href="https://retailrng.com/bw/beginner/calibration/">BW&#x2F;BW2 Calibration</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/beginner/tidsid/">BW&#x2F;BW2 Trainer ID &amp; Secret ID Manip</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/beginner/bw1starter/">BW Starter Manip</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/beginner/bw2starter/">BW2 Starter Manip</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/beginner/static/">BW&#x2F;BW2 Static Manip</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Intermediate</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/intermediate/coming-soon/">Coming Soon!</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Advanced</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/advanced/coming-soon/">Coming Soon!</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Extra Credit</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/extra credit/roamer/">BW1 Roamer ID Preparations</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+
+            
+  
+    <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+      <div class="page-links">
+        <h3>On this page</h3>
+        <nav id="TableOfContents">
+          <ul>
+            
+              <li>
+                <a href="https://retailrng.com/bw/beginner/calibration/#overview">Overview</a>
+
+                
+
+              </li>
+            
+              <li>
+                <a href="https://retailrng.com/bw/beginner/calibration/#recommended-setup">Recommended setup</a>
+
+                
+                  <ul>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/beginner/calibration/#hardware-requirements">Hardware requirements</a>
+
+                        
+                        
+
+                      </li>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/beginner/calibration/#in-game-requirements">In-Game requirements</a>
+
+                        
+                        
+
+                      </li>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/beginner/calibration/#tools-used">Tools used</a>
+
+                        
+                        
+
+                      </li>
+                    
+                  </ul>
+                
+
+              </li>
+            
+              <li>
+                <a href="https://retailrng.com/bw/beginner/calibration/#video-example">Video example</a>
+
+                
+
+              </li>
+            
+              <li>
+                <a href="https://retailrng.com/bw/beginner/calibration/#the-guide">The Guide</a>
+
+                
+                  <ul>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/beginner/calibration/#eontimer-setup">EonTimer setup</a>
+
+                        
+                        
+
+                      </li>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/beginner/calibration/#pick-a-method-to-use">Pick a method to use</a>
+
+                        
+                        
+
+                      </li>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/beginner/calibration/#setup">Setup</a>
+
+                        
+                        
+
+                      </li>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/beginner/calibration/#first-attempt">First attempt</a>
+
+                        
+                        
+
+                      </li>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/beginner/calibration/#further-attempts">Further attempts</a>
+
+                        
+                        
+
+                      </li>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/beginner/calibration/#creating-a-profile">Creating a Profile</a>
+
+                        
+                        
+
+                      </li>
+                    
+                  </ul>
+                
+
+              </li>
+            
+              <li>
+                <a href="https://retailrng.com/bw/beginner/calibration/#next-steps">Next steps...</a>
+
+                
+
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </nav>
+  
+
+            <main class="docs-content col-lg-11 col-xl-9">
+                <h1>BW&#x2F;BW2 Calibration</h1>
+
+                <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+                <script type='text/javascript'>kofiwidget2.init('Support us on Ko-fi', '#e855eb', 'R6R71E2E0Z'); kofiwidget2.draw();</script>
+
+                
+                <h2 id="overview"><a class="zola-anchor" href="#overview" aria-label="Anchor link for: overview">Overview</a></h2>
+<p><strong>Calibrating your game is the mandatory first step for any Gen 5 RNG
+Manipulation</strong>. <strong>Calibrating</strong> in this context <strong>means finding certain values
+that are tied to 1 specific</strong> combination of <strong>game cartridge + a DS console</strong>
+(specifically the console's Motherboard and Wi-Fi Board). So if you e.g.
+have a Pokémon White Version, a Pokémon Black Version, a Pink Nintendo
+DS Lite and a Blue Nintendo 3DS and you calibrate your White Version +
+the Pink DS Lite, you will have ONLY found the Calibration for that
+specific cartridge + console combination. If you now wish to RNG with
+your White Version on the Blue 3DS or with your Black version on either
+of the two DS Consoles, you will need to calibrate those specific
+combinations as well.</p>
+<p>With your White Version + Pink DS Lite calibrated, you could RNG a few
+Pokémon and then e.g. just continue to play your adventure normally on
+your Blue 3DS if you wanted to. If you then switch back to the Pink DS
+Lite, you will not need to calibrate again as the Calibration does not
+change. It is also <strong>not tied to your savefile in any way</strong> so if you delete
+the savefile you originally calibrated with, the <strong>calibration will remain
+exactly the same</strong> on any new one.</p>
+<p><strong>The Process is almost exactly the same no matter what model DS console
+you're using</strong>, however there's some small but important differences
+I'll explain later. The most noteworthy difference is that 3DS and 2DS
+model consoles both take longer to boot up DS games AND take an
+inconsistent amount of time, making you miss your targeted time by a second or
+two every now and then. If you have a DS, Lite, or i at your disposal, I
+recommend you do Gen 5 RNG on that. But if you don't have one, using a
+3DS line model will work as well no problem.</p>
+<details class="md-details">
+  <summary class="md-details-summary">Note: New research regarding 3DS second inconsistency.</summary>
+  <p>New research suggests that the reason for the second you hit being so inconsistent on
+3DS models is due to the console not resetting its hidden millisecond
+timer when the user changes date or time whereas the DS and DSi did
+reset it. In the future timer tools may have a metronome feature or
+something similar that may help make it significantly more consistent.
+Though the loading times will still be much longer and therefore you
+will still often have to wait longer on an RNG attempt before you can
+enter the game compared to playing on a DS, Lite or i.</p>
+</details>
+<p><strong>This Guide will likely only work for you if you have an original copy
+of a gen 5 game</strong> as ROMs played via Twilight Menu or NDS forwarder and
+fake cartridges calculate these values we're trying to figure out in a
+different, largely unknown way, making it much more difficult or often
+even impossible to calibrate.</p>
+<p><strong>If you are playing using an original cartridge but on a hacked DSi or 3DS</strong>,
+I recommend you always remove the SD card before doing any RNG Manipulation,
+as SD cards on hacked consoles, especially larger ones, tend to increase the 
+inconsistency. The console will still boot up just fine without it. If
+you're unsure whether your DSi or 3DS is hacked, turn it off, start
+pressing and then hold the A &amp; B buttons on DSi or Select on 3DS and
+then start the console again. If you now see a menu pop up with a lot
+of text and the words &quot;Nocash Unlaunch&quot; (DSi) or &quot;Luma3DS&quot; (3DS) in the
+top left of the top screen, it's hacked. If it just boots into the normal
+home menu, it's not hacked.</p>
+<p>The values we're looking to find using this Calibration process are
+called the <strong>VCount</strong>, <strong>Timer0</strong>, <strong>VFrame</strong> and <strong>GxStat</strong>.</p>
+<p>Whilst the <strong>VCount</strong>, <strong>VFrame</strong> and <strong>GxStat</strong> always <strong>stay
+consistent</strong> throughout this Calibration process (so you can get only 1
+specific value for each of those), <strong>the Timer0 varies</strong> between a
+limited number of values. Which Timer0 you get exactly is random every
+time you start the game or soft reset, though for RNG Manip in
+Generation 5, we want to stay away from soft resetting for now as the
+current RNG programs cannot account for that. How many different
+Timer0's you can get here depends on both the game you're playing and
+the console you're playing on.</p>
+<p>Here we have the first difference between BW1 and BW2.</p>
+<p><strong>In Black and White 1, you can always get exactly 2 different</strong>,
+numerically adjacent <strong>Timer0 values</strong>. If one of your Timer0's is 1110
+for example, the other Timer0 you can get must either be 110F or 1111.
+The F can be here because these are hexadecimal numbers, meaning instead
+of counting from 0-9 and then going over to the next 10th, this system
+counts from 0-9 and then A-F so there's 16 different values possible
+instead of only 10 going 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F,
+10, 11, [...]. Which of the other two Timer0 values it actually is
+you may find out during this Calibration process, but even if you don't
+that's fine, as in that case it would be your lesser common Timer0
+value which you generally wouldn't want to use for RNG Manipulation.
+Should both the Timer0 values you find be evenly split in how often you
+got them, you can either just choose one at random to RNG with in the
+future or input both of them into your RNG Profile to use both for RNG
+Manipulation; whichever you prefer.</p>
+<p><strong>In Black and White 2, however, you can get more than just 2 Timer0's</strong>
+making RNG there more inconsistent than it is in BW1, but in exchange
+BW2 have other advantages such as more varied wild and static encounters
+to choose from and much better methods for advancing the RNG quickly.
+From my experience I've found that there's 3 different ways the Timer0
+can be distributed for a given console+cartridge combination in BW2:</p>
+<ol>
+<li>
+<p><strong>The standard distribution:</strong><br>
+Here you'll have between ~6-8 Timer0's, 1-2 of which are a fair bit
+more common than the rest. This one is by far the most common and it
+<strong>is the only Timer0 distribution you can get if you're playing on a DS
+or DS Lite</strong>, though it <strong>is also most common on DSi and 3DS models</strong>.</p>
+</li>
+<li>
+<p><strong>The lucky distribution:</strong><br>
+With this one you'll only hit 1 or 2 specific Timer0's about 90% of the
+time, making hitting the Timer0 you are aiming for almost as quick as it
+is in BW1. <strong>This distribution can ONLY exist on DSi and 3DS</strong> and is
+pretty rare.</p>
+</li>
+<li>
+<p><strong>The unlucky distribution:</strong><br>
+This is by far the worst one, as you can get between ~10-20 or possibly
+even more different Timer0's, none of which are particularly more common
+than the rest. If this is the Timer0 distribution you got, RNG
+Manipulation will be VERY annoying and honestly I wouldn't torture
+myself with that. If you have ANY other console than the one you got
+this unlucky distribution with, even if it is the exact same model, I
+still recommend to try Calibration on that one as well, as there's a
+chance you will get a standard or maybe even lucky Timer0 distribution
+there. <strong>This distribution can also ONLY exist on DSi and 3DS</strong> and is
+pretty rare too.</p>
+</li>
+</ol>
+<p>This is still a fairly recent discovery and I'm sure we don't know
+everything about this that there is to know yet, but for now this is
+what to expect when Calibrating BW2 on a DSi or 3DS.</p>
+<h2 id="recommended-setup"><a class="zola-anchor" href="#recommended-setup" aria-label="Anchor link for: recommended-setup">Recommended setup</a></h2>
+<h4 id="hardware-requirements"><a class="zola-anchor" href="#hardware-requirements" aria-label="Anchor link for: hardware-requirements">Hardware requirements</a></h4>
+<ul>
+<li>
+<p>Pokémon Black, White, Black 2 or White 2 in ANY language</p>
+</li>
+<li>
+<p>a Nintendo DS line console (DS, DS Lite, DSi, DSi XL, 3DS, 3DS XL,
+2DS, New 3DS, New 3DS XL, New 2DS XL)</p>
+</li>
+<li>
+<p>a Windows 10/11 PC, MacOS Ventura/Sonoma/Sequoia, Ubuntu 22.04/24.04
+or QT 6.8 or newer</p>
+</li>
+</ul>
+<h4 id="in-game-requirements"><a class="zola-anchor" href="#in-game-requirements" aria-label="Anchor link for: in-game-requirements">In-Game requirements</a></h4>
+<ul>
+<li>Currently have any savefile on your cartridge (for BW2 the Unova
+Link option does appear without a savefile, but is not usable for
+Calibration without one). Whether you started it 5 minutes ago or
+it's been on your cartridge since the game's release doesn't
+matter.</li>
+</ul>
+<h4 id="tools-used"><a class="zola-anchor" href="#tools-used" aria-label="Anchor link for: tools-used">Tools used</a></h4>
+<ul>
+<li>
+<p><a href="https://github.com/Admiral-Fish/PokeFinder/releases">PokéFinder version 4.3.1 or newer</a></p>
+<p>Pro tip: You can change the language of PokeFinder under &quot;Tools&quot; -&gt; &quot;Settings&quot;
+to fit your game's language. This will change the names of the Pokémon,
+locations, Characteristics and Natures to be that of the game's language, which
+may be helpful later. For some languages, UI elements are also translated (e.g.
+in German and Italian), but not for all (e.g. Japanese and Korean don't have
+full UI translation).</p>
+</li>
+<li>
+<p>For Windows: <a href="https://github.com/DasAmpharos/EonTimer/releases/tag/3.0.0-rc.6-calibration-fix">EonTimer
+3.0.0-rc.6-calibration-fix</a></p>
+</li>
+<li>
+<p>For Mac &amp; Linux: <a href="https://github.com/DasAmpharos/EonTimer/releases/tag/3.0.0-rc.4">EonTimer
+3.0.0-rc.4</a></p>
+</li>
+</ul>
+<h2 id="video-example"><a class="zola-anchor" href="#video-example" aria-label="Anchor link for: video-example">Video example</a></h2>
+<ul>
+<li><a href="https://youtu.be/oDeobz7R3JU?si=IOq2vDuIhtmwxbEf">Kronos</a></li>
+</ul>
+<h2 id="the-guide"><a class="zola-anchor" href="#the-guide" aria-label="Anchor link for: the-guide">The Guide</a></h2>
+<h3 id="eontimer-setup"><a class="zola-anchor" href="#eontimer-setup" aria-label="Anchor link for: eontimer-setup">EonTimer setup</a></h3>
+<p>EonTimer will use the exact same setup for both BW1 and BW2.</p>
+<p>If you're using a <strong>DS</strong>, <strong>DS Lite</strong> or <strong>DSi</strong>, set the <strong>target
+second to 20</strong> and the <strong>calibration to -95</strong>, and if you're wanting to
+calibrate on a <strong>(New) 3DS (XL)</strong> or <strong>(New) 2DS (XL)</strong>, set the <strong>target
+second to 40</strong> and the <strong>calibration to -424</strong> (if your DSi is hacked
+and has a very large SD card with 128 or more GB, you may need to put
+the Target Second to 25 instead of the base 20 and adjust all second
+related numbers later by adding +5 to them. Same goes for the 3DS, but
+you should put the target second to 45 instead of the base 40. If you
+remove the SD card before trying to RNG, this is not required).</p>
+<div class="md-fenced-code-tabs" id="tab-tab-group-1"><input
+	name="tab-group-1"
+	type="radio"
+	id="tab-group-1-0_DS(i)"
+	checked="checked"
+	class="code-tab"
+	data-lang="DS(i)"
+	aria-controls="tab-group-1-0_DS(i)-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-1-0_DS(i)"
+	class="code-tab-label"
+	data-lang="DS(i)"
+	id="tab-group-1-0_DS(i)-label"
+>DS(i)</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DS(i)"
+	id="tab-group-1-0_DS(i)-panel"
+	aria-labelledby="tab-group-1-0_DS(i)-label"
+> <center><img class="myImages" id="myImg" alt="DS(i) Settings Eontimer" src="/bw/beginner/calibrationimage1.png" width="60%"></center>
+ </div><input
+	name="tab-group-1"
+	type="radio"
+	id="tab-group-1-1_3DS"
+	class="code-tab"
+	data-lang="3DS"
+	aria-controls="tab-group-1-1_3DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-1-1_3DS"
+	class="code-tab-label"
+	data-lang="3DS"
+	id="tab-group-1-1_3DS-label"
+>3DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="3DS"
+	id="tab-group-1-1_3DS-panel"
+	aria-labelledby="tab-group-1-1_3DS-label"
+> 
+<center><img class="myImages" id="myImg" alt="3DS Settings Eontimer" src="/bw/beginner/calibrationimage2.png" width="60%"></center> </div>
+</div>
+<p>Which target second you pick generally doesn't matter, however I've
+chosen 20 and 40 respectively so you will (almost) always have enough
+time to get back to the home menu after changing your ds console's time,
+but also don't have to wait unnecessarily long. The Calibration is more
+important to be at the recommended values here, however they won't work
+perfectly for everyone and I'll explain later how to adjust it for
+yourself if needed.</p>
+<p>Also make sure that <strong>“Precision Calibration” is turned off</strong> in the
+settings under the “Timer” tab.</p>
+<center><img class="myImages" id="myImg" alt="Precision Calibration checkbox" src="/bw/beginner/calibrationimage3.png" width="40%"></center>
+<h3 id="pick-a-method-to-use"><a class="zola-anchor" href="#pick-a-method-to-use" aria-label="Anchor link for: pick-a-method-to-use">Pick a method to use</a></h3>
+<p>If you're playing <strong>BW1, select the Save Needle Calibration Tab</strong> and if
+you're playing <strong>BW2, select the Unova Link Needle Calibration Tab</strong>. IV
+Calibration is a Plan B &amp; works for both BW1 &amp; BW2. You can try it if
+the first method you tried yielded no results for you.</p>
+<div class="calibration-tabs" data-tab-group="calibration">
+  <button class="calibration-tab active" data-target="save-needle">Save Needle</button>
+  <button class="calibration-tab" data-target="unova-link-needle">Unova Link Needle</button>
+  <button class="calibration-tab" data-target="iv-calibration">IV Calibration</button>
+</div>
+<h3 id="setup"><a class="zola-anchor" href="#setup" aria-label="Anchor link for: setup">Setup</a></h3>
+<div class="conditional-block calibration-block active save-needle">
+<p>This method <strong>can be used in both BW1 and BW2, <em>but if you are playing
+BW2, go to the Unova Link Needle Calibration Tab</em></strong> to not waste your
+own time. There are also some BW2 exclusive specifications that I will
+not mention in this Save Needle Calibration tab, but only in the Unova
+Link Needle Calibration and IV Calibration tabs.</p>
+<p>I will be using my German White 1 game together with my Nintendo 3DS
+console for this example.</p>
+<p><strong>Before you start</strong> you need to <strong>move your player character to a
+silent location</strong> that doesn't have anything that can advance the RNG on
+its own, then save the game. <strong>Your character's home room is
+recommended</strong> here as it's the first accessible location when starting a
+new savefile.</p>
+<center><img class="myImages" id="myImg" alt="Bedroom BW1" src="/bw/beginner/calibrationimage4.png" width="60%"></center><br>
+<p>You also have to <strong>make sure that Tornadus or Thundurus are NOT actively
+roaming throughout the Unova region</strong> in your game as that will advance
+the RNG whenever you boot up the game by a bit and make Save Needle
+Calibration impossible.</p>
+<p>If you're far enough into the game to activate the roamer, which is
+after the 7th gym, and are unsure whether your Tornadus or Thundurus is
+currently roaming, you can check a gate's electronic bulletin board for
+news about a storm (GIF displays Thundurus' message; Tornadus is a bit
+different).</p>
+<center><img class="myImages" id="myImg" alt="Bulletin Board roamer message" src="/bw/beginner/calibrationimage5.gif" width="60%"></center><br>
+<p>If it is indeed roaming, it would be fastest to just encounter and kill
+it; it'll respawn after you beat the champion again. Should you for some
+reason not be willing to kill or capture it, you'll have to use the IV
+calibration method. It is unaffected by the roamer and will allow you to
+successfully calibrate.</p>
+<p>To start the Save Needle Calibration, you <strong>open up PokéFinder</strong>, go to
+<strong>Gen 5 Tools</strong> at the top and open up the <strong>Profile Calibrator</strong>.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Opening the Profile Calibrator" src="/bw/beginner/calibrationimage6l.png" width="60%">
+  <img class="myImages theme-dark"  id="myImg" alt="Opening the Profile Calibrator" src="/bw/beginner/calibrationimage6d.png" width="60%">
+</center><br>
+<p>In the left half of the window, switch over to the <strong>Needle Search
+tab</strong>, select the <strong>Saving option</strong> and <strong>input the date and time</strong> you
+wish to use for this. I'll just put it to the 23rd of May 2025, 15:00
+(aka 3pm) because that's the current date and time whilst I'm writing
+this guide.</p>
+<p>Then in the right half you start by selecting the <strong>game version</strong>,
+<strong>language</strong>, <strong>console you play on</strong> and <strong>add your console's MAC
+address</strong> which can be found in the internet settings.</p>
+<p>On DS and DS Lite you need to access it from within the game's menu and
+on DSi or 3DS models you can view it in your console's standard Wi-Fi
+settings (top left is DS/Lite, top right is DSi and bottom is 3DS/2DS).
+If your MAC address starts with one or multiple 0's, those will
+automatically be omitted by PokéFinder (e.g. a MAC address like
+00-08-53-30-64-90 would become 853306490).</p>
+<div class="tabcontainer" num="1">
+<div class="tab">
+  <button class="tablinks active"  onclick="openCity(event, 1, 1)" >DS</button>
+  <button class="tablinks"         onclick="openCity(event, 2, 1)" >DSi</button>
+  <button class="tablinks"         onclick="openCity(event, 3, 1)" >3DS</button>
+</div>
+<div id="1" class="tabcontent active">
+<center><img class="myImages" id="myImg" alt="DS/Lite MAC Address location" src="/bw/beginner/calibrationimage8.png" width="80%"></center>
+</div>
+<div id="2" class="tabcontent">
+<center><img class="myImages" id="myImg" alt="DSi MAC Address location" src="/bw/beginner/calibrationimage9.png" width="80%"></center>
+</div>
+<div id="3" class="tabcontent">
+<center><img class="myImages" id="myImg" alt="3DS MAC Address location" src="/bw/beginner/calibrationimage10.png" width="80%"></center>
+</div>
+</div>
+<br>
+<p><strong>Set the seconds</strong> Min and Max to your EonTimer target seconds -5 and
++5. So if you're <strong>on 3DS line models</strong> and used my recommended seconds,
+put it <strong>to Min 35 and Max 45</strong> and <strong>on DS, Lite or i to Min 15 and Max
+25</strong>.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Profile Calibration window setup" src="/bw/beginner/calibrationimage11l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Profile Calibration window setup" src="/bw/beginner/calibrationimage11d.png" width="90%">
+</center><br>
+<p>Everything else you'll want to leave as it is by default (if you
+accidentally change something else, you can always just change game
+version and then change back to reset to the default values).</p>
+<p>The <strong>Soft Reset checkbox</strong> is currently <strong>not working</strong>
+properly, so don't use it.</p>
+</div>
+<div class="conditional-block calibration-block unova-link-needle">
+<p>This method is <strong>exclusive to BW2</strong> and much faster than the other two
+methods. Similarly to the Save Needle method, the Unova Link Needle
+Calibration also makes use of the little clock symbol, but this time
+when you're trying to establish an Infrared link between your current
+BW2 game and another BW2 game using Unova Link. You don't need to
+actually have another BW2 game for this, as simply starting the search
+is all we need to do.</p>
+<p>I will be using my English Black 2 game together with my Nintendo DS
+console for this example.</p>
+<p>To start the Unova Link Needle Calibration, you <strong>open up PokéFinder</strong>,
+go to <strong>Gen 5 Tools</strong> at the top and open up the <strong>Profile Calibrator</strong>.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Opening the Profile Calibrator" src="/bw/beginner/calibrationimage6l.png" width="60%">
+  <img class="myImages theme-dark"  id="myImg" alt="Opening the Profile Calibrator" src="/bw/beginner/calibrationimage6d.png" width="60%">
+</center><br>
+<p>In the left half of the window, switch over to the <strong>Needle Search
+tab</strong>, make sure the <strong>Unova Link option</strong> is selected and <strong>input the
+date and time</strong> you wish to use for this. I'll just put it to the 23rd
+of May 2025, 15:00 (aka 3pm) because that's the current date and time
+whilst I'm writing this guide.</p>
+<p>Then in the right half you start by selecting the <strong>game version</strong>,
+<strong>language</strong>, <strong>console you play on</strong> and <strong>add your console's MAC
+address</strong> which can be found in the internet settings of your console.
+On DS and DS Lite you need to access it from within the game's menu and
+on DSi or 3DS models you can view it in your console's standard Wi-Fi
+settings (top left is DS/Lite, top right is DSi and bottom is 3DS). If
+your MAC address starts with one or multiple 0's, those will
+automatically be omitted by PokéFinder (e.g. a MAC address like
+00-08-53-30-64-90 would become 853306490).</p>
+<div class="tabcontainer" num="2">
+<div class="tab">
+  <button class="tablinks active"  onclick="openCity(event, 1, 2)" >DS</button>
+  <button class="tablinks"         onclick="openCity(event, 2, 2)" >DSi</button>
+  <button class="tablinks"         onclick="openCity(event, 3, 2)" >3DS</button>
+</div>
+<div id="1" class="tabcontent active">
+<center><img class="myImages" id="myImg" alt="DS/Lite MAC Address location" src="/bw/beginner/calibrationimage8.png" width="80%"></center>
+</div>
+<div id="2" class="tabcontent">
+<center><img class="myImages" id="myImg" alt="DSi MAC Address location" src="/bw/beginner/calibrationimage9.png" width="80%"></center>
+</div>
+<div id="3" class="tabcontent">
+<center><img class="myImages" id="myImg" alt="3DS MAC Address location" src="/bw/beginner/calibrationimage10.png" width="80%"></center>
+</div>
+</div>
+<br>
+<p>Also check the <strong>Memory Link checkbox</strong> if you have activated Memory
+Link on this current savefile.</p>
+<p>This can, of course, only be the case on pre-existing savefiles, so if
+you just created a new one, you don't check the box. But if it is indeed
+an older savefile you'll want to check whether Memory Link has been
+activated or not by going to the Unova Link menu, then to the Memory
+Link option and once there checking if the option „Memory List&quot; is
+there. If it is, Memory Link is guaranteed active and you need to check
+off the box for it, but if it isn't, that doesn't necessarily mean that
+Memory Link was not used yet.</p>
+<center><img class="myImages" id="myImg" alt="Where to check for Memory Link" src="/bw/beginner/calibrationimage30.png" width="80%"></center><br>
+<p>I tested this myself and you can already do Memory Link with a Black or
+White 1 game that hasn't even received the starter yet as long as the
+game has any savefile present at all, even if it's got under a minute of
+playtime. If Memory Link was used with such an early savefile, there is
+no way I know of to tell it was used on the BW2 game's side, as the
+Memory List option does not appear. So should you not find any valid
+seeming results during Calibration of an older BW2 savefile without the
+Memory Link box checked off, try with it. My Black 2 has done Memory
+Link so I will check off the box.</p>
+<p><strong>Put the seconds</strong> Min and Max to your EonTimer target seconds -5 and
++5. So if you're <strong>on DS, Lite or i</strong> and used my recommended seconds,
+put it <strong>to Min 15 and Max 25</strong> and <strong>on 3DS line models to Min 35 and
+Max 45</strong>.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Profile Calibration window setup" src="/bw/beginner/calibrationimage31l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Profile Calibration window setup" src="/bw/beginner/calibrationimage31d.png" width="90%">
+</center><br>
+<p>Everything else you'll want to leave as it is by default (if you
+accidentally change something else, you can always just change game
+version from BW1 to BW2 and then back or vice versa to reset to the
+default values).</p>
+<p>The <strong>Soft Reset checkbox</strong> is currently <strong>not working</strong>
+properly, so don't use it.</p>
+</div>
+<div class="conditional-block calibration-block iv-calibration">
+<p>This method <strong>can be used in both BW1 and BW2 but is slower</strong> than the
+other methods, especially for BW2. Here you catch a Pokémon and then
+calculate its IVs to find your Calibration values. To make the IV
+calculation easier, you should be saved in an area with as high as
+possible level wild Pokémon. In BW1 I recommend the dark (not regular)
+grass in the crater within Giant Chasm and in BW2 I recommend the dark
+grass on Route 1.</p>
+<center><img class="myImages" id="myImg" alt="BW1s Giant Chasm and BW2s Route 1" src="/bw/beginner/calibrationimage45.png" width="100%"></center><br>
+<p>There are also additional things you should prepare that the other two
+calibration methods do not need:</p>
+<ul>
+<li>
+<p><strong>A Pokémon with Sweet Scent or at least 1 Honey item</strong> (can be
+obtained via the Honey Gather ability from Combee, which can be found
+in the grass on Route 12 in BW1 and BW2. Alternatively you can buy it
+in BW2's Join Avenue Market Shops that are level 2 or higher)</p>
+</li>
+<li>
+<p><strong>Pokeballs</strong> to capture Pokémon (Masterball preferred)</p>
+</li>
+<li>
+<p><strong>An empty slot in your party</strong> (optional, but helpful)</p>
+</li>
+<li>
+<p><strong>A few Rare Candies</strong> (optional, but having 2-3 is helpful)</p>
+</li>
+</ul>
+<details>
+<Summary> Note: Why are Rare Candies useful? </summary>
+If during IV Calibration you get 2 or
+more different results, you will need to level up your Pokémon to get a
+more precise IV range from the IV calculator. If you do this via
+battling against other Pokémon and gaining EXP, your Pokémon will also
+gain EVs which can increase stats and make the IV calculator's results
+inaccurate. Using Rare Candies on the other hand does not give your
+Pokémon any EVs, making them very useful for IV calculation.
+</details>
+<p>I will be using my English Black 2 game together with my capture card
+Nintendo DS console for this example so I can take high quality pictures
+of what's happening in-game.</p>
+<p>To start the IV Calibration, you <strong>open up PokéFinder</strong>, go to <strong>Gen 5
+Tools</strong> at the top and open up the <strong>Profile Calibrator</strong>.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Opening the Profile Calibrator" src="/bw/beginner/calibrationimage6l.png" width="60%">
+  <img class="myImages theme-dark"  id="myImg" alt="Opening the Profile Calibrator" src="/bw/beginner/calibrationimage6d.png" width="60%">
+</center><br>
+<p>In the left half of the window, make sure the <strong>IV tab</strong> is selected and
+<strong>input the date and time</strong> you wish to use for this. I'll just put it
+to the 23rd of May 2025, 15:00 (aka 3pm) because that's the current date
+and time whilst I'm writing this guide.</p>
+<p>Then in the right half you start by selecting the <strong>game version</strong>,
+<strong>language</strong>, <strong>console you play on</strong> and <strong>add your console's MAC
+address</strong> which can be found in the internet settings of your console.
+On DS and DS Lite you need to access it from within the game's menu and
+on DSi or 3DS models you can view it in your console's standard Wi-Fi
+settings (top left is DS/Lite, top right is DSi and bottom is 3DS). If
+your MAC address starts with one or multiple 0's, those will
+automatically be omitted by PokéFinder (e.g. a MAC address like
+00-08-53-30-64-90 would become 853306490).</p>
+<div class="tabcontainer" num="3">
+<div class="tab">
+  <button class="tablinks active"  onclick="openCity(event, 1, 3)" >DS</button>
+  <button class="tablinks"         onclick="openCity(event, 2, 3)" >DSi</button>
+  <button class="tablinks"         onclick="openCity(event, 3, 3)" >3DS</button>
+</div>
+<div id="1" class="tabcontent active">
+<center><img class="myImages" id="myImg" alt="DS/Lite MAC Address location" src="/bw/beginner/calibrationimage8.png" width="80%"></center>
+</div>
+<div id="2" class="tabcontent">
+<center><img class="myImages" id="myImg" alt="DSi MAC Address location" src="/bw/beginner/calibrationimage9.png" width="80%"></center>
+</div>
+<div id="3" class="tabcontent">
+<center><img class="myImages" id="myImg" alt="3DS MAC Address location" src="/bw/beginner/calibrationimage10.png" width="80%"></center>
+</div>
+</div>
+<br>
+<p>Also check the <strong>Memory Link checkbox</strong> if you have activated Memory
+Link on this current savefile (<strong>BW2 exclusive</strong> feature).</p>
+<p>This can, of course, only be the case on pre-existing savefiles, so if
+you just created a new one, you don't check off the box. But if it is
+indeed an older savefile you'll want to check whether Memory Link has
+been activated or not by going to the Unova Link menu, then to the
+Memory Link option and once there checking if the option „Memory List&quot;
+is there. If it is, Memory Link is guaranteed active and you need to
+check off the box for it, but if it isn't, that doesn't necessarily mean
+that Memory Link was not used yet.</p>
+<center><img class="myImages" id="myImg" alt="Where to check for Memory Link" src="/bw/beginner/calibrationimage30.png" width="100%"></center><br>
+<p>I tested this myself and you can already do Memory Link with a Black or
+White 1 game that hasn't even received the starter yet as long as the
+game has any savefile present at all, even if it's got under a minute of
+playtime. If Memory Link was used with such an early savefile, there is
+no way I know of to tell it was used on the BW2 game's side, as the
+Memory List option does not appear. So should you not find any valid
+seeming results during Calibration of an older BW2 savefile without the
+Memory Link box checked off, try with it. My Black 2 has done Memory
+Link so I will check off the box.</p>
+<p><strong>Put the seconds</strong> Min and Max to your EonTimer target seconds -5 and
++5. So if you're <strong>on DS, Lite or i</strong> and used my recommended seconds,
+put it <strong>to Min 15 and Max 25</strong> and <strong>on 3DS line models to Min 35 and
+Max 45</strong>.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Profile Calibration window setup" src="/bw/beginner/calibrationimage46l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Profile Calibration window setup" src="/bw/beginner/calibrationimage46d.png" width="90%">
+</center><br>
+<p>Everything else you'll want to leave as it is by default (if you
+accidentally change something else, you can always just change game
+version from BW1 to BW2 and then back or vice versa to reset to the
+default values).</p>
+<p>The <strong>Soft Reset checkbox</strong> is currently <strong>not working</strong>
+properly, so don't use it.</p>
+</div>
+<h3 id="first-attempt"><a class="zola-anchor" href="#first-attempt" aria-label="Anchor link for: first-attempt">First attempt</a></h3>
+<div class="conditional-block calibration-block save-needle">
+<p>That finishes the PokéFinder setup; now you can start the first
+calibration attempt.</p>
+<p>For that you go to your console's settings and change the date to match
+whichever date you put into the PokéFinder Calibration window. Next you
+go to the time settings and change the time according to the calibration
+window as well, but <strong>at the same moment that you confirm the time
+change, you start EonTimer</strong> by clicking the Start button.</p>
+<div class="md-fenced-code-tabs" id="tab-tab-group-2"><input
+	name="tab-group-2"
+	type="radio"
+	id="tab-group-2-0_DS"
+	checked="checked"
+	class="code-tab"
+	data-lang="DS"
+	aria-controls="tab-group-2-0_DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-2-0_DS"
+	class="code-tab-label"
+	data-lang="DS"
+	id="tab-group-2-0_DS-label"
+>DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DS"
+	id="tab-group-2-0_DS-panel"
+	aria-labelledby="tab-group-2-0_DS-label"
+> <center><img class="myImages" id="myImg" alt="DS Date & Time settings" src="/bw/beginner/calibrationimage12.png" width="60%"></center>
+ </div><input
+	name="tab-group-2"
+	type="radio"
+	id="tab-group-2-1_DSi"
+	class="code-tab"
+	data-lang="DSi"
+	aria-controls="tab-group-2-1_DSi-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-2-1_DSi"
+	class="code-tab-label"
+	data-lang="DSi"
+	id="tab-group-2-1_DSi-label"
+>DSi</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DSi"
+	id="tab-group-2-1_DSi-panel"
+	aria-labelledby="tab-group-2-1_DSi-label"
+> 
+<center><img class="myImages" id="myImg" alt="DSi Date & Time settings" src="/bw/beginner/calibrationimage13.png" width="60%"></center>
+ </div><input
+	name="tab-group-2"
+	type="radio"
+	id="tab-group-2-2_3DS"
+	class="code-tab"
+	data-lang="3DS"
+	aria-controls="tab-group-2-2_3DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-2-2_3DS"
+	class="code-tab-label"
+	data-lang="3DS"
+	id="tab-group-2-2_3DS-label"
+>3DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="3DS"
+	id="tab-group-2-2_3DS-panel"
+	aria-labelledby="tab-group-2-2_3DS-label"
+> 
+<center><img class="myImages" id="myImg" alt="3DS Date & Time settings" src="/bw/beginner/calibrationimage14.png" width="74%"></center> </div>
+</div>
+<center><img class="myImages" id="myImg" alt="Eontimer baseline for 3DS" src="/bw/beginner/calibrationimage15.png" width="60%"></center><br>
+<p>Now you go back to the home menu (on DSi and 3DS line models you can
+either navigate back through the settings or use the Power Button to get
+back whilst on DS and Lite you have to shut off the console and turn it
+back on after).</p>
+<div class="md-fenced-code-tabs" id="tab-tab-group-3"><input
+	name="tab-group-3"
+	type="radio"
+	id="tab-group-3-0_DS"
+	checked="checked"
+	class="code-tab"
+	data-lang="DS"
+	aria-controls="tab-group-3-0_DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-3-0_DS"
+	class="code-tab-label"
+	data-lang="DS"
+	id="tab-group-3-0_DS-label"
+>DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DS"
+	id="tab-group-3-0_DS-panel"
+	aria-labelledby="tab-group-3-0_DS-label"
+> <center><img class="myImages" id="myImg" alt="DS home menu" src="/bw/beginner/calibrationimage16.png" width="40%"></center>
+ </div><input
+	name="tab-group-3"
+	type="radio"
+	id="tab-group-3-1_DSi"
+	class="code-tab"
+	data-lang="DSi"
+	aria-controls="tab-group-3-1_DSi-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-3-1_DSi"
+	class="code-tab-label"
+	data-lang="DSi"
+	id="tab-group-3-1_DSi-label"
+>DSi</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DSi"
+	id="tab-group-3-1_DSi-panel"
+	aria-labelledby="tab-group-3-1_DSi-label"
+> 
+<center><img class="myImages" id="myImg" alt="DSi home menu" src="/bw/beginner/calibrationimage17.png" width="40%"></center>
+ </div><input
+	name="tab-group-3"
+	type="radio"
+	id="tab-group-3-2_3DS"
+	class="code-tab"
+	data-lang="3DS"
+	aria-controls="tab-group-3-2_3DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-3-2_3DS"
+	class="code-tab-label"
+	data-lang="3DS"
+	id="tab-group-3-2_3DS-label"
+>3DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="3DS"
+	id="tab-group-3-2_3DS-panel"
+	aria-labelledby="tab-group-3-2_3DS-label"
+> 
+<center><img class="myImages" id="myImg" alt="3DS home menu (with custom theme)" src="/bw/beginner/calibrationimage18.png" width="50%"></center> </div>
+</div>
+<p>Once there you wait for the timer to run out and <strong>on the 6th and final
+beep of EonTimer you start the game</strong>. Make sure <strong>not to press any
+buttons in between you starting the game and the star appearing on the
+top screen</strong>, since that will change the Seed you're on and just add an
+unnecessary extra step to this.</p>
+<center><img class="myImages" id="myImg" alt="Star on top screen" src="/bw/beginner/calibrationimage19.png" width="60%"></center><br>
+<p>Once you see this star, you may start pressing buttons and get into the
+game. If you're far enough into the story to have received the
+<strong>C-Gear</strong>, you <strong>must deactivate</strong> it upon entering the game as it
+would otherwise advance the RNG and make Calibration impossible.</p>
+<p>With this being the Save Needle Calibration method, we will make use of
+the clock symbol that appears whenever you save the game; the position
+the clock's hand starts at when saving is what you need to pay attention
+to.</p>
+<p>Here's a GIF of the first needle I got during this Calibration followed
+by a picture of the starting position:</p>
+<center><img class="myImages" id="myImg" alt="GIF of the first save" src="/bw/beginner/calibrationimage20.gif" width="60%"></center><br>
+<center><img class="myImages" id="myImg" alt="Starting position of first attempts needle" src="/bw/beginner/calibrationimage21.png" width="60%"></center><br>
+<p>As you can see, the first needle starting position I got is a bottom
+left ↙ needle, which I add into PokéFinder's Calibration window by
+clicking on the bottom left needle button.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Adding first needle to Calibration window" src="/bw/beginner/calibrationimage22l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Adding first needle to Calibration window" src="/bw/beginner/calibrationimage22d.png" width="90%">
+</center><br>
+<p>Now we continue on saving the game again until we have the <strong>starting
+position of 8 needles in a row</strong>. If you didn't see one of the needles
+starting positions, you cannot continue and have to go back to the home
+menu to try again, beginning with changing the time back and starting
+EonTimer.</p>
+<p>Once you are done with the 8 needles, press the <strong>Search button</strong> and
+see what result PokéFinder gives you.</p>
+<p>In my case I got the following result:</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="First result" src="/bw/beginner/calibrationimage23l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="First result" src="/bw/beginner/calibrationimage23d.png" width="90%">
+</center><br>
+<p>There's a few things to watch out for here:</p>
+<ol>
+<li>
+<p><strong>If your results Seconds value does not match your EonTimer's target
+second</strong>, make sure it's not too far off. On DS, Lite and i, the
+second should never be off by more than 2. Being off by 1 is already
+rare and being off by 2 near impossible but both have happened to
+people in the past. On 3DS line models being off by 1 or 2 is fairly
+common due to the console having an inconsistent boot-up time for DS
+games. Being off by 3 may also be possible in rare cases, but if you
+get a result that's 4 or more seconds off, it's most likely an
+invalid result.</p>
+</li>
+<li>
+<p><strong>Should you get more than 1 result</strong> you can simply add a 9th needle
+and press <strong>Search</strong> again and if that still isn't enough to narrow
+it down to 1, add a 10th etc until you're at exactly 1 result.</p>
+</li>
+<li>
+<p><strong>If you get no results at all or only get results that are too far
+off from your target second</strong>, make sure all the values in your
+PokéFinder and EonTimer are correct and match what's on your DS
+console (date, time, MAC address, game version, language, DS type,
+saving option selected and EonTimer calibration). Then just do
+another attempt. Should you get 0 results again, join <a href="https://discord.com/invite/4RA7xKVPqg"><em>im a blisy
+._.</em>'s RNG manip assistance Discord server</a>
+and ask for help in the bw_b2w2 channel <strong>providing an explanation
+of the issue and full window screenshots of your PokéFinder
+Calibration window and EonTimer</strong>.</p>
+</li>
+</ol>
+<p>The result I got here looks good though, as it's the only one and the
+second I hit is 2 off from my target which is normal on 3DS. In the
+future however when we get to actually RNGing e.g. a shiny Pokémon, we
+will need to hit the exact target second and not 1-2 seconds late or
+early. For this we need to adjust EonTimer so that, in my example, I can
+hopefully hit the 40 seconds next attempt. To adjust EonTimer you simply
+take the second you hit instead of your target (42 for me instead of
+40), put it into the <strong>Second Hit field</strong> and press the <strong>Update
+button</strong>.</p>
+<center><img class="myImages" id="myImg" alt="Updating Eontimer" src="/bw/beginner/calibrationimage24.png" width="100%"></center><br>
+<p>This will change your <strong>Calibration</strong> value so that next time you'll be
+more likely to hit your actual target second.</p>
+<p>After this first attempt we will now write down the values we got
+somewhere (e.g. a standard text file):</p>
+<center><img class="myImages" id="myImg" alt="Writing down my first result" src="/bw/beginner/calibrationimage25.png" width="40%"></center>
+</div>
+<div class="conditional-block calibration-block unova-link-needle">
+<p>That finishes the PokéFinder setup; now you can start the first
+calibration attempt.</p>
+<p>For that you go to your console's settings and change the date to match
+whichever date you put into the PokéFinder Calibration window. Next you
+go to the time settings and change the time according to the calibration
+window as well, but <strong>at the same moment that you confirm the time
+change, you start EonTimer</strong> by clicking the Start button.</p>
+<div class="md-fenced-code-tabs" id="tab-tab-group-4"><input
+	name="tab-group-4"
+	type="radio"
+	id="tab-group-4-0_DS"
+	checked="checked"
+	class="code-tab"
+	data-lang="DS"
+	aria-controls="tab-group-4-0_DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-4-0_DS"
+	class="code-tab-label"
+	data-lang="DS"
+	id="tab-group-4-0_DS-label"
+>DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DS"
+	id="tab-group-4-0_DS-panel"
+	aria-labelledby="tab-group-4-0_DS-label"
+> <center><img class="myImages" id="myImg" alt="DS Date & Time settings" src="/bw/beginner/calibrationimage12.png" width="60%"></center>
+ </div><input
+	name="tab-group-4"
+	type="radio"
+	id="tab-group-4-1_DSi"
+	class="code-tab"
+	data-lang="DSi"
+	aria-controls="tab-group-4-1_DSi-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-4-1_DSi"
+	class="code-tab-label"
+	data-lang="DSi"
+	id="tab-group-4-1_DSi-label"
+>DSi</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DSi"
+	id="tab-group-4-1_DSi-panel"
+	aria-labelledby="tab-group-4-1_DSi-label"
+> 
+<center><img class="myImages" id="myImg" alt="DSi Date & Time settings" src="/bw/beginner/calibrationimage13.png" width="60%"></center>
+ </div><input
+	name="tab-group-4"
+	type="radio"
+	id="tab-group-4-2_3DS"
+	class="code-tab"
+	data-lang="3DS"
+	aria-controls="tab-group-4-2_3DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-4-2_3DS"
+	class="code-tab-label"
+	data-lang="3DS"
+	id="tab-group-4-2_3DS-label"
+>3DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="3DS"
+	id="tab-group-4-2_3DS-panel"
+	aria-labelledby="tab-group-4-2_3DS-label"
+> 
+<center><img class="myImages" id="myImg" alt="3DS Date & Time settings" src="/bw/beginner/calibrationimage14.png" width="74%"></center> </div>
+</div>
+<center><img class="myImages" id="myImg" alt="Eontimer baseline for DS and DSi" src="/bw/beginner/calibrationimage32.png" width="60%"></center><br>
+<p>Now you go back to the home menu (on DSi and 3DS line models you can
+either navigate back through the settings or use the Power Button to get
+back whilst on DS and Lite you have to shut off the console and turn it
+back on after).</p>
+<div class="md-fenced-code-tabs" id="tab-tab-group-5"><input
+	name="tab-group-5"
+	type="radio"
+	id="tab-group-5-0_DS"
+	checked="checked"
+	class="code-tab"
+	data-lang="DS"
+	aria-controls="tab-group-5-0_DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-5-0_DS"
+	class="code-tab-label"
+	data-lang="DS"
+	id="tab-group-5-0_DS-label"
+>DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DS"
+	id="tab-group-5-0_DS-panel"
+	aria-labelledby="tab-group-5-0_DS-label"
+> <center><img class="myImages" id="myImg" alt="DS home menu" src="/bw/beginner/calibrationimage16.png" width="40%"></center>
+ </div><input
+	name="tab-group-5"
+	type="radio"
+	id="tab-group-5-1_DSi"
+	class="code-tab"
+	data-lang="DSi"
+	aria-controls="tab-group-5-1_DSi-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-5-1_DSi"
+	class="code-tab-label"
+	data-lang="DSi"
+	id="tab-group-5-1_DSi-label"
+>DSi</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DSi"
+	id="tab-group-5-1_DSi-panel"
+	aria-labelledby="tab-group-5-1_DSi-label"
+> 
+<center><img class="myImages" id="myImg" alt="DSi home menu" src="/bw/beginner/calibrationimage17.png" width="40%"></center>
+ </div><input
+	name="tab-group-5"
+	type="radio"
+	id="tab-group-5-2_3DS"
+	class="code-tab"
+	data-lang="3DS"
+	aria-controls="tab-group-5-2_3DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-5-2_3DS"
+	class="code-tab-label"
+	data-lang="3DS"
+	id="tab-group-5-2_3DS-label"
+>3DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="3DS"
+	id="tab-group-5-2_3DS-panel"
+	aria-labelledby="tab-group-5-2_3DS-label"
+> 
+<center><img class="myImages" id="myImg" alt="3DS home menu (with custom theme)" src="/bw/beginner/calibrationimage18.png" width="50%"></center> </div>
+</div>
+<p>Once there you wait for the timer to run out and <strong>on the 6th and final
+beep of EonTimer you start the game</strong>. Make sure <strong>not to press any
+buttons in between you starting the game and the star appearing on the
+top screen</strong>, since that will change the Seed you're on and just add an
+unnecessary extra step to this.</p>
+<center><img class="myImages" id="myImg" alt="Star appearing on top screen" src="/bw/beginner/calibrationimage19.png" width="60%"></center><br>
+<p>Once you see this star, you may start pressing buttons again. Navigate
+to the <strong>UNOVA LINK</strong> menu, go to <strong>KEY SYSTEM</strong> and then select <strong>SEND
+AND RECEIVE KEYS</strong>.</p>
+<center><img class="myImages" id="myImg" alt="Navigate to SEND AND RECEIVE KEYS" src="/bw/beginner/calibrationimage33.png" width="100%"></center><br>
+<p>With this being the Unova Link Needle Calibration method, we will make
+use of the clock symbol that appears whenever you have the game try to
+establish an infrared link to another BW2 game to send or receive keys;
+the position the clock's hand starts at when activating the IR search is
+what you need to pay attention to. How long you have the search active
+for doesn't matter. You could cancel it immediately or have it go on for
+a minute straight; makes no difference for the calibration.</p>
+<p>Here's a GIF of the first needle I got during this Calibration followed
+by a picture of the starting position:</p>
+<center><img class="myImages" id="myImg" alt="GIF of the first IR search" src="/bw/beginner/calibrationimage34.gif" width="60%"></center><br>
+<center><img class="myImages" id="myImg" alt="Starting position of first attempts needle" src="/bw/beginner/calibrationimage35.png" width="60%"></center><br>
+<p>As you can see, the first needle starting position I got is a right
+facing → needle, which I add into PokéFinder's Calibration window by
+clicking on the bottom left needle button.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Adding first needle to Calibration window" src="/bw/beginner/calibrationimage36l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Adding first needle to Calibration window" src="/bw/beginner/calibrationimage36d.png" width="90%">
+</center><br>
+<p>Now we continue on restarting the infrared connection via <strong>SEND AND
+RECEIVE KEYS</strong> until we have the <strong>starting position of 8 needles in a
+row</strong>. If you didn't see one of the needles starting positions, you
+cannot continue and have to go back to the home menu to try again,
+beginning with changing the time back and starting EonTimer.</p>
+<p>Once you are done with the 8 needles, press the <strong>Search button</strong> and
+see what result PokéFinder gives you.</p>
+<p>In my case I got the following result:</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="First result" src="/bw/beginner/calibrationimage37l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="First result" src="/bw/beginner/calibrationimage37d.png" width="90%">
+</center><br>
+<p>There's a few things to watch out for here:</p>
+<ol>
+<li>
+<p>If your results Seconds value does not match your EonTimer's target
+second, make sure it's not too far off. On DS, Lite and i, the
+second should never be off by more than 2. Being off by 1 is already
+rare and being off by 2 near impossible but both have happened to
+people in the past. On 3DS line models being off by 1 or 2 is fairly
+common due to the console having an inconsistent boot-up time for DS
+games. Being off by 3 may also be possible in rare cases, but if you
+get a result that's 4 or more seconds off, it's most likely an
+invalid result.</p>
+</li>
+<li>
+<p>Should you get more than 1 result you can simply add a 9th needle
+and press <strong>Search</strong> again and if that still isn't enough to narrow
+it down to 1, add a 10th etc until you're at exactly 1 result.</p>
+</li>
+<li>
+<p>If you get no results at all or only get results that are too far
+off from your target second, make sure all the values in your
+PokéFinder and EonTimer are correct and match what's on your DS
+console (date, time, MAC address, game version, language, DS type,
+saving option selected and EonTimer calibration). Then just do
+another attempt. Should you get 0 results again, join <a href="https://discord.com/invite/4RA7xKVPqg"><em>im a blisy
+._.</em>'s RNG manip assistance Discord server</a>
+and ask for help in the bw_b2w2 channel <strong>providing an explanation
+of the issue and full window screenshots of your PokéFinder
+Calibration window and EonTimer</strong>.</p>
+</li>
+</ol>
+<p>The result I got here looks good though, as it's the only one and the
+second I hit is exactly the one I was aiming for in 20. Should you not
+have hit your target second here though you will want to adjust your
+EonTimer since in the future, when you get to actually RNGing e.g. a
+shiny Pokémon, you will need to hit the exact target second and not 1-2
+seconds late or early.</p>
+<p>To adjust EonTimer you simply take the second you hit instead of your
+target, put it into the <strong>Second Hit field</strong> and press the <strong>Update
+button</strong>. An example would be if I had hit 19 seconds instead of 20 I
+would input 19 into the <strong>Second Hit field</strong> and press <strong>Update</strong> which
+would change my EonTimer <strong>Calibration</strong> value from -95 to -66.</p>
+<center><img class="myImages" id="myImg" alt="Updating Eontimer" src="/bw/beginner/calibrationimage38.png" width="100%"></center><br>
+<p>I won't be changing this for my next attempt though, since I hit exactly
+what I was aiming for.</p>
+<p>After this first attempt we will now write down the values we got
+somewhere (e.g. a standard text file):</p>
+<center><img class="myImages" id="myImg" alt="Writing down my first result" src="/bw/beginner/calibrationimage39.png" width="40%"></center>
+</div>
+<div class="conditional-block calibration-block iv-calibration">
+<p>That finishes the PokéFinder setup; now you can start the first
+calibration attempt.</p>
+<p>For that you go to your console's settings and change the date to match
+whichever date you put into the PokéFinder Calibration window. Next you
+go to the time settings and change the time according to the calibration
+window as well, but <strong>at the same moment that you confirm the time
+change, you start EonTimer</strong> by clicking the Start button.</p>
+<div class="md-fenced-code-tabs" id="tab-tab-group-6"><input
+	name="tab-group-6"
+	type="radio"
+	id="tab-group-6-0_DS"
+	checked="checked"
+	class="code-tab"
+	data-lang="DS"
+	aria-controls="tab-group-6-0_DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-6-0_DS"
+	class="code-tab-label"
+	data-lang="DS"
+	id="tab-group-6-0_DS-label"
+>DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DS"
+	id="tab-group-6-0_DS-panel"
+	aria-labelledby="tab-group-6-0_DS-label"
+> <center><img class="myImages" id="myImg" alt="DS Date & Time settings" src="/bw/beginner/calibrationimage12.png" width="60%"></center>
+ </div><input
+	name="tab-group-6"
+	type="radio"
+	id="tab-group-6-1_DSi"
+	class="code-tab"
+	data-lang="DSi"
+	aria-controls="tab-group-6-1_DSi-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-6-1_DSi"
+	class="code-tab-label"
+	data-lang="DSi"
+	id="tab-group-6-1_DSi-label"
+>DSi</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DSi"
+	id="tab-group-6-1_DSi-panel"
+	aria-labelledby="tab-group-6-1_DSi-label"
+> 
+<center><img class="myImages" id="myImg" alt="DSi Date & Time settings" src="/bw/beginner/calibrationimage13.png" width="60%"></center>
+ </div><input
+	name="tab-group-6"
+	type="radio"
+	id="tab-group-6-2_3DS"
+	class="code-tab"
+	data-lang="3DS"
+	aria-controls="tab-group-6-2_3DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-6-2_3DS"
+	class="code-tab-label"
+	data-lang="3DS"
+	id="tab-group-6-2_3DS-label"
+>3DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="3DS"
+	id="tab-group-6-2_3DS-panel"
+	aria-labelledby="tab-group-6-2_3DS-label"
+> 
+<center><img class="myImages" id="myImg" alt="3DS Date & Time settings" src="/bw/beginner/calibrationimage14.png" width="74%"></center> </div>
+</div>
+<center><img class="myImages" id="myImg" alt="Eontimer baseline for DS and DSi" src="/bw/beginner/calibrationimage32.png" width="60%"></center><br>
+<p>Now you go back to the home menu (On DS and Lite you have to shut off
+the console and turn it back on after. On DSi and 3DS line models you
+can either navigate back through the settings or use the Power Button to
+get back).</p>
+<div class="md-fenced-code-tabs" id="tab-tab-group-7"><input
+	name="tab-group-7"
+	type="radio"
+	id="tab-group-7-0_DS"
+	checked="checked"
+	class="code-tab"
+	data-lang="DS"
+	aria-controls="tab-group-7-0_DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-7-0_DS"
+	class="code-tab-label"
+	data-lang="DS"
+	id="tab-group-7-0_DS-label"
+>DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DS"
+	id="tab-group-7-0_DS-panel"
+	aria-labelledby="tab-group-7-0_DS-label"
+> <center><img class="myImages" id="myImg" alt="DS home menu" src="/bw/beginner/calibrationimage16.png" width="40%"></center>
+ </div><input
+	name="tab-group-7"
+	type="radio"
+	id="tab-group-7-1_DSi"
+	class="code-tab"
+	data-lang="DSi"
+	aria-controls="tab-group-7-1_DSi-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-7-1_DSi"
+	class="code-tab-label"
+	data-lang="DSi"
+	id="tab-group-7-1_DSi-label"
+>DSi</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="DSi"
+	id="tab-group-7-1_DSi-panel"
+	aria-labelledby="tab-group-7-1_DSi-label"
+> 
+<center><img class="myImages" id="myImg" alt="DSi home menu" src="/bw/beginner/calibrationimage17.png" width="40%"></center>
+ </div><input
+	name="tab-group-7"
+	type="radio"
+	id="tab-group-7-2_3DS"
+	class="code-tab"
+	data-lang="3DS"
+	aria-controls="tab-group-7-2_3DS-panel"
+	aria-hidden="true"
+	role="tab"
+>
+<label
+	for="tab-group-7-2_3DS"
+	class="code-tab-label"
+	data-lang="3DS"
+	id="tab-group-7-2_3DS-label"
+>3DS</label>
+<div
+	class="code-tabpanel"
+	role="tabpanel"
+	data-lang="3DS"
+	id="tab-group-7-2_3DS-panel"
+	aria-labelledby="tab-group-7-2_3DS-label"
+> 
+<center><img class="myImages" id="myImg" alt="3DS home menu (with custom theme)" src="/bw/beginner/calibrationimage18.png" width="50%"></center> </div>
+</div>
+<p>Once there you wait for the timer to run out and <strong>on the 6th and final
+beep of EonTimer you start the game</strong>. Make sure <strong>not to press any
+buttons in between you starting the game and the star appearing on the
+top screen</strong>, since that will change the Seed you're on and just add an
+unnecessary extra step to this.</p>
+<center><img class="myImages" id="myImg" alt="Star appearing on top screen" src="/bw/beginner/calibrationimage19.png" width="60%"></center><br>
+<p>Once you see this star, you may start pressing buttons and get into the
+game. If you're far enough into the story to have received the
+<strong>C-Gear</strong>, you <strong>must deactivate</strong> it upon entering the game as it
+would otherwise advance the RNG and make Calibration impossible.</p>
+<p>In-game you will want to go into your <strong>party menu/bag</strong> and <strong>use Sweet
+Scent as a field move/Honey from the bag to summon a wild Pokémon</strong>.</p>
+<center><img class="myImages" id="myImg" alt="Using Sweet Scent from Party Menu" src="/bw/beginner/calibrationimage47.png" width="60%"></center><br>
+<p>It doesn't matter how quickly or slowly you do this, just make sure to
+not move your player character as that can advance the IVrng and thus
+screw up this Calibration attempt. If you are doing this in the dark
+grass as I recommended, you may end up getting a double battle against 2
+wild Pokémon. In that case you will need to kill the Pokémon on the left
+and catch the Pokémon on the right side of the field (preferably using a
+Master Ball so you don't have to waste time with failed catches).</p>
+<p>With the first caught Pokémon in our party, we open up the IV calculator
+in PokéFinder.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Opening the IV Calculator" src="/bw/beginner/calibrationimage48l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Opening the IV Calculator" src="/bw/beginner/calibrationimage48d.png" width="90%">
+</center><br>
+<p>Once there, <strong>input the game you're playing</strong>, <strong>the Pokémon</strong>, <strong>its
+characteristic &amp; nature</strong> <strong>and</strong> at the bottom <strong>its level and
+stats</strong>.</p>
+<details>
+<summary>Note: The Characteristics of your Pokémon are not in PokeFinder? </summary>
+<p>For English language games, the names of 2 of the Characteristics were
+changed in Gen 6. Currently PokeFinder only uses the Gen 6+ names for
+these, even for older generations. Other languages may have a similar
+issue, but I am not aware of any table that tracks every language's
+Characteristics change, so if you're RNGing on a non-English game, you
+may have to figure this out by yourself using a Pokémon wiki site of
+that language for example.<br><br></p>
+<center><img class="myImages" id="myImg" alt="Changed Characteristics names" src="/bw/beginner/calibrationimage49.png" width="100%"></center>
+</details>
+<center><img class="myImages" id="myImg" alt="Watchogs Summary" src="/bw/beginner/calibrationimage50.png" width="60%"></center><br>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Inputting Watchogs data into the IV Calculator" src="/bw/beginner/calibrationimage51l.png" width="80%">
+  <img class="myImages theme-dark"  id="myImg" alt="Inputting Watchogs data into the IV Calculator" src="/bw/beginner/calibrationimage51d.png" width="80%">
+</center><br>
+<p>Once all the data is in the fields, you can press the <strong>Find IVs
+button</strong> and it'll spit out the calculated IVs in the bottom right.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="IV Calculator results" src="/bw/beginner/calibrationimage52l.png" width="80%">
+  <img class="myImages theme-dark"  id="myImg" alt="IV Calculator results" src="/bw/beginner/calibrationimage52d.png" width="80%">
+</center><br>
+<p>Should any of the results say <strong>Invalid</strong> instead of a number or number
+range, you input something wrongly. Double check all data is correct and
+without typos.</p>
+<p>Pressing <strong>Find IVs will</strong> also <strong>automatically send the results over to
+the Calibration window</strong> which means all we have to do now is press the
+<strong>Search button</strong> and see what result PokéFinder gives us.</p>
+<p>In my case I got the following result:</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="First IV Calibration result" src="/bw/beginner/calibrationimage53l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="First IV Calibration result" src="/bw/beginner/calibrationimage53d.png" width="90%">
+</center><br>
+<p>There's a few things to watch out for here:</p>
+<ol>
+<li>
+<p>If your results Seconds value does not match your EonTimer's target
+second, make sure it's not too far off. On DS, Lite and i, the
+second should never be off by more than 2. Being off by 1 is already
+rare and being off by 2 near impossible but both have happened to
+people in the past. On 3DS line models being off by 1 or 2 is fairly
+common due to the console having an inconsistent boot-up time for DS
+games. Being off by 3 may also be possible in rare cases, but if you
+get a result that's 4 or more seconds off, it's most likely an
+invalid result.</p>
+</li>
+<li>
+<p>Should you get more than 1 result, you can level up the Pokémon
+using a rare candy, press the Add row button in the IV calculator,
+input all the next levels stats and press Find IVs again. Then in
+the Calibration window you press <strong>Search</strong> again and if that still
+isn't enough to narrow it down to 1, add another level etc until
+you're at exactly 1 result.</p>
+</li>
+<li>
+<p>If you get no results at all or only get results that are too far
+off from your target second, make sure all the values in your
+PokéFinder and EonTimer are correct and match what's on your DS
+console (date, time, MAC address, game version, language, DS type,
+saving option selected and EonTimer calibration). Then just do
+another attempt. Should you get 0 results again, join <a href="https://discord.com/invite/4RA7xKVPqg"><em>im a blisy
+._.</em>'s RNG manip assistance Discord server</a>
+and ask for help in the bw_b2w2 channel <strong>providing an explanation
+of the issue and full window screenshots of your PokéFinder
+Calibration window and EonTimer</strong>.</p>
+</li>
+</ol>
+<p>The result I got here looks good though, as it's the only one and the
+second I hit is exactly the one I was aiming for in 20. Should you not
+have hit your target second here though you will want to adjust your
+EonTimer since in the future, when you get to actually RNGing e.g. a
+shiny Pokémon, you will need to hit the exact target second and not 1-2
+seconds late or early.</p>
+<p>To adjust EonTimer you simply take the second you hit instead of your
+target, put it into the <strong>Second Hit field</strong> and press the <strong>Update
+button</strong>. An example would be if I had hit 19 seconds instead of 20 I
+would input 19 into the <strong>Second Hit field</strong> and press <strong>Update</strong> which
+would change my EonTimer <strong>Calibration</strong> value from -95 to -66.</p>
+<center><img class="myImages" id="myImg" alt="Updating Eontimer" src="/bw/beginner/calibrationimage38.png" width="100%"></center><br>
+<p>I won't be changing this for my next attempt though, since I hit exactly
+what I was aiming for.</p>
+<p>After this first attempt we will now write down the values we got
+somewhere (e.g. a standard text file):</p>
+<center><img class="myImages" id="myImg" alt="Writing down my first result" src="/bw/beginner/calibrationimage54.png" width="40%"></center>
+</div>
+<h3 id="further-attempts"><a class="zola-anchor" href="#further-attempts" aria-label="Anchor link for: further-attempts">Further attempts</a></h3>
+<div class="conditional-block calibration-block save-needle">
+<p>Now with the first attempt done you go back to the home menu and
+get ready to change the time and start up EonTimer again.<br>
+You'll want to do between <strong>4-9 more such calibrations for a total
+of 5-10 attempts</strong> to <strong>find</strong> what <strong>your most common Timer0</strong> value
+is.</p>
+<p>This is important because later when you're trying to RNG e.g. a
+shiny, you will want the highest chances of hitting your target Timer0.
+If you were to only do 1 single Calibration for example, you may have
+just had bad luck and hit a Timer0 that, on average, you'd only get
+about 10% of the time, which also means you'd miss your target about 90%
+of the time. Some date/time combinations may have one Timer0 be much
+more common than it would be on most other date/time combinations. To
+prevent this from giving you a &quot;bad&quot; Timer0, that on most other date/time
+combinations you would barely ever hit, I recommend to <strong>change the
+target time just a little bit after every Calibration attempt</strong>. In my
+example I'll just put the clock in both PokéFinder and on my DS console
+forward by 1 minute each attempt so on attempt 2 I will target
+15:01/3:01 pm, on attempt 3 15:02/3:02 pm and so on.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Change the time a little bit every Calibration attempt" src="/bw/beginner/calibrationimage56l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Change the time a little bit every Calibration attempt" src="/bw/beginner/calibrationimage56d.png" width="90%">
+</center><br>
+<p>If even after adjusting EonTimer you still keep hitting 1-2 above or
+below your target second most of the time, don't keep adjusting every
+single attempt. Instead write down which second you hit every time, and
+then at the end of the 5-10 attempts, take the average, round it up/down
+and then use that average second hit to adjust your EonTimer. Especially
+on 3DS models you will most likely continue to not always hit your
+target second due to the varying loading times of those models.</p>
+</div>
+<div class="conditional-block calibration-block unova-link-needle">
+<p>Now with the first attempt done you go back to the home menu and
+get ready to change the time and start up EonTimer again.<br>
+You'll want to do between <strong>19-29 more such calibrations for a total
+of 20-30 attempts</strong> to <strong>find</strong> what <strong>your most common Timer0</strong> value
+is on DS and DS Lite or <strong>29-39 for a total of 30-40</strong> more <strong>on DSi and
+3DS</strong>.</p>
+<p>This is important because later when you're trying to RNG e.g. a
+shiny, you will want the highest chances of hitting your target Timer0.
+If you were to only do 10 calibrations for example, you may have just had
+bad luck and like 7 times hit a Timer0 that, on average, you'd only get
+about 10% of the time, which also means you'd miss your target about 90%
+of the time. Some date/time combinations may have one Timer0 be much
+more common than it would be on most other date/time combinations. To
+prevent this from giving you a &quot;bad&quot; Timer0, that on most other date/time
+combinations you would barely ever hit, I recommend to <strong>change the
+target time just a little bit after every Calibration attempt</strong>. In my
+example I'll just put the clock in both PokéFinder and on my DS console
+forward by 1 minute each attempt so on attempt 2 I will target
+15:01/3:01 pm, on attempt 3 15:02/3:02 pm and so on.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Change the time a little bit every Calibration attempt" src="/bw/beginner/calibrationimage57l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Change the time a little bit every Calibration attempt" src="/bw/beginner/calibrationimage57d.png" width="90%">
+</center><br>
+<p>Another <strong>important thing to note</strong> is <strong>about the VCount</strong>. Whilst I
+did say earlier that this value stays consistent throughout your
+calibration, this isn't always true. <strong>In rare cases, you may get 2
+different VCount values</strong> that are tied to some of your Timer0's.
+This has been reported with VCounts of AB &amp; AC, AC &amp; AD, BD &amp; BE and
+82 &amp; 83 as of yet though I am sure there's more possible cases.
+It seems to be <strong>most common on DSi or 3DS</strong>, however the report
+with VCounts of 82 &amp; 83 was from a DS Lite user so <strong>even if you’re
+playing on a DS or Lite, watch out for this</strong> (though getting one of
+the mentioned VCounts doesn't necessarily mean that you are affected
+by this). If this is the case for you, make sure to note down which
+Timer0 has which VCount assigned to it, as each Timer0 can only have
+1 specific VCount value go with it. This will generally not impact
+your ability to RNG Manipulate, but it will make troubleshooting
+when something goes wrong a bit more annoying later.</p>
+<p>Example of how such a Timer0 distribution with 2 VCounts could look like
+after 30 Calibration attempts:</p>
+<center><img class="myImages" id="myImg" alt="Example final Timer0 list with 2 VCounts" src="/bw/beginner/calibrationimage40.png" width="40%"></center><br>
+<p>If even after adjusting EonTimer you still keep hitting 1-2 above or
+below your target second most of the time, don't keep adjusting every
+single attempt. Instead write down which second you hit every time, and
+then at the end of the 5-10 attempts, take the average, round it up/down
+and then use that average second hit to adjust your EonTimer. Especially
+on 3DS models you will most likely continue to not always hit your
+target second due to the varying loading times of those models.</p>
+</div>
+<div class="conditional-block calibration-block iv-calibration">
+<p>Now with the first attempt done you go back to the home menu and
+get ready to change the time and start up EonTimer again.<br>
+If you're calibrating a <strong>BW1</strong> game, you'll want to do between
+<strong>4-9 more such calibrations for a total of 5-10 attempts</strong>.<br>
+If you're on <strong>BW2</strong> instead, you should do <strong>19-29 more such
+calibrations</strong> for <strong>a total of 20-30 attempts on DS and DS Lite</strong> or
+<strong>29-39</strong> for <strong>a total of 30-40 more on DSi and 3DS</strong>.</p>
+<p>This is important because later when you're trying to RNG e.g. a
+shiny, you will want the highest chances of hitting your target Timer0.
+If you were to only do 10 calibrations for example, you may have just had
+bad luck and like 7 times hit a Timer0 that, on average, you'd only get
+about 10% of the time, which also means you'd miss your target about 90%
+of the time. Some date/time combinations may have one Timer0 be much
+more common than it would be on most other date/time combinations. To
+prevent this from giving you a &quot;bad&quot; Timer0, that on most other date/time
+combinations you would barely ever hit, I recommend to <strong>change the
+target time just a little bit after every Calibration attempt</strong>. In my
+example I'll just put the clock in both PokéFinder and on my DS console
+forward by 1 minute each attempt so on attempt 2 I will target
+15:01/3:01 pm, on attempt 3 15:02/3:02 pm and so on.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Change the time a little bit every Calibration attempt" src="/bw/beginner/calibrationimage58l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Change the time a little bit every Calibration attempt" src="/bw/beginner/calibrationimage58d.png" width="90%">
+</center><br>
+<p>Another <strong>important thing to note</strong> is <strong>about the VCount</strong>. Whilst I
+did say earlier that this value stays consistent throughout your
+calibration, this isn't always true. <strong>In rare cases, you may get 2
+different VCount values</strong> that are tied to some of your Timer0's.
+This has been reported with VCounts of AB &amp; AC, AC &amp; AD, BD &amp; BE and
+82 &amp; 83 as of yet though I am sure there's more possible cases.
+It seems to be <strong>most common on DSi or 3DS</strong>, however the report
+with VCounts of 82 &amp; 83 was from a DS Lite user so <strong>even if you’re
+playing on a DS or Lite, watch out for this</strong> (though getting one of
+the mentioned VCounts doesn't necessarily mean that you are affected
+by this). If this is the case for you, make sure to note down which
+Timer0 has which VCount assigned to it, as each Timer0 can only have
+1 specific VCount value go with it. This will generally not impact
+your ability to RNG Manipulate, but it will make troubleshooting
+when something goes wrong a bit more annoying later.</p>
+<p>Example of how such a Timer0 distribution with 2 VCounts could look like
+after 30 Calibration attempts:</p>
+<center><img class="myImages" id="myImg" alt="Example final Timer0 list with 2 VCounts" src="/bw/beginner/calibrationimage40.png" width="40%"></center><br>
+<p>If even after adjusting EonTimer you still keep hitting 1-2 above or
+below your target second most of the time, don't keep adjusting every
+single attempt. Instead write down which second you hit every time, and
+then at the end of the 5-40 attempts, take the average, round it up/down
+and then use that average second hit to adjust your EonTimer. Especially
+on 3DS models you will most likely continue to not always hit your
+target second due to the varying loading times of those models.</p>
+</div>
+<h3 id="creating-a-profile"><a class="zola-anchor" href="#creating-a-profile" aria-label="Anchor link for: creating-a-profile">Creating a Profile</a></h3>
+<div class="conditional-block calibration-block save-needle">
+<p>At the end of my 10 calibrations, my Timer0 distribution looked like
+this:</p>
+<center><img class="myImages" id="myImg" alt="Final Calibration results" src="/bw/beginner/calibrationimage26.png" width="40%"></center><br>
+<p>I hit 125f 2 times and 1260 8 times. Now in the PokéFinder calibration
+window we can right click into the last result we got, making a small
+popup window appear, and there we select the <strong>Create Profile</strong> option.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Creating a Profile" src="/bw/beginner/calibrationimage27l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Creating a Profile" src="/bw/beginner/calibrationimage27d.png" width="90%">
+</center><br>
+<p>A smaller window will pop up with all the latest results' values and
+your game version, language, console type and MAC address already filled
+out. If your latest attempt resulted in your less common Timer0, you may
+want to change both the Min Timer0 and the Max Timer0 to your more
+common value.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Profile Editor" src="/bw/beginner/calibrationimage28l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Profile Editor" src="/bw/beginner/calibrationimage28d.png" width="100%">
+</center><br>
+<p>Now you just input a name for the Profile into the name field (I named
+mine W1 3DS CC because it's for my Pokémon White 1 on my Capture Card
+3DS) and if you know them already, set your TID/SID to the proper values.
+If you do not know them yet/want to create a new savefile with a new
+TID/SID pair soon, just leave the fields empty for now. The TID and SID 
+ONLY affect which advances will yield a shiny later and have NO EFFECT 
+on which Pokémon you encounter, what stats they have or anything else.</p>
+<p>Then change the Keypresses to not include 6, 7 and 8 Keypresses. This
+isn't mandatory, but pressing 6, 7 or 8 different buttons on your DS
+during startup is sometimes not humanly possible and you should be able
+to find target Seeds without too many advances for almost anything you'd
+want anyways without those high Keypress amounts. Unchecking those 3
+Keypress options will also shorten search times later. You could also
+remove more, like 4 and 5, but I find those still feasible and having
+more Keypresses will make finding e.g. 5/6IV wild or static shiny targets
+easier later (if you just care for getting shinies and don't care for
+IVs or Natures at all, you can disable all but 0 Keypresses).</p>
+<p>The <strong>Skip L/R</strong> checkbox is for if your console's L or R buttons are
+broken, as if that box is checked off, PokéFinder will no longer give
+any results with L or R as the required Keypresses.</p>
+<p>The IV Cache and SHA Cache you can ignore for now; more on those in future
+static and wild RNG guides.</p>
+<p>Finally click on <strong>Accept</strong> and the Profile is saved.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Profile filled out and adjusted for my most common Timer0" src="/bw/beginner/calibrationimage29l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Profile filled out and adjusted for my most common Timer0" src="/bw/beginner/calibrationimage29d.png" width="100%">
+</center><br>
+</div>
+<div class="conditional-block calibration-block unova-link-needle">
+<p>At the end of my 30 calibrations, my Timer0 distribution looked like
+this:</p>
+<center><img class="myImages" id="myImg" alt="Final Calibration results" src="/bw/beginner/calibrationimage41.png" width="40%"></center><br>
+<p>I hit 1104 9 times making it my most common Timer0. Now in the
+PokéFinder Calibration window we can right click into the last result we
+got, making a small popup window appear, and there we select the
+<strong>Create Profile</strong> option.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Creating a Profile" src="/bw/beginner/calibrationimage42l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Creating a Profile" src="/bw/beginner/calibrationimage42d.png" width="90%">
+</center><br>
+<p>A smaller window will pop up with all the latest results' values and
+your game version, language, console type and MAC address already filled
+out. If your latest attempt did not result in your most common Timer0,
+you may want to change both the Min Timer0 and the Max Timer0 to your
+most common value; in my case I got 1105 last but knowing 1104 is more
+common I will change it to that (if you did get 2 different VCounts make
+sure to also change the VCount to the one that belongs with your most
+common Timer0).</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Profile Editor" src="/bw/beginner/calibrationimage43l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Profile Editor" src="/bw/beginner/calibrationimage43d.png" width="100%">
+</center><br>
+<p>Now you just input a name for the Profile into the name field (I named
+mine B2 DS CC because it's for my Pokémon Black 2 on my Capture Card DS)
+and if you know them already, set your TID/SID to the proper values.
+If you do not know them yet/want to create a new savefile with a new
+TID/SID pair soon, just leave the fields empty for now. The TID and SID 
+ONLY affect which advances will yield a shiny later and have NO EFFECT 
+on which Pokémon you encounter, what stats they have or anything else.</p>
+<p>Check off the Memory Link and Shiny Charm checkboxes if you have done 
+Memory Link or have received the Shiny Charm and change  the Keypresses 
+to not include 6, 7 and 8 Keypresses. This isn't mandatory, but pressing 
+6, 7 or 8 different buttons on your DS during startup is sometimes not 
+humanly possible and you should be able to find target Seeds without 
+too many advances for almost anything you'd want anyways without those 
+high Keypress amounts. Unchecking those 3 Keypress options will also 
+shorten search times later. You could also remove more, like 4 and 5, 
+but I find those still feasible and having more Keypresses will make 
+finding e.g. 5/6IV wild or static shiny targets easier later (if you 
+just care for getting shinies and don't care for IVs or Natures at all, 
+you can disable all but 0 Keypresses).</p>
+<p>The <strong>Skip L/R</strong> checkbox is for if your console's L or R buttons are
+broken, as if that box is checked off, PokéFinder will no longer spit
+out any results with L or R as the required Keypresses.</p>
+<p>The IV Cache and SHA Cache you can ignore for now; more on those in future
+static and wild RNG guides.</p>
+<p>Finally click on <strong>Accept</strong> and the Profile is saved.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Profile filled out and adjusted for my most common Timer0" src="/bw/beginner/calibrationimage44l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Profile filled out and adjusted for my most common Timer0" src="/bw/beginner/calibrationimage44d.png" width="100%">
+</center><br>
+</div>
+<div class="conditional-block calibration-block iv-calibration">
+<p>At the end of my 30 calibrations, my Timer0 distribution looked like
+this:</p>
+<center><img class="myImages" id="myImg" alt="Final Calibration results" src="/bw/beginner/calibrationimage41.png" width="40%"></center><br>
+<p>I hit 1104 9 times making it my most common Timer0. Now in the
+PokéFinder Calibration window we can right click into the last result we
+got, making a small popup window appear, and there we select the
+<strong>Create Profile</strong> option.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Creating a Profile" src="/bw/beginner/calibrationimage55l.png" width="90%">
+  <img class="myImages theme-dark"  id="myImg" alt="Creating a Profile" src="/bw/beginner/calibrationimage55d.png" width="90%">
+</center><br>
+<p>A smaller window will pop up with all the latest results' values and
+your game version, language, console type and MAC address already filled
+out. If your latest attempt did not result in your most common Timer0,
+you may want to change both the Min Timer0 and the Max Timer0 to your
+most common value; in my case I got 1105 last but knowing 1104 is more
+common I will change it to that (if you did get 2 different VCounts make
+sure to also change the VCount to the one that belongs with your most
+common Timer0).</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Profile Editor" src="/bw/beginner/calibrationimage43l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Profile Editor" src="/bw/beginner/calibrationimage43d.png" width="100%">
+</center><br>
+<p>Now you just input a name for the Profile into the name field (I named
+mine B2 DS CC because it's for my Pokémon Black 2 on my Capture Card DS)
+aand if you know them already, set your TID/SID to the proper values.
+If you do not know them yet/want to create a new savefile with a new
+TID/SID pair soon, just leave the fields empty for now. The TID and SID 
+ONLY affect which advances will yield a shiny later and have NO EFFECT 
+on which Pokémon you encounter, what stats they have or anything else. </p>
+<p>Check off the Memory Link and Shiny Charm checkboxes if you have done 
+Memory Link or have received the Shiny Charm (BW2 exclusive) and change 
+the Keypresses to not include 6, 7 and 8 Keypresses. This isn't mandatory, 
+but pressing 6, 7 or 8 different buttons on your DS during startup is 
+sometimes not humanly possible and you should be able to find target 
+Seeds without too many advances for almost anything you'd want anyways 
+without those high Keypress amounts. Unchecking those 3 Keypress options 
+will also shorten search times later. You could also remove more, like 4 
+and 5, but I find those still feasible and having more Keypresses will 
+make finding e.g. 5/6IV wild or static shiny targets easier later (if you 
+just care for getting shinies and don't care for IVs or Natures at all, 
+you can disable all but 0 Keypresses).</p>
+<p>The <strong>Skip L/R checkbox</strong> is for if your console's L or R buttons are
+broken, as if that box is checked off, PokéFinder will no longer spit
+out any results with L or R as the required Keypresses.</p>
+<p>The IV Cache and SHA Cache you can ignore for now; more on those in future
+static and wild RNG guides.</p>
+<p>Finally click on <strong>Accept</strong> and the Profile is saved.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Profile filled out and adjusted for my most common Timer0" src="/bw/beginner/calibrationimage44l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Profile filled out and adjusted for my most common Timer0" src="/bw/beginner/calibrationimage44d.png" width="100%">
+</center><br>
+</div>
+<h2 id="next-steps"><a class="zola-anchor" href="#next-steps" aria-label="Anchor link for: next-steps">Next steps...</a></h2>
+<p>Now you're ready to start RNG Manipulation in Generation 5! To get your TID and
+SID, you should go to the <a href="/bw/beginner/tidsid">TID/SID RNG guide</a> next. This is
+only required for getting shinies, so if you only care to get perfect IV Pokémon
+that are not shiny, you can skip that guide and go directly into the <a href="/bw/beginner/static">Static</a>
+or Wild (coming soon™) Manip guides.</p>
+<p>Thank you for reading and have fun RNGing!</p>
+<hr />
+<style>
+  
+.conditional-block {
+  display: none;
+  padding: 10px 0;
+}
+
+.conditional-block.active {
+  display: block;
+}
+
+.calibration-tabs {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 12px;
+}
+
+.calibration-tab {
+  padding: 6px 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.95em;
+  border-bottom: 2px solid transparent;
+}
+
+.calibration-tab.active {
+  color: #007acc;
+  border-bottom-color: #007acc;
+  font-weight: 500;
+}
+
+:is(html.dark, body.dark, html[data-theme="dark"], body[data-theme="dark"]) .calibration-tabs {
+  border-bottom-color: #444;
+}
+
+:is(html.dark, body.dark, html[data-theme="dark"], body[data-theme="dark"]) .calibration-tab {
+  color: #e0e0e0;
+}
+
+:is(html.dark, body.dark, html[data-theme="dark"], body[data-theme="dark"]) .calibration-tab.active {
+  color: #4aa3ff;
+  border-bottom-color: #4aa3ff;
+}
+
+</style>
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+  const STORAGE_KEY = "tab-selection-calibration";
+
+  document.querySelectorAll(".calibration-tabs").forEach(container => {
+    const tabs = container.querySelectorAll(".calibration-tab");
+    const blocks = document.querySelectorAll(".calibration-block");
+
+    function activate(target) {
+      tabs.forEach(t => t.classList.remove("active"));
+      blocks.forEach(b => b.classList.remove("active"));
+
+      tabs.forEach(t => {
+        if (t.dataset.target === target) {
+          t.classList.add("active");
+        }
+      });
+
+      blocks.forEach(b => {
+        if (b.classList.contains(target)) {
+          b.classList.add("active");
+        }
+      });
+
+      localStorage.setItem(STORAGE_KEY, target);
+    }
+
+    const saved = localStorage.getItem(STORAGE_KEY);
+    const initial =
+      saved && container.querySelector(`.calibration-tab[data-target="${saved}"]`)
+        ? container.querySelector(`.calibration-tab[data-target="${saved}"]`)
+        : container.querySelector(".calibration-tab.active");
+
+    if (initial) activate(initial.dataset.target);
+
+    tabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        activate(tab.dataset.target);
+      });
+    });
+  });
+});
+
+</script>
+                <center>
+                    <div style="
+
+  border: 3px solid #e855eb;
+  padding: 10px;
+  margin: 20px;">
+                        <p>Get the Pokemon you wanted? Consider supporting us on Ko-fi & keep us ad free!</p>
+                        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+                        <script type='text/javascript'>kofiwidget2.init('Send a tip', '#e855eb', 'R6R71E2E0Z'); kofiwidget2.draw();</script>
+                    </div>
+                </center>
+
+
+                
+                
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+  <a href="https:&#x2F;&#x2F;retailrng.com&#x2F;bw&#x2F;beginner&#x2F;introduction&#x2F;">
+    <div class="card my-1">
+      <div class="card-body py-2">
+        &larr; Gen 5 RNG Manip Introduction
+      </div>
+    </div>
+  </a>
+  
+
+  
+  
+  
+  
+  
+    <a class="ms-auto" href="https:&#x2F;&#x2F;retailrng.com&#x2F;bw&#x2F;beginner&#x2F;tidsid&#x2F;">
+      <div class="card my-1">
+        <div class="card-body py-2">
+          BW&#x2F;BW2 Trainer ID &amp; Secret ID Manip &rarr;
+        </div>
+      </div>
+    </a>
+  
+</div>
+
+
+<script>
+function openCity(evt, tabContent, tabContainer) {
+  var tabcontainer, tabcontent, tablinks;
+  tabcontainer = document.getElementsByClassName("tabcontainer");
+  for (i = 0; i < tabcontainer.length; i++) {
+    if (tabcontainer[i].getAttribute("num") == tabContainer) {
+      tablinks = tabcontainer[i].getElementsByClassName("tablinks");
+      tabcontent = tabcontainer[i].getElementsByClassName("tabcontent");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace("active", "");
+      }
+      tablinks[tabContent - 1].classList.add("active");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].className = tabcontent[i].className.replace("active", "");
+      }
+      tabcontent[tabContent - 1].classList.add("active");
+    }
+  }
+}
+</script>
+
+
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById("myModal");
+
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var images = document.getElementsByClassName('myImages');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+
+                    for (var i = 0; i < images.length; i++) {
+                        var img = images[i];
+                        // and attach our click listener for this image.
+                        img.onclick = function (evt) {
+                            modal.style.display = "block";
+                            modalImg.src = this.src;
+                            captionText.innerHTML = this.alt;
+                        }
+                    }
+
+                    modal.onclick = function (event) {
+                        if (event.target.id != "img01") {
+                            modal.style.display = "none";
+                        }
+                    }
+                </script>
+
+
+
+
+
+            </main>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+  
+    
+
+<footer class="footer text-muted">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Support us on <a href="https://ko-fi.com/retailrng">Ko-Fi</a>. Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://retailrng.com/js/main.js" defer></script>
+
+  <script type="text/javascript" src="https://retailrng.com/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://retailrng.com/search_index.en.js" defer></script>
+  <script type="text/javascript" src="https://retailrng.com/js/search.js" defer></script>
+
+  
+</body>
+</html>
