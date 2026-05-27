@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4MQPZPZDSJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4MQPZPZDSJ');
+</script>
+<style>
+.myImages {
+  border-radius: 0 !important;
+  overflow: visible !important;
+}
+
+.theme-dark { display: none; }
+
+:is(html.dark, body.dark, html[data-theme="dark"], body[data-theme="dark"]) .theme-light {
+  display: none;
+}
+
+:is(html.dark, body.dark, html[data-theme="dark"], body[data-theme="dark"]) .theme-dark {
+  display: inline;
+}
+
+img,
+img:active,
+img:focus,
+img:hover {
+  max-width: 80vw !important;
+  max-height: 80vh !important;
+  height: auto !important;
+}
+.medium-zoom-image--opened,
+.pswp__img,
+.gslide-image img,
+.lb-image,
+.mfp-content img,
+.modal-content,
+.modal-content img {
+  background: transparent !important;
+}
+</style>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://retailrng.com/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://retailrng.com/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://retailrng.com/main.css">
+<link rel="stylesheet" href="https://retailrng.com/shortcodes.css">
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>SID finding Guide | Retail Pokémon RNG</title>
+<meta name="description" content="How to find the Secret ID of a pre-existing savefile in Generation 5">
+<link rel="canonical" href="https://retailrng.com/bw/extra credit/sidfinding/">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  
+    <meta name="twitter:image" content="https://retailrng.com//doks.png">
+  
+  <meta name="twitter:title" content="SID finding Guide">
+  <meta name="twitter:description" content="How to find the Secret ID of a pre-existing savefile in Generation 5">
+  <meta name="twitter:site" content="@aaranxu">
+  <meta name="twitter:creator" content="@aaranxu">
+  
+  <meta property="og:title" content="SID finding Guide">
+  <meta property="og:description" content="How to find the Secret ID of a pre-existing savefile in Generation 5">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://retailrng.com/bw/extra credit/sidfinding/">
+
+  
+    <meta property="og:image" content="https://retailrng.com//doks.png">
+  
+
+  <meta property="og:updated_time" content="2025-09-04T19:30:00+00:00">
+  <meta property="og:site_name" content="SID finding Guide">
+
+  
+
+  
+
+  
+  <meta property="article:publisher" content="https://www.facebook.com/ichunyun">
+  <meta property="article:author" content="https://www.facebook.com/ichunyun">
+  <meta property="og:locale" content="en_US">
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://retailrng.com/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Bw",
+            "item": "https://retailrng.com/bw/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Extra Credit",
+            "item": "https://retailrng.com/bw/extra credit/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Sidfinding",
+            "item": "https://retailrng.com/bw/extra credit/sidfinding/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://retailrng.com/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://retailrng.com/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://retailrng.com/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://retailrng.com/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+
+  
+
+<body class="docs single">
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://retailrng.com/">Retail Pokémon RNG</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+		
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://discord.gg/4RA7xKVPqg"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><g fill="currentColor" fill-opacity="0"><circle cx="9" cy="12" r="1.5"><animate fill="freeze" attributeName="fill-opacity" begin="1.2s" dur="0.4s" values="0;1"/></circle><circle cx="15" cy="12" r="1.5"><animate fill="freeze" attributeName="fill-opacity" begin="1.4s" dur="0.4s" values="0;1"/></circle></g><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="30" stroke-dashoffset="30" d="M15.5 17.5L16.5 19.5C16.5 19.5 20.671 18.172 22 16C22 15 22.53 7.853 19 5.5C17.5 4.5 15 4 15 4L14 6H12M8.52799 17.5L7.52799 19.5C7.52799 19.5 3.35699 18.172 2.02799 16C2.02799 15 1.49799 7.853 5.02799 5.5C6.52799 4.5 9.02799 4 9.02799 4L10.028 6H12.028"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="30;60"/></path><path stroke-dasharray="16" stroke-dashoffset="16" d="M5.5 16C10.5 18.5 13.5 18.5 18.5 16"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.4s" values="16;0"/></path></g></svg><span class="ms-2 visually-hidden">Discord</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.reddit.com/r/retailrng/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><mask id="lineMdReddit0"><g fill="#fff" fill-opacity="0"><ellipse cx="12" cy="14.71" stroke="#fff" stroke-dasharray="48" stroke-dashoffset="48" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" rx="8" ry="5.29"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="48;0"/><animate fill="freeze" attributeName="fill-opacity" begin="0.6s" dur="0.4s" values="0;1"/></ellipse><circle cx="7.24" cy="11.97" r="2.24"><set attributeName="fill-opacity" begin="1s" to="1"/><animate fill="freeze" attributeName="cx" begin="1s" dur="0.2s" values="7.24;3.94"/></circle><circle cx="16.76" cy="11.97" r="2.24"><set attributeName="fill-opacity" begin="1s" to="1"/><animate fill="freeze" attributeName="cx" begin="1s" dur="0.2s" values="16.76;20.06"/></circle><circle cx="18.45" cy="4.23" r="1.61"><set attributeName="fill-opacity" begin="2.6s" to="1"/></circle></g><path fill="none" stroke="#fff" stroke-dasharray="12" stroke-dashoffset="12" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8" d="M12 8.75L13.18 3.11L18.21 4.18"><animate fill="freeze" attributeName="stroke-dashoffset" begin="2.4s" dur="0.2s" values="12;0"/></path><g fill-opacity="0"><circle cx="8.45" cy="13.59" r="1.61"><animate fill="freeze" attributeName="fill-opacity" begin="1.2s" dur="0.4s" values="0;1"/></circle><circle cx="15.55" cy="13.59" r="1.61"><animate fill="freeze" attributeName="fill-opacity" begin="1.6s" dur="0.4s" values="0;1"/></circle></g><path fill="none" stroke="#000" stroke-dasharray="8" stroke-dashoffset="8" stroke-linecap="round" stroke-width=".8" d="M8.47 17.52C8.47 17.52 9.41 18.58 12 18.58C14.58 18.58 15.53 17.52 15.53 17.52"><animate fill="freeze" attributeName="stroke-dashoffset" begin="2s" dur="0.2s" values="8;0"/></path></mask><rect width="24" height="24" fill="currentColor" mask="url(#lineMdReddit0)"/></svg><span class="ms-2 visually-hidden">Reddit</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.youtube.com/@imablisy"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-dasharray="60" stroke-dashoffset="60" stroke-linecap="round" stroke-width="2" d="M12 5C21 5 21 5 21 12C21 19 21 19 12 19C3 19 3 19 3 12C3 5 3 5 12 5z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="60;0"/></path><path fill="currentColor" fill-opacity="0" d="M10 8.5L16 12L10 15.5z"><set attributeName="fill-opacity" begin="0.7s" to="1"/><animate fill="freeze" attributeName="d" begin="0.7s" dur="0.2s" values="M12 11L12 12L12 13z;M10 8.5L16 12L10 15.5z"/></path></svg><span class="ms-2 visually-hidden">Youtube</span></a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.youtube.com/@PapaJefeYT"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-dasharray="60" stroke-dashoffset="60" stroke-linecap="round" stroke-width="2" d="M12 5C21 5 21 5 21 12C21 19 21 19 12 19C3 19 3 19 3 12C3 5 3 5 12 5z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="60;0"/></path><path fill="currentColor" fill-opacity="0" d="M10 8.5L16 12L10 15.5z"><set attributeName="fill-opacity" begin="0.7s" to="1"/><animate fill="freeze" attributeName="d" begin="0.7s" dur="0.2s" values="M12 11L12 12L12 13z;M10 8.5L16 12L10 15.5z"/></path></svg><span class="ms-2 visually-hidden">Youtube</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://retailrng.com/tools/">Tools</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://retailrng.com/article/">Articles</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://retailrng.com/authors/">Authors</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div> 
+</header>
+
+
+
+  
+
+
+<div class="wrap container" role="document">
+
+
+
+    <div class="content">
+        <div class="row flex-xl-nowrap">
+                <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+            
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+			
+			
+			
+			
+					
+					
+					
+							<h3>Beginner</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/beginner/introduction/">Gen 5 RNG Manip Introduction</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/beginner/calibration/">BW&#x2F;BW2 Calibration</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/beginner/tidsid/">BW&#x2F;BW2 Trainer ID &amp; Secret ID Manip</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/beginner/bw1starter/">BW Starter Manip</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/beginner/bw2starter/">BW2 Starter Manip</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/beginner/static/">BW&#x2F;BW2 Static Manip</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Intermediate</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/intermediate/coming-soon/">Coming Soon!</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Advanced</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/advanced/coming-soon/">Coming Soon!</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Extra Credit</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/extra credit/npcs/">Randomly Moving NPC Guide</a></li>
+							                           
+									<li><a class="docs-link active" href="https://retailrng.com/bw/extra credit/sidfinding/">SID finding Guide</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/extra credit/roamer/">BW1 Roamer ID Preparations</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/extra credit/otherguides/">Other RNG guides</a></li>
+							                           
+									<li><a class="docs-link" href="https://retailrng.com/bw/extra credit/sidtool/">SID tool</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+
+            
+  
+    <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+      <div class="page-links">
+        <h3>On this page</h3>
+        <nav id="TableOfContents">
+          <ul>
+            
+              <li>
+                <a href="https://retailrng.com/bw/extra credit/sidfinding/#overview">Overview</a>
+
+                
+
+              </li>
+            
+              <li>
+                <a href="https://retailrng.com/bw/extra credit/sidfinding/#requirements">Requirements</a>
+
+                
+                  <ul>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/extra credit/sidfinding/#starter-method">Starter method</a>
+
+                        
+                        
+
+                      </li>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/extra credit/sidfinding/#guaranteed-shiny-method">Guaranteed shiny method</a>
+
+                        
+                        
+
+                      </li>
+                    
+                  </ul>
+                
+
+              </li>
+            
+              <li>
+                <a href="https://retailrng.com/bw/extra credit/sidfinding/#the-guide">The Guide</a>
+
+                
+                  <ul>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/extra credit/sidfinding/#finding-all-possible-sids">Finding all possible SIDs</a>
+
+                        
+                        
+
+                      </li>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/extra credit/sidfinding/#pick-a-method">Pick a method</a>
+
+                        
+                        
+
+                      </li>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/extra credit/sidfinding/#narrowing-down-the-sids">Narrowing down the SIDs</a>
+
+                        
+                        
+
+                      </li>
+                    
+                      <li>
+                        <a href="https://retailrng.com/bw/extra credit/sidfinding/#finding-your-sid">Finding your SID</a>
+
+                        
+                        
+
+                      </li>
+                    
+                  </ul>
+                
+
+              </li>
+            
+              <li>
+                <a href="https://retailrng.com/bw/extra credit/sidfinding/#next-steps">Next steps...</a>
+
+                
+
+              </li>
+            
+          </ul>
+        </nav>
+      </div>
+    </nav>
+  
+
+            <main class="docs-content col-lg-11 col-xl-9">
+                <h1>SID finding Guide</h1>
+
+                <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+                <script type='text/javascript'>kofiwidget2.init('Support us on Ko-fi', '#e855eb', 'R6R71E2E0Z'); kofiwidget2.draw();</script>
+
+                
+                <h2 id="overview"><a class="zola-anchor" href="#overview" aria-label="Anchor link for: overview">Overview</a></h2>
+<p>This guide will teach you <strong>how to find the Secret ID of a pre-existing savefile</strong> using either your Starter Pokémon or one of the guaranteed shinies you can get.</p>
+<p>The <strong>Starter method can be used in both BW1 and BW2</strong> and is much more precise than the guaranteed shiny method, which is also only available in BW2. You should only use the guaranteed shiny method if you do not have your Starter anymore.</p>
+<p>Huge shoutouts to happylappy for coming up with the guaranteed shiny method and helping me understand it, so that I could write this guide for you all!</p>
+<h2 id="requirements"><a class="zola-anchor" href="#requirements" aria-label="Anchor link for: requirements">Requirements</a></h2>
+<p>For both methods, <strong>ALL three of the following need to be true</strong>:</p>
+<ol>
+<li>You must still own the cartridge you originally created this savefile on.</li>
+<li>You must still own the console you played on when you created this savefile.</li>
+<li>You must have loaded the game from the home menu and then continued to
+create your savefile without soft resetting in between at all.</li>
+</ol>
+<p><strong>Especially the third point can be a problem, as anyone that didn't buy the game brand new probably deleted the old savefile and then immediately proceeded to create a new savefile.</strong> This counts as soft resetting for the game and thus would lead to these SID finding methods not working for anyone affected by that.</p>
+<h3 id="starter-method"><a class="zola-anchor" href="#starter-method" aria-label="Anchor link for: starter-method">Starter method</a></h3>
+<p>For the Starter method, <strong>both of the following also need to be true</strong>:</p>
+<ol>
+<li>You must still have the Starter you got when you started this savefile. It can still be on this savefile or even in any other Pokémon game such as another Gen 5 game or even any newer games like Scarlet and Violet.</li>
+<li>You must have created your savefile and received the Starter in one go, so without having reset the game in any way in between.</li>
+</ol>
+<p>One easy way to immediately know if you did not create your savefile and immediately got your starter in one go is to check if the Starters met date and the savefiles &quot;ADVENTURE STARTED&quot; date on the back of your trainer card match. If they don't match, you most certainly did not get both in one go (though it is possible in extremely rare cases, if the day rolled over midnight in between). But just because the two match doesn't necessarily mean that you did get both in one go. So all this can help with is to confirm that the dates match so you can proceed with this method.</p>
+<p><strong>If both conditions are true for your savefile, you can proceed with the Starter method.</strong><br>
+Should either of the two additional conditions not be true AND you're playing on BW2, check out the guaranteed shiny method. If you're playing BW1, you're unfortunately out of luck and cannot find your SID outside of starting a new savefile (or hacking).</p>
+<p>This method involves first finding all the possible SIDs that you may have hit when creating your savefile, then calculating your Starters IVs and with that information finding all the possible Starters you may have hit after creating your savefile. Afterwards you input all that data into a tool on our website and it'll compare the data to find any matches.</p>
+<h3 id="guaranteed-shiny-method"><a class="zola-anchor" href="#guaranteed-shiny-method" aria-label="Anchor link for: guaranteed-shiny-method">Guaranteed shiny method</a></h3>
+<p><strong>For the guaranteed shiny method, there's only one additional condition:</strong></p>
+<ol>
+<li>You may NOT yet have caught/received either the guaranteed shiny Haxorus in the Nature Preserve or the guaranteed shiny Gible (B2) / Dratini (W2) you get as a reward for beating Benga on the 10th level of the Black Tower (B2) / White Treehollow (W2).</li>
+</ol>
+<p>This method involves first finding all the possible SIDs that you may have hit when creating your savefile. Next you'll RNG manipulate a guaranteed shiny for perfect IVs several times in a row and write down specific data you get every time; so make sure <strong>NOT to save after catching / receiving the shiny</strong>. In the second to last step you'll use a tool on this website that can do maths with all of that information to significantly narrow down the number of SIDs and at the very end you'll have to do some test RNG manipulations to test out which of the remaining possible SIDs is actually the one you got.</p>
+<p>For the part where you RNG a perfect IV guaranteed shiny, you can use any DS console / cartridge combination you'd like, but for the TID/SID combo finding, you NEED the console + cartridge combination that the savefile was originally created on.</p>
+<p>If you have both of the guaranteed shinies still available, it'd be better to do this with Haxorus, as the method is a lot faster with it. This is due to Haxorus having a randomized ability and gender, whilst Gible / Dratini are both locked to always being male here and they both only have 1 ability, making it impossible to tell whether you got ability slot 0 or ability slot 1. What we seek to find with this method is what we're calling a &quot;JTSV&quot; that'll help us find our SID. Whilst Haxorus can get us down to 1 exactly specific JTSV, Gible / Dratini can only ever get us down to 4 different JTSVs meaning there'll be a lot more trial and error for you.</p>
+<p>You also have to be far enough into the game to be able to actually go and get the shiny.</p>
+<p>To get access to Haxorus, you need a complete regional Pokédex. &quot;Complete&quot; in this context just means having seen every Pokémon, not caught. You will always be missing out on the version exclusives of Rufflet and Skitty if you're playing Black 2 or Vullaby and Buneary if you're playing White 2, due to no trainer in the entire game using them in battle (outside of battle facilities like the Battle Subway, but those don't register in your Pokédex).<br>
+If you wish to / have to go for Haxorus, you will need to trade for those two using either the Wi-Fi Club for direct trades without restrictions, or the GTS for indirect trades. The GTS has an additional restriction of having to have already registered the Pokémon you wish to trade for as seen in your Pokédex, meaning you'd need to try and trade for their evolutions, as those are used in battle by some trainers ingame letting you register them. </p>
+<p>To get access to Gible / Dratini, you &quot;just&quot; have to beat Benga on the 10th level of the Black Tower / White Treehollow and can then receive it in Alders Home in Floccesy Town.</p>
+<h2 id="the-guide"><a class="zola-anchor" href="#the-guide" aria-label="Anchor link for: the-guide">The Guide</a></h2>
+<h3 id="finding-all-possible-sids"><a class="zola-anchor" href="#finding-all-possible-sids" aria-label="Anchor link for: finding-all-possible-sids">Finding all possible SIDs</a></h3>
+<p><strong>This is the first step required for both methods.</strong> For this you need to have the calibration for the DS console + DS cartridge combination that originally started this savefile. Should you not have calibrated that combination yet, you can do so following our <a href="/bw/beginner/calibration">Calibration guide</a>.</p>
+<p>In PokeFinder, open up the Profile manager, select your games RNG Profile and click on the duplicate button at the top. Now open the duplicated Profile, rename it to something like &quot;Troubleshooting&quot; (since it'll be useful for Troubleshooting other RNGs unrelated to this SID finding later) and edit the Timer0's.</p>
+<p>For BW1 players, put the Timer0 Min to the lower and the Timer0 Max to the higher of the two Timer0's that you can hit. Should you not know what your other Timer0 is, you can just calculate your current Timer0 +1 and -1. If your Timer0 is C79 for example, the Min for this profile would be C78 and the Max would be C7A (since these are Hexadecimal numbers counting 1-9, then A-F and only then going to 10).</p>
+<p>BW2 players on the other hand need to set the Timer0 Min and Max to incorporate the full range of Timer0's you can get +1 and -1. I got all the Timer0s from 1101 to 1106 during my profile calibration, so now I'll calculate -1 and +1 to get 1100 and 1107 and put those as my Min and Max Timer0 into the Profile. <strong>If you did not write down the full Timer0 range that you got</strong>, shame on you, but that's not the end of the world. <strong>You can instead just use the following input field</strong> to calculate your most common Timer0 -8 and +8 to be on the safe side.</p>
+<div class="hexcalc">
+  <input class="hexIn" placeholder="Input most common Timer0" />
+  <div>Timer0 Min: <code class="hexMinus">0</code></div>
+  <div>Timer0 Max: <code class="hexPlus">0</code></div>
+</div><br>
+<p><strong>This will give you a larger Timer0 range</strong> than you can actually hit, thus making you get more invalid results than otherwise, <strong>but it's still going to be helpful in determining what you hit.</strong> Just not as efficient as knowing your actual Timer0 range would be. If I didn't know my full range already, I'd just input 1104 for example, as that is my most common Timer0, and this
+calculator would return me 10FC as the Min and 110E as the Max. But I do know, so I can just put my range to 1100-1107.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Make duplicate of Profile with larger Timer0 range" src="/bw/extra%20credit/sidimages/sidimage1l.png" width="80%">
+  <img class="myImages theme-dark"  id="myImg" alt="Make duplicate of Profile with larger Timer0 range" src="/bw/extra%20credit/sidimages/sidimage1d.png" width="80%">
+</center><br>
+<p>Also put the Keypresses to only include 0, 1 and 2 - no more! And don't forget to click on &quot;Accept&quot; once you're done.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Disable all but 0, 1 and 2 Keypresses" src="/bw/extra%20credit/sidimages/sidimage2l.png" width="80%">
+  <img class="myImages theme-dark"  id="myImg" alt="Disable all but 0, 1 and 2 Keypresses" src="/bw/extra%20credit/sidimages/sidimage2d.png" width="80%">
+</center><br>
+<p>With the Troubleshooting Profile made, open up the Gen 5 IDs window, check off the TID box, input your Trainer ID, set both the Start and End date to the date that your trainer card says you started your adventure on and put the Max Advances to 2 exactly.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="IDs window setup" src="/bw/extra%20credit/sidimages/sidimage3l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="IDs window setup" src="/bw/extra%20credit/sidimages/sidimage3d.png" width="100%">
+</center><br>
+<p>Now click on search and wait for it to finish up.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="All my possible SIDs" src="/bw/extra%20credit/sidimages/sidimage4l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="All my possible SIDs" src="/bw/extra%20credit/sidimages/sidimage4d.png" width="100%">
+</center><br>
+<p>Once done, you will need to copy all of the results over to the SID tool. You can do this by either marking all of the results you got and then using the copy shortcut (e.g. ctrl+c on Windows; this did make my old laptop lag out a few times due to there being so many results lol) or by right clicking into the found results and clicking on the &quot;Output Results to TXT&quot; to save the results as a simple text file somewhere on your PC for easy copying. Whichever way you choose, you must paste the results into the SID tool afterwards and then it should look something like this:</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="SID tool filled with pasted in TID/SID combos" src="/bw/extra%20credit/sidimages/sidimage5l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="SID tool filled with pasted in TID/SID combos" src="/bw/extra%20credit/sidimages/sidimage5d.png" width="100%">
+</center><br>
+<h3 id="pick-a-method"><a class="zola-anchor" href="#pick-a-method" aria-label="Anchor link for: pick-a-method">Pick a method</a></h3>
+<p>Now that you got all the possible SIDs, it's time for the next phase. Pick the method that you wish to use to find your SID:</p>
+<div class="sidfinding-tabs" data-tab-group="sidfinding">
+  <button class="sidfinding-tab active" data-target="starter">Starter</button>
+  <button class="sidfinding-tab" data-target="shiny">Guaranteed shiny</button>
+</div>
+<div class="conditional-block sidfinding-block active starter">
+<p><strong>To continue with the Starter method, we first need to calculate our Starters IVs.</strong> This doesn't need to be perfectly precise, but the more precise the better. To be able to accurately calculate its IVs, we need to get rid of any EVs that the Starter may have gained in battle.</p>
+<p>Unfortunately, for whatever reason, Game Freak decided not to give BW1 ANY options of reducing EVs within just the base game alone. You need to either trade for them or get them from the Dream World, which is now defunct.<br>
+So really your only options in BW1 are to trade your Starter over to BW2 or to transfer it up to a Gen 6 or newer game to to get rid of the EVs there.</p>
+<p>To get rid of EVs in BW2, you have 2 options:</p>
+<ol>
+<li><strong>Use the EV reducing Pomeg, Kelpsy, Qualot, Hondew, Grepa and Tamato Berries.</strong><br>
+Here you'd give your Starter berries of each type, until each of them returns a message saying &quot;Its base STAT can't go any lower.&quot; where the word STAT is just HP, Attack, Defense, Sp. Atk, Sp. Def or Speed, depending on what berry you gave it. You can buy them either in packs of 4 per day in Join Avenue flower shops that are at level 9 or 10 (there are 4 different possible inventories that each have 3 of the 6 EV reducing berries, so you'll need at least 2 flower shops with opposite EV reducing berry stock) or from a Breeder on Route 5 in packs of 5 per day (though you can't get Tamato berries from her).</li>
+<li><strong>Use Join Avenues Beauty Salon services.</strong><br>
+Here you'd need to buy services until you have reduced each stat by at least 252 EVs to be sure that there is no amount of EVs left that could possibly change the results of our later IV calculation (doesn't need to be 255 necessarily, as up to 3 EVs don't raise a stat at all). You can check how much each service reduces by on <a href="https://bulbapedia.bulbagarden.net/wiki/Join_Avenue#Beauty_Salon">Bulbapedia</a> (it's possible that the salon worker will tell you if you reached 0 EVs, but I did not have any beauty salons on any of my savefiles to test this).</li>
+</ol>
+<p>Once you've removed all the EVs from your Starter, open up a Static window in PokeFinder, switch to the Searcher tab and there click on the IV Calculator button to make an IV Calculator window pop up. Don't worry about any other settings in the Searcher yet, we'll get to that later.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Opening the IV Calculator" src="/bw/extra%20credit/sidimages/sidimage6l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Opening the IV Calculator" src="/bw/extra%20credit/sidimages/sidimage6d.png" width="100%">
+</center><br>
+<p>Change the game to whatever game you're doing this IV Calculation in, select your Starter in its current evolution and input its Characteristic, Nature, level and stats into the IV Calculator.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="IV Calculator setup" src="/bw/extra%20credit/sidimages/sidimage7l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="IV Calculator setup" src="/bw/extra%20credit/sidimages/sidimage7d.png" width="100%">
+</center><br>
+<details>
+<summary>Note: The Characteristics of your Pokémon are not in PokeFinder? </summary>
+<p>For English language games, the names of 2 of the Characteristics were
+changed in Gen 6. Currently PokeFinder only uses the Gen 6+ names for
+these, even for older generations. Other languages may have a similar
+issue, but I am not aware of any table that tracks every language's
+Characteristics change, so if you're RNGing on a non-English game, you
+may have to figure this out by yourself using a Pokémon wiki site of
+that language for example.<br><br></p>
+<center><img class="myImages" id="myImg" alt="Changed Characteristics names" src="/bw/extra%20credit/sidimages/sidimage8.png" width="100%"></center>
+</details>
+<p>Now press the Find IVs button and you should be presented with some ranges in the bottom right.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Resulting IV ranges" src="/bw/extra%20credit/sidimages/sidimage9l.png" width="80%">
+  <img class="myImages theme-dark"  id="myImg" alt="Resulting IV ranges" src="/bw/extra%20credit/sidimages/sidimage9d.png" width="80%">
+</center><br>
+<p>My example most certainly already has precise enough of IV ranges here, with the largest ranges only having 2 possible options for the IVs (such as the HP being either 5 or 6 IVs), but just to be on the safe side I'll add additional levels using Rare Candies to this, in order to make the IV calculator perfectly precise (Since Rare Candies don't give an EVs, whilst battles do). I also click on Find IVs after every new added level to check whether I'm at exact IVs yet.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="More levels = more precise IVs" src="/bw/extra%20credit/sidimages/sidimage10l.png" width="80%">
+  <img class="myImages theme-dark"  id="myImg" alt="More levels = more precise IVs" src="/bw/extra%20credit/sidimages/sidimage10d.png" width="80%">
+</center><br>
+<p>After inputting the stats of only 3 more levels I already am at 6 perfectly precise IV numbers meaning I can now switch back to the Searcher tab.<br>
+The IVs should have automatically been filled out. If they are not, fill them out to match the ranges / precise IVs that you got. Also make sure that the correct profile is selected at the top.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Check your profile!" src="/bw/extra%20credit/sidimages/sidimage11l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Check your profile!" src="/bw/extra%20credit/sidimages/sidimage11d.png" width="100%">
+</center><br>
+<p>In the left half of the window put the Max Advances to 0 and the date range to only include the specific date that is marked as the &quot;Apparently met at&quot; date in your Starters summary. In my case that is the 27th of April 2026. You don't have to select the correct Starter of the three from the dropdown, but I'll do it anyways, just so it looks matching; it makes no functional difference however.<br>
+We also have to adjust the Min and Max Advances.<br>
+<strong>If you're on BW1, put the Initial IV Advances to 8 and if you're on BW2, put the Initial IV Advances to 12.</strong><br>
+The <strong>Max IV Advances should be 10 in both cases</strong> (they start counting from the Initial Advances, so for BW1 this will make it search IV Advances 8-18 and for BW2 12-22).</p>
+<p>Also <strong>leave the right half alone</strong>, so that Ability, Gender, Nature, Hidden Power and Shiny are all set to &quot;Any&quot;.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Do NOT search for Nature, Ability, Gender or Shininess" src="/bw/extra%20credit/sidimages/sidimage12l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Do NOT search for Nature, Ability, Gender or Shininess" src="/bw/extra%20credit/sidimages/sidimage12d.png" width="100%">
+</center><br>
+<details>
+<summary>Note: Why these Advance ranges? </summary>
+<p>During my testing I found the baseline of IV Advances that happen when starting a new savefile to be 10 in BW1 or 14 in BW2. Just in case there is some variation possible that I did not encounter, I subtracted 2 from both to get to 8 and 12 as the mininum respectively. After this, there is 2 additional factors that can advance the IVrng when creating a new save:<br><br></p>
+<ol>
+<li>The Minccino (BW1) / Cinccino (BW2) that Juniper shows you during the introduction moves and at the end of each movement cycle, the IVrng advances by 1 (despite there being nothing randomized about that from what I could tell). These Advances begin once the Pokémon is released from its Poké Ball and keep going until they Keyboard appears on the bottom screen to name yourself despite the Minccino / Cinccino having disappeared from the screen long before that. Realistically, if you're reasonably fast, you'll never have more than like 2-4 Advances happen from this.</li>
+</ol>
+<center><img class="myImages" id="myImg" alt="Cinccino movement cycle" src="/bw/extra%20credit/sidimages/sidimage13.gif" width="60%"></center><br>
+<ol start="2">
+<li>Telling Juniper &quot;No&quot; when she asks whether she got your name correctly advances both the PIDrng and the IVrng by 1 each time you do say no. It's unlikely that anyone would have more than 2-3 Advances from this whilst just playing normally, if any at all. In BW2 you can also rename your rival, but that has no impact on the Advances at all, whether you tell Juniper she got his name wrong or not.</li>
+</ol>
+<center><img class="myImages" id="myImg" alt='Telling Juniper "No" advances the RNG' src="/bw/extra%20credit/sidimages/sidimage14.png" width="60%"></center><br>
+<p>This combines to a guessed realistic maximum of 7 Advances, but just to give it a bit more room, my recommendation is to calculate with 10 Advances. If you know that you likely really took your time during the intro sequence or renamed yourself a LOT of times, you may want to increase this to account for 20 or even more Advances. The higher you go, the less precise the results will be at the end however.
+<br><br></p>
+</details>
+<p>Now you can click on the Search button and wait for it to finish up with finding results.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Starter found!" src="/bw/extra%20credit/sidimages/sidimage15l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Starter found!" src="/bw/extra%20credit/sidimages/sidimage15d.png" width="100%">
+</center><br>
+<p>Once done, you should be left with a handful or results at most. In my case, since I got the exact specific IVs, I got only 1 single result.</p>
+<p>Should you get no results, it may be worth increasing the Max Advances to 20-30. Should you still get nothing, join <a href="https://discord.com/invite/4RA7xKVPqg"><em>im a blisy ._.</em>'s RNG manip assistance Discord server</a> and ask for help in the bw_b2w2 channel <strong>providing an explanation of the issue and a full window screenshot of your PokéFinder Static window.</strong></p>
+</div>
+<div class="conditional-block sidfinding-block shiny">
+<p>Before you can continue with the guaranteed shiny method, you should already know how to RNG a Static encounter. I will not go over the fundamentals of how that works in this guide. If you do not know how to RNG a Static encounter yet, I would strongly recommend you to do a Static RNG to get a perfect IV Static encounter following our <a href="/bw/beginner/static">Static RNG guide</a>. A simple and infinitely repeatable one would be e.g. a fossil, as you can get 1 per day for free from a worker in Twist Mountain. Do learn how to use either Chatot or saving the game to advance already as well, as it'll be mandatory for this guaranteed shiny SID finding method.</p>
+<p>If you already know how to do a Static RNG and use Chatot / saving the game (or learnt it just now), you can continue.</p>
+<p>Save in front of the Haxorus / Benga. <strong>If your target is Haxorus, be sure not to have a Pokémon with any of the following abilities in your leading party slot</strong>, as it may skew the results of this method leading to you not finding your SID:</p>
+<p>Arena Trap, Compound Eyes, Cute Charm, Illuminate, No Guard, Quick Feet, Stench, Sticky Hold, Suction Cups, Synchronize or White Smoke.</p>
+<p>These abilities all impact how Stationary encounters generate. Gift encounters are unaffected by lead abilities.</p>
+<p>Next open up PokeFinder, open the Static window, switch to the searcher tab and make sure the correct games Profile is selected. 
+I will showcase this method using Haxorus, so whenever I say Haxorus in this guide from now on, I also mean Gible / Dratini unless I specifically exclude them or write a section for just them immediately after.</p>
+<p>Then select Haxorus from the Stationary encounters, <strong>put the Max Advances to 0</strong>, put the date range to search through a full month and put the IV filters to all 31's (technically you can go for any of the exact same IV stat number you want to; so instead of 31/31/31/31/31/31 you could also go for 0/0/0/0/0/0, 1/1/1/1/1/1 etc.).</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Searcher tab settings" src="/bw/extra%20credit/sidimages/sidimage16l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Searcher tab settings" src="/bw/extra%20credit/sidimages/sidimage16d.png" width="100%">
+</center><br>
+<p>Finally, click search. Should you get no results, either search through another month or increase keypresses (I usually have up to 4 enabled in my Profile). Increasing Max Advances will have no effect here, as we're currently only searching for IVs and the IVs are not affected by the &quot;regular&quot; Advances.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="My results" src="/bw/extra%20credit/sidimages/sidimage17l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="My results" src="/bw/extra%20credit/sidimages/sidimage17d.png" width="100%">
+</center><br>
+<p>I'm going for this marked one on the 20th of May 2026 at 02:22:35 am since 35 is the easiest to hit target second of the three results for me.</p>
+<p>We can already copy our target Seed, switch over to the Generator tab, select Haxorus again, paste our Seed into the Seed field, put the Max Advances to 20 (if you're going for Gible / Dratini, increase this a bit to like 30-40) and then press generate.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Generator tab setup" src="/bw/extra%20credit/sidimages/sidimage18l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Generator tab setup" src="/bw/extra%20credit/sidimages/sidimage18d.png" width="100%">
+</center><br>
+<p>Now it's time to actually do the RNG - the first one at least. Do the RNG as per usual up until you load into the game and check whether you're on the correct seed using Chatot / save needles. There is no RNG noise nearby, so nothing that can advance the RNG randomly for both Haxorus and Gible / Dratini. Make sure you know exactly what RNG Advance you're on, and then you can encounter and catch the Haxorus (I recommend a Master Ball to save yourself some time) or receive the Gible / Dratini from Benga.</p>
+<p>Once you got it, check it's stats to make sure they match the perfect IVs on the RNG Advance that has the correct Nature; this can fairly quickly be done without an IV calculator using the &quot;Show Stats&quot; checkbox in PokeFinder.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Compare stats" src="/bw/extra%20credit/sidimages/sidimage19l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Compare stats" src="/bw/extra%20credit/sidimages/sidimage19d.png" width="100%">
+</center><br>
+<p>After doing 10 Chatot to confirm I'm on my target seed, the last Chatot I heard was on Advance 64 meaning I hit the Haxorus on Advance 65. As you can see in the image, the Stats and Nature match perfectly. Even the characteristic, gender and ability match in this case, but that will not always be the case here, which is precisely why the method even works. Depending on your SID, the PID and with that the characteristic, gender and ability of these Haxorus can differ.</p>
+<p>After having confirmed that the stats all match, you now need to start inputting data into the <a href="/bw/extra%20credit/sidtool/">JTSV Finder tool</a> that you can find on its own page, so that you don't have to scroll up and down between these explanations and the tool constantly.</p>
+<p>From this first Haxorus, we will need its ability, characteristic and PID in PokeFinder (if you're going for Gible / Dratini, ignore the ability and just take the characteristic and PID). Check off the Haxorus checkbox and select the ability of this first Haxorus. Then copy the PID over to the first Haxorus slot and select its characteristic. After all this, the tool may look something like this:</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="JTSV tool setup 1" src="/bw/extra%20credit/sidimages/sidimage20l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="JTSV tool setup 1" src="/bw/extra%20credit/sidimages/sidimage20d.png" width="100%">
+</center><br>
+<p>Now you must continue doing more RNGs to get additional Haxorus with perfect IVs, so make sure NOT to save after catching it. You may not just repeatedly catch the exact same Haxorus however. You need to get a different and new Haxorus every time. What I will do for my showcase is just RNG the Haxorus one Advance after another. I started with Advance 65 so next I'll RNG it to get the one on Advance 66, then 68, 69, 70 and so on.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="My target Advances" src="/bw/extra%20credit/sidimages/sidimage21l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="My target Advances" src="/bw/extra%20credit/sidimages/sidimage21d.png" width="100%">
+</center><br>
+<p><strong>I will skip Advance 67 because it has the exact same PID as Advance 66, making it useless for the method. Only unique PIDs are useful.</strong></p>
+<p>Here is my progress after 3 Haxorus; I'm already down to only 12 JTSVs!</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="JTSV tool setup 2" src="/bw/extra%20credit/sidimages/sidimage22l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="JTSV tool setup 2" src="/bw/extra%20credit/sidimages/sidimage22d.png" width="100%">
+</center><br>
+<p>And after only 5 Haxorus I'm down to just a single JTSV! How many Haxorus you'll need to RNG may vary, but should usually be between 5-10 if you don't go for any duplicate PIDs. I got pretty lucky needing only 5.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="JTSV tool setup finished" src="/bw/extra%20credit/sidimages/sidimage23l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="JTSV tool setup finished" src="/bw/extra%20credit/sidimages/sidimage23d.png" width="100%">
+</center><br>
+<p><strong>If you're going for Gible / Dratini, you may need to RNG them a few more times than you'd have to RNG Haxorus. Also don't forget that you're already done once you're down to 4 JTSVs</strong>, as you cannot go lower with Gible / Dratini.</p>
+<p>With just 1 JTSV left (or 4 for Gible / Dratini), we can move on to the next phase.</p>
+</div>
+<h3 id="narrowing-down-the-sids"><a class="zola-anchor" href="#narrowing-down-the-sids" aria-label="Anchor link for: narrowing-down-the-sids">Narrowing down the SIDs</a></h3>
+<div class="conditional-block sidfinding-block active starter">
+<p>Copy the result(s) you got, paste them into the SID tools &quot;Starter seeds input field&quot; and finally click on the &quot;Find SIDs&quot; button. This will now compare the Seed, Timer0, date and time of your earlier input possible SID seeds with these Starter seeds to find matches.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="SID found?" src="/bw/extra%20credit/sidimages/sidimage24l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="SID found?" src="/bw/extra%20credit/sidimages/sidimage24d.png" width="100%">
+</center><br>
+<p>And I got a match!</p>
+<p>If you got nothing, retrace your steps and make sure that your savefile and Starter fulfill all the requirements. If you're sure they do but still can't find any match, join <a href="https://discord.com/invite/4RA7xKVPqg"><em>im a blisy ._.</em>'s RNG manip assistance Discord server</a> and ask for help in the bw_b2w2 channel <strong>providing an explanation of the issue and a full window screenshot of your PokéFinder Static window.</strong></p>
+<p>Some of you may get multiple matches, especially if you didn't calculate the precise IVs or expanded the IV Advance range.</p>
+<p>To showcase what to do when you get multiple matches, I'll use my results from the guaranteed shiny method for the next steps. Since I used the same savefile with the same TID/SID for both methods, this will still all be perfectly applicable for our method.</p>
+</div>
+<div class="conditional-block sidfinding-block shiny">
+<p>Now you can click on the &quot;Find SIDs&quot; button.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="All for me possible SIDs" src="/bw/extra%20credit/sidimages/sidimage25l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="All for me possible SIDs" src="/bw/extra%20credit/sidimages/sidimage25d.png" width="100%">
+</center><br>
+<p>In my case, I got 8 possible results. Especially with Gible / Dratini, there may be a LOT more results than this however.</p>
+</div>
+<h3 id="finding-your-sid"><a class="zola-anchor" href="#finding-your-sid" aria-label="Anchor link for: finding-your-sid">Finding your SID</a></h3>
+<p>And with that, the final phase begins: Testing!</p>
+<p>You'll now need to test what SID of the ones given to you by the tool is the one you actually have on your savefile. Even if you just get a single match, you should still test it to be sure all went well. You can do this easiest by RNGing a shiny <a href="/bw/beginner/static/">Static encounter</a>, such as a fossil.</p>
+<p>The basic process for this would be:</p>
+<ol>
+<li>Save in front of the worker that revives the fossils.</li>
+<li>Edit your main RNG Profile for this game to have your proper TID and then the first SID you want to test (the Profile with ONLY your most common Timer0, instead of the Profile with a larger range we created in this guide earlier).</li>
+<li>Search for a shiny e.g. fossil using that Profile (optimally aim for the rarer female fossil Pokémon, so that you can easier determine whether you hit the correct RNG Advance or not).</li>
+<li>If you hit your correct RNG Advance and it's not shiny, back to step 2 with the next best SID, but if it is shiny, congrats!</li>
+</ol>
+<p>To determine what SID to start with, you'll want to have a look at the Keypresses, Advances, and time of day in that order of importance. It's generally unlikely for you to have more than 1 keypress (though it is possible) for this, so I'd immediately put all the results with 2 keypresses on the &quot;backburner&quot; to try only after all the 0 and 1 Keypress SIDs have failed. In my example that leaves me with with 2 potential SIDs to start with.</p>
+<center>
+  <img class="myImages theme-light" id="myImg" alt="Deciding what SID to start testing with" src="/bw/extra%20credit/sidimages/sidimage26l.png" width="100%">
+  <img class="myImages theme-dark"  id="myImg" alt="Deciding what SID to start testing with" src="/bw/extra%20credit/sidimages/sidimage26d.png" width="100%">
+</center><br>
+<p>Since you advance the RNG by saying &quot;No&quot; when Professor Juniper asks you whether she got your name right during savefile creation, it's also unlikely that you'll ever have more than 1 Advance (though it is possible). So if the difference between the Advances and the Initial Advances column is larger than 1, I'll also put that SID on the &quot;backburner&quot; to try only after all the results with 0 and then 1 Advance have failed (still prioritizing 0 or 1 Keypress).</p>
+<p>If you are still left with multiple possible SIDs, which is most likely for Gible / Dratini players, you can also use the time of day to try and help decide what SID to start with. If you know you generally had your DS set to the actual time of day it was at any given moment, and one SID has a time of 04:00:00 so 4 am, whilst another SID has a time of 15:00:00 so 3 pm, it's probably better to start with the SID that is at 15:00:00 / 3 pm.</p>
+<p>Should all this narrowing down still have left you with multiple options, you may just have to decide at random which SID to start with.</p>
+<p>And you can't expect to confirm your SID immediately on the first one you try; you may very well have to try several of them before finding the one you actually have. Good luck!</p>
+<h2 id="next-steps"><a class="zola-anchor" href="#next-steps" aria-label="Anchor link for: next-steps">Next steps...</a></h2>
+<p>And that's it; hopefully you have found your SID relatively quickly; don't forget to put it into your RNG Profile within PokeFinder! If you'd like to RNG some shiny Static encounters now, check out <a href="/bw/beginner/static/">the Static RNG guide</a>. If you instead wish to do a Wild, Egg or other RNG, check out the <a href="/bw/extra%20credit/otherguides/">Other guides section</a>.</p>
+<p>Thank you for reading and have fun RNGing!</p>
+</div>
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+  const STORAGE_KEY = "sidfinding-active-tab";
+  const tabGroups = document.querySelectorAll('[data-tab-group="sidfinding"]');
+
+  function activateTab(target) {
+    // tabs
+    document.querySelectorAll(".sidfinding-tab").forEach(tab => {
+      tab.classList.toggle(
+        "active",
+        tab.getAttribute("data-target") === target
+      );
+    });
+
+    // blocks
+    document.querySelectorAll(".sidfinding-block").forEach(block => {
+      block.classList.remove("active");
+    });
+
+    document.querySelectorAll(".sidfinding-block." + target).forEach(block => {
+      block.classList.add("active");
+    });
+  }
+
+  // restore saved tab
+  const savedTab = localStorage.getItem(STORAGE_KEY);
+  if (savedTab) {
+    activateTab(savedTab);
+  }
+
+  tabGroups.forEach(group => {
+    const tabs = group.querySelectorAll(".sidfinding-tab");
+
+    tabs.forEach(tab => {
+      tab.addEventListener("click", function () {
+        const target = this.getAttribute("data-target");
+
+        activateTab(target);
+
+        // save selected tab
+        localStorage.setItem(STORAGE_KEY, target);
+      });
+    });
+  });
+});
+
+(function(){
+  function update(box){
+    var s=box.querySelector('.hexIn').value.trim().replace(/^0x/i,'');
+    var outM=box.querySelector('.hexMinus'), outP=box.querySelector('.hexPlus');
+    if(!/^[0-9a-fA-F]{1,4}$/.test(s)){outM.textContent='0';outP.textContent='0';return;}
+    var v=parseInt(s,16), m=v-8; if(m<0)m=0;
+    outM.textContent=m.toString(16).toUpperCase();
+    outP.textContent=(v+10).toString(16).toUpperCase();
+  }
+  document.addEventListener('input',function(e){
+    if(e.target.classList && e.target.classList.contains('hexIn')) update(e.target.closest('.hexcalc'));
+  });
+  document.addEventListener('DOMContentLoaded',function(){
+    document.querySelectorAll('.hexcalc').forEach(update);
+  });
+})();
+
+</script>
+<style>
+.sidfinding-tabs {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 12px;
+}
+
+.sidfinding-tab {
+  padding: 6px 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.95em;
+  border-bottom: 2px solid transparent;
+}
+
+.sidfinding-tab.active {
+  color: #007acc;
+  border-bottom-color: #007acc;
+  font-weight: 500;
+}
+
+:is(html.dark, body.dark, html[data-theme="dark"], body[data-theme="dark"]) .sidfinding-tabs {
+  border-bottom-color: #444;
+}
+
+:is(html.dark, body.dark, html[data-theme="dark"], body[data-theme="dark"]) .sidfinding-tab {
+  color: #e0e0e0;
+}
+
+:is(html.dark, body.dark, html[data-theme="dark"], body[data-theme="dark"]) .sidfinding-tab.active {
+  color: #4aa3ff;
+  border-bottom-color: #4aa3ff;
+}
+
+.sidfinding-block {
+  display: none;
+}
+
+.sidfinding-block.active {
+  display: block;
+}
+
+.hexcalc .hexIn{
+  width:35%;
+  padding:4px 8px;
+  border:1px solid #aaa;
+  border-radius:4px;
+  background:#fff;
+  color:inherit;
+  box-sizing:border-box;
+}
+
+.hexcalc .hexMinus,.hexcalc .hexPlus{
+  color:inherit!important;
+  font-size:1em!important;
+  background:transparent!important;
+  padding:0!important;
+  border:0!important;
+}
+
+:is(html.dark,body.dark,html[data-theme="dark"],body[data-theme="dark"]) .hexcalc .hexIn{
+  background-color:#1b1b1b!important;
+  color:#f5f5f5!important;
+  border-color:#555!important;
+}
+
+:is(html.dark,body.dark,html[data-theme="dark"],body[data-theme="dark"]) .hexcalc .hexIn::placeholder{
+  color:#aaa;
+}
+</style>
+                <center>
+                    <div style="
+
+  border: 3px solid #e855eb;
+  padding: 10px;
+  margin: 20px;">
+                        <p>Get the Pokemon you wanted? Consider supporting us on Ko-fi & keep us ad free!</p>
+                        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+                        <script type='text/javascript'>kofiwidget2.init('Send a tip', '#e855eb', 'R6R71E2E0Z'); kofiwidget2.draw();</script>
+                    </div>
+                </center>
+
+
+                
+                
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+  <a href="https:&#x2F;&#x2F;retailrng.com&#x2F;bw&#x2F;extra credit&#x2F;npcs&#x2F;">
+    <div class="card my-1">
+      <div class="card-body py-2">
+        &larr; Randomly Moving NPC Guide
+      </div>
+    </div>
+  </a>
+  
+
+  
+  
+  
+  
+  
+    <a class="ms-auto" href="https:&#x2F;&#x2F;retailrng.com&#x2F;bw&#x2F;extra credit&#x2F;roamer&#x2F;">
+      <div class="card my-1">
+        <div class="card-body py-2">
+          BW1 Roamer ID Preparations &rarr;
+        </div>
+      </div>
+    </a>
+  
+</div>
+
+
+<script>
+function openCity(evt, tabContent, tabContainer) {
+  var tabcontainer, tabcontent, tablinks;
+  tabcontainer = document.getElementsByClassName("tabcontainer");
+  for (i = 0; i < tabcontainer.length; i++) {
+    if (tabcontainer[i].getAttribute("num") == tabContainer) {
+      tablinks = tabcontainer[i].getElementsByClassName("tablinks");
+      tabcontent = tabcontainer[i].getElementsByClassName("tabcontent");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace("active", "");
+      }
+      tablinks[tabContent - 1].classList.add("active");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].className = tabcontent[i].className.replace("active", "");
+      }
+      tabcontent[tabContent - 1].classList.add("active");
+    }
+  }
+}
+</script>
+
+
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById("myModal");
+
+                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                    var images = document.getElementsByClassName('myImages');
+                    var modalImg = document.getElementById("img01");
+                    var captionText = document.getElementById("caption");
+
+                    for (var i = 0; i < images.length; i++) {
+                        var img = images[i];
+                        // and attach our click listener for this image.
+                        img.onclick = function (evt) {
+                            modal.style.display = "block";
+                            modalImg.src = this.src;
+                            captionText.innerHTML = this.alt;
+                        }
+                    }
+
+                    modal.onclick = function (event) {
+                        if (event.target.id != "img01") {
+                            modal.style.display = "none";
+                        }
+                    }
+                </script>
+
+
+
+
+
+            </main>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+  
+    
+
+<footer class="footer text-muted">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Support us on <a href="https://ko-fi.com/retailrng">Ko-Fi</a>. Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://retailrng.com/js/main.js" defer></script>
+
+  <script type="text/javascript" src="https://retailrng.com/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://retailrng.com/search_index.en.js" defer></script>
+  <script type="text/javascript" src="https://retailrng.com/js/search.js" defer></script>
+
+  
+</body>
+</html>
