@@ -1,0 +1,322 @@
+ZONE_ID_C05 | ZONE_ID_R06 | ZONE_ID_D06,,ZONE_ID_C06 | ZONE_ID_R07 | ZONE_ID_D07 | ZONE_ID_D07R0101,,ZONE_ID_C07,,ZONE_ID_D08 | ZONE_ID_D08R0101,,ZONE_ID_R08,,ZONE_ID_R12,,ZONE_ID_R14 | ZONE_ID_R15,,ZONE_ID_T06 | ZONE_ID_T06R0401 | ZONE_ID_R20 | ZONE_ID_D22 | ZONE_ID_D22R0101,,ZONE_ID_C13 | ZONE_ID_D23 | ZONE_ID_D23R0101,,ZONE_ID_T07 | ZONE_ID_D24,
+ホドモエシティ | ６番道路 | 電気石の洞穴,,フキヨセシティ | ７番道路 | ネジ山,,セッカシティ,,リュウラセンの塔,,８番道路,,１２番道路,,１４番道路 | １５番道路,,サンギタウン | 誓いの林 | ２０番道路 | サンギ牧場,,タチワキシティ | タチワキコンビナート,,ヤマジタウン | リバースマウンテン,
+Driftveil City | Route 6 | Chargestone Cave,,Mistralton City | Route 7 | Twist Mountain,,Icirrus City,,Dragonspiral Tower,,Route 8,,Route 12,,Route 14 | Route 15,,Floccesy Town | Pledge Grove | Route 20 | Floccesy Ranch,,Virbank City | Virbank Complex,,Lentimas Town | Reversal Mountain,
+Day,Weather,Day,Weather,Day,Weather,Day,Weather,Day,Weather,Day,Weather,Day,Weather,Day,Weather,Day,Weather,Day,Weather
+Spring,,Spring,,Spring,,Spring,,Spring,,Spring - January,,Spring - January,,Spring,,Spring,,Spring,
+04,RAIN,03,RAIN,03,RAIN,03,RAIN,03,RAIN,06,RAIN,01,MIST,03,RAIN,04,RAIN,01,STORM
+05,RAIN,04,RAIN,04,RAIN,04,RAIN,04,RAIN,07,RAIN,03,MIST,05,RAIN,05,RAIN,03,STORM
+12,RAIN,05,RAIN,05,RAIN,05,RAIN,05,RAIN,14,RAIN,04,MIST,11,RAIN,12,RAIN,06,STORM
+13,RAIN,06,RAIN,06,RAIN,06,RAIN,06,RAIN,15,RAIN,06,MIST,13,RAIN,13,RAIN,08,STORM
+20,RAIN,11,RAIN,07,RAIN,07,RAIN,07,RAIN,22,RAIN,07,MIST,20,RAIN,20,RAIN,10,STORM
+21,RAIN,12,RAIN,11,RAIN,11,RAIN,11,RAIN,23,RAIN,08,MIST,27,RAIN,21,RAIN,11,STORM
+28,RAIN,13,RAIN,12,RAIN,12,RAIN,12,RAIN,30,RAIN,09,MIST,29,RAIN,28,RAIN,18,STORM
+29,RAIN,14,RAIN,13,RAIN,13,RAIN,13,RAIN,31,RAIN,10,MIST,,,29,RAIN,20,STORM
+,,19,RAIN,14,RAIN,14,RAIN,14,RAIN,,,11,MIST,Summer,,,,23,STORM
+Summer,,20,RAIN,15,RAIN,15,RAIN,15,RAIN,Spring - May,,13,MIST,09,RAIN,Summer (June | October),,24,STORM
+,,21,RAIN,19,RAIN,19,RAIN,19,RAIN,04,RAIN,15,MIST,10,RAIN,,,26,STORM
+Autumn,,22,RAIN,20,RAIN,20,RAIN,20,RAIN,05,RAIN,16,MIST,20,RAIN,Summer - February,,27,STORM
+04,RAIN,27,RAIN,21,RAIN,21,RAIN,21,RAIN,12,RAIN,19,MIST,21,RAIN,10,RAIN,28,STORM
+05,RAIN,28,RAIN,22,RAIN,22,RAIN,22,RAIN,13,RAIN,23,MIST,,,20,RAIN,30,STORM
+12,RAIN,29,RAIN,23,RAIN,23,RAIN,23,RAIN,20,RAIN,24,MIST,Autumn,,,,31,STORM
+13,RAIN,30,RAIN,27,RAIN,27,RAIN,27,RAIN,21,RAIN,25,MIST,,,Autumn,,,
+20,RAIN,,,28,RAIN,28,RAIN,28,RAIN,28,RAIN,26,MIST,Winter,,04,RAIN,Summer (February | June),
+21,RAIN,Summer,,29,RAIN,29,RAIN,29,RAIN,29,RAIN,28,MIST,03,SNOW,05,RAIN,02,STORM
+28,RAIN,09,RAIN,30,RAIN,30,RAIN,30,RAIN,,,29,MIST,05,SNOW,12,RAIN,05,STORM
+29,RAIN,10,RAIN,31,RAIN,31,RAIN,31,RAIN,Spring - September,,31,MIST,09,SNOW,13,RAIN,07,STORM
+,,20,RAIN,,,,,,,04,RAIN,,,11,SNOW,20,RAIN,09,STORM
+Winter - April,,21,RAIN,Summer,,Summer,,Summer - February,,05,RAIN,Spring - May,,14,SNOW,21,RAIN,10,STORM
+01,ARARE,,,08,RAIN,08,RAIN,01,RAIN,12,RAIN,01,MIST,18,SNOW,28,RAIN,12,STORM
+02,ARARE,Autumn,,09,RAIN,09,RAIN,02,RAIN,13,RAIN,02,MIST,21,SNOW,29,RAIN,14,STORM
+03,ARARE,03,RAIN,10,RAIN,10,RAIN,06,RAIN,18,RAIN,03,MIST,25,SNOW,,,17,STORM
+04,ARARE,04,RAIN,11,RAIN,11,RAIN,07,RAIN,19,RAIN,04,MIST,28,SNOW,Winter,,19,STORM
+09,ARARE,05,RAIN,19,RAIN,19,RAIN,08,RAIN,28,RAIN,05,MIST,30,SNOW,01,SNOW,22,STORM
+10,ARARE,06,RAIN,20,RAIN,20,RAIN,09,RAIN,29,RAIN,06,MIST,31,SNOW,03,SNOW,23,STORM
+11,SNOW,11,RAIN,21,RAIN,21,RAIN,10,RAIN,,,07,MIST,,,05,SNOW,25,STORM
+12,SNOW,12,RAIN,22,RAIN,22,RAIN,11,RAIN,Summer,,08,MIST,,,09,SNOW,26,STORM
+13,ARARE,13,RAIN,,,,,12,RAIN,,,09,MIST,,,11,SNOW,27,STORM
+14,SNOW,14,RAIN,Autumn (March | November),,Autumn (March | November),,13,RAIN,Autumn (March | July),,10,MIST,,,14,SNOW,29,STORM
+18,SNOW,19,RAIN,03,RAIN,03,RAIN,18,RAIN,04,RAIN,11,MIST,,,18,SNOW,30,STORM
+19,ARARE,20,RAIN,04,RAIN,04,RAIN,19,RAIN,05,RAIN,12,MIST,,,21,SNOW,,
+20,ARARE,21,RAIN,05,RAIN,05,RAIN,20,RAIN,12,RAIN,13,MIST,,,25,SNOW,Summer - October,
+21,SNOW,22,RAIN,06,RAIN,06,RAIN,21,RAIN,13,RAIN,14,MIST,,,28,SNOW,01,STORM
+22,SNOW,27,RAIN,07,RAIN,07,RAIN,22,RAIN,20,RAIN,15,MIST,,,30,SNOW,03,STORM
+23,SNOW,28,RAIN,11,RAIN,11,RAIN,23,RAIN,21,RAIN,16,MIST,,,31,SNOW,06,STORM
+24,SNOW,29,RAIN,12,RAIN,12,RAIN,24,RAIN,28,RAIN,17,MIST,,,,,08,STORM
+28,SNOW,30,RAIN,13,RAIN,13,RAIN,,,29,RAIN,18,MIST,,,,,10,STORM
+29,SNOW,,,14,RAIN,14,RAIN,Summer - June,,,,19,MIST,,,,,11,STORM
+30,SNOW,Winter - April,,15,RAIN,15,RAIN,01,RAIN,Autumn - November,,20,MIST,,,,,13,STORM
+,,01,ARARE,19,RAIN,19,RAIN,02,RAIN,04,RAIN,21,MIST,,,,,15,STORM
+Winter - August,,02,ARARE,20,RAIN,20,RAIN,06,RAIN,05,RAIN,22,MIST,,,,,18,STORM
+01,ARARE,03,ARARE,21,RAIN,21,RAIN,07,RAIN,12,RAIN,23,MIST,,,,,20,STORM
+02,ARARE,04,ARARE,22,RAIN,22,RAIN,08,RAIN,13,RAIN,24,MIST,,,,,23,STORM
+08,ARARE,09,ARARE,23,RAIN,23,RAIN,09,RAIN,19,RAIN,25,MIST,,,,,24,STORM
+09,ARARE,10,ARARE,27,RAIN,27,RAIN,10,RAIN,20,RAIN,26,MIST,,,,,26,STORM
+10,ARARE,11,SNOW,28,RAIN,28,RAIN,11,RAIN,26,RAIN,27,MIST,,,,,27,STORM
+11,SNOW,12,SNOW,29,RAIN,29,RAIN,12,RAIN,27,RAIN,28,MIST,,,,,28,STORM
+12,SNOW,13,ARARE,30,RAIN,30,RAIN,13,RAIN,,,29,MIST,,,,,30,STORM
+13,SNOW,14,SNOW,31,RAIN,31,RAIN,17,RAIN,Winter - April,,30,MIST,,,,,31,STORM
+18,ARARE,18,SNOW,,,,,18,RAIN,01,RAIN,31,MIST,,,,,,
+19,ARARE,19,ARARE,Autumn - July,,Autumn - July,,19,RAIN,02,RAIN,,,,,,,Autumn,
+20,SNOW,20,ARARE,03,RAIN,03,RAIN,20,RAIN,03,RAIN,Spring - September,,,,,,,
+21,SNOW,21,SNOW,04,RAIN,04,RAIN,21,RAIN,04,RAIN,01,MIST,,,,,Winter (August | December),
+22,SNOW,22,SNOW,05,RAIN,05,RAIN,22,RAIN,10,RAIN,02,MIST,,,,,,
+23,SNOW,23,SNOW,06,RAIN,06,RAIN,23,RAIN,11,RAIN,03,MIST,,,,,Winter - April,
+24,SNOW,24,SNOW,07,RAIN,07,RAIN,24,RAIN,12,RAIN,05,MIST,,,,,01,STORM
+28,SNOW,28,SNOW,11,RAIN,11,RAIN,29,RAIN,13,RAIN,06,MIST,,,,,03,STORM
+29,SNOW,29,SNOW,12,RAIN,12,RAIN,30,RAIN,14,RAIN,07,MIST,,,,,06,STORM
+30,SNOW,30,SNOW,13,RAIN,13,RAIN,,,20,RAIN,08,MIST,,,,,08,STORM
+31,SNOW,,,14,RAIN,14,RAIN,Summer - October,,21,RAIN,11,MIST,,,,,10,STORM
+,,Winter - August,,15,RAIN,15,RAIN,01,RAIN,22,RAIN,12,MIST,,,,,11,STORM
+Winter - December,,01,ARARE,19,RAIN,19,RAIN,02,RAIN,23,RAIN,17,MIST,,,,,18,STORM
+01,ARARE,02,ARARE,20,RAIN,20,RAIN,06,RAIN,24,RAIN,18,MIST,,,,,20,STORM
+02,ARARE,08,ARARE,21,RAIN,21,RAIN,07,RAIN,28,RAIN,19,MIST,,,,,23,STORM
+03,ARARE,09,ARARE,22,RAIN,22,RAIN,08,RAIN,29,RAIN,22,MIST,,,,,24,STORM
+04,SNOW,10,ARARE,23,RAIN,23,RAIN,09,RAIN,30,RAIN,23,MIST,,,,,26,STORM
+08,ARARE,11,SNOW,26,RAIN,26,RAIN,10,RAIN,,,24,MIST,,,,,27,STORM
+09,ARARE,12,SNOW,27,RAIN,27,RAIN,11,RAIN,Winter - August,,25,MIST,,,,,28,STORM
+10,SNOW,13,SNOW,28,RAIN,28,RAIN,12,RAIN,01,RAIN,26,MIST,,,,,30,STORM
+11,SNOW,18,ARARE,29,RAIN,29,RAIN,13,RAIN,02,RAIN,27,MIST,,,,,,
+12,SNOW,19,ARARE,30,RAIN,30,RAIN,17,RAIN,03,RAIN,28,MIST,,,,,,
+13,SNOW,20,SNOW,31,RAIN,31,RAIN,18,RAIN,09,RAIN,30,MIST,,,,,,
+14,SNOW,21,SNOW,,,,,19,RAIN,10,RAIN,,,,,,,,
+18,ARARE,22,SNOW,Winter - April,,Winter - April,,20,RAIN,11,RAIN,Summer - February,,,,,,,
+19,SNOW,23,SNOW,01,SNOW,01,SNOW,21,RAIN,12,RAIN,03,MIST,,,,,,
+20,SNOW,24,SNOW,02,SNOW,02,SNOW,22,RAIN,13,RAIN,04,MIST,,,,,,
+21,SNOW,28,SNOW,03,SNOW,03,SNOW,23,RAIN,20,RAIN,07,MIST,,,,,,
+22,SNOW,29,SNOW,04,SNOW,04,SNOW,24,RAIN,21,RAIN,09,MIST,,,,,,
+23,SNOW,30,SNOW,09,SNOW,09,SNOW,28,RAIN,22,RAIN,10,MIST,,,,,,
+24,SNOW,31,SNOW,10,SNOW,10,SNOW,29,RAIN,23,RAIN,12,MIST,,,,,,
+28,SNOW,,,11,SNOW,11,SNOW,30,RAIN,28,RAIN,13,MIST,,,,,,
+29,SNOW,Winter - December,,12,SNOW,12,SNOW,31,RAIN,29,RAIN,14,MIST,,,,,,
+30,SNOW,01,ARARE,13,SNOW,13,SNOW,,,30,RAIN,17,MIST,,,,,,
+31,SNOW,02,ARARE,14,SNOWSTORM,14,SNOWSTORM,Autumn (March | November),,31,RAIN,18,MIST,,,,,,
+,,03,ARARE,17,SNOW,17,SNOW,03,RAIN,,,19,MIST,,,,,,
+,,04,SNOW,18,SNOW,18,SNOW,04,RAIN,Winter - December,,20,MIST,,,,,,
+,,08,ARARE,19,SNOW,19,SNOW,05,RAIN,01,RAIN,21,MIST,,,,,,
+,,09,ARARE,20,SNOW,20,SNOW,06,RAIN,02,RAIN,22,MIST,,,,,,
+,,10,SNOW,21,SNOW,21,SNOW,07,RAIN,03,RAIN,23,MIST,,,,,,
+,,11,SNOW,22,SNOW,22,SNOW,11,RAIN,04,RAIN,25,MIST,,,,,,
+,,12,SNOW,23,SNOW,23,SNOW,12,RAIN,09,RAIN,26,MIST,,,,,,
+,,13,SNOW,24,SNOWSTORM,24,SNOWSTORM,13,RAIN,10,RAIN,28,MIST,,,,,,
+,,14,SNOW,27,SNOW,27,SNOW,14,RAIN,11,RAIN,,,,,,,,
+,,18,ARARE,28,SNOW,28,SNOW,15,RAIN,12,RAIN,Summer - June,,,,,,,
+,,19,SNOW,29,SNOW,29,SNOW,19,RAIN,13,RAIN,01,MIST,,,,,,
+,,20,SNOW,30,SNOWSTORM,30,SNOWSTORM,20,RAIN,19,RAIN,02,MIST,,,,,,
+,,21,SNOW,,,,,21,RAIN,20,RAIN,03,MIST,,,,,,
+,,22,SNOW,Winter - August,,Winter - August,,22,RAIN,21,RAIN,04,MIST,,,,,,
+,,23,SNOW,01,SNOW,01,SNOW,23,RAIN,22,RAIN,05,MIST,,,,,,
+,,24,SNOW,02,SNOW,02,SNOW,27,RAIN,23,RAIN,07,MIST,,,,,,
+,,28,SNOW,03,SNOW,03,SNOW,28,RAIN,28,RAIN,08,MIST,,,,,,
+,,29,SNOW,07,SNOW,07,SNOW,29,RAIN,29,RAIN,10,MIST,,,,,,
+,,30,SNOW,08,SNOW,08,SNOW,30,RAIN,30,RAIN,11,MIST,,,,,,
+,,31,SNOW,09,SNOW,09,SNOW,31,RAIN,31,RAIN,12,MIST,,,,,,
+,,,,10,SNOW,10,SNOW,,,,,13,MIST,,,,,,
+,,,,11,SNOWSTORM,11,SNOWSTORM,Autumn - July,,,,14,MIST,,,,,,
+,,,,12,SNOW,12,SNOW,03,RAIN,,,15,MIST,,,,,,
+,,,,13,SNOW,13,SNOW,04,RAIN,,,16,MIST,,,,,,
+,,,,18,SNOW,18,SNOW,05,RAIN,,,17,MIST,,,,,,
+,,,,19,SNOW,19,SNOW,06,RAIN,,,18,MIST,,,,,,
+,,,,20,SNOW,20,SNOW,07,RAIN,,,19,MIST,,,,,,
+,,,,21,SNOW,21,SNOW,11,RAIN,,,20,MIST,,,,,,
+,,,,22,SNOW,22,SNOW,12,RAIN,,,21,MIST,,,,,,
+,,,,23,SNOWSTORM,23,SNOWSTORM,13,RAIN,,,23,MIST,,,,,,
+,,,,24,SNOWSTORM,24,SNOWSTORM,14,RAIN,,,24,MIST,,,,,,
+,,,,27,SNOW,27,SNOW,15,RAIN,,,25,MIST,,,,,,
+,,,,28,SNOW,28,SNOW,19,RAIN,,,26,MIST,,,,,,
+,,,,29,SNOWSTORM,29,SNOWSTORM,20,RAIN,,,28,MIST,,,,,,
+,,,,30,SNOWSTORM,30,SNOWSTORM,21,RAIN,,,29,MIST,,,,,,
+,,,,31,SNOW,31,SNOW,22,RAIN,,,30,MIST,,,,,,
+,,,,,,,,23,RAIN,,,,,,,,,,
+,,,,Winter - December,,Winter - December,,26,RAIN,,,Summer - October,,,,,,,
+,,,,01,SNOW,01,SNOW,27,RAIN,,,02,MIST,,,,,,
+,,,,02,SNOW,02,SNOW,28,RAIN,,,04,MIST,,,,,,
+,,,,03,SNOW,03,SNOW,29,RAIN,,,05,MIST,,,,,,
+,,,,04,SNOW,04,SNOW,30,RAIN,,,06,MIST,,,,,,
+,,,,08,SNOW,08,SNOW,31,RAIN,,,07,MIST,,,,,,
+,,,,09,SNOW,09,SNOW,,,,,08,MIST,,,,,,
+,,,,10,SNOW,10,SNOW,Winter - April,,,,09,MIST,,,,,,
+,,,,11,SNOW,11,SNOW,01,SNOW,,,10,MIST,,,,,,
+,,,,12,SNOWSTORM,12,SNOWSTORM,02,SNOW,,,11,MIST,,,,,,
+,,,,13,SNOWSTORM,13,SNOWSTORM,03,SNOW,,,12,MIST,,,,,,
+,,,,14,SNOWSTORM,14,SNOWSTORM,04,SNOW,,,13,MIST,,,,,,
+,,,,17,SNOW,17,SNOW,09,SNOW,,,15,MIST,,,,,,
+,,,,18,SNOW,18,SNOW,10,SNOW,,,16,MIST,,,,,,
+,,,,19,SNOW,19,SNOW,11,SNOW,,,19,MIST,,,,,,
+,,,,20,SNOW,20,SNOW,12,SNOW,,,20,MIST,,,,,,
+,,,,21,SNOW,21,SNOW,13,SNOW,,,21,MIST,,,,,,
+,,,,22,SNOWSTORM,22,SNOWSTORM,14,SNOWSTORM,,,23,MIST,,,,,,
+,,,,23,SNOWSTORM,23,SNOWSTORM,17,SNOW,,,24,MIST,,,,,,
+,,,,24,SNOWSTORM,24,SNOWSTORM,18,SNOW,,,26,MIST,,,,,,
+,,,,27,SNOW,27,SNOW,19,SNOW,,,29,MIST,,,,,,
+,,,,28,SNOW,28,SNOW,20,SNOW,,,30,MIST,,,,,,
+,,,,29,SNOWSTORM,29,SNOWSTORM,21,SNOW,,,31,MIST,,,,,,
+,,,,30,SNOWSTORM,30,SNOWSTORM,22,SNOW,,,,,,,,,,
+,,,,31,DIAMONDDUST,31,SNOW,23,SNOW,,,Autumn - March,,,,,,,
+,,,,,,,,24,SNOWSTORM,,,01,MIST,,,,,,
+,,,,,,,,27,SNOW,,,02,MIST,,,,,,
+,,,,,,,,28,SNOW,,,03,MIST,,,,,,
+,,,,,,,,29,SNOW,,,04,MIST,,,,,,
+,,,,,,,,30,SNOWSTORM,,,05,MIST,,,,,,
+,,,,,,,,,,,,06,MIST,,,,,,
+,,,,,,,,Winter - August,,,,07,MIST,,,,,,
+,,,,,,,,01,SNOW,,,08,MIST,,,,,,
+,,,,,,,,02,SNOW,,,09,MIST,,,,,,
+,,,,,,,,03,SNOW,,,10,MIST,,,,,,
+,,,,,,,,07,SNOW,,,11,MIST,,,,,,
+,,,,,,,,08,SNOW,,,13,MIST,,,,,,
+,,,,,,,,09,SNOW,,,14,MIST,,,,,,
+,,,,,,,,10,SNOW,,,15,MIST,,,,,,
+,,,,,,,,11,SNOWSTORM,,,17,MIST,,,,,,
+,,,,,,,,12,SNOW,,,18,MIST,,,,,,
+,,,,,,,,13,SNOW,,,20,MIST,,,,,,
+,,,,,,,,18,SNOW,,,21,MIST,,,,,,
+,,,,,,,,19,SNOW,,,22,MIST,,,,,,
+,,,,,,,,20,SNOW,,,23,MIST,,,,,,
+,,,,,,,,21,SNOW,,,24,MIST,,,,,,
+,,,,,,,,22,SNOW,,,25,MIST,,,,,,
+,,,,,,,,23,SNOWSTORM,,,26,MIST,,,,,,
+,,,,,,,,24,SNOWSTORM,,,27,MIST,,,,,,
+,,,,,,,,27,SNOW,,,28,MIST,,,,,,
+,,,,,,,,28,SNOW,,,29,MIST,,,,,,
+,,,,,,,,29,SNOWSTORM,,,30,MIST,,,,,,
+,,,,,,,,30,SNOWSTORM,,,,,,,,,,
+,,,,,,,,31,SNOW,,,Autumn - July,,,,,,,
+,,,,,,,,,,,,01,MIST,,,,,,
+,,,,,,,,Winter - December,,,,03,MIST,,,,,,
+,,,,,,,,01,SNOW,,,04,MIST,,,,,,
+,,,,,,,,02,SNOW,,,05,MIST,,,,,,
+,,,,,,,,03,SNOW,,,06,MIST,,,,,,
+,,,,,,,,04,SNOW,,,08,MIST,,,,,,
+,,,,,,,,08,SNOW,,,09,MIST,,,,,,
+,,,,,,,,09,SNOW,,,10,MIST,,,,,,
+,,,,,,,,10,SNOW,,,11,MIST,,,,,,
+,,,,,,,,11,SNOW,,,12,MIST,,,,,,
+,,,,,,,,12,SNOWSTORM,,,13,MIST,,,,,,
+,,,,,,,,13,SNOWSTORM,,,15,MIST,,,,,,
+,,,,,,,,14,SNOWSTORM,,,17,MIST,,,,,,
+,,,,,,,,17,SNOW,,,19,MIST,,,,,,
+,,,,,,,,18,SNOW,,,20,MIST,,,,,,
+,,,,,,,,19,SNOW,,,21,MIST,,,,,,
+,,,,,,,,20,SNOW,,,22,MIST,,,,,,
+,,,,,,,,21,SNOW,,,23,MIST,,,,,,
+,,,,,,,,22,SNOWSTORM,,,24,MIST,,,,,,
+,,,,,,,,23,SNOWSTORM,,,25,MIST,,,,,,
+,,,,,,,,24,SNOWSTORM,,,26,MIST,,,,,,
+,,,,,,,,27,SNOW,,,27,MIST,,,,,,
+,,,,,,,,28,SNOW,,,28,MIST,,,,,,
+,,,,,,,,29,SNOWSTORM,,,29,MIST,,,,,,
+,,,,,,,,30,SNOWSTORM,,,30,MIST,,,,,,
+,,,,,,,,31,SNOW,,,31,MIST,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,Autumn - November,,,,,,,
+,,,,,,,,,,,,01,MIST,,,,,,
+,,,,,,,,,,,,03,MIST,,,,,,
+,,,,,,,,,,,,04,MIST,,,,,,
+,,,,,,,,,,,,05,MIST,,,,,,
+,,,,,,,,,,,,06,MIST,,,,,,
+,,,,,,,,,,,,07,MIST,,,,,,
+,,,,,,,,,,,,08,MIST,,,,,,
+,,,,,,,,,,,,09,MIST,,,,,,
+,,,,,,,,,,,,10,MIST,,,,,,
+,,,,,,,,,,,,11,MIST,,,,,,
+,,,,,,,,,,,,12,MIST,,,,,,
+,,,,,,,,,,,,13,MIST,,,,,,
+,,,,,,,,,,,,14,MIST,,,,,,
+,,,,,,,,,,,,15,MIST,,,,,,
+,,,,,,,,,,,,17,MIST,,,,,,
+,,,,,,,,,,,,18,MIST,,,,,,
+,,,,,,,,,,,,19,MIST,,,,,,
+,,,,,,,,,,,,20,MIST,,,,,,
+,,,,,,,,,,,,22,MIST,,,,,,
+,,,,,,,,,,,,24,MIST,,,,,,
+,,,,,,,,,,,,25,MIST,,,,,,
+,,,,,,,,,,,,26,MIST,,,,,,
+,,,,,,,,,,,,28,MIST,,,,,,
+,,,,,,,,,,,,29,MIST,,,,,,
+,,,,,,,,,,,,30,MIST,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,Winter - April,,,,,,,
+,,,,,,,,,,,,01,MIST,,,,,,
+,,,,,,,,,,,,02,MIST,,,,,,
+,,,,,,,,,,,,03,MIST,,,,,,
+,,,,,,,,,,,,05,MIST,,,,,,
+,,,,,,,,,,,,07,MIST,,,,,,
+,,,,,,,,,,,,09,MIST,,,,,,
+,,,,,,,,,,,,10,MIST,,,,,,
+,,,,,,,,,,,,11,MIST,,,,,,
+,,,,,,,,,,,,12,MIST,,,,,,
+,,,,,,,,,,,,13,MIST,,,,,,
+,,,,,,,,,,,,14,MIST,,,,,,
+,,,,,,,,,,,,15,MIST,,,,,,
+,,,,,,,,,,,,16,MIST,,,,,,
+,,,,,,,,,,,,17,MIST,,,,,,
+,,,,,,,,,,,,18,MIST,,,,,,
+,,,,,,,,,,,,19,MIST,,,,,,
+,,,,,,,,,,,,20,MIST,,,,,,
+,,,,,,,,,,,,21,MIST,,,,,,
+,,,,,,,,,,,,22,MIST,,,,,,
+,,,,,,,,,,,,23,MIST,,,,,,
+,,,,,,,,,,,,24,MIST,,,,,,
+,,,,,,,,,,,,27,MIST,,,,,,
+,,,,,,,,,,,,28,MIST,,,,,,
+,,,,,,,,,,,,29,MIST,,,,,,
+,,,,,,,,,,,,30,MIST,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,Winter - August,,,,,,,
+,,,,,,,,,,,,01,MIST,,,,,,
+,,,,,,,,,,,,02,MIST,,,,,,
+,,,,,,,,,,,,03,MIST,,,,,,
+,,,,,,,,,,,,04,MIST,,,,,,
+,,,,,,,,,,,,05,MIST,,,,,,
+,,,,,,,,,,,,06,MIST,,,,,,
+,,,,,,,,,,,,07,MIST,,,,,,
+,,,,,,,,,,,,08,MIST,,,,,,
+,,,,,,,,,,,,09,MIST,,,,,,
+,,,,,,,,,,,,10,MIST,,,,,,
+,,,,,,,,,,,,11,MIST,,,,,,
+,,,,,,,,,,,,12,MIST,,,,,,
+,,,,,,,,,,,,13,MIST,,,,,,
+,,,,,,,,,,,,14,MIST,,,,,,
+,,,,,,,,,,,,15,MIST,,,,,,
+,,,,,,,,,,,,16,MIST,,,,,,
+,,,,,,,,,,,,17,MIST,,,,,,
+,,,,,,,,,,,,18,MIST,,,,,,
+,,,,,,,,,,,,19,MIST,,,,,,
+,,,,,,,,,,,,20,MIST,,,,,,
+,,,,,,,,,,,,21,MIST,,,,,,
+,,,,,,,,,,,,22,MIST,,,,,,
+,,,,,,,,,,,,23,MIST,,,,,,
+,,,,,,,,,,,,24,MIST,,,,,,
+,,,,,,,,,,,,25,MIST,,,,,,
+,,,,,,,,,,,,27,MIST,,,,,,
+,,,,,,,,,,,,29,MIST,,,,,,
+,,,,,,,,,,,,31,MIST,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,Winter - December,,,,,,,
+,,,,,,,,,,,,01,MIST,,,,,,
+,,,,,,,,,,,,02,MIST,,,,,,
+,,,,,,,,,,,,03,MIST,,,,,,
+,,,,,,,,,,,,04,MIST,,,,,,
+,,,,,,,,,,,,05,MIST,,,,,,
+,,,,,,,,,,,,06,MIST,,,,,,
+,,,,,,,,,,,,07,MIST,,,,,,
+,,,,,,,,,,,,08,MIST,,,,,,
+,,,,,,,,,,,,10,MIST,,,,,,
+,,,,,,,,,,,,11,MIST,,,,,,
+,,,,,,,,,,,,12,MIST,,,,,,
+,,,,,,,,,,,,13,MIST,,,,,,
+,,,,,,,,,,,,14,MIST,,,,,,
+,,,,,,,,,,,,15,MIST,,,,,,
+,,,,,,,,,,,,16,MIST,,,,,,
+,,,,,,,,,,,,17,MIST,,,,,,
+,,,,,,,,,,,,18,MIST,,,,,,
+,,,,,,,,,,,,19,MIST,,,,,,
+,,,,,,,,,,,,21,MIST,,,,,,
+,,,,,,,,,,,,22,MIST,,,,,,
+,,,,,,,,,,,,24,MIST,,,,,,
+,,,,,,,,,,,,25,MIST,,,,,,
+,,,,,,,,,,,,28,MIST,,,,,,
+,,,,,,,,,,,,29,MIST,,,,,,
+,,,,,,,,,,,,30,MIST,,,,,,
+,,,,,,,,,,,,31,MIST,,,,,,
+,,,,,,,,,,,,,,,,,,,
